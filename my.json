@@ -1,0 +1,61 @@
+{
+    "about": {
+        "creatorA": "Laman web ini dibuat dan dikekalkan oleh saya, LaShawn Toyoda! Sekiranya anda menghadapi masalah menggunakan laman web ini atau menemui maklumat yang salah atau ketinggalan zaman, sila hubungi saya melalui Twitter {0}",
+        "creatorQ": "Siapa yang membina laman web ini?",
+        "supportA": "Cara terbaik untuk membantu adalah dengan menyerahkan senarai menunggu pembatalan yang anda temui ke pangkalan data. Jikalau anda mampu, tolong menyumbang kepada kofi saya!",
+        "supportQ": "Bagaimana saya boleh membantu menyokong pangkalan data?",
+        "trustA": "Semua pautan laman web akan membawa anda kepada sumber rasmi seperti laman web klinik dan laman web kerajaan. Sila baca dengan teliti sebelum mendaftarkan maklumat peribadi anda dengan mereka.",
+        "trustQ": "Bolehkah maklumat ini dipercayai?",
+        "welcome": "Selamat datang ke Find a Doc!",
+        "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
+        "whatIsThisQ": "Apakah ini?"
+    },
+    "add-clinic": {
+        "city": "Bandar",
+        "clinicName": "Nama Klinik",
+        "fillForm": "Isikan borang ini untuk mendaftarkan nama klinik baru ke pangkalan data. Sila pastikan klinik anda mempunyai senarai menunggu pembatalan.",
+        "prefecture": "Wilayah",
+        "reviewMessage": "Klinik yang anda sudah mendaftar akan dipaparkan setelah diperiksa!",
+        "romajiOnly": "Sila tuliskan dengan huruh Romaji sahaja",
+        "submitClinic": "Daftarkan Klinik",
+        "validations": {
+            "cityRequired": "Nama bandar wajib diisi",
+            "cityValidation": "Nama bandar harus sekurang-kurangnya {0} abjad",
+            "clinicRequired": "Nama klinik wajib diisi",
+            "clinicValidation": "Nama klinik harus sekurang-kurangnya {0} abjad",
+            "wardRequired": "Nama ward harus diisi",
+            "wardValidation": "Nama ward haruslah sekurang-kurangnya {0} abjad",
+            "websiteRequired": "URL laman web harus diisi",
+            "websiteValidation": "Sila menggunakan URL yang sah"
+        },
+        "ward": "Ward",
+        "websiteURL": "URL laman web"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "index": {
+        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
+    },
+    "login": {
+        "clear": "Kosongkan",
+        "email": "E-mel",
+        "login": "Daftar masuk",
+        "password": "Kata laluan"
+    }
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
