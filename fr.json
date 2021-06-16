@@ -7,15 +7,15 @@
         "trustA": "Tous les liens mènent à des ressources officielles telles que les sites Web des cliniques et du gouvernement. Veuillez les lire attentivement avant d'enregistrer vos informations personnelles avec eux.",
         "trustQ": "Ces informations sont-elles fiables ?",
         "welcome": "Bienvenue à Find a Doc !",
-        "whatIsThisA": "Il s'agit d'une base de données communautaire pour aider à diffuser des informations sur les cliniques qui proposent des listes d'attente pour les vaccinations afin qu'elles ne soient pas gaspillées.",
-        "whatIsThisQ": "Qu'est-ce que c'est?"
+        "whatIsThisA": "Il s'agit d'une base de données communautaire pour aider à diffuser des informations sur les cliniques qui proposent des listes d'attente pour les vaccinations afin que les doses de vaccin ne soient pas gaspillées.",
+        "whatIsThisQ": "Qu'est-ce que c'est ?"
     },
     "add-clinic": {
         "city": "Ville",
         "clinicName": "Nom de la clinique",
-        "fillForm": "Remplissez ce formulaire pour ajouter une nouvelle clinique à la base de données qui a une liste d'attente d'annulation.",
+        "fillForm": "Remplissez ce formulaire pour ajouter à la base de données une nouvelle clinique qui a une liste d'attente d'annulation.",
         "prefecture": "Préfecture",
-        "reviewMessage": "La clinique que vous avez soumise sera affichée après avoir été examinée!",
+        "reviewMessage": "La clinique que vous avez soumise sera affichée après avoir été examinée !",
         "romajiOnly": "Romaji seulement",
         "submitClinic": "Soumettre Clinique",
         "validations": {
@@ -23,12 +23,12 @@
             "cityValidation": "Le nom de la ville doit comporter au moins {0} caractères",
             "clinicRequired": "Le nom de la clinique est requis",
             "clinicValidation": "Le nom de la clinique doit comporter au moins {0} caractères",
-            "wardRequired": "Ward est requis",
+            "wardRequired": "Le nom du quartier est requis",
             "wardValidation": "Le nom du quartier doit comporter au moins {0} caractères",
             "websiteRequired": "L'URL du site Web est requise",
             "websiteValidation": "Veuillez saisir une URL valide"
         },
-        "ward": "Ward",
+        "ward": "Quartier",
         "websiteURL": "URL de site web"
     },
     "admin": {
@@ -38,10 +38,10 @@
         }
     },
     "index": {
-        "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon"
+        "title": "Listes d'attente d'annulation pour la vaccination COVID-19 au Japon"
     },
     "login": {
-        "clear": "Dégager",
+        "clear": "Effacer",
         "email": "E-mail",
         "login": "Connexion",
         "password": "Mot de passe"
