@@ -4,11 +4,11 @@
         "creatorQ": "Quem criou este site?",
         "supportA": "A melhor maneira de ajudar é enviando para o banco de dados todas as listas de espera de cancelamento que encontrar. Se você está se sentindo extremamente generoso, por favor, compre-me um kofi!",
         "supportQ": "Como posso ajudar no suporte do banco de dados?",
-        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
-        "trustQ": "Essas informações são confiáveis?",
+        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais neles.",
+        "trustQ": "Você pode confiar nessas informações?",
         "welcome": "Bem-vindo ao Find a Doc!",
-        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas para que não sejam desperdiçadas.",
-        "whatIsThisQ": "O que é isso?"
+        "whatIsThisA": "Este site é um banco de dados mantido pela comunidade para ajudar a divulgar informações sobre clínicas que estão com listas de espera para vacinação. Nosso objetivo é que estas vacinas não sejam desperdiçadas.",
+        "whatIsThisQ": "O que é este site?"
     },
     "add-clinic": {
         "city": "Cidade",
@@ -19,16 +19,16 @@
         "romajiOnly": "Romaji apenas",
         "submitClinic": "Enviar clínica",
         "validations": {
-            "cityRequired": "Cidade é obrigatória",
+            "cityRequired": "O campo cidade é obrigatório",
             "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
-            "clinicRequired": "O nome da clínica é obrigatório",
+            "clinicRequired": "O campo nome da clínica é obrigatório",
             "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
-            "wardRequired": "Ward é obrigatório",
-            "wardValidation": "O nome da ala deve ter pelo menos {0} caracteres",
-            "websiteRequired": "O URL do site é obrigatório",
-            "websiteValidation": "Por favor, insira um URL válido"
+            "wardRequired": "O campo distrito (ward) é obrigatório",
+            "wardValidation": "O nome do distrito deve ter pelo menos {0} caracteres",
+            "websiteRequired": "O  campo URL do site é obrigatório",
+            "websiteValidation": "Por favor, insira uma URL válido"
         },
-        "ward": "ala",
+        "ward": "distrito",
         "websiteURL": "URL do site"
     },
     "admin": {
@@ -41,9 +41,9 @@
         "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão"
     },
     "login": {
-        "clear": "Claro",
+        "clear": "Limpar",
         "email": "E-mail",
-        "login": "Conecte-se",
+        "login": "Faça login",
         "password": "Senha"
     }
 }
