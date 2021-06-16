@@ -8,9 +8,12 @@
   "license": "TODO",
   "private": true,
   "scripts": {
-        "postinstall": "husky install"
+    "lint": "eslint --ext .json,.js",
+    "postinstall": "husky install"
   },
   "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-plugin-json": "^3.0.0",
     "husky": "^6.0.0"
   }
 }
