@@ -29,6 +29,7 @@
             "websiteValidation": "Por favor, insira uma URL válido"
         },
         "ward": "distrito",
+
         "websiteURL": "URL do site"
     },
     "admin": {
@@ -38,7 +39,7 @@
         }
     },
     "index": {
-        "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão"
+        "title": "Listas de espera de cancelamento da vacinação COVID-19 no Japão"
     },
     "login": {
         "clear": "Limpar",
