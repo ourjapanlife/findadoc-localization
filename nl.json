@@ -1,0 +1,49 @@
+{
+    "about": {
+        "creatorA": "Deze site is gemaakt en onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
+        "creatorQ": "Wie heeft deze website gemaakt?",
+        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die u tegenkomt in te dienen bij de database. Als je je extra genereus voelt, koop dan alsjeblieft een kofi voor me!",
+        "supportQ": "Hoe kan ik de database helpen ondersteunen?",
+        "trustA": "Alle links leiden naar officiële bronnen zoals klinieken en overheidswebsites. Lees ze aandachtig door voordat u uw persoonlijke gegevens bij hen registreert.",
+        "trustQ": "Is deze informatie te vertrouwen?",
+        "welcome": "Welkom bij Zoek een Doc!",
+        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties aanbieden, zodat ze niet verloren gaan.",
+        "whatIsThisQ": "Wat is dit?"
+    },
+    "add-clinic": {
+        "city": "stad",
+        "clinicName": "Naam kliniek",
+        "fillForm": "Vul dit formulier in om een nieuwe kliniek toe te voegen aan de database met een wachtlijst voor annuleringen.",
+        "prefecture": "Prefectuur",
+        "reviewMessage": "De kliniek die u heeft ingediend, wordt weergegeven nadat deze is beoordeeld!",
+        "romajiOnly": "Alleen Romaji",
+        "submitClinic": "Verstuur kliniek",
+        "validations": {
+            "cityRequired": "Plaats is vereist",
+            "cityValidation": "Stadsnaam moet minimaal {0} tekens bevatten",
+            "clinicRequired": "Naam kliniek is vereist",
+            "clinicValidation": "De naam van de kliniek moet ten minste {0} tekens bevatten",
+            "wardRequired": "Afdeling is vereist",
+            "wardValidation": "De naam van de wijk moet ten minste {0} tekens bevatten",
+            "websiteRequired": "Website-URL is vereist",
+            "websiteValidation": "Voer een geldige URL in"
+        },
+        "ward": "Afdeling",
+        "websiteURL": "Website URL"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "index": {
+        "title": "Wachtlijsten voor het annuleren van vaccinaties tegen COVID-19 in Japan"
+    },
+    "login": {
+        "clear": "Doorzichtig",
+        "email": "E-mail",
+        "login": "Log in",
+        "password": "Wachtwoord"
+    }
+}
