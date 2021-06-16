@@ -1,0 +1,16 @@
+{
+  "name": "findadoc-localization",
+  "version": "1.0.0",
+  "description": "i18n files for findadoc",
+  "main": "README.md",
+  "repository": "git@github.com:ourjapanlife/findadoc-localization.git",
+  "author": "@yokohamalife",
+  "license": "TODO",
+  "private": true,
+  "scripts": {
+        "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0"
+  }
+}
