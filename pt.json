@@ -19,16 +19,16 @@
         "romajiOnly": "Romaji apenas",
         "submitClinic": "Enviar clínica",
         "validations": {
-            "cityRequired": "Cidade é obrigatória",
+            "cityRequired": "Cidade é obrigatório",
             "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
             "clinicRequired": "O nome da clínica é obrigatório",
             "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
-            "wardRequired": "Ward é obrigatório",
-            "wardValidation": "O nome da ala deve ter pelo menos {0} caracteres",
+            "wardRequired": "Bairro é obrigatório",
+            "wardValidation": "O nome do bairro deve ter pelo menos {0} caracteres",
             "websiteRequired": "O URL do site é obrigatório",
             "websiteValidation": "Por favor, insira um URL válido"
         },
-        "ward": "ala",
+        "ward": "bairro",
         "websiteURL": "URL do site"
     },
     "admin": {
@@ -38,10 +38,10 @@
         }
     },
     "index": {
-        "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão"
+        "title": "Listas de espera de cancelamento da vacinação COVID-19 no Japão"
     },
     "login": {
-        "clear": "Claro",
+        "clear": "Limpar",
         "email": "E-mail",
         "login": "Conecte-se",
         "password": "Senha"
