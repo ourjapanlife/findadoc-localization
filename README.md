@@ -12,13 +12,13 @@ If you're new to Git, here are some easy steps you can take to get started:
 
 ### Beginner Git
 
-1. Click on the language file you wish to contribute to. It will take you to a screen that will show you its content.
+1. Click on the language file you wish to contribute to. It will take you to a screen that will show you its content. (Note if you are creating a new language file, copy from `en.json` and please name the new file using the two-letter language codes defined [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes))
    ![Select Language](./images/01.png)
 
-2. Click the `edit` button so you can directly edit the translation through your browser.
+2. Click the `edit` button so you can directly edit the translation through your browser. **Use the `en.json` file as the reference content.**
    ![Edit Button](./images/02.png)
 
-_Make sure to only edit the part inside of the quoatation marks of your selected language._
+_Make sure to only edit the part inside of the quotation marks of your selected language._
 
 3. Select the `Create a new branch for this commit and start a pull request` option at the bottom of the page. Then click the `Propose changes` button.
    ![Create Branch](./images/03.png)
