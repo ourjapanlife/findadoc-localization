@@ -6,8 +6,8 @@
         "clear": "Cancella"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone",

@@ -6,8 +6,8 @@
         "clear": "ชัดเจน"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "รายการรอยกเลิกการฉีดวัคซีน COVID-19 ในญี่ปุ่น",

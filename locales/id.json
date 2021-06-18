@@ -6,8 +6,8 @@
         "clear": "Bersih"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang",

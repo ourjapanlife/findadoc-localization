@@ -6,8 +6,8 @@
         "clear": "맑은"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "일본의 COVID-19 예방 접종 취소 대기자 명단",

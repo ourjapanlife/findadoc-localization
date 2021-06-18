@@ -6,8 +6,8 @@
         "clear": "清除"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "日本 COVID-19 疫苗接种取消等候名单",

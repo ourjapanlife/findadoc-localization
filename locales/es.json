@@ -6,8 +6,8 @@
         "clear": "Limpiar"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Las Listas De Espera Para La Cancelación De La Vacuna COVID-19 En Japón",

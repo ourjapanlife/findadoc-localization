@@ -6,8 +6,8 @@
         "clear": "الغاء"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": " قوائم انتظار إلغاء التلقيح COVID-19 في اليابان",

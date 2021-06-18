@@ -6,8 +6,8 @@
         "clear": "Kosongkan"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun",

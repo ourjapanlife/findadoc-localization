@@ -6,8 +6,8 @@
         "clear": "Dégager"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon",

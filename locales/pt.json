@@ -6,8 +6,8 @@
         "clear": "Claro"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão",

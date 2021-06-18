@@ -6,8 +6,8 @@
         "clear": "trong"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản",

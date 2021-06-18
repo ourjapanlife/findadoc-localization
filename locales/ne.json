@@ -6,8 +6,8 @@
         "clear": "खाली गर्नुहोस्"
     },
     "logout": {
-        "message": "",
-        "successMessage": ""
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
     },
     "index": {
         "title": "COVID-19 जापानमा खोप रद्द गर्ने प्रतीक्षा सूचीहरू",
