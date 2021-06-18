@@ -2,49 +2,49 @@
     "login": {
         "email": "E-mail",
         "password": "Senha",
-        "login": "Conecte-se",
-        "clear": "Claro"
+        "login": "Entrar",
+        "clear": "Limpar"
     },
-    "logout": {
+    {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
     "index": {
-        "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão",
-        "massSite": "Qualquer pessoa com 18 anos ou mais que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa de Tóquio ou Osaka.",
-        "register": "Vá para o site de registro"
+        "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão",
+        "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",
+        "register": "Cadastre-se no site oficial"
     },
     "add-clinic": {
-        "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha uma lista de espera para cancelamento.",
-        "romajiOnly": "Romaji apenas",
+        "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha lista de espera para cancelamentos.",
+        "romajiOnly": "Use apenas Romaji",
         "prefecture": "Prefeitura",
         "city": "Cidade",
-        "ward": "ala",
+        "ward": "Distrito",
         "clinicName": "Nome da clínica",
         "websiteURL": "URL do site",
         "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
         "submitClinic": "Enviar clínica",
         "validations": {
-            "cityRequired": "Cidade é obrigatória",
+            "cityRequired": "A Cidade é obrigatória",
             "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
-            "wardRequired": "Ward é obrigatório",
-            "wardValidation": "O nome da ala deve ter pelo menos {0} caracteres",
+            "wardRequired": "O Distrito é obrigatório",
+            "wardValidation": "O nome do distrito deve ter pelo menos {0} caracteres",
             "clinicRequired": "O nome da clínica é obrigatório",
             "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
-            "websiteRequired": "O URL do site é obrigatório",
-            "websiteValidation": "Por favor, insira um URL válido"
+            "websiteRequired": "A URL do site é obrigatória",
+            "websiteValidation": "A URL inserida não é válida"
         }
     },
     "about": {
         "welcome": "Bem-vindo ao Find a Doc!",
         "whatIsThisQ": "O que é isso?",
-        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas para que não sejam desperdiçadas.",
+        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas quando há algum cancelamento, para evitar que as vacinas sejam desperdiçadas.",
         "trustQ": "Essas informações são confiáveis?",
         "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
         "creatorQ": "Quem criou este site?",
-        "creatorA": "Este site foi criado e mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
+        "creatorA": "Este site foi criado e é mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
         "supportQ": "Como posso ajudar no suporte do banco de dados?",
-        "supportA": "A melhor maneira de ajudar é enviando para o banco de dados todas as listas de espera de cancelamento que encontrar. Se você está se sentindo extremamente generoso, por favor, compre-me um kofi!"
+        "supportA": "A melhor maneira de ajudar é adicionando ao banco de dados todas as listas de espera de cancelamentos que você encontrar. Se quiser extender a generosidade, você pode me comprar um kofi!"
     },
     "admin": {
         "pending": {
@@ -53,32 +53,32 @@
         }
     },
     "cancelList": {
-        "moreInfo": "Click for more info",
-        "search": "Procurar",
+        "moreInfo": "Clique para mais informações",
+        "search": "Buscar",
         "header": {
             "clinicName": "Nome da clínica",
-            "city": "City",
-            "prefecture": "Prefecture",
-            "ward": "Ward",
-            "note": "Note",
+            "city": "Cidade",
+            "prefecture": "Prefeitura",
+            "ward": "Distrito",
+            "note": "Observações",
             "website": "Website",
-            "flag": "Flag"
+            "flag": "Reportar"
         }
     },
     "footer": {
-        "kofi": "Buy me a kofi"
+        "kofi": "Me compre um kofi"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "Home Page",
+        "notFound": "404 Não encontrada",
+        "otherError": "Ocorreu um erro"
     },
     "toolbar": {
         "title": "Find a Doc, JAPAN",
-        "addClinic": "add a clinic",
-        "languages": "Languages",
+        "addClinic": "Adicionar clínica",
+        "languages": "Idiomas",
         "home": "Home",
-        "login": "Login",
-        "about": "About"
+        "login": "Entrar",
+        "about": "Sobre"
     }
 }
