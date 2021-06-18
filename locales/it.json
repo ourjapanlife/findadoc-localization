@@ -5,6 +5,10 @@
         "login": "Login",
         "clear": "Cancella"
     },
+    "logout": {
+        "message": "",
+        "successMessage": ""
+    },
     "index": {
         "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone",
         "massSite": "Chiunque abbia 18 anni o più in possesso di un voucher può ora essere vaccinato nei siti di vaccinazione di massa di Tokyo o Osaka.",

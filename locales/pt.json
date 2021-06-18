@@ -5,6 +5,10 @@
         "login": "Conecte-se",
         "clear": "Claro"
     },
+    "logout": {
+        "message": "",
+        "successMessage": ""
+    },
     "index": {
         "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão",
         "massSite": "Qualquer pessoa com 18 anos ou mais que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa de Tóquio ou Osaka.",

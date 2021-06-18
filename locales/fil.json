@@ -5,6 +5,10 @@
         "login": "Mag log in",
         "clear": "Malinaw"
     },
+    "logout": {
+        "message": "",
+        "successMessage": ""
+    },
     "index": {
         "title": "Ang Mga Listahan ng Naghihintay sa Pagkansela ng Bakuna sa COVID-19 sa Japan",
         "massSite": "Ang sinumang 18 taong gulang pataas na mayroong isang voucher ay maaari nang mabakunahan sa mga lugar ng bakuna sa Tokyo o Osaka.",

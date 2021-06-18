@@ -5,6 +5,10 @@
         "login": "Log in",
         "clear": "Doorzichtig"
     },
+    "logout": {
+        "message": "",
+        "successMessage": ""
+    },
     "index": {
         "title": "Wachtlijsten voor het annuleren van vaccinaties tegen COVID-19 in Japan",
         "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft, kan zich nu laten vaccineren op de massale vaccinatiesites in Tokio of Osaka.",

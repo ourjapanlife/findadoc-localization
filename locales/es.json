@@ -5,6 +5,10 @@
         "login": "Inicio de sesión",
         "clear": "Limpiar"
     },
+    "logout": {
+        "message": "",
+        "successMessage": ""
+    },
     "index": {
         "title": "Las Listas De Espera Para La Cancelación De La Vacuna COVID-19 En Japón",
         "massSite": "Cualquier persona mayor de 18 años que tenga un vale ahora puede vacunarse en los sitios de vacunación masiva de Tokio u Osaka.",

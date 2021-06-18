@@ -5,6 +5,10 @@
         "login": "Login",
         "clear": "Clear"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan",
         "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
