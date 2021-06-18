@@ -3,28 +3,28 @@
         "email": "E-mail",
         "password": "Wachtwoord",
         "login": "Log in",
-        "clear": "Doorzichtig"
+        "clear": "Wis alle velden"
     },
     "index": {
-        "title": "Wachtlijsten voor het annuleren van vaccinaties tegen COVID-19 in Japan",
-        "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft, kan zich nu laten vaccineren op de massale vaccinatiesites in Tokio of Osaka.",
+        "title": "Wachtlijsten voor annuleringen van COVID-19 vaccinaties in Japan",
+        "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft kan zich nu laten vaccineren bij de grootschalige vaccinatiecentra in Tokio of Osaka.",
         "register": "Ga naar de registratiesite"
     },
     "add-clinic": {
-        "fillForm": "Vul dit formulier in om een nieuwe kliniek toe te voegen aan de database met een wachtlijst voor annuleringen.",
-        "romajiOnly": "Alleen Romaji",
+        "fillForm": "Vul dit formulier in om een nieuwe kliniek met een wachtlijst voor annuleringen aan de database toe te voegen.",
+        "romajiOnly": "Alleen Latijns alfabet",
         "prefecture": "Prefectuur",
-        "city": "stad",
-        "ward": "Afdeling",
+        "city": "Stad",
+        "ward": "District",
         "clinicName": "Naam kliniek",
         "websiteURL": "Website URL",
-        "reviewMessage": "De kliniek die u heeft ingediend, wordt weergegeven nadat deze is beoordeeld!",
-        "submitClinic": "Verstuur kliniek",
+        "reviewMessage": "De kliniek die je hebt ingevoord zal nadat deze is beoordeeld in de database worden opgenomen!",
+        "submitClinic": "Verzend kliniek",
         "validations": {
-            "cityRequired": "Plaats is vereist",
-            "cityValidation": "Stadsnaam moet minimaal {0} tekens bevatten",
-            "wardRequired": "Afdeling is vereist",
-            "wardValidation": "De naam van de wijk moet ten minste {0} tekens bevatten",
+            "cityRequired": "Stad is vereist",
+            "cityValidation": "De stadsnaam moet minimaal {0} tekens bevatten",
+            "wardRequired": "District is vereist",
+            "wardValidation": "De naam van het district moet ten minste {0} tekens bevatten",
             "clinicRequired": "Naam kliniek is vereist",
             "clinicValidation": "De naam van de kliniek moet ten minste {0} tekens bevatten",
             "websiteRequired": "Website-URL is vereist",
@@ -32,15 +32,15 @@
         }
     },
     "about": {
-        "welcome": "Welkom bij Zoek een Doc!",
+        "welcome": "Welkom bij Find a Doc!",
         "whatIsThisQ": "Wat is dit?",
-        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties aanbieden, zodat ze niet verloren gaan.",
+        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties bijhouden, zodat geen vaccins verloren zullen gaan.",
         "trustQ": "Is deze informatie te vertrouwen?",
-        "trustA": "Alle links leiden naar officiële bronnen zoals klinieken en overheidswebsites. Lees ze aandachtig door voordat u uw persoonlijke gegevens bij hen registreert.",
+        "trustA": "Alle links leiden naar officiële bronnen zoals websites van klinieken en overheidswebsites. Lees ze aandachtig door voordat je je persoonlijke gegevens bij ze registreert.",
         "creatorQ": "Wie heeft deze website gemaakt?",
-        "creatorA": "Deze site is gemaakt en onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
+        "creatorA": "Deze site is gemaakt en wordt onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
         "supportQ": "Hoe kan ik de database helpen ondersteunen?",
-        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die u tegenkomt in te dienen bij de database. Als je je extra genereus voelt, koop dan alsjeblieft een kofi voor me!"
+        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die je tegenkomt bij de database in te voeren. Als je je extra genereus voelt, koop dan alsjeblieft een Ko-fi voor me!"
     },
     "admin": {
         "pending": {
@@ -53,27 +53,27 @@
         "search": "Zoeken",
         "header": {
             "clinicName": "Naam kliniek",
-            "city": "stad",
+            "city": "Stad",
             "prefecture": "Prefectuur",
-            "ward": "Afdeling",
-            "note": "Noot",
+            "ward": "District",
+            "note": "Opmerking",
             "website": "Website",
             "flag": "Vlag"
         }
     },
     "footer": {
-        "kofi": "Koop een kofi voor me."
+        "kofi": "Koop een Ko-fi voor me."
     },
     "error": {
         "homePage": "Startpagina",
         "notFound": "404 Niet Gevonden",
-        "otherError": "Er is een fout opgetreden"
+        "otherError": "Er is iets misgegaan"
     },
     "toolbar": {
         "title": "Find a Doc, JAPAN",
-        "addClinic": "voeg een kliniek toe",
+        "addClinic": "Voeg een kliniek toe",
         "languages": "Talen",
-        "home": "Home",
+        "home": "Startpagina",
         "login": "Log in",
         "about": "Over"
     }
