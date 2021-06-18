@@ -5,6 +5,10 @@
         "login": "Daftar masuk",
         "clear": "Kosongkan"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun",
         "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",

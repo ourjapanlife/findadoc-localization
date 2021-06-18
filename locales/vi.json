@@ -5,6 +5,10 @@
         "login": "Đăng nhập",
         "clear": "trong"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản",
         "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka.",

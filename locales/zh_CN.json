@@ -5,6 +5,10 @@
         "login": "登录",
         "clear": "清除"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "日本 COVID-19 疫苗接种取消等候名单",
         "massSite": "任何 18 岁或以上持有代金券的人现在都可以在东京或大阪的大规模疫苗接种点接种疫苗。",

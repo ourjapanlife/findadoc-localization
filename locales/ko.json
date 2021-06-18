@@ -5,6 +5,10 @@
         "login": "로그인",
         "clear": "맑은"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "일본의 COVID-19 예방 접종 취소 대기자 명단",
         "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",

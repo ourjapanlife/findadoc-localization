@@ -5,6 +5,10 @@
         "login": "تسجيل الدخول",
         "clear": "الغاء"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": " قوائم انتظار إلغاء التلقيح COVID-19 في اليابان",
         "massSite": "يمكن لأي شخص يبلغ من العمر 18 عامًا أو أكثر لديه قسيمة أن يحصل على التطعيم في مواقع التلقيح الجماعي في طوكيو أو أوساكا.",

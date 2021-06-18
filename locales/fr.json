@@ -5,6 +5,10 @@
         "login": "Connexion",
         "clear": "Dégager"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon",
         "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",

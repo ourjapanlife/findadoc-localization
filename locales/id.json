@@ -5,6 +5,10 @@
         "login": "Login",
         "clear": "Bersih"
     },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "index": {
         "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang",
         "massSite": "Siapa pun yang berusia 18 tahun ke atas yang memiliki voucher sekarang dapat divaksinasi di situs vaksinasi massal Tokyo atau Osaka.",
