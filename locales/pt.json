@@ -1,36 +1,46 @@
 {
-    "about": {
-        "creatorA": "Este site foi criado e mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
-        "creatorQ": "Quem criou este site?",
-        "supportA": "A melhor maneira de ajudar é enviando para o banco de dados todas as listas de espera de cancelamento que encontrar. Se você está se sentindo extremamente generoso, por favor, compre-me um kofi!",
-        "supportQ": "Como posso ajudar no suporte do banco de dados?",
-        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais neles.",
-        "trustQ": "Você pode confiar nessas informações?",
-        "welcome": "Bem-vindo ao Find a Doc!",
-        "whatIsThisA": "Este site é um banco de dados mantido pela comunidade para ajudar a divulgar informações sobre clínicas que estão com listas de espera para vacinação. Nosso objetivo é que estas vacinas não sejam desperdiçadas.",
-        "whatIsThisQ": "O que é este site?"
+    "login": {
+        "email": "E-mail",
+        "password": "Senha",
+        "login": "Conecte-se",
+        "clear": "Claro"
+    },
+    "index": {
+        "title": "Listas de espera de cancelamento de vacinação COVID-19 no Japão",
+        "massSite": "Qualquer pessoa com 18 anos ou mais que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa de Tóquio ou Osaka.",
+        "register": "Vá para o site de registro"
     },
     "add-clinic": {
-        "city": "Cidade",
-        "clinicName": "Nome da clínica",
         "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha uma lista de espera para cancelamento.",
-        "prefecture": "Prefeitura",
-        "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
         "romajiOnly": "Romaji apenas",
+        "prefecture": "Prefeitura",
+        "city": "Cidade",
+        "ward": "ala",
+        "clinicName": "Nome da clínica",
+        "websiteURL": "URL do site",
+        "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
         "submitClinic": "Enviar clínica",
         "validations": {
-            "cityRequired": "O campo cidade é obrigatório",
+            "cityRequired": "Cidade é obrigatória",
             "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
-            "clinicRequired": "O campo nome da clínica é obrigatório",
+            "wardRequired": "Ward é obrigatório",
+            "wardValidation": "O nome da ala deve ter pelo menos {0} caracteres",
+            "clinicRequired": "O nome da clínica é obrigatório",
             "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
-            "wardRequired": "O campo distrito (ward) é obrigatório",
-            "wardValidation": "O nome do distrito deve ter pelo menos {0} caracteres",
-            "websiteRequired": "O  campo URL do site é obrigatório",
-            "websiteValidation": "Por favor, insira uma URL válido"
-        },
-        "ward": "distrito",
-
-        "websiteURL": "URL do site"
+            "websiteRequired": "O URL do site é obrigatório",
+            "websiteValidation": "Por favor, insira um URL válido"
+        }
+    },
+    "about": {
+        "welcome": "Bem-vindo ao Find a Doc!",
+        "whatIsThisQ": "O que é isso?",
+        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas para que não sejam desperdiçadas.",
+        "trustQ": "Essas informações são confiáveis?",
+        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
+        "creatorQ": "Quem criou este site?",
+        "creatorA": "Este site foi criado e mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
+        "supportQ": "Como posso ajudar no suporte do banco de dados?",
+        "supportA": "A melhor maneira de ajudar é enviando para o banco de dados todas as listas de espera de cancelamento que encontrar. Se você está se sentindo extremamente generoso, por favor, compre-me um kofi!"
     },
     "admin": {
         "pending": {
@@ -38,13 +48,33 @@
             "other": ""
         }
     },
-    "index": {
-        "title": "Listas de espera de cancelamento da vacinação COVID-19 no Japão"
+    "cancelList": {
+        "moreInfo": "Click for more info",
+        "search": "Procurar",
+        "header": {
+            "clinicName": "Nome da clínica",
+            "city": "City",
+            "prefecture": "Prefecture",
+            "ward": "Ward",
+            "note": "Note",
+            "website": "Website",
+            "flag": "Flag"
+        }
     },
-    "login": {
-        "clear": "Limpar",
-        "email": "E-mail",
-        "login": "Faça login",
-        "password": "Senha"
+    "footer": {
+        "kofi": "Buy me a kofi"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "toolbar": {
+        "title": "Find a Doc, JAPAN",
+        "addClinic": "add a clinic",
+        "languages": "Languages",
+        "home": "Home",
+        "login": "Login",
+        "about": "About"
     }
 }

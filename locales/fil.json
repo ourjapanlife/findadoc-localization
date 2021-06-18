@@ -1,35 +1,46 @@
 {
-    "about": {
-        "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, si LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nakahanap ng 'false' o 'outdated' na impormasyon, mangyaring makipag-ugnayan sa akin sa pamamagitan ng Twitter {0}",
-        "creatorQ": "Sino ang lumikha ng website na ito?",
-        "supportA": "Ang pinakamahusay na paraan upang makatulong ay sa pamamagitan ng pag-submit sa database ng anumang 'cancellation waiting lists' na iyong matatagpuan. Kung sa tingin mo ikaw ay labis na mapagbigay, maaring bilihan mo ako ng isang kofi!",
-        "supportQ": "Paano ako makakatulong suportahan ang database?",
-        "trustA": "Ang lahat ng mga links ay pumupunta sa mga official resources tulad ng mga websites ng clinics at gobyerno. Basahin muna ang mga ito bago iparehistro ang iyong personal na impormasyon sa kanila.",
-        "trustQ": "Maaari bang pagkatiwalaan ang impormasyong ito?",
-        "welcome": "Maligayang pagdating sa Find a Doc!",
-        "whatIsThisA": "Ito ay isang community-driven database upang matulungan ang pagkalat ng impormasyon ng mga clinics na may waiting lists para sa pagbabakuna upang hindi sila masayang.",
-        "whatIsThisQ": "Ano ito?"
+    "login": {
+        "email": "Email",
+        "password": "Password",
+        "login": "Mag log in",
+        "clear": "Malinaw"
+    },
+    "index": {
+        "title": "Ang Mga Listahan ng Naghihintay sa Pagkansela ng Bakuna sa COVID-19 sa Japan",
+        "massSite": "Ang sinumang 18 taong gulang pataas na mayroong isang voucher ay maaari nang mabakunahan sa mga lugar ng bakuna sa Tokyo o Osaka.",
+        "register": "Pumunta sa Site ng Rehistro"
     },
     "add-clinic": {
-        "city": "Lungsod",
-        "clinicName": "Pangalan ng clinic",
-        "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong clinic sa database na may cancellation waiting list.",
-        "prefecture": "Prefecture",
-        "reviewMessage": "Ang clinic na iyong sinubmit ay ipapakita matapos itong suriin!",
+        "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong klinika sa database na may listahan ng paghihintay sa pagkansela.",
         "romajiOnly": "Romaji lang",
-        "submitClinic": "Mag-submit ng Clinic",
+        "prefecture": "Prefecture",
+        "city": "Lungsod",
+        "ward": "Ward",
+        "clinicName": "Pangalan ng klinika",
+        "websiteURL": "Website URL",
+        "reviewMessage": "Ang klinika na iyong isinumite ay ipapakita matapos itong suriin!",
+        "submitClinic": "Magsumite ng Clinic",
         "validations": {
             "cityRequired": "Kailangan ng lungsod",
             "cityValidation": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character",
-            "clinicRequired": "Kailangan ang pangalan ng clinic",
-            "clinicValidation": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character",
             "wardRequired": "Kailangan ang ward",
             "wardValidation": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character",
+            "clinicRequired": "Kailangan ang pangalan ng klinika",
+            "clinicValidation": "Ang pangalan ng klinika ay dapat na hindi bababa sa {0} character",
             "websiteRequired": "Kailangan ang URL ng website",
             "websiteValidation": "Mangyaring maglagay ng wastong URL"
-        },
-        "ward": "Ward",
-        "websiteURL": "Website URL"
+        }
+    },
+    "about": {
+        "welcome": "Maligayang pagdating sa Maghanap ng isang Dok!",
+        "whatIsThisQ": "Ano ito?",
+        "whatIsThisA": "Ito ay isang database na hinimok ng pamayanan upang matulungan ang pagkalat ng impormasyon sa mga klinika na nag-aalok ng mga listahan ng paghihintay para sa pagbabakuna upang hindi sila masayang.",
+        "trustQ": "Maaari bang pagkatiwalaan ang impormasyong ito?",
+        "trustA": "Ang lahat ng mga link ay humantong sa mga opisyal na mapagkukunan tulad ng klinika at mga website ng gobyerno. Mangyaring basahin ang mga ito nang malalim bago iparehistro ang iyong personal na impormasyon sa kanila.",
+        "creatorQ": "Sino ang lumikha ng website na ito?",
+        "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nahanap ang hindi tama o hindi napapanahong impormasyon, mangyaring makipag-ugnay sa akin sa pamamagitan ng Twitter {0}",
+        "supportQ": "Paano ako makakatulong suportahan ang database?",
+        "supportA": "Ang pinakamahusay na paraan upang makatulong ay sa pamamagitan ng pagsusumite ng anumang mga listahan ng naghihintay na pagkansela na nakatagpo ka sa database. Kung sa tingin mo ay labis na mapagbigay, mangyaring bumili ako ng isang kofi!"
     },
     "admin": {
         "pending": {
@@ -37,13 +48,33 @@
             "other": ""
         }
     },
-    "index": {
-        "title": "COVID-19 Vaccination Cancellation Waiting Lists sa Japan"
+    "cancelList": {
+        "moreInfo": "Mag-click para sa karagdagang impormasyon",
+        "search": "Maghanap",
+        "header": {
+            "clinicName": "Pangalan ng klinika",
+            "city": "Lungsod",
+            "prefecture": "Prefecture",
+            "ward": "Ward",
+            "note": "Tandaan",
+            "website": "Website",
+            "flag": "Bandila"
+        }
     },
-    "login": {
-        "clear": "Ulitin",
-        "email": "Email",
+    "footer": {
+        "kofi": "Bumili ka ng kofi"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "toolbar": {
+        "title": "Find a Doc, JAPAN",
+        "addClinic": "magdagdag ng isang klinika",
+        "languages": "Mga Wika",
+        "home": "Bahay",
         "login": "Mag log in",
-        "password": "Password"
+        "about": "Tungkol sa"
     }
 }

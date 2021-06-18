@@ -1,48 +1,80 @@
 {
-    "about": {
-        "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
-        "creatorQ": "Siapa yang membuat situs web ini?",
-        "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya kofi!",
-        "supportQ": "Bagaimana saya bisa membantu mendukung database?",
-        "trustA": "Semua tautan mengarah ke sumber resmi seperti klinik dan situs web pemerintah. Harap baca dengan seksama sebelum mendaftarkan informasi pribadi Anda kepada mereka.",
-        "trustQ": "Apakah informasi ini dapat dipercaya?",
-        "welcome": "Selamat datang di Find a Doc!",
-        "whatIsThisA": "Ini adalah web berbasis komunitas untuk membantu menyebarkan informasi tentang klinik yang menawarkan daftar tunggu untuk vaksinasi.",
-        "whatIsThisQ": "Apa ini?"
+    "login": {
+        "email": "Email",
+        "password": "Kata sandi",
+        "login": "Login",
+        "clear": "Bersih"
+    },
+    "index": {
+        "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang",
+        "massSite": "Siapa pun yang berusia 18 tahun ke atas yang memiliki voucher sekarang dapat divaksinasi di situs vaksinasi massal Tokyo atau Osaka.",
+        "register": "Pergi ke Situs Pendaftaran"
     },
     "add-clinic": {
-        "city": "Kota",
-        "clinicName": "Nama klinik",
-        "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database. Pastikan klinik yang anda daftarkan memiliki daftar tunggu pembatalan.",
+        "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database yang memiliki daftar tunggu pembatalan.",
+        "romajiOnly": "Romaji saja",
         "prefecture": "Prefektur",
+        "city": "Kota",
+        "ward": "Menangkal",
+        "clinicName": "Nama klinik",
+        "websiteURL": "URL Situs Web",
         "reviewMessage": "Klinik yang Anda kirimkan akan ditampilkan setelah ditinjau!",
-        "romajiOnly": "Tuliskan dengan huruf romaji",
-        "submitClinic": "Daftarkan Klinik",
+        "submitClinic": "Kirim Klinik",
         "validations": {
-            "cityRequired": "Kota",
+            "cityRequired": "Kota diperlukan",
             "cityValidation": "Nama kota minimal harus {0} karakter",
+            "wardRequired": "Bangsal diperlukan",
+            "wardValidation": "Nama lingkungan minimal harus {0} karakter",
             "clinicRequired": "Nama klinik wajib diisi",
             "clinicValidation": "Nama klinik minimal harus {0} karakter",
-            "wardRequired": "Area (kecamatan) diperlukan",
-            "wardValidation": "Nama area (kecamatan) minimal harus {0} karakter",
             "websiteRequired": "URL situs web diperlukan",
             "websiteValidation": "Harap masukkan URL yang valid"
-        },
-        "ward": "Area (kecamatan)",
-        "websiteURL": "URL Situs Web"
+        }
+    },
+    "about": {
+        "welcome": "Selamat datang di Temukan Dok!",
+        "whatIsThisQ": "Apa ini?",
+        "whatIsThisA": "Ini adalah basis data berbasis komunitas untuk membantu menyebarkan informasi tentang klinik yang menawarkan daftar tunggu untuk vaksinasi agar tidak sia-sia.",
+        "trustQ": "Apakah informasi ini dapat dipercaya?",
+        "trustA": "Semua tautan mengarah ke sumber resmi seperti klinik dan situs web pemerintah. Harap baca dengan seksama sebelum mendaftarkan informasi pribadi Anda kepada mereka.",
+        "creatorQ": "Siapa yang membuat situs web ini?",
+        "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
+        "supportQ": "Bagaimana saya bisa membantu mendukung database?",
+        "supportA": "Cara terbaik untuk membantu adalah dengan mengirimkan daftar tunggu pembatalan yang Anda temui ke database. Jika Anda merasa sangat murah hati, tolong belikan saya kofi!"
     },
     "admin": {
         "pending": {
+            "one": "",
             "other": ""
         }
     },
-    "index": {
-        "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang"
+    "cancelList": {
+        "moreInfo": "Click for more info",
+        "search": "Search",
+        "header": {
+            "clinicName": "Clinic Name",
+            "city": "City",
+            "prefecture": "Prefecture",
+            "ward": "Ward",
+            "note": "Note",
+            "website": "Website",
+            "flag": "Flag"
+        }
     },
-    "login": {
-        "clear": "Bersih",
-        "email": "Email",
+    "footer": {
+        "kofi": "Buy me a kofi"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "toolbar": {
+        "title": "Find a Doc, JAPAN",
+        "addClinic": "add a clinic",
+        "languages": "Languages",
+        "home": "Home",
         "login": "Login",
-        "password": "Kata sandi"
+        "about": "About"
     }
 }

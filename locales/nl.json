@@ -1,35 +1,46 @@
 {
-    "about": {
-        "creatorA": "Deze site is gemaakt en beheerd door LaShawn Toyoda! Neem contact met mij op via Twitter {0} indien je vragen hebt over de site of als je onjuiste en/of verouderde informatie tegenkomt.",
-        "creatorQ": "Wie heeft deze website gemaakt?",
-        "supportA": "De beste manier om te helpen is door vaccinatie annulatie-wachtlijsten toe te voegen in de database. In het geval je deze website financieel wilt steunen, dan kan dat door een ko-fi te doneren!",
-        "supportQ": "Hoe kan ik helpen?",
-        "trustA": "Alle links leiden naar officiële bronnen zoals die van dokterspraktijken en overheidswebsites. Lees ze aandachtig door voordat u uw persoonlijke gegevens bij hen registreert.",
-        "trustQ": "Is deze informatie te vertrouwen?",
-        "welcome": "Welkom bij Zoek een Doc!",
-        "whatIsThisA": "Dit is een gemeenschapsgedreven database om informatie te verspreiden over dokterspraktijken die wachtlijsten voor vaccinaties aanbieden, zodat ze niet verloren gaan.",
-        "whatIsThisQ": "Wat is dit?"
+    "login": {
+        "email": "E-mail",
+        "password": "Wachtwoord",
+        "login": "Log in",
+        "clear": "Doorzichtig"
+    },
+    "index": {
+        "title": "Wachtlijsten voor het annuleren van vaccinaties tegen COVID-19 in Japan",
+        "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft, kan zich nu laten vaccineren op de massale vaccinatiesites in Tokio of Osaka.",
+        "register": "Ga naar de registratiesite"
     },
     "add-clinic": {
-        "city": "Stad",
-        "clinicName": "Naam dokterspraktijk",
-        "fillForm": "Vul dit formulier in om een nieuwe dokterspraktijk met annulatie-wachtlijst toe te voegen aan de database.",
-        "prefecture": "Provincie",
-        "reviewMessage": "De dokterspraktijk die u heeft ingediend zal nagekeken worden en zal nadien zichtbaar zijn!",
+        "fillForm": "Vul dit formulier in om een nieuwe kliniek toe te voegen aan de database met een wachtlijst voor annuleringen.",
         "romajiOnly": "Alleen Romaji",
-        "submitClinic": "Indienen",
+        "prefecture": "Prefectuur",
+        "city": "stad",
+        "ward": "Afdeling",
+        "clinicName": "Naam kliniek",
+        "websiteURL": "Website URL",
+        "reviewMessage": "De kliniek die u heeft ingediend, wordt weergegeven nadat deze is beoordeeld!",
+        "submitClinic": "Verstuur kliniek",
         "validations": {
             "cityRequired": "Plaats is vereist",
             "cityValidation": "Stadsnaam moet minimaal {0} tekens bevatten",
-            "clinicRequired": "Naam dockterspraktijk is vereist",
-            "clinicValidation": "De naam van de dockterspraktijk moet ten minste {0} tekens bevatten",
-            "wardRequired": "Wijk is vereist",
+            "wardRequired": "Afdeling is vereist",
             "wardValidation": "De naam van de wijk moet ten minste {0} tekens bevatten",
+            "clinicRequired": "Naam kliniek is vereist",
+            "clinicValidation": "De naam van de kliniek moet ten minste {0} tekens bevatten",
             "websiteRequired": "Website-URL is vereist",
             "websiteValidation": "Voer een geldige URL in"
-        },
-        "ward": "Wijk",
-        "websiteURL": "Website URL"
+        }
+    },
+    "about": {
+        "welcome": "Welkom bij Zoek een Doc!",
+        "whatIsThisQ": "Wat is dit?",
+        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties aanbieden, zodat ze niet verloren gaan.",
+        "trustQ": "Is deze informatie te vertrouwen?",
+        "trustA": "Alle links leiden naar officiële bronnen zoals klinieken en overheidswebsites. Lees ze aandachtig door voordat u uw persoonlijke gegevens bij hen registreert.",
+        "creatorQ": "Wie heeft deze website gemaakt?",
+        "creatorA": "Deze site is gemaakt en onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
+        "supportQ": "Hoe kan ik de database helpen ondersteunen?",
+        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die u tegenkomt in te dienen bij de database. Als je je extra genereus voelt, koop dan alsjeblieft een kofi voor me!"
     },
     "admin": {
         "pending": {
@@ -37,13 +48,33 @@
             "other": ""
         }
     },
-    "index": {
-        "title": "Annulatie-wachtlijsten voor COVID-19 vaccinaties in Japan"
+    "cancelList": {
+        "moreInfo": "Klik voor meer info",
+        "search": "Zoeken",
+        "header": {
+            "clinicName": "Naam kliniek",
+            "city": "stad",
+            "prefecture": "Prefectuur",
+            "ward": "Afdeling",
+            "note": "Noot",
+            "website": "Website",
+            "flag": "Vlag"
+        }
     },
-    "login": {
-        "clear": "Uitwissen",
-        "email": "E-mail",
+    "footer": {
+        "kofi": "Koop een kofi voor me."
+    },
+    "error": {
+        "homePage": "Startpagina",
+        "notFound": "404 Niet Gevonden",
+        "otherError": "Er is een fout opgetreden"
+    },
+    "toolbar": {
+        "title": "Find a Doc, JAPAN",
+        "addClinic": "voeg een kliniek toe",
+        "languages": "Talen",
+        "home": "Home",
         "login": "Log in",
-        "password": "Wachtwoord"
+        "about": "Over"
     }
 }
