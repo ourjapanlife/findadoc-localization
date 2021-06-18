@@ -1,3 +1,6 @@
+![Website](https://img.shields.io/website?url=https%3A%2F%2Ffindadocjp.org%2F)
+![Forks](https://img.shields.io/github/forks/ourjapanlife/findadoc-localization?label=Fork)
+
 # Find a Doc - Localization
 
 Find a Doc is a free online resource aimed at helping connect the foreign community in Japan with health services in their native language.
