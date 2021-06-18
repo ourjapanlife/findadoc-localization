@@ -5,7 +5,7 @@
         "login": "Entrar",
         "clear": "Limpar"
     },
-    {
+    "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
