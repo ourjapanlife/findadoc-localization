@@ -6,45 +6,45 @@
         "clear": "クリア"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "ログアウト中...",
+        "successMessage": "ログアウトしました。"
     },
     "index": {
         "title": "COVID-19日本のワクチン接種キャンセル待ちリスト",
-        "massSite": "バウチャーをお持ちの18歳以上の方は、東京または大阪の集団予防接種サイトで予防接種を受けることができます。",
+        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
         "register": "登録サイトに移動します"
     },
     "add-clinic": {
-        "fillForm": "このフォームに記入して、キャンセル待機リストのある新しいクリニックをデータベースに追加します。",
+        "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
         "romajiOnly": "ローマ字",
         "prefecture": "都道府県",
-        "city": "都市",
+        "city": "市町村",
         "ward": "区",
         "clinicName": "クリニック名",
         "websiteURL": "ウェブサイトのURL",
-        "reviewMessage": "提出したクリニックは審査後に表示されます！",
-        "submitClinic": "クリニックを提出する",
+        "reviewMessage": "登録したクリニックは審査後に表示されます！",
+        "submitClinic": "クリニックを登録する",
         "validations": {
-            "cityRequired": "都市が必要です",
-            "cityValidation": "都市名は{0}文字以上である必要があります",
+            "cityRequired": "市町村が必要です",
+            "cityValidation": "市町村は{0}文字以上で入力してください",
             "wardRequired": "区が必要です",
-            "wardValidation": "区の名は{0}文字以上でなければなりません。",
+            "wardValidation": "区の名は{0}文字以上で入力してください",
             "clinicRequired": "クリニック名が必要です",
-            "clinicValidation": "クリニック名は{0}文字以上である必要があります",
+            "clinicValidation": "クリニック名は{0}文字以上で入力してください",
             "websiteRequired": "ウェブサイトのURLが必要です",
             "websiteValidation": "有効なURLを入力してください"
         }
     },
     "about": {
         "welcome": "Find a Docへようこそ!",
-        "whatIsThisQ": "これは何ですか？",
-        "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種の順番待ちリストを提供している診療所に関する情報を広め、無駄にならないようにするのに役立ちます。",
+        "whatIsThisQ": "このウェブサイトについて",
+        "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種のキャンセル待ちシステムがあるクリニックの情報を広め、ワクチンが無駄にならないようにする目的です。",
         "trustQ": "この情報は信頼できますか？",
         "trustA": "すべてのリンクは、診療所や政府のWebサイトなどの公式リソースにつながります。個人情報を登録する前によくお読みください。",
         "creatorQ": "このウェブサイトを作成したのは誰ですか？",
-        "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}",
-        "supportQ": "データベースのサポートをどのように支援できますか？",
-        "supportA": "助けるための最良の方法は、あなたが出くわしたキャンセル待機リストをデータベースに提出することです。気前が良ければ、「kofi」を買ってください！"
+        "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
+        "supportQ": "このウェブサイトを支援できますか？",
+        "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！"
     },
     "admin": {
         "pending": {
@@ -54,19 +54,19 @@
     },
     "cancelList": {
         "moreInfo": "詳細については、ここをクリックしてください",
-        "search": "探す",
+        "search": "検索",
         "header": {
             "clinicName": "クリニック名",
-            "city": "都市",
+            "city": "市町村",
             "prefecture": "都道府県",
             "ward": "区",
-            "note": "ノート",
+            "note": "メモ",
             "website": "ウェブサイト",
-            "flag": "旗"
+            "flag": "報告"
         }
     },
     "footer": {
-        "kofi": "kofiを買ってください"
+        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？"
     },
     "error": {
         "homePage": "ホームページ",
@@ -75,10 +75,10 @@
     },
     "toolbar": {
         "title": "Find a Doc, 日本",
-        "addClinic": "クリニックを追加する",
+        "addClinic": "クリニックを登録する",
         "languages": "言語",
         "home": "ホーム",
         "login": "ログイン",
-        "about": "約"
+        "about": "Find a Docについて"
     }
 }
