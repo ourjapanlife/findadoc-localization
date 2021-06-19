@@ -1,50 +1,35 @@
 {
-    "login": {
-        "email": "이메일",
-        "password": "암호",
-        "login": "로그인",
-        "clear": "맑은"
-    },
-    "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
-    },
-    "index": {
-        "title": "일본의 COVID-19 예방 접종 취소 대기자 명단",
-        "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
-        "register": "등록 사이트로 이동"
+    "about": {
+        "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리했습니다! 사이트 이용에 문제가 있거나 부정확하거나 오래된 정보를 발견하면 Twitter {0}",
+        "creatorQ": "누가이 웹 사이트를 만들었습니까?",
+        "supportA": "도움을 줄 수있는 가장 좋은 방법은 취소 대기자 명단을 데이터베이스에 제출하는 것입니다. 너그러운 기분이 든다면 코피를 사주세요!",
+        "supportQ": "데이터베이스 지원을 어떻게 도울 수 있습니까?",
+        "trustA": "모든 링크는 클리닉 및 정부 웹 사이트와 같은 공식 리소스로 연결됩니다. 개인 정보를 등록하기 전에 반드시 읽어 주시기 바랍니다.",
+        "trustQ": "이 정보를 신뢰할 수 있습니까?",
+        "welcome": "문서 찾기에 오신 것을 환영합니다!",
+        "whatIsThisA": "이것은 예방 접종 대기자 명단을 제공하는 클리닉에 정보를 전파하여 낭비되지 않도록하는 커뮤니티 기반 데이터베이스입니다.",
+        "whatIsThisQ": "이게 뭐야?"
     },
     "add-clinic": {
-        "fillForm": "취소 대기 목록이있는 데이터베이스에 새 클리닉을 추가하려면이 양식을 작성하십시오.",
-        "romajiOnly": "로마자 만",
-        "prefecture": "현",
         "city": "시티",
-        "ward": "구",
         "clinicName": "진료소 이름",
-        "websiteURL": "웹 사이트 주소",
+        "fillForm": "취소 대기 목록이있는 데이터베이스에 새 클리닉을 추가하려면이 양식을 작성하십시오.",
+        "prefecture": "현",
         "reviewMessage": "제출하신 클리닉은 심사 후 표시됩니다!",
+        "romajiOnly": "로마자 만",
         "submitClinic": "클리닉 제출",
         "validations": {
             "cityRequired": "도시는 필수 항목입니다.",
             "cityValidation": "{0} 자 이상이어야합니다.",
-            "wardRequired": "병동이 필요합니다",
-            "wardValidation": "{0} 자 이상이어야합니다.",
             "clinicRequired": "진료소 이름이 필요합니다.",
             "clinicValidation": "{0} 자 이상이어야합니다.",
+            "wardRequired": "병동이 필요합니다",
+            "wardValidation": "{0} 자 이상이어야합니다.",
             "websiteRequired": "웹 사이트 URL이 필요합니다.",
             "websiteValidation": "유효한 URL을 입력 해주세요"
-        }
-    },
-    "about": {
-        "welcome": "문서 찾기에 오신 것을 환영합니다!",
-        "whatIsThisQ": "이게 뭐야?",
-        "whatIsThisA": "이것은 예방 접종 대기자 명단을 제공하는 클리닉에 정보를 전파하여 낭비되지 않도록하는 커뮤니티 기반 데이터베이스입니다.",
-        "trustQ": "이 정보를 신뢰할 수 있습니까?",
-        "trustA": "모든 링크는 클리닉 및 정부 웹 사이트와 같은 공식 리소스로 연결됩니다. 개인 정보를 등록하기 전에 반드시 읽어 주시기 바랍니다.",
-        "creatorQ": "누가이 웹 사이트를 만들었습니까?",
-        "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리했습니다! 사이트 이용에 문제가 있거나 부정확하거나 오래된 정보를 발견하면 Twitter {0}",
-        "supportQ": "데이터베이스 지원을 어떻게 도울 수 있습니까?",
-        "supportA": "도움을 줄 수있는 가장 좋은 방법은 취소 대기자 명단을 데이터베이스에 제출하는 것입니다. 너그러운 기분이 든다면 코피를 사주세요!"
+        },
+        "ward": "구",
+        "websiteURL": "웹 사이트 주소"
     },
     "admin": {
         "pending": {
@@ -53,32 +38,47 @@
         }
     },
     "cancelList": {
-        "moreInfo": "Click for more info",
-        "search": "검색",
         "header": {
-            "clinicName": "Clinic Name",
             "city": "City",
+            "clinicName": "Clinic Name",
+            "flag": "Flag",
+            "note": "Note",
             "prefecture": "Prefecture",
             "ward": "Ward",
-            "note": "Note",
-            "website": "Website",
-            "flag": "Flag"
-        }
-    },
-    "footer": {
-        "kofi": "Buy me a kofi"
+            "website": "Website"
+        },
+        "moreInfo": "Click for more info",
+        "search": "검색"
     },
     "error": {
         "homePage": "Home page",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
+    "footer": {
+        "kofi": "Buy me a kofi"
+    },
+    "index": {
+        "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
+        "register": "등록 사이트로 이동",
+        "title": "일본의 COVID-19 예방 접종 취소 대기자 명단"
+    },
+    "login": {
+        "clear": "맑은",
+        "email": "이메일",
+        "login": "로그인",
+        "password": "암호"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "toolbar": {
-        "title": "Find a Doc, JAPAN",
+        "about": "About",
         "addClinic": "add a clinic",
-        "languages": "Languages",
         "home": "Home",
+        "languages": "Languages",
         "login": "Login",
-        "about": "About"
+        "title": "Find a Doc, JAPAN"
     }
 }

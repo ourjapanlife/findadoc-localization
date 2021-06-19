@@ -1,50 +1,35 @@
 {
-    "login": {
-        "email": "Eメール",
-        "password": "パスワード",
-        "login": "ログイン",
-        "clear": "クリア"
-    },
-    "logout": {
-        "message": "ログアウト中...",
-        "successMessage": "ログアウトしました。"
-    },
-    "index": {
-        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト",
-        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
-        "register": "登録サイトに移動します"
+    "about": {
+        "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
+        "creatorQ": "このウェブサイトを作成したのは誰ですか？",
+        "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！",
+        "supportQ": "このウェブサイトを支援できますか？",
+        "trustA": "すべてのリンクは、診療所や政府のWebサイトなどの公式リソースにつながります。個人情報を登録する前によくお読みください。",
+        "trustQ": "この情報は信頼できますか？",
+        "welcome": "Find a Docへようこそ!",
+        "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種のキャンセル待ちシステムがあるクリニックの情報を広め、ワクチンが無駄にならないようにする目的です。",
+        "whatIsThisQ": "このウェブサイトについて"
     },
     "add-clinic": {
-        "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
-        "romajiOnly": "ローマ字",
-        "prefecture": "都道府県",
         "city": "市町村",
-        "ward": "区",
         "clinicName": "クリニック名",
-        "websiteURL": "ウェブサイトのURL",
+        "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
+        "prefecture": "都道府県",
         "reviewMessage": "登録したクリニックは審査後に表示されます！",
+        "romajiOnly": "ローマ字",
         "submitClinic": "クリニックを登録する",
         "validations": {
             "cityRequired": "市町村が必要です",
             "cityValidation": "市町村は{0}文字以上で入力してください",
-            "wardRequired": "区が必要です",
-            "wardValidation": "区の名は{0}文字以上で入力してください",
             "clinicRequired": "クリニック名が必要です",
             "clinicValidation": "クリニック名は{0}文字以上で入力してください",
+            "wardRequired": "区が必要です",
+            "wardValidation": "区の名は{0}文字以上で入力してください",
             "websiteRequired": "ウェブサイトのURLが必要です",
             "websiteValidation": "有効なURLを入力してください"
-        }
-    },
-    "about": {
-        "welcome": "Find a Docへようこそ!",
-        "whatIsThisQ": "このウェブサイトについて",
-        "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種のキャンセル待ちシステムがあるクリニックの情報を広め、ワクチンが無駄にならないようにする目的です。",
-        "trustQ": "この情報は信頼できますか？",
-        "trustA": "すべてのリンクは、診療所や政府のWebサイトなどの公式リソースにつながります。個人情報を登録する前によくお読みください。",
-        "creatorQ": "このウェブサイトを作成したのは誰ですか？",
-        "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
-        "supportQ": "このウェブサイトを支援できますか？",
-        "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！"
+        },
+        "ward": "区",
+        "websiteURL": "ウェブサイトのURL"
     },
     "admin": {
         "pending": {
@@ -53,32 +38,47 @@
         }
     },
     "cancelList": {
-        "moreInfo": "詳細については、ここをクリックしてください",
-        "search": "検索",
         "header": {
-            "clinicName": "クリニック名",
             "city": "市町村",
+            "clinicName": "クリニック名",
+            "flag": "報告",
+            "note": "メモ",
             "prefecture": "都道府県",
             "ward": "区",
-            "note": "メモ",
-            "website": "ウェブサイト",
-            "flag": "報告"
-        }
-    },
-    "footer": {
-        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？"
+            "website": "ウェブサイト"
+        },
+        "moreInfo": "詳細については、ここをクリックしてください",
+        "search": "検索"
     },
     "error": {
         "homePage": "ホームページ",
         "notFound": "404お探しのページが見つかりませんでした",
         "otherError": "エラーが発生しました"
     },
-    "toolbar": {
-        "title": "Find a Doc, 日本",
-        "addClinic": "クリニックを登録する",
-        "languages": "言語",
-        "home": "ホーム",
+    "footer": {
+        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？"
+    },
+    "index": {
+        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
+        "register": "登録サイトに移動します",
+        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
+    },
+    "login": {
+        "clear": "クリア",
+        "email": "Eメール",
         "login": "ログイン",
-        "about": "Find a Docについて"
+        "password": "パスワード"
+    },
+    "logout": {
+        "message": "ログアウト中...",
+        "successMessage": "ログアウトしました。"
+    },
+    "toolbar": {
+        "about": "Find a Docについて",
+        "addClinic": "クリニックを登録する",
+        "home": "ホーム",
+        "languages": "言語",
+        "login": "ログイン",
+        "title": "Find a Doc, 日本"
     }
 }
