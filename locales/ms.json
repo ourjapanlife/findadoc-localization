@@ -1,50 +1,35 @@
 {
-    "login": {
-        "email": "E-mel",
-        "password": "Kata laluan",
-        "login": "Daftar masuk",
-        "clear": "Kosongkan"
-    },
-    "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
-    },
-    "index": {
-        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun",
-        "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
-        "register": "Pergi ke Laman Pendaftaran"
+    "about": {
+        "creatorA": "Laman web ini dibuat dan dikekalkan oleh saya, LaShawn Toyoda! Sekiranya anda menghadapi masalah menggunakan laman web ini atau menemui maklumat yang salah atau ketinggalan zaman, sila hubungi saya melalui Twitter {0}",
+        "creatorQ": "Siapa yang membina laman web ini?",
+        "supportA": "Cara terbaik untuk membantu adalah dengan menyerahkan senarai menunggu pembatalan yang anda temui ke pangkalan data. Jikalau anda mampu, tolong menyumbang kepada kofi saya!",
+        "supportQ": "Bagaimana saya boleh membantu menyokong pangkalan data?",
+        "trustA": "Semua pautan laman web akan membawa anda kepada sumber rasmi seperti laman web klinik dan laman web kerajaan. Sila baca dengan teliti sebelum mendaftarkan maklumat peribadi anda dengan mereka.",
+        "trustQ": "Bolehkah maklumat ini dipercayai?",
+        "welcome": "Selamat datang ke Find a Doc!",
+        "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
+        "whatIsThisQ": "Apakah ini?"
     },
     "add-clinic": {
-        "fillForm": "Isikan borang ini untuk mendaftarkan nama klinik baru ke pangkalan data. Sila pastikan klinik anda mempunyai senarai menunggu pembatalan.",
-        "romajiOnly": "Sila tuliskan dengan huruh Romaji sahaja",
-        "prefecture": "Wilayah",
         "city": "Bandar",
-        "ward": "Ward",
         "clinicName": "Nama Klinik",
-        "websiteURL": "URL laman web",
+        "fillForm": "Isikan borang ini untuk mendaftarkan nama klinik baru ke pangkalan data. Sila pastikan klinik anda mempunyai senarai menunggu pembatalan.",
+        "prefecture": "Wilayah",
         "reviewMessage": "Klinik yang anda sudah mendaftar akan dipaparkan setelah diperiksa!",
+        "romajiOnly": "Sila tuliskan dengan huruh Romaji sahaja",
         "submitClinic": "Daftarkan Klinik",
         "validations": {
             "cityRequired": "Nama bandar wajib diisi",
             "cityValidation": "Nama bandar harus sekurang-kurangnya {0} abjad",
-            "wardRequired": "Nama ward harus diisi",
-            "wardValidation": "Nama ward haruslah sekurang-kurangnya {0} abjad",
             "clinicRequired": "Nama klinik wajib diisi",
             "clinicValidation": "Nama klinik harus sekurang-kurangnya {0} abjad",
+            "wardRequired": "Nama ward harus diisi",
+            "wardValidation": "Nama ward haruslah sekurang-kurangnya {0} abjad",
             "websiteRequired": "URL laman web harus diisi",
             "websiteValidation": "Sila menggunakan URL yang sah"
-        }
-    },
-    "about": {
-        "welcome": "Selamat datang ke Find a Doc!",
-        "whatIsThisQ": "Apakah ini?",
-        "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
-        "trustQ": "Bolehkah maklumat ini dipercayai?",
-        "trustA": "Semua pautan laman web akan membawa anda kepada sumber rasmi seperti laman web klinik dan laman web kerajaan. Sila baca dengan teliti sebelum mendaftarkan maklumat peribadi anda dengan mereka.",
-        "creatorQ": "Siapa yang membina laman web ini?",
-        "creatorA": "Laman web ini dibuat dan dikekalkan oleh saya, LaShawn Toyoda! Sekiranya anda menghadapi masalah menggunakan laman web ini atau menemui maklumat yang salah atau ketinggalan zaman, sila hubungi saya melalui Twitter {0}",
-        "supportQ": "Bagaimana saya boleh membantu menyokong pangkalan data?",
-        "supportA": "Cara terbaik untuk membantu adalah dengan menyerahkan senarai menunggu pembatalan yang anda temui ke pangkalan data. Jikalau anda mampu, tolong menyumbang kepada kofi saya!"
+        },
+        "ward": "Ward",
+        "websiteURL": "URL laman web"
     },
     "admin": {
         "pending": {
@@ -53,32 +38,47 @@
         }
     },
     "cancelList": {
-        "moreInfo": "Klik untuk maklumat lanjut",
-        "search": "Cari",
         "header": {
-            "clinicName": "Nama Klinik",
             "city": "Bandar",
+            "clinicName": "Nama Klinik",
+            "flag": "Flag",
+            "note": "Note",
             "prefecture": "Wilayah",
             "ward": "Ward",
-            "note": "Note",
-            "website": "Laman web",
-            "flag": "Flag"
-        }
-    },
-    "footer": {
-        "kofi": "Buy me a kofi"
+            "website": "Laman web"
+        },
+        "moreInfo": "Klik untuk maklumat lanjut",
+        "search": "Cari"
     },
     "error": {
         "homePage": "Home page",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
+    "footer": {
+        "kofi": "Buy me a kofi"
+    },
+    "index": {
+        "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
+        "register": "Pergi ke Laman Pendaftaran",
+        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
+    },
+    "login": {
+        "clear": "Kosongkan",
+        "email": "E-mel",
+        "login": "Daftar masuk",
+        "password": "Kata laluan"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
     "toolbar": {
-        "title": "Find a Doc, JAPAN",
+        "about": "About",
         "addClinic": "add a clinic",
-        "languages": "Bahasa",
         "home": "Home",
+        "languages": "Bahasa",
         "login": "Login",
-        "about": "About"
+        "title": "Find a Doc, JAPAN"
     }
 }
