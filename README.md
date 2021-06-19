@@ -1,6 +1,6 @@
 # Find a Doc - Localization
 
-[Find a Doc](https://findadocjp.org/) is a free online resource aimed at helping connect the foreign community in Japan with health services in their native language.
+[Find a Doc](https://findadoc.jp) is a free online resource aimed at helping connect the foreign community in Japan with health services in their native language.
 
 Translations are initially created by machine in a special file format, and then edited by volunteers to be published on the site.
 
@@ -22,7 +22,7 @@ If you're new to Git, here are some easy steps you can take to get started:
 1. Go into the [locales](https://github.com/ourjapanlife/findadoc-localization/tree/main/locales) folder and click on the language file you wish to contribute to. It will take you to a screen that will show you its content. (Note if you are creating a new language file, copy from `en.json` and please name the new file using the two-letter language codes defined [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes))
    ![Select Language](./images/01.png)
 
-2. Click the `edit` button so you can directly edit the translation through your browser. **Use the `en.json` file and the [website](https://findadocjp.org/) as the reference content.**
+2. Click the `edit` button so you can directly edit the translation through your browser. **Use the `en.json` file and the [website](https://findadoc.jp) as the reference content.**
    ![Edit Button](./images/02.png)
    
    
