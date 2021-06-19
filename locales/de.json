@@ -1,50 +1,35 @@
 {
-    "login": {
-        "email": "Email",
-        "password": "Passwort",
-        "login": "Anmeldung",
-        "clear": "Löschen"
-    },
-    "logout": {
-        "message": "Sie werden ausgeloggt...",
-        "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
-    },
-    "index": {
-        "title": "Wartelisten für die Stornierung von COVID-19-Impfungen in Japan",
-        "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Massenimpfstellen in Tokio oder Osaka impfen lassen.",
-        "register": "Zur Registrierungsseite gehen"
+    "about": {
+        "creatorA": "Diese Seite wurde von mir, LaShawn Toyoda, erstellt und gepflegt! Wenn Sie Probleme bei der Nutzung der Website haben oder auf falsche oder veraltete Informationen stoßen, kontaktieren Sie mich bitte über Twitter",
+        "creatorQ": "Wer hat diese Website erstellt?",
+        "supportA": "Der beste Weg, um zu helfen, besteht darin, alle Wartelisten für Stornierungen von Impfungen in die Datenbank einzutragen. Wenn Sie sich besonders großzügig fühlen, spendieren Sie mir bitte einen Kofi!",
+        "supportQ": "Wie kann ich helfen, die Datenbank zu unterstützen?",
+        "trustA": "Alle Links führen zu offiziellen Ressourcen wie Klinik- und Regierungswebsites. Bitte lesen Sie diese sorgfältig durch, bevor Sie Ihre persönlichen Daten registrieren.",
+        "trustQ": "Kann man diesen Informationen vertrauen?",
+        "welcome": "Willkommen bei „Find a Doc!“",
+        "whatIsThisA": "Dies ist eine von der Community betriebene Datenbank zur Verbreitung von Informationen über Kliniken, die Wartelisten für stornierte Impfungen anbieten, sodass diese nicht verschwendet werden.",
+        "whatIsThisQ": "Was ist das?"
     },
     "add-clinic": {
-        "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
-        "romajiOnly": "Nur Romaji",
-        "prefecture": "Präfektur",
         "city": "Stadt",
-        "ward": "Stadtviertel",
         "clinicName": "Klinikname",
-        "websiteURL": "Website-URL",
+        "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
+        "prefecture": "Präfektur",
         "reviewMessage": "Die von Ihnen eingereichte Klinik wird angezeigt, nachdem sie überprüft wurde!",
+        "romajiOnly": "Nur Romaji",
         "submitClinic": "Klinik einreichen",
         "validations": {
             "cityRequired": "Stadt ist erforderlich",
             "cityValidation": "Der Stadtname muss mindestens {0} Zeichen lang sein",
-            "wardRequired": "Stadtviertel wird benötigt",
-            "wardValidation": "Der Stadtviertel-Name muss mindestens {0} Zeichen lang sein",
             "clinicRequired": "Klinikname ist erforderlich",
             "clinicValidation": "Der Klinikname muss aus mindestens {0} Zeichen bestehen",
+            "wardRequired": "Stadtviertel wird benötigt",
+            "wardValidation": "Der Stadtviertel-Name muss mindestens {0} Zeichen lang sein",
             "websiteRequired": "Website-URL ist erforderlich",
             "websiteValidation": "Bitte geben Sie eine gültige URL ein"
-        }
-    },
-    "about": {
-        "welcome": "Willkommen bei „Find a Doc!“",
-        "whatIsThisQ": "Was ist das?",
-        "whatIsThisA": "Dies ist eine von der Community betriebene Datenbank zur Verbreitung von Informationen über Kliniken, die Wartelisten für stornierte Impfungen anbieten, sodass diese nicht verschwendet werden.",
-        "trustQ": "Kann man diesen Informationen vertrauen?",
-        "trustA": "Alle Links führen zu offiziellen Ressourcen wie Klinik- und Regierungswebsites. Bitte lesen Sie diese sorgfältig durch, bevor Sie Ihre persönlichen Daten registrieren.",
-        "creatorQ": "Wer hat diese Website erstellt?",
-        "creatorA": "Diese Seite wurde von mir, LaShawn Toyoda, erstellt und gepflegt! Wenn Sie Probleme bei der Nutzung der Website haben oder auf falsche oder veraltete Informationen stoßen, kontaktieren Sie mich bitte über Twitter",
-        "supportQ": "Wie kann ich helfen, die Datenbank zu unterstützen?",
-        "supportA": "Der beste Weg, um zu helfen, besteht darin, alle Wartelisten für Stornierungen von Impfungen in die Datenbank einzutragen. Wenn Sie sich besonders großzügig fühlen, spendieren Sie mir bitte einen Kofi!"
+        },
+        "ward": "Stadtviertel",
+        "websiteURL": "Website-URL"
     },
     "admin": {
         "pending": {
@@ -53,32 +38,47 @@
         }
     },
     "cancelList": {
-        "moreInfo": "Klicken Sie für weitere Informationen",
-        "search": "Suche",
         "header": {
-            "clinicName": "Klinikname",
             "city": "Stadt",
+            "clinicName": "Klinikname",
+            "flag": "Flagge",
+            "note": "Hinweis",
             "prefecture": "Präfektur",
             "ward": "Stadtviertel",
-            "note": "Hinweis",
-            "website": "Webseite",
-            "flag": "Flagge"
-        }
-    },
-    "footer": {
-        "kofi": "Kauf mir ein kofi"
+            "website": "Webseite"
+        },
+        "moreInfo": "Klicken Sie für weitere Informationen",
+        "search": "Suche"
     },
     "error": {
         "homePage": "Startseite",
         "notFound": "404 Nicht gefunden",
         "otherError": "Ein Fehler ist aufgetreten"
     },
-    "toolbar": {
-        "title": "Find a Doc, JAPAN",
-        "addClinic": "Klinik hinzufügen",
-        "languages": "Sprachen",
-        "home": "Startseite",
+    "footer": {
+        "kofi": "Kauf mir ein kofi"
+    },
+    "index": {
+        "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Massenimpfstellen in Tokio oder Osaka impfen lassen.",
+        "register": "Zur Registrierungsseite gehen",
+        "title": "Wartelisten für die Stornierung von COVID-19-Impfungen in Japan"
+    },
+    "login": {
+        "clear": "Löschen",
+        "email": "Email",
         "login": "Anmeldung",
-        "about": "Über"
+        "password": "Passwort"
+    },
+    "logout": {
+        "message": "Sie werden ausgeloggt...",
+        "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
+    },
+    "toolbar": {
+        "about": "Über",
+        "addClinic": "Klinik hinzufügen",
+        "home": "Startseite",
+        "languages": "Sprachen",
+        "login": "Anmeldung",
+        "title": "Find a Doc, JAPAN"
     }
 }
