@@ -54,7 +54,7 @@
     },
     "cancelList": {
         "moreInfo": "Clicca per maggiori informazioni",
-        "search": "Ricerca",
+        "search": "Cerca",
         "header": {
             "clinicName": "Nome della clinica",
             "city": "Città",
@@ -62,7 +62,7 @@
             "ward": "Municipalità",
             "note": "Nota",
             "website": "Sito web",
-            "flag": "Bandiera"
+            "flag": "Segnala"
         }
     },
     "footer": {
@@ -70,15 +70,15 @@
     },
     "error": {
         "homePage": "Pagina iniziale",
-        "notFound": "404 non trovato",
+        "notFound": "404 pagina non trovata",
         "otherError": "Si è verificato un errore"
     },
     "toolbar": {
         "title": "Find a Doc, JAPAN",
         "addClinic": "aggiungi una clinica",
-        "languages": "Le lingue",
-        "home": "Casa",
+        "languages": "Cambia lingua",
+        "home": "Home",
         "login": "Login",
-        "about": "Di"
+        "about": "Chi siamo"
     }
 }
