@@ -73,6 +73,9 @@
         "message": "ログアウト中...",
         "successMessage": "ログアウトしました。"
     },
+    "meta": {
+        "name": "日本語"
+    },
     "toolbar": {
         "about": "Find a Docについて",
         "addClinic": "クリニックを登録する",

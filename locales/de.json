@@ -73,6 +73,9 @@
         "message": "Sie werden ausgeloggt...",
         "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
     },
+    "meta": {
+        "name": "Deutsch"
+    },
     "toolbar": {
         "about": "Über",
         "addClinic": "Klinik hinzufügen",

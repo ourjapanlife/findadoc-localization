@@ -73,6 +73,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "meta": {
+        "name": "Filipino"
+    },
     "toolbar": {
         "about": "Tungkol sa",
         "addClinic": "magdagdag ng isang klinika",

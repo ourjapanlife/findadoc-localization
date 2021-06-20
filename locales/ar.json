@@ -73,6 +73,10 @@
         "message": "...تسجيل الخروج",
         "successMessage": "!لقد تم تسجيل خروجك. الى اللقاء"
     },
+    "meta": {
+        "name": "العربية",
+        "dir": "rtl"
+    },
     "toolbar": {
         "about": "معلومات",
         "addClinic": "أضف عيادة",

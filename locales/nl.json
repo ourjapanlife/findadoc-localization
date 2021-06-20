@@ -73,6 +73,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "meta": {
+        "name": "Nederlands"
+    },
     "toolbar": {
         "about": "Over",
         "addClinic": "Voeg een kliniek toe",

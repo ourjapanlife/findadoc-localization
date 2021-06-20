@@ -73,6 +73,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "meta": {
+        "name": "中文"
+    },
     "toolbar": {
         "about": "关于",
         "addClinic": "添加诊所",

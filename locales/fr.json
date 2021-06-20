@@ -73,6 +73,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "meta": {
+        "name": "Français"
+    },
     "toolbar": {
         "about": "About",
         "addClinic": "add a clinic",
