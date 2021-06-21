@@ -23,13 +23,13 @@
             "cityValidation": "Le nom de la ville doit comporter au moins {0} caractères",
             "clinicRequired": "Le nom de la clinique est requis",
             "clinicValidation": "Le nom de la clinique doit comporter au moins {0} caractères",
-            "wardRequired": "Ward est requis",
+            "wardRequired": "Le quartier est requis",
             "wardValidation": "Le nom du quartier doit comporter au moins {0} caractères",
             "websiteRequired": "L'URL du site Web est requise",
             "websiteValidation": "Veuillez saisir une URL valide"
         },
-        "ward": "Ward",
-        "websiteURL": "URL de site web"
+        "ward": "Quartier",
+        "websiteURL": "URL du site Web"
     },
     "admin": {
         "pending": {
@@ -39,24 +39,24 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "flag": "Flag",
+            "city": "Ville",
+            "clinicName": "Nom de la clinique",
+            "flag": "Signalement",
             "note": "Note",
-            "prefecture": "Prefecture",
-            "ward": "Ward",
-            "website": "Website"
+            "prefecture": "Préfecture",
+            "ward": "Quartier",
+            "website": "Site Web"
         },
-        "moreInfo": "Click for more info",
-        "search": "Search"
+        "moreInfo": "Cliquez pour plus d'informations",
+        "search": "Recherche"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "Page d'accueil",
+        "notFound": "404 Page introuvable",
+        "otherError": "Une erreur s'est produite"
     },
     "footer": {
-        "kofi": "Buy me a kofi"
+        "kofi": "Achetez-moi un kofi"
     },
     "index": {
         "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",
@@ -70,15 +70,15 @@
         "password": "Mot de passe"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Déconnexion...",
+        "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
+        "about": "À propos",
+        "addClinic": "ajouter une clinique",
+        "home": "Accueil",
+        "languages": "Langues",
+        "login": "Connexion",
         "title": "Find a Doc, JAPAN"
     }
 }
