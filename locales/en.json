@@ -11,6 +11,7 @@
         "whatIsThisQ": "What is this?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "City",
         "clinicName": "Clinic name",
         "fillForm": "Fill out this form to add a new clinic to the database that has a cancellation waiting list.",
@@ -41,14 +42,23 @@
         "header": {
             "city": "City",
             "clinicName": "Clinic Name",
-            "flag": "Flag",
+            "report": "Report",
             "note": "Note",
             "prefecture": "Prefecture",
             "ward": "Ward",
             "website": "Website"
         },
+        "report": {
+            "clinicName": "Clinic Name:",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "note": "Note about this clinic"
+        },
         "moreInfo": "Click for more info",
         "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -56,7 +66,11 @@
         "otherError": "An error occurred"
     },
     "footer": {
-        "kofi": "Buy me a kofi"
+        "kofi": "Buy me a Ko-Fi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
