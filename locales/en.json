@@ -66,7 +66,10 @@
         "otherError": "An error occurred"
     },
     "footer": {
-        "kofi": "Buy me a Ko-Fi"
+        "kofi": "Buy me a Ko-Fi",
+        "github": "Contribute on GitHub",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
         "cancel": "Cancel",
