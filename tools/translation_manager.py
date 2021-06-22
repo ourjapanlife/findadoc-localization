@@ -49,7 +49,6 @@ def copy_new_keys_to_locale(source_dict, dest_dict):
                 else:
                     dict2[k] = copy.deepcopy(v)
 
-
 def get_locale_files(path=LOCALE_DIR):
 
     return glob.glob(f'{path}/*.json')

@@ -115,6 +115,5 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
-
 if __name__ == '__main__':
     unittest.main()
