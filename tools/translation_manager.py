@@ -50,12 +50,12 @@ def copy_new_keys_to_locale(source_dict, dest_dict):
                     dict2[k] = copy.deepcopy(v)
 
 def get_locale_files(path=LOCALE_DIR):
-
+    """Returns a string array of all locale files"""
     return glob.glob(f'{path}/*.json')
 
 
 class TranslationManager(object):
-
+    """Command line tool for managing i18n files"""
     def alphabetize(self):
         """Rewrites JSON files to be alphabetized"""
         for fname in get_locale_files():
@@ -65,7 +65,8 @@ class TranslationManager(object):
         print("Done!🙌🏻")
 
     def copy_new_keys(self, locale="en"):
-        """Moves all missing keys from the primary locale (default is English) to the other locale files"""
+        """Moves all missing keys from the primary locale
+        (default is English) to the other locale files"""
         primary_fname = f"{LOCALE_DIR}/{locale}.json"
         primary_dict = open_locale_file(primary_fname)
 
