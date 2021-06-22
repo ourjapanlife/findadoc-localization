@@ -28,6 +28,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with pylint
       run: |
+        cd tools
         mkdir ./pylint
         # stop the build if score drops below expectation
         pylint --fail-under=9.0 *.py | tee ./pylint/pylint.log || pylint-exit $?
@@ -36,4 +37,5 @@ jobs:
         echo "Pylint score is $PYLINT_SCORE"
     - name: Test Translation Manager
       run: |
+        cd tools
         python test_translation_manager.py
