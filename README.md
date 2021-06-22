@@ -1,5 +1,6 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Ffindadocjp.org%2F)
 [![ESLint](https://github.com/ourjapanlife/findadoc-localization/actions/workflows/eslint.yml/badge.svg)](https://github.com/ourjapanlife/findadoc-localization/actions/workflows/eslint.yml)
+[![Python application](https://github.com/ourjapanlife/findadoc-localization/actions/workflows/python-app.yml/badge.svg)](https://github.com/ourjapanlife/findadoc-localization/actions/workflows/python-app.yml)
 ![GitHub](https://img.shields.io/github/license/ourjapanlife/findadoc-localization)
 ![Forks](https://img.shields.io/github/forks/ourjapanlife/findadoc-localization?label=Fork)
 
