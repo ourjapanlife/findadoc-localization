@@ -3,6 +3,7 @@
 from translation_manager import copy_new_keys_to_locale, write_json
 import unittest
 
+
 class TestTranslationManager(unittest.TestCase):
 
     def test_copy_new_keys_to_locale(self):
@@ -14,7 +15,7 @@ class TestTranslationManager(unittest.TestCase):
             },
             "two": "top level",
             "three": {
-                "rhubarb": { "eh": "eeeh"},
+                "rhubarb": {"eh": "eeeh"},
                 "teeth": "yes"
             }
         }
@@ -35,13 +36,12 @@ class TestTranslationManager(unittest.TestCase):
             },
             "two": "top level",
             "three": {
-                "rhubarb": { "eh": "eeeh"},
+                "rhubarb": {"eh": "eeeh"},
                 "teeth": "はい"
             }
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
-        
     def test_copy_new_keys_to_locale_string_to_obj(self):
         """Tests changing a string into an object"""
         primaryDict = {
@@ -58,7 +58,6 @@ class TestTranslationManager(unittest.TestCase):
             "one": {"hoge": "hoge"}
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
-
 
     def test_copy_new_keys_to_locale_obj_to_string(self):
         """Tests changing an object to a string"""
@@ -77,7 +76,6 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
-        
     def test_copy_new_keys_to_locale_expand_child(self):
         """Tests adding to child object"""
         primaryDict = {
@@ -96,7 +94,6 @@ class TestTranslationManager(unittest.TestCase):
                     "naruhodo": "naruhodo"}
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
-
 
     def test_copy_new_keys_to_locale_no_changes(self):
         """Tests running on no changes"""
@@ -118,6 +115,6 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
-                         
+
 if __name__ == '__main__':
     unittest.main()
