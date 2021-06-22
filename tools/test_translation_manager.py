@@ -42,8 +42,8 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
-    # TODO: try a test with a key changing from string to object
     def test_copy_new_keys_to_locale_string_to_obj(self):
+        """Tests changing a string into an object"""
         self.assertEqual('foo'.upper(), 'FOO')
         primaryDict = {
             "one": {"hoge": "hoge"}
@@ -57,6 +57,26 @@ class TestTranslationManager(unittest.TestCase):
 
         expectedDict = {
             "one": {"hoge": "hoge"}
+        }
+        self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
+
+    def test_copy_new_keys_to_locale_expand_child(self):
+        """Tests changing a string into an object"""
+        self.assertEqual('foo'.upper(), 'FOO')
+        primaryDict = {
+            "one": {"hoge": "hoge",
+                    "naruhodo": "naruhodo"}
+        }
+
+        secondaryDict = {
+            "one": {"hoge": "ほげ"}
+        }
+
+        copy_new_keys_to_locale(primaryDict, secondaryDict)
+
+        expectedDict = {
+            "one": {"hoge": "ほげ",
+                    "naruhodo": "naruhodo"}
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
