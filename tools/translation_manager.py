@@ -35,9 +35,9 @@ def copy_new_keys_to_locale(sourceDict, destDict):
                 if k not in dict2:
                     dict2[k] = copy.deepcopy(v)
             if isinstance(v, dict):
-                if k in dict2:
+                if k in dict2 and isinstance(dict2[k], dict):
                     # add the subdict to the queue
-                    queue.append((v, dict2[k])) 
+                    queue.append((v, dict2[k]))
                 else:
                     dict2[k] = copy.deepcopy(v)
 
