@@ -25,6 +25,10 @@ def export(data, fname):
         json_file.write(write_json(data)) 
 
         
+def is_expected(key, dest, expValue):
+    return key in dest and isinstance(dest[key], expValue)
+
+        
 def copy_new_keys_to_locale(sourceDict, destDict):
     """Copy all the keys in sourceDict missing from the destination JSON"""
     queue = [(sourceDict, destDict)]
@@ -32,10 +36,10 @@ def copy_new_keys_to_locale(sourceDict, destDict):
         (dict1, dict2) = queue.pop(0) 
         for k, v in dict1.items():
             if isinstance(v, str):
-                if k not in dict2:
+                if not is_expected(k, dict2, str):
                     dict2[k] = copy.deepcopy(v)
-            if isinstance(v, dict):
-                if k in dict2 and isinstance(dict2[k], dict):
+            elif isinstance(v, dict):
+                if is_expected(k, dict2, dict):
                     # add the subdict to the queue
                     queue.append((v, dict2[k]))
                 else:

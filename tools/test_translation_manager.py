@@ -7,7 +7,7 @@ from translation_manager import *
 class TestTranslationManager(unittest.TestCase):
 
     def test_copy_new_keys_to_locale(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """A larger test with varying structure"""
         primaryDict = {
             "one": {
                 "whatever": {"foo": "bar"},
@@ -42,9 +42,9 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
+        
     def test_copy_new_keys_to_locale_string_to_obj(self):
         """Tests changing a string into an object"""
-        self.assertEqual('foo'.upper(), 'FOO')
         primaryDict = {
             "one": {"hoge": "hoge"}
         }
@@ -60,9 +60,27 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
+
+    def test_copy_new_keys_to_locale_obj_to_string(self):
+        """Tests changing an object to a string"""
+        primaryDict = {
+            "one": "is a string"
+        }
+
+        secondaryDict = {
+            "one": {"hoge": "hoge"}
+        }
+
+        copy_new_keys_to_locale(primaryDict, secondaryDict)
+
+        expectedDict = {
+            "one": "is a string"
+        }
+        self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
+
+        
     def test_copy_new_keys_to_locale_expand_child(self):
-        """Tests changing a string into an object"""
-        self.assertEqual('foo'.upper(), 'FOO')
+        """Tests adding to child object"""
         primaryDict = {
             "one": {"hoge": "hoge",
                     "naruhodo": "naruhodo"}
@@ -77,6 +95,27 @@ class TestTranslationManager(unittest.TestCase):
         expectedDict = {
             "one": {"hoge": "ほげ",
                     "naruhodo": "naruhodo"}
+        }
+        self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
+
+
+    def test_copy_new_keys_to_locale_no_changes(self):
+        """Tests running on no changes"""
+        primaryDict = {
+            "one": {"hoge": "hoge",
+                    "naruhodo": "naruhodo"}
+        }
+
+        secondaryDict = {
+            "one": {"hoge": "ほげ",
+                    "naruhodo": "なるほど"}
+        }
+
+        copy_new_keys_to_locale(primaryDict, secondaryDict)
+
+        expectedDict = {
+            "one": {"hoge": "ほげ",
+                    "naruhodo": "なるほど"}
         }
         self.assertEqual(write_json(expectedDict), write_json(secondaryDict))
 
