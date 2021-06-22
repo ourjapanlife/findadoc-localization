@@ -3,8 +3,7 @@
 import fire
 import json, copy, glob
 
-#from typing import Dict
-
+LOCALE_DIR="../locales"
 
 INDENT=4
 
@@ -46,7 +45,7 @@ def copy_new_keys_to_locale(sourceDict, destDict):
                     dict2[k] = copy.deepcopy(v)
 
     
-def get_locale_files(path='../locales'):
+def get_locale_files(path=LOCALE_DIR):
 
     return glob.glob(f'{path}/*.json')
 
@@ -64,15 +63,15 @@ class TranslationManager(object):
   
   def copy_new_keys(self, locale="en"):
     """Moves all missing keys from the primary locale (default is English) to the other locale files"""
-    primaryFName = f"../locales/{locale}.json"
+    primaryFName = f"{LOCALE_DIR}/{locale}.json"
     primaryDict = openLocaleFile(primaryFName)
 
     for fname in get_locale_files():
         if fname != primaryFName:
             print(f"Updating {fname}...")
-            destDict = openLocaleFile(destLocale)
+            destDict = openLocaleFile(fname)
             copy_new_keys_to_locale(primaryDict, destDict)
-            export(destDict, destLocale)
+            export(destDict, fname)
             
     print("Done!🙌🏻")
 
