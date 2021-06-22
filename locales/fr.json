@@ -11,6 +11,7 @@
         "whatIsThisQ": "Qu'est-ce que c'est?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Ville",
         "clinicName": "Nom de la clinique",
         "fillForm": "Remplissez ce formulaire pour ajouter une nouvelle clinique à la base de données qui a une liste d'attente d'annulation.",
@@ -44,11 +45,21 @@
             "flag": "Signalement",
             "note": "Note",
             "prefecture": "Préfecture",
+            "report": "Report",
             "ward": "Quartier",
             "website": "Site Web"
         },
         "moreInfo": "Cliquez pour plus d'informations",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Recherche"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Page d'accueil",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Achetez-moi un kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",

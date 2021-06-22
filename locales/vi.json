@@ -11,6 +11,7 @@
         "whatIsThisQ": "Cái này là cái gì?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "thành phố",
         "clinicName": "Tên phòng khám",
         "fillForm": "Điền vào biểu mẫu này để thêm một phòng khám mới vào cơ sở dữ liệu có danh sách chờ hủy bỏ.",
@@ -44,11 +45,21 @@
             "flag": "Flag",
             "note": "Note",
             "prefecture": "Tỉnh",
+            "report": "Report",
             "ward": "khu vực",
             "website": "Website"
         },
         "moreInfo": "Bấm để biết thêm thông tin",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Tìm kiếm"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka.",

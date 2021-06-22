@@ -11,6 +11,7 @@
         "whatIsThisQ": "Wat is dit?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Stad",
         "clinicName": "Naam kliniek",
         "fillForm": "Vul dit formulier in om een nieuwe kliniek met een wachtlijst voor annuleringen aan de database toe te voegen.",
@@ -44,11 +45,21 @@
             "flag": "Vlag",
             "note": "Opmerking",
             "prefecture": "Prefectuur",
+            "report": "Report",
             "ward": "District",
             "website": "Website"
         },
         "moreInfo": "Klik voor meer info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Zoeken"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Startpagina",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Koop een Ko-fi voor me."
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft kan zich nu laten vaccineren bij de grootschalige vaccinatiecentra in Tokio of Osaka.",
