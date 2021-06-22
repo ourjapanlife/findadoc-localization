@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
+from translation_manager import copy_new_keys_to_locale, write_json
 import unittest
-
-from translation_manager import *
 
 class TestTranslationManager(unittest.TestCase):
 
