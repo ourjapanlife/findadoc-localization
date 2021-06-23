@@ -11,14 +11,14 @@
         "whatIsThisQ": "Qu'est-ce que c'est?"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "Informations supplémentaires (facultatif)",
         "city": "Ville",
         "clinicName": "Nom de la clinique",
         "fillForm": "Remplissez ce formulaire pour ajouter une nouvelle clinique à la base de données qui a une liste d'attente d'annulation.",
         "prefecture": "Préfecture",
         "reviewMessage": "La clinique que vous avez soumise sera affichée après avoir été examinée!",
         "romajiOnly": "Romaji seulement",
-        "submitClinic": "Soumettre Clinique",
+        "submitClinic": "Soumettre la clinique",
         "validations": {
             "cityRequired": "La ville est requise",
             "cityValidation": "Le nom de la ville doit comporter au moins {0} caractères",
@@ -42,12 +42,18 @@
         "header": {
             "city": "Ville",
             "clinicName": "Nom de la clinique",
-            "flag": "Signalement",
+            "report": "Signalement",
             "note": "Note",
             "prefecture": "Préfecture",
             "report": "Report",
             "ward": "Quartier",
             "website": "Site Web"
+        },
+        "report": {
+            "clinicName": "Nom de la clinique:",
+            "reason": "Pourquoi signalez-vous cette clinique?",
+            "submitReport": "Signaler",
+            "note": "Note pour cette clinique"
         },
         "moreInfo": "Cliquez pour plus d'informations",
         "report": {
@@ -70,8 +76,8 @@
         "kofi": "Achetez-moi un kofi"
     },
     "general": {
-        "cancel": "Cancel",
-        "delete": "Delete"
+        "cancel": "Annuler",
+        "delete": "Supprimer"
     },
     "index": {
         "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",
