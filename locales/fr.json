@@ -51,9 +51,9 @@
         "moreInfo": "Cliquez pour plus d'informations",
         "report": {
             "clinicName": "Nom de la clinique:",
+            "note": "Note pour cette clinique",
             "reason": "Pourquoi signalez-vous cette clinique?",
-            "submitReport": "Signaler",
-            "note": "Note pour cette clinique"
+            "submitReport": "Signaler"
         },
         "search": "Recherche"
     },

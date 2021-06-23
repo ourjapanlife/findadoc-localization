@@ -68,8 +68,8 @@
     },
     "footer": {
         "donate": "Donate",
-        "kofi": "Buy me a Ko-Fi",
         "github": "Contribute on GitHub",
+        "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
@@ -93,9 +93,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
-    "pending" : {
-        "title": "Pending Submissions",
-        "edit": "Edit Submission"
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
     },
     "toolbar": {
         "about": "About",
