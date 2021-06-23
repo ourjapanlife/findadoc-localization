@@ -39,7 +39,7 @@ a key on the left side, and a value on the right side. Notice that the key names
 ```json
 {
    "key": "value",
-   "vaccine": "ワクシン"
+   "vaccine": "ワクチン"
 }
 ```
 
