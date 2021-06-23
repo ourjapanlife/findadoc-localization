@@ -11,6 +11,7 @@
         "whatIsThisQ": "这是什么？"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "城市",
         "clinicName": "诊所名称",
         "fillForm": "填写此表格以将新诊所添加到具有取消等待名单的数据库中。",
@@ -44,11 +45,21 @@
             "flag": "旗帜",
             "note": "注意",
             "prefecture": "州",
+            "report": "Report",
             "ward": "病房",
             "website": "网站"
         },
         "moreInfo": "点击了解更多信息",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "搜索"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "主页",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "任何 18 岁或以上持有代金券的人现在都可以在东京或大阪的大规模疫苗接种点接种疫苗。",

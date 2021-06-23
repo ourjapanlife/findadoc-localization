@@ -45,6 +45,7 @@
             "report": "Signalement",
             "note": "Note",
             "prefecture": "Préfecture",
+            "report": "Report",
             "ward": "Quartier",
             "website": "Site Web"
         },
@@ -55,7 +56,16 @@
             "note": "Note pour cette clinique"
         },
         "moreInfo": "Cliquez pour plus d'informations",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Recherche"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Page d'accueil",
@@ -90,6 +100,7 @@
         "home": "Accueil",
         "languages": "Langues",
         "login": "Connexion",
+        "logout": "Déconnexion",
         "title": "Find a Doc, JAPAN"
     }
 }

@@ -42,19 +42,19 @@
         "header": {
             "city": "City",
             "clinicName": "Clinic Name",
-            "report": "Report",
             "note": "Note",
             "prefecture": "Prefecture",
+            "report": "Report",
             "ward": "Ward",
             "website": "Website"
         },
+        "moreInfo": "Click for more info",
         "report": {
             "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
             "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "note": "Note about this clinic"
+            "submitReport": "Report"
         },
-        "moreInfo": "Click for more info",
         "search": "Search"
     },
     "delete": {
@@ -96,6 +96,7 @@
         "home": "Home",
         "languages": "Languages",
         "login": "Login",
+        "logout": "Logout",
         "title": "Find a Doc, JAPAN"
     }
 }

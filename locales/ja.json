@@ -11,6 +11,7 @@
         "whatIsThisQ": "このウェブサイトについて"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "市町村",
         "clinicName": "クリニック名",
         "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
@@ -44,11 +45,21 @@
             "flag": "報告",
             "note": "メモ",
             "prefecture": "都道府県",
+            "report": "Report",
             "ward": "区",
             "website": "ウェブサイト"
         },
         "moreInfo": "詳細については、ここをクリックしてください",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "検索"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "ホームページ",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",

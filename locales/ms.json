@@ -11,6 +11,7 @@
         "whatIsThisQ": "Apakah ini?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Bandar",
         "clinicName": "Nama Klinik",
         "fillForm": "Isikan borang ini untuk mendaftarkan nama klinik baru ke pangkalan data. Sila pastikan klinik anda mempunyai senarai menunggu pembatalan.",
@@ -44,11 +45,21 @@
             "flag": "Flag",
             "note": "Note",
             "prefecture": "Wilayah",
+            "report": "Report",
             "ward": "Ward",
             "website": "Laman web"
         },
         "moreInfo": "Klik untuk maklumat lanjut",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Cari"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
