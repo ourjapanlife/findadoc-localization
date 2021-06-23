@@ -68,7 +68,7 @@
     },
     "footer": {
         "donate": "Donate",
-        "github": "Contribute on GitHub",
+        "github": "GitHub",
         "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
@@ -101,6 +101,7 @@
         "about": "About",
         "addClinic": "add a clinic",
         "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
         "home": "Home",
         "languages": "Languages",
         "login": "Login",
