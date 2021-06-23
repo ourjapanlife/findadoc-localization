@@ -42,25 +42,18 @@
         "header": {
             "city": "Ville",
             "clinicName": "Nom de la clinique",
-            "report": "Signalement",
             "note": "Note",
             "prefecture": "Préfecture",
-            "report": "Report",
+            "report": "Signalement",
             "ward": "Quartier",
             "website": "Site Web"
         },
+        "moreInfo": "Cliquez pour plus d'informations",
         "report": {
             "clinicName": "Nom de la clinique:",
             "reason": "Pourquoi signalez-vous cette clinique?",
             "submitReport": "Signaler",
             "note": "Note pour cette clinique"
-        },
-        "moreInfo": "Cliquez pour plus d'informations",
-        "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report"
         },
         "search": "Recherche"
     },
