@@ -54,7 +54,8 @@
             "clinicName": "Clinic Name:",
             "note": "Note about this clinic",
             "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report"
+            "submitReport": "Report",
+            "title": "Report this data"
         },
         "search": "検索"
     },
@@ -67,9 +68,14 @@
         "otherError": "エラーが発生しました"
     },
     "footer": {
-        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？"
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
+        "approve": "Approve",
         "cancel": "Cancel",
         "delete": "Delete"
     },
@@ -88,12 +94,18 @@
         "message": "ログアウト中...",
         "successMessage": "ログアウトしました。"
     },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
     "toolbar": {
         "about": "Find a Docについて",
         "addClinic": "クリニックを登録する",
+        "adminDashboard": "Admin Dashboard",
         "home": "ホーム",
         "languages": "言語",
         "login": "ログイン",
+        "logout": "Logout",
         "title": "Find a Doc, 日本"
     }
 }

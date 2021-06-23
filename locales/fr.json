@@ -53,7 +53,8 @@
             "clinicName": "Nom de la clinique:",
             "note": "Note pour cette clinique",
             "reason": "Pourquoi signalez-vous cette clinique?",
-            "submitReport": "Signaler"
+            "submitReport": "Signaler",
+            "title": "Report this data"
         },
         "search": "Recherche"
     },
@@ -66,9 +67,14 @@
         "otherError": "Une erreur s'est produite"
     },
     "footer": {
-        "kofi": "Achetez-moi un kofi"
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Achetez-moi un kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
+        "approve": "Approve",
         "cancel": "Annuler",
         "delete": "Supprimer"
     },
@@ -87,9 +93,14 @@
         "message": "Déconnexion...",
         "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
     "toolbar": {
         "about": "À propos",
         "addClinic": "ajouter une clinique",
+        "adminDashboard": "Admin Dashboard",
         "home": "Accueil",
         "languages": "Langues",
         "login": "Connexion",
