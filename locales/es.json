@@ -11,6 +11,7 @@
         "whatIsThisQ": "¿Qué es eso?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Ciudad",
         "clinicName": "Nombre de la clínica",
         "fillForm": "Rellene este formulario para añadir una nueva clínica a la base de datos que tenga una lista de espera de cancelación.",
@@ -44,11 +45,21 @@
             "flag": "Flag",
             "note": "Note",
             "prefecture": "Prefecture",
+            "report": "Report",
             "ward": "Ward",
             "website": "Website"
         },
         "moreInfo": "Click for more info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Cualquier persona mayor de 18 años que tenga un vale ahora puede vacunarse en los sitios de vacunación masiva de Tokio u Osaka.",

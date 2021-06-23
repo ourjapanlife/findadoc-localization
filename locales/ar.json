@@ -11,6 +11,7 @@
         "whatIsThisQ": "ما هذا؟"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "المدينة",
         "clinicName": "اسم العيادة",
         "fillForm": ".املأ هذه الإستمارة لإضافة عيادة جديدة إلى قاعدة البيانات التي تحتوي على قائمة انتظار للإلغاء",
@@ -44,11 +45,21 @@
             "flag": "ابلاغ",
             "note": "ملاحظات",
             "prefecture": "الولاية",
+            "report": "Report",
             "ward": "المنطقة",
             "website": "الموقع الإلكتروني"
         },
         "moreInfo": "اضغط لمزيد من المعلومات",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "بحث"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "الصفحة الرئيسية",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "kofi اشتري لي "
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": ".يمكن لأي شخص لديه وصل إثبات و يبلغ من العمر 18 عامًا أو أكثرأن يحصل على التلقيح في مواقع التلقيح الجماعي في طوكيو أو أوساكا",

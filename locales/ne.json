@@ -11,6 +11,7 @@
         "whatIsThisQ": "यो के हो?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "शहर",
         "clinicName": "क्लिनिक नाम",
         "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
@@ -44,11 +45,21 @@
             "flag": "Flag",
             "note": "Note",
             "prefecture": "Prefecture",
+            "report": "Report",
             "ward": "Ward",
             "website": "Website"
         },
         "moreInfo": "Click for more info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "१ 18 बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",

@@ -11,6 +11,7 @@
         "whatIsThisQ": "นี่คืออะไร?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "เมือง",
         "clinicName": "ชื่อคลินิก",
         "fillForm": "กรอกแบบฟอร์มนี้เพื่อเพิ่มคลินิกใหม่ในฐานข้อมูลที่มีรายการรอการยกเลิก",
@@ -44,11 +45,21 @@
             "flag": "Flag",
             "note": "Note",
             "prefecture": "จังหวัด",
+            "report": "Report",
             "ward": "วอร์ด",
             "website": "Website"
         },
         "moreInfo": "คลิกเพื่อดูข้อมูลเพิ่มเติม",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "ค้นหา"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Buy me a kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "ผู้ใดก็ตามที่มีอายุ 18 ปีขึ้นไปที่มีบัตรกำนัลสามารถฉีดวัคซีนได้ที่ไซต์ฉีดวัคซีนในโตเกียวหรือโอซาก้า",

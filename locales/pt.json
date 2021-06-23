@@ -11,6 +11,7 @@
         "whatIsThisQ": "O que é isso?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Cidade",
         "clinicName": "Nome da clínica",
         "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha lista de espera para cancelamentos.",
@@ -44,11 +45,21 @@
             "flag": "Reportar",
             "note": "Observações",
             "prefecture": "Prefeitura",
+            "report": "Report",
             "ward": "Distrito",
             "website": "Website"
         },
         "moreInfo": "Clique para mais informações",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Buscar"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home Page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Me compre um kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",

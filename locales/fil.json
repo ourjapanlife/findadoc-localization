@@ -11,6 +11,7 @@
         "whatIsThisQ": "Ano ito?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Lungsod",
         "clinicName": "Pangalan ng klinika",
         "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong klinika sa database na may listahan ng paghihintay sa pagkansela.",
@@ -44,11 +45,21 @@
             "flag": "Bandila",
             "note": "Tandaan",
             "prefecture": "Prefecture",
+            "report": "Report",
             "ward": "Ward",
             "website": "Website"
         },
         "moreInfo": "Mag-click para sa karagdagang impormasyon",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Maghanap"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Home page",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Bumili ka ng kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Ang sinumang 18 taong gulang pataas na mayroong isang voucher ay maaari nang mabakunahan sa mga lugar ng bakuna sa Tokyo o Osaka.",

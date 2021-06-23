@@ -11,6 +11,7 @@
         "whatIsThisQ": "Was ist das?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Stadt",
         "clinicName": "Klinikname",
         "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
@@ -44,11 +45,21 @@
             "flag": "Flagge",
             "note": "Hinweis",
             "prefecture": "Präfektur",
+            "report": "Report",
             "ward": "Stadtviertel",
             "website": "Webseite"
         },
         "moreInfo": "Klicken Sie für weitere Informationen",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report"
+        },
         "search": "Suche"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
     },
     "error": {
         "homePage": "Startseite",
@@ -57,6 +68,10 @@
     },
     "footer": {
         "kofi": "Kauf mir ein kofi"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "delete": "Delete"
     },
     "index": {
         "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Massenimpfstellen in Tokio oder Osaka impfen lassen.",
