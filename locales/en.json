@@ -53,7 +53,8 @@
             "clinicName": "Clinic Name:",
             "note": "Note about this clinic",
             "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report"
+            "submitReport": "Report",
+            "title": "Report this data"
         },
         "search": "Search"
     },
@@ -66,12 +67,14 @@
         "otherError": "An error occurred"
     },
     "footer": {
-        "kofi": "Buy me a Ko-Fi",
+        "donate": "Donate",
         "github": "Contribute on GitHub",
+        "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
+        "approve": "Approve",
         "cancel": "Cancel",
         "delete": "Delete"
     },
@@ -90,9 +93,14 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
     "toolbar": {
         "about": "About",
         "addClinic": "add a clinic",
+        "adminDashboard": "Admin Dashboard",
         "home": "Home",
         "languages": "Languages",
         "login": "Login",

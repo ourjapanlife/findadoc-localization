@@ -42,25 +42,19 @@
         "header": {
             "city": "Ville",
             "clinicName": "Nom de la clinique",
-            "report": "Signalement",
             "note": "Note",
             "prefecture": "Préfecture",
-            "report": "Report",
+            "report": "Signalement",
             "ward": "Quartier",
             "website": "Site Web"
         },
-        "report": {
-            "clinicName": "Nom de la clinique:",
-            "reason": "Pourquoi signalez-vous cette clinique?",
-            "submitReport": "Signaler",
-            "note": "Note pour cette clinique"
-        },
         "moreInfo": "Cliquez pour plus d'informations",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report"
+            "clinicName": "Nom de la clinique:",
+            "note": "Note pour cette clinique",
+            "reason": "Pourquoi signalez-vous cette clinique?",
+            "submitReport": "Signaler",
+            "title": "Report this data"
         },
         "search": "Recherche"
     },
@@ -73,9 +67,14 @@
         "otherError": "Une erreur s'est produite"
     },
     "footer": {
-        "kofi": "Achetez-moi un kofi"
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Achetez-moi un kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
+        "approve": "Approve",
         "cancel": "Annuler",
         "delete": "Supprimer"
     },
@@ -94,9 +93,14 @@
         "message": "Déconnexion...",
         "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
     "toolbar": {
         "about": "À propos",
         "addClinic": "ajouter une clinique",
+        "adminDashboard": "Admin Dashboard",
         "home": "Accueil",
         "languages": "Langues",
         "login": "Connexion",

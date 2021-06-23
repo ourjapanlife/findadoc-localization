@@ -54,7 +54,8 @@
             "clinicName": "Clinic Name:",
             "note": "Note about this clinic",
             "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report"
+            "submitReport": "Report",
+            "title": "Report this data"
         },
         "search": "Cerca"
     },
@@ -67,9 +68,14 @@
         "otherError": "Si è verificato un errore"
     },
     "footer": {
-        "kofi": "Comprami un kofi"
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Comprami un kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
+        "approve": "Approve",
         "cancel": "Cancel",
         "delete": "Delete"
     },
@@ -88,12 +94,18 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
     "toolbar": {
         "about": "Chi siamo",
         "addClinic": "aggiungi una clinica",
+        "adminDashboard": "Admin Dashboard",
         "home": "Home",
         "languages": "Cambia lingua",
         "login": "Login",
+        "logout": "Logout",
         "title": "Find a Doc, JAPAN"
     }
 }
