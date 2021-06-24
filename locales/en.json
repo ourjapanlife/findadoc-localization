@@ -81,6 +81,8 @@
     "index": {
         "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
         "register": "Go to Registration Site",
+        "getDocument": "Get the Document",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan"
     },
     "login": {
