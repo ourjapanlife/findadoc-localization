@@ -63,4 +63,4 @@ _If you have any trouble with this document, please file an issue or reach out t
 2. Edit the `locales/en.json` to contain the new keys.
 3. If you know another language, feel free to add the same key and translation to the appropriate locale file. Omit if you don't know it; we use English as the [fallback language](https://kazupon.github.io/vue-i18n/guide/fallback.html) so nothing will break.
 4. Make a pull request in this repo and wait for it to be merged to `main`
-5. Make your change in the sourcecode with the new i18n keys and submit your PR 🎉
+5. Make your change in the [parent repository](https://github.com/ourjapanlife/findadoc-frontend) with the new i18n keys and submit your PR 🎉
