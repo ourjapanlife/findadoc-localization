@@ -1,24 +1,23 @@
 {
     "about": {
-        "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리했습니다! 사이트 이용에 문제가 있거나 부정확하거나 오래된 정보를 발견하면 Twitter {0}",
-        "creatorQ": "누가이 웹 사이트를 만들었습니까?",
-        "supportA": "도움을 줄 수있는 가장 좋은 방법은 취소 대기자 명단을 데이터베이스에 제출하는 것입니다. 너그러운 기분이 든다면 코피를 사주세요!",
-        "supportQ": "데이터베이스 지원을 어떻게 도울 수 있습니까?",
-        "trustA": "모든 링크는 클리닉 및 정부 웹 사이트와 같은 공식 리소스로 연결됩니다. 개인 정보를 등록하기 전에 반드시 읽어 주시기 바랍니다.",
-        "trustQ": "이 정보를 신뢰할 수 있습니까?",
-        "welcome": "문서 찾기에 오신 것을 환영합니다!",
-        "whatIsThisA": "이것은 예방 접종 대기자 명단을 제공하는 클리닉에 정보를 전파하여 낭비되지 않도록하는 커뮤니티 기반 데이터베이스입니다.",
-        "whatIsThisQ": "이게 뭐야?"
+        "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리합니다! 사이트 이용에 문제가 있거나, 부정확 혹은 오래된 정보를 발견하면 Twitter {0}로 연락주세요.",
+        "creatorQ": "누가 이 웹 사이트를 만들었나요?",
+        "supportA": "도움을 줄 수 있는 가장 좋은 방법은 새로 찾으신 취소 대기자 명단을 데이터베이스에 추가해 주시는 것입니다. 더 기부하고 싶으시다면 kofi로 부탁드려요.",
+        "supportQ": "데이터베이스 유지를 돕고 싶은데, 어떻게 하면 되나요?",
+        "trustA": "모든 링크는 클리닉 및 정부 웹 사이트와 같은 공식 리소스로 연결됩니다. 각 사이트에서 개인 정보를 등록하기 전에 공지를 잘 읽어 주시기 바랍니다.",
+        "trustQ": "이 정보는 신뢰할 수 있습니까?",
+        "welcome": "Find a Doc에 오신 것을 환영합니다!",
+        "whatIsThisA": "이것은 백신 접종 대기자 명단 등록이 가능한 진료소의 정보를 공유하는 커뮤니티 기반 데이터베이스입니다.",
+        "whatIsThisQ": "이건 어떤 사이트인가요?"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
-        "city": "시티",
+        "city": "도시",
         "clinicName": "진료소 이름",
-        "fillForm": "취소 대기 목록이있는 데이터베이스에 새 클리닉을 추가하려면이 양식을 작성하십시오.",
+        "fillForm": "잔여 백신 대기 목록이 있는 데이터베이스에 새 클리닉을 추가하려면 이 양식을 작성해 주세요.",
         "prefecture": "현",
-        "reviewMessage": "제출하신 클리닉은 심사 후 표시됩니다!",
-        "romajiOnly": "로마자 만",
-        "submitClinic": "클리닉 제출",
+        "reviewMessage": "제출하신 진료소는 심사 후 표시됩니다!",
+        "romajiOnly": "영문(로마지)만 지원",
+        "submitClinic": "제출",
         "validations": {
             "cityRequired": "도시는 필수 항목입니다.",
             "cityValidation": "{0} 자 이상이어야합니다.",
@@ -34,78 +33,16 @@
     },
     "admin": {
         "pending": {
-            "one": "",
             "other": ""
         }
     },
-    "cancelList": {
-        "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "flag": "Flag",
-            "note": "Note",
-            "prefecture": "Prefecture",
-            "report": "Report",
-            "ward": "Ward",
-            "website": "Website"
-        },
-        "moreInfo": "Click for more info",
-        "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
-        },
-        "search": "검색"
-    },
-    "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
-    },
-    "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
-    },
-    "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
-        "kofi": "Buy me a kofi",
-        "netlify": "Powered by Netlify",
-        "siteTitle": "Findadoc Japan {0}"
-    },
-    "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
-    },
     "index": {
-        "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
-        "register": "등록 사이트로 이동",
-        "title": "일본의 COVID-19 예방 접종 취소 대기자 명단"
+        "title": "일본 COVID-19 잔여/취소 백신 대기자 명단"
     },
     "login": {
-        "clear": "맑은",
+        "clear": "지우기",
         "email": "이메일",
         "login": "로그인",
         "password": "암호"
-    },
-    "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
-    },
-    "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
-    },
-    "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
-        "logout": "Logout",
-        "title": "Find a Doc, JAPAN"
     }
 }

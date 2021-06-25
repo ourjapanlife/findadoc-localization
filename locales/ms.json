@@ -38,50 +38,7 @@
             "other": ""
         }
     },
-    "cancelList": {
-        "header": {
-            "city": "Bandar",
-            "clinicName": "Nama Klinik",
-            "flag": "Flag",
-            "note": "Note",
-            "prefecture": "Wilayah",
-            "report": "Report",
-            "ward": "Ward",
-            "website": "Laman web"
-        },
-        "moreInfo": "Klik untuk maklumat lanjut",
-        "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
-        },
-        "search": "Cari"
-    },
-    "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
-    },
-    "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
-    },
-    "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
-        "kofi": "Buy me a kofi",
-        "netlify": "Powered by Netlify",
-        "siteTitle": "Findadoc Japan {0}"
-    },
-    "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
-    },
     "index": {
-        "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
-        "register": "Pergi ke Laman Pendaftaran",
         "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
     },
     "login": {
