@@ -22,15 +22,18 @@
         "validations": {
             "city": {
                 "required": "City is required",
-                "minLength": "City name must be at least {0} characters"
+                "minLength": "City name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
                 "required": "Clinic name is required",
-                "minLength": "Clinic name must be at least {0} characters"
+                "minLength": "Clinic name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
             },
             "ward": {
                 "required": "Ward is required",
-                "minLength": "Ward name must be at least {0} characters"
+                "minLength": "Ward name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "Website URL is required",
