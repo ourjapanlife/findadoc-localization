@@ -20,14 +20,22 @@
         "romajiOnly": "仅罗马字",
         "submitClinic": "提交诊所",
         "validations": {
-            "cityRequired": "城市为必填项",
-            "cityValidation": "城市名称必须至少为 {0} 个字符",
-            "clinicRequired": "诊所名称为必填项",
-            "clinicValidation": "诊所名称必须至少为 {0} 个字符",
-            "wardRequired": "病房是必需的",
-            "wardValidation": "病房名称必须至少为 {0} 个字符",
-            "websiteRequired": "需要提供网站URL",
-            "websiteValidation": "请输入有效网址"
+            "city": {
+                "required": "城市为必填项",
+                "minLength": "城市名称必须至少为 {0} 个字符"
+            },
+            "clinic": {
+                "required": "诊所名称为必填项",
+                "minLength": "诊所名称必须至少为 {0} 个字符"
+            },
+            "ward": {
+                "required": "病房是必需的",
+                "minLength": "病房名称必须至少为 {0} 个字符"
+            },
+            "website": {
+                "required": "需要提供网站URL",
+                "url": "请输入有效网址"
+            }
         },
         "ward": "病房",
         "websiteURL": "网站URL"

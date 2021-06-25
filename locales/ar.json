@@ -20,14 +20,22 @@
         "romajiOnly": ".فقط Romaji الرجاء استخدام",
         "submitClinic": "إرسال العيادة",
         "validations": {
-            "cityRequired": "اسم المدينة  ضروري",
-            "cityValidation": "يجب أن يكون اسم المدينة على الأقل {0} حرف",
-            "clinicRequired": "اسم العيادة ضروري",
-            "clinicValidation": "يجب أن يكون اسم العيادة على الأقل {0} حرف",
-            "wardRequired": "اسم المنطقة ضروري",
-            "wardValidation": "يجب أن يكون اسم المنطقة على الأقل {0} حرف",
-            "websiteRequired": "ضروري URL موقع",
-            "websiteValidation": "صحيح URL الرجاء إدخال"
+            "city": {
+                "required": "اسم المدينة  ضروري",
+                "minLength": "يجب أن يكون اسم المدينة على الأقل {0} حرف"
+            },
+            "clinic": {
+                "required": "اسم العيادة ضروري",
+                "minLength": "يجب أن يكون اسم العيادة على الأقل {0} حرف"
+            },
+            "ward": {
+                "required": "اسم المنطقة ضروري",
+                "minLength": "يجب أن يكون اسم المنطقة على الأقل {0} حرف"
+            },
+            "website": {
+                "required": "ضروري URL موقع",
+                "url": "صحيح URL الرجاء إدخال"
+            }
         },
         "ward": "المنطقة",
         "websiteURL": "URL موقع "

@@ -20,14 +20,22 @@
         "romajiOnly": "Sila tuliskan dengan huruh Romaji sahaja",
         "submitClinic": "Daftarkan Klinik",
         "validations": {
-            "cityRequired": "Nama bandar wajib diisi",
-            "cityValidation": "Nama bandar harus sekurang-kurangnya {0} abjad",
-            "clinicRequired": "Nama klinik wajib diisi",
-            "clinicValidation": "Nama klinik harus sekurang-kurangnya {0} abjad",
-            "wardRequired": "Nama ward harus diisi",
-            "wardValidation": "Nama ward haruslah sekurang-kurangnya {0} abjad",
-            "websiteRequired": "URL laman web harus diisi",
-            "websiteValidation": "Sila menggunakan URL yang sah"
+            "city": {
+                "required": "Nama bandar wajib diisi",
+                "minLength": "Nama bandar harus sekurang-kurangnya {0} abjad"
+            },
+            "clinic": {
+                "required": "Nama klinik wajib diisi",
+                "minLength": "Nama klinik harus sekurang-kurangnya {0} abjad"
+            },
+            "ward": {
+                "required": "Nama ward harus diisi",
+                "minLength": "Nama ward haruslah sekurang-kurangnya {0} abjad"
+            },
+            "website": {
+                "required": "URL laman web harus diisi",
+                "url": "Sila menggunakan URL yang sah"
+            }
         },
         "ward": "Ward",
         "websiteURL": "URL laman web"
@@ -105,7 +113,6 @@
         "addClinic": "mendaftar klinik",
         "adminDashboard": "Papan pemuka Admin",
         "github": "GitHub",
-        "home": "Laman rumah",
         "home": "Home",
         "languages": "Bahasa",
         "login": "Login",

@@ -20,14 +20,22 @@
         "romajiOnly": "Romaji seulement",
         "submitClinic": "Soumettre la clinique",
         "validations": {
-            "cityRequired": "La ville est requise",
-            "cityValidation": "Le nom de la ville doit comporter au moins {0} caractères",
-            "clinicRequired": "Le nom de la clinique est requis",
-            "clinicValidation": "Le nom de la clinique doit comporter au moins {0} caractères",
-            "wardRequired": "Le quartier est requis",
-            "wardValidation": "Le nom du quartier doit comporter au moins {0} caractères",
-            "websiteRequired": "L'URL du site Web est requise",
-            "websiteValidation": "Veuillez saisir une URL valide"
+            "city": {
+                "required": "La ville est requise",
+                "minLength": "Le nom de la ville doit comporter au moins {0} caractères"
+            },
+            "clinic": {
+                "required": "Le nom de la clinique est requis",
+                "minLength": "Le nom de la clinique doit comporter au moins {0} caractères"
+            },
+            "ward": {
+                "required": "Le quartier est requis",
+                "minLength": "Le nom du quartier doit comporter au moins {0} caractères"
+            },
+            "website": {
+                "required": "L'URL du site Web est requise",
+                "url": "Veuillez saisir une URL valide"
+            }
         },
         "ward": "Quartier",
         "websiteURL": "URL du site Web"

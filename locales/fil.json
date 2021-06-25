@@ -20,14 +20,22 @@
         "romajiOnly": "Romaji lang",
         "submitClinic": "Mag-submit ng Clinic",
         "validations": {
-            "cityRequired": "Kailangan ng lungsod",
-            "cityValidation": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character",
-            "clinicRequired": "Kailangan ang pangalan ng clinic",
-            "clinicValidation": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character",
-            "wardRequired": "Kailangan ang ward",
-            "wardValidation": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character",
-            "websiteRequired": "Kailangan ang URL ng website",
-            "websiteValidation": "Mangyaring maglagay ng wastong URL"
+            "city": {
+                "required": "Kailangan ng lungsod",
+                "minLength": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character"
+            },
+            "clinic": {
+                "required": "Kailangan ang pangalan ng clinic",
+                "minLength": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character"
+            },
+            "ward": {
+                "required": "Kailangan ang ward",
+                "minLength": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character"
+            },
+            "website": {
+                "required": "Kailangan ang URL ng website",
+                "url": "Mangyaring maglagay ng wastong URL"
+            }
         },
         "ward": "Ward",
         "websiteURL": "Website URL"

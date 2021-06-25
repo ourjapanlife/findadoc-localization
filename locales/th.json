@@ -20,14 +20,22 @@
         "romajiOnly": "โรมาจิเท่านั้น",
         "submitClinic": "ส่งคลินิก",
         "validations": {
-            "cityRequired": "ต้องระบุเมือง",
-            "cityValidation": "ชื่อเมืองต้องมีอักขระ {0}",
-            "clinicRequired": "ต้องระบุชื่อคลินิก",
-            "clinicValidation": "ชื่อคลินิกต้องมีอย่างน้อย {0} ตัวอักษร",
-            "wardRequired": "จำเป็นต้องมีวอร์ด",
-            "wardValidation": "ชื่อวอร์ดต้องมีอักขระ {0}",
-            "websiteRequired": "ต้องระบุ URL ของเว็บไซต์",
-            "websiteValidation": "โปรดป้อน URL ที่ถูกต้อง"
+            "city": {
+                "required": "ต้องระบุเมือง",
+                "minLength": "ชื่อเมืองต้องมีอักขระ {0}"
+            },
+            "clinic": {
+                "required": "ต้องระบุชื่อคลินิก",
+                "minLength": "ชื่อคลินิกต้องมีอย่างน้อย {0} ตัวอักษร"
+            },
+            "ward": {
+                "required": "จำเป็นต้องมีวอร์ด",
+                "minLength": "ชื่อวอร์ดต้องมีอักขระ {0}"
+            },
+            "website": {
+                "required": "ต้องระบุ URL ของเว็บไซต์",
+                "url": "โปรดป้อน URL ที่ถูกต้อง"
+            }
         },
         "ward": "วอร์ด",
         "websiteURL": "URL ของเว็บไซต์"
