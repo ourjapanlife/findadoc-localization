@@ -51,33 +51,33 @@
         },
         "moreInfo": "Klik untuk maklumat lanjut",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
+            "clinicName": "Nama Klinik:",
+            "note": "Maklumat tentang klinik ini",
+            "reason": "Sila menyenaraikan sebab-sebab anda ingin melaporkan klinik ini",
             "submitReport": "Report",
-            "title": "Report this data"
+            "title": "Melaporkan data ini"
         },
         "search": "Cari"
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Adakah anda pasti mahu memadamkan ID: {0}"
     },
     "error": {
-        "homePage": "Home page",
+        "homePage": "Laman rumah",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
     "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
-        "kofi": "Buy me a kofi",
-        "netlify": "Powered by Netlify",
+        "donate": "Derma",
+        "github": "Sumbang di GitHub",
+        "kofi": "Belikan saya kofi",
+        "netlify": "Dikuasakan oleh Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
+        "approve": "Lulus",
+        "cancel": "Batal",
+        "delete": "Padam"
     },
     "index": {
         "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
@@ -93,18 +93,19 @@
         "password": "Kata laluan"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Kita sedang mengeluarkan anda...",
+        "successMessage": "Anda telah dilog keluar. Jumpa lagi!"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Ubah sumbangan",
+        "title": "Sumbangan yang sedang diselesaikan"
     },
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
+        "about": "Mengenai laman web ini",
+        "addClinic": "mendaftar klinik",
+        "adminDashboard": "Papan pemuka Admin",
         "github": "GitHub",
+        "home": "Laman rumah",
         "home": "Home",
         "languages": "Bahasa",
         "login": "Login",
