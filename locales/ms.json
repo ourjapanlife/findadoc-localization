@@ -40,15 +40,16 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
+            "city": "Bandar",
+            "clinicName": "Nama Klinik",
+            "flag": "Flag",
             "note": "Note",
-            "prefecture": "Prefecture",
+            "prefecture": "Wilayah",
             "report": "Report",
             "ward": "Ward",
-            "website": "Website"
+            "website": "Laman web"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "Klik untuk maklumat lanjut",
         "report": {
             "clinicName": "Clinic Name:",
             "note": "Note about this clinic",
@@ -56,7 +57,7 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Search"
+        "search": "Cari"
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -68,8 +69,8 @@
     },
     "footer": {
         "donate": "Donate",
-        "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
+        "github": "Contribute on GitHub",
+        "kofi": "Buy me a kofi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
@@ -79,8 +80,8 @@
         "delete": "Delete"
     },
     "index": {
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "register": "Go to Registration Site",
+        "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
+        "register": "Pergi ke Laman Pendaftaran",
         "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
     },
     "login": {
