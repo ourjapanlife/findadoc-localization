@@ -95,6 +95,9 @@
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
     },
+    "message": {
+        "disclaimerAlert" : "The only vaccines approved in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information from these community submissions, and we are not liable for third-party sites. User your best judgement and please use the report feature if you suspect fradulent information."
+    },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
