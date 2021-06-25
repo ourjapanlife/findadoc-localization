@@ -56,7 +56,7 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Search"
+        "search": "검색"
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -79,8 +79,8 @@
         "delete": "Delete"
     },
     "index": {
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "register": "Go to Registration Site",
+        "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
+        "register": "등록 사이트로 이동",
         "title": "일본 COVID-19 잔여/취소 백신 대기자 명단"
     },
     "login": {
