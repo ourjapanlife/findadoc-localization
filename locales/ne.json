@@ -11,6 +11,7 @@
         "whatIsThisQ": "यो भनेको के हो ?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "शहर",
         "clinicName": "क्लिनिकको नाम",
         "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
@@ -37,7 +38,49 @@
             "other": ""
         }
     },
+    "cancelList": {
+        "header": {
+            "city": "City",
+            "clinicName": "Clinic Name",
+            "note": "Note",
+            "prefecture": "Prefecture",
+            "report": "Report",
+            "ward": "Ward",
+            "website": "Website"
+        },
+        "moreInfo": "Click for more info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "GitHub",
+        "kofi": "Buy me a Ko-Fi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
     "index": {
+        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
+        "register": "Go to Registration Site",
         "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
     },
     "login": {
@@ -45,5 +88,24 @@
         "email": "ईमेल",
         "login": "लगइन",
         "password": "पासवर्ड"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "About",
+        "addClinic": "add a clinic",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Languages",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
     }
 }
