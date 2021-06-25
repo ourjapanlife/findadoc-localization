@@ -2,34 +2,34 @@
     "about": {
         "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
         "creatorQ": "Siapa yang membuat situs web ini?",
-        "supportA": "Cara terbaik untuk membantu adalah dengan mengirimkan daftar tunggu pembatalan yang Anda temui ke database. Jika Anda merasa sangat murah hati, tolong belikan saya kofi!",
+        "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya kofi!",
         "supportQ": "Bagaimana saya bisa membantu mendukung database?",
         "trustA": "Semua tautan mengarah ke sumber resmi seperti klinik dan situs web pemerintah. Harap baca dengan seksama sebelum mendaftarkan informasi pribadi Anda kepada mereka.",
         "trustQ": "Apakah informasi ini dapat dipercaya?",
-        "welcome": "Selamat datang di Temukan Dok!",
-        "whatIsThisA": "Ini adalah basis data berbasis komunitas untuk membantu menyebarkan informasi tentang klinik yang menawarkan daftar tunggu untuk vaksinasi agar tidak sia-sia.",
+        "welcome": "Selamat datang di Find a Doc!",
+        "whatIsThisA": "Ini adalah web berbasis komunitas untuk membantu menyebarkan informasi tentang klinik yang menawarkan daftar tunggu untuk vaksinasi.",
         "whatIsThisQ": "Apa ini?"
     },
     "add-clinic": {
         "additionalInfo": "Additional information (Optional)",
         "city": "Kota",
         "clinicName": "Nama klinik",
-        "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database yang memiliki daftar tunggu pembatalan.",
+        "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database. Pastikan klinik yang anda daftarkan memiliki daftar tunggu pembatalan.",
         "prefecture": "Prefektur",
         "reviewMessage": "Klinik yang Anda kirimkan akan ditampilkan setelah ditinjau!",
-        "romajiOnly": "Romaji saja",
-        "submitClinic": "Kirim Klinik",
+        "romajiOnly": "Tuliskan dengan huruf romaji",
+        "submitClinic": "Daftarkan Klinik",
         "validations": {
-            "cityRequired": "Kota diperlukan",
+            "cityRequired": "Kota",
             "cityValidation": "Nama kota minimal harus {0} karakter",
             "clinicRequired": "Nama klinik wajib diisi",
             "clinicValidation": "Nama klinik minimal harus {0} karakter",
-            "wardRequired": "Bangsal diperlukan",
-            "wardValidation": "Nama lingkungan minimal harus {0} karakter",
+            "wardRequired": "Area (kecamatan) diperlukan",
+            "wardValidation": "Nama area (kecamatan) minimal harus {0} karakter",
             "websiteRequired": "URL situs web diperlukan",
             "websiteValidation": "Harap masukkan URL yang valid"
         },
-        "ward": "Menangkal",
+        "ward": "Area (kecamatan)",
         "websiteURL": "URL Situs Web"
     },
     "admin": {
@@ -42,7 +42,6 @@
         "header": {
             "city": "City",
             "clinicName": "Clinic Name",
-            "flag": "Flag",
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
@@ -69,8 +68,8 @@
     },
     "footer": {
         "donate": "Donate",
-        "github": "Contribute on GitHub",
-        "kofi": "Buy me a kofi",
+        "github": "GitHub",
+        "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
@@ -102,6 +101,7 @@
         "about": "About",
         "addClinic": "add a clinic",
         "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
         "home": "Home",
         "languages": "Languages",
         "login": "Login",
