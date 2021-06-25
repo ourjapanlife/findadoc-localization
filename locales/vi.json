@@ -40,15 +40,15 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
+            "city": "thành phố",
+            "clinicName": "Tên phòng khám",
             "note": "Note",
-            "prefecture": "Prefecture",
+            "prefecture": "Tỉnh",
             "report": "Report",
-            "ward": "Ward",
+            "ward": "khu vực",
             "website": "Website"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "Bấm để biết thêm thông tin",
         "report": {
             "clinicName": "Clinic Name:",
             "note": "Note about this clinic",
@@ -56,7 +56,7 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Search"
+        "search": "Tìm kiếm"
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -79,8 +79,8 @@
         "delete": "Delete"
     },
     "index": {
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "register": "Go to Registration Site",
+        "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka",
+        "register": "Đi đến trang web đăng ký",
         "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản"
     },
     "login": {
@@ -98,13 +98,13 @@
         "title": "Pending Submissions"
     },
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
+        "about": "Trong khoảng",
+        "addClinic": "thêm một phòng khám",
         "adminDashboard": "Admin Dashboard",
         "github": "GitHub",
         "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
+        "languages": "Ngôn ngữ",
+        "login": "Đăng nhập",
         "logout": "Logout",
         "title": "Find a Doc, JAPAN"
     }
