@@ -45,6 +45,8 @@
             "note": "Observações",
             "prefecture": "Província",
             "report": "Reportar",
+            "voucherRequired": "Cupom",
+            "wardResidencyRequired": "Distrito de Residência",
             "ward": "Distrito",
             "website": "Site"
         },
