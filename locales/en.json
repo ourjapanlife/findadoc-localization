@@ -16,6 +16,8 @@
         "clinicName": "Clinic name",
         "fillForm": "Fill out this form to add a new clinic to the database that has a cancellation waiting list.",
         "prefecture": "Prefecture",
+        "no": "No",
+        "note": "Share helpful or important details",
         "reviewMessage": "The clinic you submitted will be displayed after it's been reviewed!",
         "romajiOnly": "Romaji only",
         "submitClinic": "Submit Clinic",
@@ -29,8 +31,11 @@
             "websiteRequired": "Website URL is required",
             "websiteValidation": "Please enter a valid URL"
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "Ward",
-        "websiteURL": "Website URL"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "Website URL",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
