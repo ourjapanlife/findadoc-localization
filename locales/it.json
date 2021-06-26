@@ -71,7 +71,7 @@
         "donate": "Fai una donazione",
         "github": "Contribuisci al progetto su GitHub",
         "kofi": "Comprami un kofi",
-        "netlify": "Distribuito grazie a Netlify",
+        "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
@@ -101,7 +101,7 @@
     },
     "pending": {
         "edit": "Modifica dati clinica",
-        "title": "In"
+        "title": "In revisione"
     },
     "toolbar": {
         "about": "Chi siamo",
