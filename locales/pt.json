@@ -16,6 +16,8 @@
         "clinicName": "Nome da clínica",
         "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha lista de espera para cancelamentos.",
         "prefecture": "Província",
+        "no": "Não",
+        "note": "Compartilhe detalhes úteis ou importantes",
         "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
         "romajiOnly": "Use apenas romaji",
         "submitClinic": "Enviar clínica",
@@ -29,8 +31,11 @@
             "websiteRequired": "A URL do site é obrigatória",
             "websiteValidation": "A URL inserida não é válida"
         },
+        "voucherRequired": "Cupom obrigatório: ",
         "ward": "Distrito",
-        "websiteURL": "URL do site"
+        "wardResidencyRequired": "Obrigatório residir no distrito: ",
+        "websiteURL": "URL do site",
+        "yes": "Sim"
     },
     "admin": {
         "pending": {
