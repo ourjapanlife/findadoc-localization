@@ -45,6 +45,8 @@
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
+            "voucherRequired": "Voucher",
+            "wardResidencyRequired": "Ward Residency",
             "ward": "Ward",
             "website": "Website"
         },
