@@ -57,8 +57,8 @@
             "title": "Report this data"
         },
         "voucher": {
-            "required" : "Requis",
-            "notRequired" : "Non Requis"
+            "required": "Requis",
+            "notRequired": "Non Requis"
         },
         "search": "Recherche"
     },
