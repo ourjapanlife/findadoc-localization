@@ -93,6 +93,7 @@
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Clear",
         "email": "Email",
         "login": "Login",

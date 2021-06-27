@@ -85,6 +85,7 @@
         "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
     },
     "login": {
+        "adminLogin": "管理者ログイン",
         "clear": "クリア",
         "email": "Eメール",
         "login": "ログイン",
