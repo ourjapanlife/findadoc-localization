@@ -1,0 +1,115 @@
+{
+    "about": {
+        "creatorA": "Laman web ini dibuat dan dikekalkan oleh saya, LaShawn Toyoda! Sekiranya anda menghadapi masalah menggunakan laman web ini atau menemui maklumat yang salah atau ketinggalan zaman, sila hubungi saya melalui Twitter {0}",
+        "creatorQ": "Siapa yang membina laman web ini?",
+        "supportA": "Cara terbaik untuk membantu adalah dengan menyerahkan senarai menunggu pembatalan yang anda temui ke pangkalan data. Jikalau anda mampu, tolong menyumbang kepada kofi saya!",
+        "supportQ": "Bagaimana saya boleh membantu menyokong pangkalan data?",
+        "trustA": "Semua pautan laman web akan membawa anda kepada sumber rasmi seperti laman web klinik dan laman web kerajaan. Sila baca dengan teliti sebelum mendaftarkan maklumat peribadi anda dengan mereka.",
+        "trustQ": "Bolehkah maklumat ini dipercayai?",
+        "welcome": "Selamat datang ke Find a Doc!",
+        "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
+        "whatIsThisQ": "Apakah ini?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "Bandar",
+        "clinicName": "Nama Klinik",
+        "fillForm": "Isikan borang ini untuk mendaftarkan nama klinik baru ke pangkalan data. Sila pastikan klinik anda mempunyai senarai menunggu pembatalan.",
+        "prefecture": "Wilayah",
+        "reviewMessage": "Klinik yang anda sudah mendaftar akan dipaparkan setelah diperiksa!",
+        "romajiOnly": "Sila tuliskan dengan huruh Romaji sahaja",
+        "submitClinic": "Daftarkan Klinik",
+        "validations": {
+            "cityRequired": "Nama bandar wajib diisi",
+            "cityValidation": "Nama bandar harus sekurang-kurangnya {0} abjad",
+            "clinicRequired": "Nama klinik wajib diisi",
+            "clinicValidation": "Nama klinik harus sekurang-kurangnya {0} abjad",
+            "wardRequired": "Nama ward harus diisi",
+            "wardValidation": "Nama ward haruslah sekurang-kurangnya {0} abjad",
+            "websiteRequired": "URL laman web harus diisi",
+            "websiteValidation": "Sila menggunakan URL yang sah"
+        },
+        "ward": "Ward",
+        "websiteURL": "URL laman web"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "Bandar",
+            "clinicName": "Nama Klinik",
+            "flag": "Flag",
+            "note": "Note",
+            "prefecture": "Wilayah",
+            "report": "Report",
+            "ward": "Ward",
+            "website": "Laman web"
+        },
+        "moreInfo": "Klik untuk maklumat lanjut",
+        "report": {
+            "clinicName": "Nama Klinik:",
+            "note": "Maklumat tentang klinik ini",
+            "reason": "Sila menyenaraikan sebab-sebab anda ingin melaporkan klinik ini",
+            "submitReport": "Report",
+            "title": "Melaporkan data ini"
+        },
+        "search": "Cari"
+    },
+    "delete": {
+        "dialog": "Adakah anda pasti mahu memadamkan ID: {0}"
+    },
+    "error": {
+        "homePage": "Laman rumah",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Derma",
+        "github": "Sumbang di GitHub",
+        "kofi": "Belikan saya kofi",
+        "netlify": "Dikuasakan oleh Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Lulus",
+        "cancel": "Batal",
+        "delete": "Padam"
+    },
+    "index": {
+        "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
+        "register": "Pergi ke Laman Pendaftaran",
+        "getDocument": "Dapatkan dokumen ini",
+        "prevaccinationScreening": "Borang saringan pre-vaksinasi yang diperlukan boleh dimuat turun online! Hanya borang dalam Bahasa Jepun akan diterima tetapi terjemahan telah disediakan.",
+        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
+    },
+    "login": {
+        "clear": "Kosongkan",
+        "email": "E-mel",
+        "login": "Daftar masuk",
+        "password": "Kata laluan"
+    },
+    "logout": {
+        "message": "Kita sedang mengeluarkan anda...",
+        "successMessage": "Anda telah dilog keluar. Jumpa lagi!"
+    },
+    "pending": {
+        "edit": "Ubah sumbangan",
+        "title": "Sumbangan yang sedang diselesaikan"
+    },
+    "toolbar": {
+        "about": "Mengenai laman web ini",
+        "addClinic": "mendaftar klinik",
+        "adminDashboard": "Papan pemuka Admin",
+        "github": "GitHub",
+        "home": "Laman rumah",
+        "home": "Home",
+        "languages": "Bahasa",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}

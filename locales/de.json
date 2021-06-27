@@ -1,0 +1,112 @@
+{
+    "about": {
+        "creatorA": "Diese Seite wurde von mir, LaShawn Toyoda, erstellt und gepflegt! Wenn Sie Probleme bei der Nutzung der Website haben oder auf falsche oder veraltete Informationen stoßen, kontaktieren Sie mich bitte über Twitter",
+        "creatorQ": "Wer hat diese Website erstellt?",
+        "supportA": "Der beste Weg, um zu helfen, besteht darin, alle Wartelisten für Stornierungen von Impfungen in die Datenbank einzutragen. Wenn Sie sich besonders großzügig fühlen, spendieren Sie mir bitte einen Kofi!",
+        "supportQ": "Wie kann ich helfen, die Datenbank zu unterstützen?",
+        "trustA": "Alle Links führen zu offiziellen Ressourcen wie Klinik- und Regierungswebsites. Bitte lesen Sie diese sorgfältig durch, bevor Sie Ihre persönlichen Daten registrieren.",
+        "trustQ": "Kann man diesen Informationen vertrauen?",
+        "welcome": "Willkommen bei „Find a Doc!“",
+        "whatIsThisA": "Dies ist eine von der Community betriebene Datenbank zur Verbreitung von Informationen über Kliniken, die Wartelisten für stornierte Impfungen anbieten, sodass diese nicht verschwendet werden.",
+        "whatIsThisQ": "Was ist das?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "Stadt",
+        "clinicName": "Klinikname",
+        "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
+        "prefecture": "Präfektur",
+        "reviewMessage": "Die von Ihnen eingereichte Klinik wird angezeigt, nachdem sie überprüft wurde!",
+        "romajiOnly": "Nur Romaji",
+        "submitClinic": "Klinik einreichen",
+        "validations": {
+            "cityRequired": "Stadt ist erforderlich",
+            "cityValidation": "Der Stadtname muss mindestens {0} Zeichen lang sein",
+            "clinicRequired": "Klinikname ist erforderlich",
+            "clinicValidation": "Der Klinikname muss aus mindestens {0} Zeichen bestehen",
+            "wardRequired": "Stadtviertel wird benötigt",
+            "wardValidation": "Der Stadtviertel-Name muss mindestens {0} Zeichen lang sein",
+            "websiteRequired": "Website-URL ist erforderlich",
+            "websiteValidation": "Bitte geben Sie eine gültige URL ein"
+        },
+        "ward": "Stadtviertel",
+        "websiteURL": "Website-URL"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "Stadt",
+            "clinicName": "Klinikname",
+            "flag": "Flagge",
+            "note": "Hinweis",
+            "prefecture": "Präfektur",
+            "report": "Report",
+            "ward": "Stadtviertel",
+            "website": "Webseite"
+        },
+        "moreInfo": "Klicken Sie für weitere Informationen",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Suche"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Startseite",
+        "notFound": "404 Nicht gefunden",
+        "otherError": "Ein Fehler ist aufgetreten"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Kauf mir ein kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "index": {
+        "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Massenimpfstellen in Tokio oder Osaka impfen lassen.",
+        "register": "Zur Registrierungsseite gehen",
+        "title": "Wartelisten für die Stornierung von COVID-19-Impfungen in Japan"
+    },
+    "login": {
+        "clear": "Löschen",
+        "email": "Email",
+        "login": "Anmeldung",
+        "password": "Passwort"
+    },
+    "logout": {
+        "message": "Sie werden ausgeloggt...",
+        "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "Über",
+        "addClinic": "Klinik hinzufügen",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Startseite",
+        "languages": "Sprachen",
+        "login": "Anmeldung",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "about": {
+        "creatorA": "Trang web này được tạo và duy trì bởi tôi, LaShawn Toyoda! Nếu bạn gặp sự cố khi sử dụng trang web hoặc tìm thấy thông tin không chính xác hay đã lỗi thời, vui lòng liên hệ với tôi qua Twitter {0}",
+        "creatorQ": "Ai đã tạo ra trang web này?",
+        "supportA": "Cách tốt nhất để giúp đỡ dự án này là việc bạn đăng ký bất kỳ danh-sách-đăng-ký-chích-vắc-xin-chờ-hủy-bỏ nào mà bạn bắt gặp vào cơ sở dữ liệu. Nếu bạn muốn hào phóng hơn, hãy mua cho tôi một ly cafe!",
+        "supportQ": "Tôi có thể hỗ trợ về cơ sở dữ liệu bằng cách nào?",
+        "trustA": "Tất cả các liên kết đều dẫn đến các nguồn chính thức như trang web của phòng khám và chính phủ. Vui lòng đọc kỹ trước khi đăng ký thông tin cá nhân của bạn với họ (phòng khám, chính phủ).",
+        "trustQ": "Thông tin này có thể tin cậy được không?",
+        "welcome": "Chào mừng bạn đến với trang thông tin Find a Doc!",
+        "whatIsThisA": "Đây là cơ sở dữ liệu hướng tới cộng đồng để giúp truyền bá thông tin về các phòng khám đang cung cấp danh sách chờ tiêm chủng để chúng không bị lãng phí.",
+        "whatIsThisQ": "Cái này là cái gì?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "thành phố",
+        "clinicName": "Tên phòng khám",
+        "fillForm": "Điền vào biểu mẫu này để thêm một phòng khám mới vào cơ sở dữ liệu có danh sách chờ hủy bỏ.",
+        "prefecture": "Tỉnh",
+        "reviewMessage": "Phòng khám bạn đã gửi sẽ được hiển thị sau khi nội dung đã được duyệt!",
+        "romajiOnly": "Chỉ dùng chữ Romaji",
+        "submitClinic": "Gửi tới Phòng khám",
+        "validations": {
+            "cityRequired": "Tên thành phố là bắt buộc",
+            "cityValidation": "Tên thành phố phải có ít nhất {0} ký tự",
+            "clinicRequired": "Tên phòng khám là bắt buộc",
+            "clinicValidation": "Tên phòng khám phải có ít nhất {0} ký tự",
+            "wardRequired": "Tên phường là bắt buộc",
+            "wardValidation": "Tên phường phải có ít nhất {0} ký tự",
+            "websiteRequired": "URL trang web là bắt buộc",
+            "websiteValidation": "Vui lòng nhập một URL hợp lệ"
+        },
+        "ward": "khu vực",
+        "websiteURL": "URL trang web"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "thành phố",
+            "clinicName": "Tên phòng khám",
+            "note": "Note",
+            "prefecture": "Tỉnh",
+            "report": "Report",
+            "ward": "khu vực",
+            "website": "Website"
+        },
+        "moreInfo": "Bấm để biết thêm thông tin",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Tìm kiếm"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "GitHub",
+        "kofi": "Buy me a Ko-Fi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "index": {
+        "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka.",
+        "register": "Đi đến trang web đăng ký",
+        "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản"
+    },
+    "login": {
+        "clear": "trong",
+        "email": "Email",
+        "login": "Đăng nhập",
+        "password": "Mật khẩu"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "Trong khoảng",
+        "addClinic": "thêm một phòng khám",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Ngôn ngữ",
+        "login": "Đăng nhập",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}
