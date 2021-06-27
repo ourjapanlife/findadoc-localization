@@ -11,6 +11,7 @@
         "whatIsThisQ": "Apa ini?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "Kota",
         "clinicName": "Nama klinik",
         "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database. Pastikan klinik yang anda daftarkan memiliki daftar tunggu pembatalan.",
@@ -33,10 +34,53 @@
     },
     "admin": {
         "pending": {
+            "one": "",
             "other": ""
         }
     },
+    "cancelList": {
+        "header": {
+            "city": "City",
+            "clinicName": "Clinic Name",
+            "note": "Note",
+            "prefecture": "Prefecture",
+            "report": "Report",
+            "ward": "Ward",
+            "website": "Website"
+        },
+        "moreInfo": "Click for more info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "GitHub",
+        "kofi": "Buy me a Ko-Fi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
     "index": {
+        "massSite": "Siapa pun yang berusia 18 tahun ke atas yang memiliki voucher sekarang dapat divaksinasi di situs vaksinasi massal Tokyo atau Osaka.",
+        "register": "Pergi ke Situs Pendaftaran",
         "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang"
     },
     "login": {
@@ -44,5 +88,24 @@
         "email": "Email",
         "login": "Login",
         "password": "Kata sandi"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "About",
+        "addClinic": "add a clinic",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Languages",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
     }
 }

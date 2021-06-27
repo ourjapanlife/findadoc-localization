@@ -1,0 +1,112 @@
+{
+    "about": {
+        "creatorA": "Deze site is gemaakt en wordt onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
+        "creatorQ": "Wie heeft deze website gemaakt?",
+        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die je tegenkomt bij de database in te voeren. Als je je extra genereus voelt, koop dan alsjeblieft een Ko-fi voor me!",
+        "supportQ": "Hoe kan ik de database helpen ondersteunen?",
+        "trustA": "Alle links leiden naar officiële bronnen zoals websites van klinieken en overheidswebsites. Lees ze aandachtig door voordat je je persoonlijke gegevens bij ze registreert.",
+        "trustQ": "Is deze informatie te vertrouwen?",
+        "welcome": "Welkom bij Find a Doc!",
+        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties bijhouden, zodat geen vaccins verloren zullen gaan.",
+        "whatIsThisQ": "Wat is dit?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "Stad",
+        "clinicName": "Naam kliniek",
+        "fillForm": "Vul dit formulier in om een nieuwe kliniek met een wachtlijst voor annuleringen aan de database toe te voegen.",
+        "prefecture": "Prefectuur",
+        "reviewMessage": "De kliniek die je hebt ingevoord zal nadat deze is beoordeeld in de database worden opgenomen!",
+        "romajiOnly": "Alleen Latijns alfabet",
+        "submitClinic": "Verzend kliniek",
+        "validations": {
+            "cityRequired": "Stad is vereist",
+            "cityValidation": "De stadsnaam moet minimaal {0} tekens bevatten",
+            "clinicRequired": "Naam kliniek is vereist",
+            "clinicValidation": "De naam van de kliniek moet ten minste {0} tekens bevatten",
+            "wardRequired": "District is vereist",
+            "wardValidation": "De naam van het district moet ten minste {0} tekens bevatten",
+            "websiteRequired": "Website-URL is vereist",
+            "websiteValidation": "Voer een geldige URL in"
+        },
+        "ward": "District",
+        "websiteURL": "Website URL"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "Stad",
+            "clinicName": "Naam kliniek",
+            "flag": "Vlag",
+            "note": "Opmerking",
+            "prefecture": "Prefectuur",
+            "report": "Report",
+            "ward": "District",
+            "website": "Website"
+        },
+        "moreInfo": "Klik voor meer info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Zoeken"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Startpagina",
+        "notFound": "404 Niet Gevonden",
+        "otherError": "Er is iets misgegaan"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Koop een Ko-fi voor me.",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "index": {
+        "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft kan zich nu laten vaccineren bij de grootschalige vaccinatiecentra in Tokio of Osaka.",
+        "register": "Ga naar de registratiesite",
+        "title": "Wachtlijsten voor annuleringen van COVID-19 vaccinaties in Japan"
+    },
+    "login": {
+        "clear": "Wis alle velden",
+        "email": "E-mail",
+        "login": "Log in",
+        "password": "Wachtwoord"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "Over",
+        "addClinic": "Voeg een kliniek toe",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Startpagina",
+        "languages": "Talen",
+        "login": "Log in",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}

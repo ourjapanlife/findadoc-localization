@@ -1,0 +1,115 @@
+{
+    "about": {
+        "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
+        "creatorQ": "このウェブサイトを作成したのは誰ですか？",
+        "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！",
+        "supportQ": "このウェブサイトを支援できますか？",
+        "trustA": "すべてのリンクは、診療所や政府のWebサイトなどの公式リソースにつながります。個人情報を登録する前によくお読みください。",
+        "trustQ": "この情報は信頼できますか？",
+        "welcome": "Find a Docへようこそ!",
+        "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種のキャンセル待ちシステムがあるクリニックの情報を広め、ワクチンが無駄にならないようにする目的です。",
+        "whatIsThisQ": "このウェブサイトについて"
+    },
+    "add-clinic": {
+        "additionalInfo": "備考 (任意)",
+        "city": "市町村",
+        "clinicName": "クリニック名",
+        "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
+        "prefecture": "都道府県",
+        "reviewMessage": "登録したクリニックは審査後に表示されます！",
+        "romajiOnly": "ローマ字",
+        "submitClinic": "クリニックを登録する",
+        "validations": {
+            "cityRequired": "市町村が必要です",
+            "cityValidation": "市町村は{0}文字以上で入力してください",
+            "clinicRequired": "クリニック名が必要です",
+            "clinicValidation": "クリニック名は{0}文字以上で入力してください",
+            "wardRequired": "区が必要です",
+            "wardValidation": "区の名は{0}文字以上で入力してください",
+            "websiteRequired": "ウェブサイトのURLが必要です",
+            "websiteValidation": "有効なURLを入力してください"
+        },
+        "ward": "区",
+        "websiteURL": "ウェブサイトのURL"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "市町村",
+            "clinicName": "クリニック名",
+            "flag": "報告",
+            "note": "メモ",
+            "prefecture": "都道府県",
+            "report": "報告",
+            "ward": "区",
+            "website": "ウェブサイト"
+        },
+        "moreInfo": "詳細については、ここをクリックしてください",
+        "report": {
+            "clinicName": "クリニック名:",
+            "note": "このクリニックについてのメモ",
+            "reason": "クリニックを報告する理由",
+            "submitReport": "報告",
+            "title": "データについて報告"
+        },
+        "search": "検索"
+    },
+    "delete": {
+        "dialog": "本当にID: {0}を削除しますか？"
+    },
+    "error": {
+        "homePage": "ホームページ",
+        "notFound": "404お探しのページが見つかりませんでした",
+        "otherError": "エラーが発生しました"
+    },
+    "footer": {
+        "donate": "寄付する",
+        "github": "GitHubでコントリブ",
+        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "承認",
+        "cancel": "キャンセル",
+        "delete": "削除"
+    },
+    "index": {
+        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
+        "register": "登録サイトに移動します",
+        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
+    },
+    "login": {
+        "clear": "クリア",
+        "email": "Eメール",
+        "login": "ログイン",
+        "password": "パスワード"
+    },
+    "logout": {
+        "message": "ログアウト中...",
+        "successMessage": "ログアウトしました。"
+    },
+    "message": {
+        "disclaimerAlert" : "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。"
+    },
+    "pending": {
+        "edit": "項目を編集",
+        "title": "保留中項目"
+    },
+    "toolbar": {
+        "about": "Find a Docについて",
+        "addClinic": "クリニックを登録する",
+        "adminDashboard": "Adminダッシュボード",
+        "github": "GitHub",
+        "home": "ホーム",
+        "languages": "言語",
+        "login": "ログイン",
+        "logout": "ログアウト",
+        "title": "Find a Doc, Japan"
+    }
+}

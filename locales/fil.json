@@ -1,0 +1,111 @@
+{
+    "about": {
+        "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, si LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nakahanap ng 'false' o 'outdated' na impormasyon, mangyaring makipag-ugnayan sa akin sa pamamagitan ng Twitter {0}",
+        "creatorQ": "Sino ang lumikha ng website na ito?",
+        "supportA": "Ang pinakamahusay na paraan upang makatulong ay sa pamamagitan ng pag-submit sa database ng anumang 'cancellation waiting lists' na iyong matatagpuan. Kung sa tingin mo ikaw ay labis na mapagbigay, maaring bilihan mo ako ng isang kofi!",
+        "supportQ": "Paano ako makakatulong suportahan ang database?",
+        "trustA": "Ang lahat ng mga links ay pumupunta sa mga official resources tulad ng mga websites ng clinics at gobyerno. Basahin muna ang mga ito bago iparehistro ang iyong personal na impormasyon sa kanila.",
+        "trustQ": "Maaari bang pagkatiwalaan ang impormasyong ito?",
+        "welcome": "Maligayang pagdating sa Find a Doc!",
+        "whatIsThisA": "Ito ay isang community-driven database upang matulungan ang pagkalat ng impormasyon ng mga clinics na may waiting lists para sa pagbabakuna upang hindi sila masayang.",
+        "whatIsThisQ": "Ano ito?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "Lungsod",
+        "clinicName": "Pangalan ng clinic",
+        "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong clinic sa database na may cancellation waiting list.",
+        "prefecture": "Prefecture",
+        "reviewMessage": "Ang clinic na iyong sinubmit ay ipapakita matapos itong suriin!",
+        "romajiOnly": "Romaji lang",
+        "submitClinic": "Mag-submit ng Clinic",
+        "validations": {
+            "cityRequired": "Kailangan ng lungsod",
+            "cityValidation": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character",
+            "clinicRequired": "Kailangan ang pangalan ng clinic",
+            "clinicValidation": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character",
+            "wardRequired": "Kailangan ang ward",
+            "wardValidation": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character",
+            "websiteRequired": "Kailangan ang URL ng website",
+            "websiteValidation": "Mangyaring maglagay ng wastong URL"
+        },
+        "ward": "Ward",
+        "websiteURL": "Website URL"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "City",
+            "clinicName": "Clinic Name",
+            "note": "Note",
+            "prefecture": "Prefecture",
+            "report": "Report",
+            "ward": "Ward",
+            "website": "Website"
+        },
+        "moreInfo": "Click for more info",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Search"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "GitHub",
+        "kofi": "Buy me a Ko-Fi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "index": {
+        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
+        "register": "Go to Registration Site",
+        "title": "COVID-19 Vaccination Cancellation Waiting Lists sa Japan"
+    },
+    "login": {
+        "clear": "Ulitin",
+        "email": "Email",
+        "login": "Mag log in",
+        "password": "Password"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "About",
+        "addClinic": "add a clinic",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Languages",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}

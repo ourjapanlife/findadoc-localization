@@ -1,0 +1,112 @@
+{
+    "about": {
+        "creatorA": "Este site foi criado e é mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
+        "creatorQ": "Quem criou este site?",
+        "supportA": "A melhor maneira de ajudar é adicionando ao banco de dados todas as listas de espera de cancelamentos que você encontrar. Se quiser extender a generosidade, você pode me comprar um kofi!",
+        "supportQ": "Como posso ajudar no suporte do banco de dados?",
+        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
+        "trustQ": "Essas informações são confiáveis?",
+        "welcome": "Bem-vindo ao Find a Doc!",
+        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas quando há algum cancelamento, para evitar que as vacinas sejam desperdiçadas.",
+        "whatIsThisQ": "O que é isso?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
+        "city": "Cidade",
+        "clinicName": "Nome da clínica",
+        "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha lista de espera para cancelamentos.",
+        "prefecture": "Prefeitura",
+        "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
+        "romajiOnly": "Use apenas Romaji",
+        "submitClinic": "Enviar clínica",
+        "validations": {
+            "cityRequired": "A Cidade é obrigatória",
+            "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
+            "clinicRequired": "O nome da clínica é obrigatório",
+            "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
+            "wardRequired": "O Distrito é obrigatório",
+            "wardValidation": "O nome do distrito deve ter pelo menos {0} caracteres",
+            "websiteRequired": "A URL do site é obrigatória",
+            "websiteValidation": "A URL inserida não é válida"
+        },
+        "ward": "Distrito",
+        "websiteURL": "URL do site"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "Cidade",
+            "clinicName": "Nome da clínica",
+            "flag": "Reportar",
+            "note": "Observações",
+            "prefecture": "Prefeitura",
+            "report": "Report",
+            "ward": "Distrito",
+            "website": "Website"
+        },
+        "moreInfo": "Clique para mais informações",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "Buscar"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home Page",
+        "notFound": "404 Não encontrada",
+        "otherError": "Ocorreu um erro"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Me compre um kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
+    "index": {
+        "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",
+        "register": "Cadastre-se no site oficial",
+        "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão"
+    },
+    "login": {
+        "clear": "Limpar",
+        "email": "E-mail",
+        "login": "Entrar",
+        "password": "Senha"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "Sobre",
+        "addClinic": "Adicionar clínica",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Idiomas",
+        "login": "Entrar",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
+    }
+}

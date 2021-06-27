@@ -11,6 +11,7 @@
         "whatIsThisQ": "นี่คืออะไร?"
     },
     "add-clinic": {
+        "additionalInfo": "Additional information (Optional)",
         "city": "เมือง",
         "clinicName": "ชื่อคลินิก",
         "fillForm": "กรอกแบบฟอร์มนี้เพื่อเพิ่มคลินิกใหม่ในฐานข้อมูลที่มีรายการรอการยกเลิก",
@@ -33,10 +34,54 @@
     },
     "admin": {
         "pending": {
+            "one": "",
             "other": ""
         }
     },
+    "cancelList": {
+        "header": {
+            "city": "เมือง",
+            "clinicName": "ชื่อคลินิก",
+            "flag": "Flag",
+            "note": "Note",
+            "prefecture": "จังหวัด",
+            "report": "Report",
+            "ward": "วอร์ด",
+            "website": "Website"
+        },
+        "moreInfo": "คลิกเพื่อดูข้อมูลเพิ่มเติม",
+        "report": {
+            "clinicName": "Clinic Name:",
+            "note": "Note about this clinic",
+            "reason": "Why are you reporting this clinic?",
+            "submitReport": "Report",
+            "title": "Report this data"
+        },
+        "search": "ค้นหา"
+    },
+    "delete": {
+        "dialog": "Are you sure you want to delete ID: {0}"
+    },
+    "error": {
+        "homePage": "Home page",
+        "notFound": "404 Not Found",
+        "otherError": "An error occurred"
+    },
+    "footer": {
+        "donate": "Donate",
+        "github": "Contribute on GitHub",
+        "kofi": "Buy me a kofi",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "delete": "Delete"
+    },
     "index": {
+        "massSite": "ผู้ใดก็ตามที่มีอายุ 18 ปีขึ้นไปที่มีบัตรกำนัลสามารถฉีดวัคซีนได้ที่ไซต์ฉีดวัคซีนในโตเกียวหรือโอซาก้า",
+        "register": "ไปที่เว็บไซต์ลงทะเบียน",
         "title": "รายการรอยกเลิกการฉีดวัคซีน COVID-19 ในญี่ปุ่น"
     },
     "login": {
@@ -44,5 +89,24 @@
         "email": "อีเมล",
         "login": "เข้าสู่ระบบ",
         "password": "รหัสผ่าน"
+    },
+    "logout": {
+        "message": "Logging you out...",
+        "successMessage": "You've been logged out. See ya!"
+    },
+    "pending": {
+        "edit": "Edit Submission",
+        "title": "Pending Submissions"
+    },
+    "toolbar": {
+        "about": "About",
+        "addClinic": "add a clinic",
+        "adminDashboard": "Admin Dashboard",
+        "github": "GitHub",
+        "home": "Home",
+        "languages": "Languages",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Find a Doc, JAPAN"
     }
 }
