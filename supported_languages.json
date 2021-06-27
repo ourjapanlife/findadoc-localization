@@ -77,6 +77,11 @@
             "name": "ไทย"
         },
         {
+            "code": "tr",
+            "file": "tr.json",
+            "name": "Türkçe"
+        },
+        {
             "code": "vi",
             "file": "vi.json",
             "name": "Tiếng Việt"
