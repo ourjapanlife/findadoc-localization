@@ -29,7 +29,9 @@
             "websiteRequired": "Devi inserire la URL del sito",
             "websiteValidation": "Inserire una URL valida"
         },
+        "voucherRequired": "Voucher necessario: ",
         "ward": "Municipalità",
+        "wardResidencyRequired": "É necessario essere residenti nella municipalità: ",
         "websiteURL": "URL del sito"
     },
     "admin": {
@@ -56,6 +58,10 @@
             "reason": "Perché vuoi segnalare questa clinica?",
             "submitReport": "Invia segnalazione",
             "title": "Segnala problema con questa clinica"
+        },
+        "voucher": {
+            "required": "Necessario",
+            "notRequired": "Non necessario"
         },
         "search": "Cerca"
     },
@@ -97,7 +103,7 @@
         "successMessage": "Hai effettato il logout con successo. Alla prossima!"
     },
     "message": {
-        "disclaimerAlert" : "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o da terze parti. Usa le informazioni di questo sito responsabilmente e, se segnala informazioni errate o fraudolente attraverso l'apposito modulo."
+        "disclaimerAlert" : "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo alcuna responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o derivanti da terze parti. Usa le informazioni di questo sito responsabilmente e, se trovi informazioni errate o fraudolente, mandaci una segnalazione attraverso l'apposito modulo."
     },
     "pending": {
         "edit": "Modifica dati clinica",
