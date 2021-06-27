@@ -2,7 +2,7 @@
     "about": {
         "creatorA": "Ce site a été créé et maintenu par moi, LaShawn Toyoda ! Si vous rencontrez des difficultés pour utiliser le site ou si vous rencontrez des informations incorrectes ou obsolètes, veuillez me contacter via Twitter {0}",
         "creatorQ": "Qui a créé ce site Web ?",
-        "supportA": "La meilleure façon d'aider est de soumettre à la base de données toutes les listes d'attente d'annulation que vous rencontrez. Si vous vous sentez très généreux, achetez-moi un kofi !",
+        "supportA": "La meilleure façon d'aider est de soumettre à la base de données toutes les listes d'attente d'annulation que vous rencontrez. Si vous vous sentez très généreux, achetez-moi un Ko-Fi !",
         "supportQ": "Comment puis-je aider à soutenir la base de données ?",
         "trustA": "Tous les liens mènent à des ressources officielles telles que les sites Web des cliniques et du gouvernement. Veuillez les lire attentivement avant d'enregistrer vos informations personnelles avec eux.",
         "trustQ": "Ces informations sont-elles fiables ?",
@@ -67,14 +67,14 @@
         "otherError": "Une erreur s'est produite"
     },
     "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
-        "kofi": "Achetez-moi un kofi",
-        "netlify": "Powered by Netlify",
+        "donate": "Faire un don",
+        "github": "Contribuer sur GitHub",
+        "kofi": "Achetez-moi un Ko-Fi",
+        "netlify": "Propulsé par Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
+        "approve": "Approuver",
         "cancel": "Annuler",
         "delete": "Supprimer"
     },
@@ -84,7 +84,7 @@
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon"
     },
     "login": {
-        "clear": "Dégager",
+        "clear": "Vider",
         "email": "E-mail",
         "login": "Connexion",
         "password": "Mot de passe"
@@ -94,13 +94,13 @@
         "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Modifier la soumission",
+        "title": "Soumissions en attente"
     },
     "toolbar": {
         "about": "À propos",
         "addClinic": "ajouter une clinique",
-        "adminDashboard": "Admin Dashboard",
+        "adminDashboard": "Tableau de bord admin",
         "github": "GitHub",
         "home": "Accueil",
         "languages": "Langues",
