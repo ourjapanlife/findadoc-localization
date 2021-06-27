@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorQ": "Who develops this site?",
+        "contribtorLeads": "Project Leads",
         "creatorA": "This site was created and maintained by me, LaShawn Toyoda! If you have any trouble using the site or come across incorrect or outdated information, please contact me through Twitter {0}",
         "creatorQ": "Who created this website?",
         "supportA": "The best way to help is by submitting any cancellation waiting lists you come across to the database. If you're feeling extra generous, please buy me a kofi!",
