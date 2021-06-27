@@ -63,6 +63,10 @@
             "submitReport": "İhbar et",
             "title": "Bu veriyi ihbar edin"
         },
+        "voucher": {
+            "required": "Gerekli",
+            "notRequired": "Gerekli değil"
+        },
         "search": "Ara"
     },
     "delete": {
@@ -93,6 +97,7 @@
         "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri"
     },
     "login": {
+        "adminLogin": "Yönetici girişi",
         "clear": "Sil",
         "email": "Email",
         "login": "Giriş Yap",
