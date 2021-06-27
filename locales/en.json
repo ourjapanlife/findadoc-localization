@@ -63,6 +63,10 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
+        "voucher": {
+            "required": "Required",
+            "notRequired": "Not Required"
+        },
         "search": "Search"
     },
     "delete": {
