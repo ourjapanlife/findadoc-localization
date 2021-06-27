@@ -1,0 +1,128 @@
+{
+    "about": {
+        "creatorA": "Bu siteyi ben, LaShawn Toyoda, yaptım! Eğer siteyi kullanırken bir sorunla, yanlış veya eski bir bilgiyle karşılaşırsanız lütfen bana Twitter'dan yazın {0}",
+        "creatorQ": "Bu siteyi kim yaptı?",
+        "supportA": "Bulduğunuz iptal bekleme listelerini veritabanına ekleyerek destek olabilirsiniz. Eğer gönlünüz zengin hissediyorsanız bana bir kofi alabilirsiniz!",
+        "supportQ": "Veritabanına nasıl destek olabilirim?",
+        "trustA": "Bağlantı olarak verilmiş bütün web adresleri klinik veya hükümet gibi resmi kaynaklara yönlendirmektedir. Lütfen bu adresler ile kişisel bilgilerinizi paylaşmadan önce bu sitelerde yazılan bilgilerin tamamını okuyun.",
+        "trustQ": "Bu bilgiler güvenilir midir?",
+        "welcome": "Find a Doc'a hoş geldiniz!",
+        "whatIsThisA": "Topluluk tarafından oluşturulan, aşıların çöpe gitmemesi için iptal bekleme listeleri olan kliniklerin bilgilerinin paylaşıldığı bir sitedir.",
+        "whatIsThisQ": "Bu nedir?"
+    },
+    "add-clinic": {
+        "additionalInfo": "Ek bilgi (Zorunlu değil)",
+        "city": "Şehir",
+        "clinicName": "Klinik adı",
+        "fillForm": "İptal bekleme listesi olan klinikleri bu formu doldurarak veritabanına ekleyebilirsiniz.",
+        "prefecture": "İl",
+        "no": "Hayır",
+        "note": "Önemli veya yardımcı olabilecek detayları paylaşın",
+        "reviewMessage": "Gönderdiğiniz klinikler onaylandıktan sonra görüntülenecektir!",
+        "romajiOnly": "Yalnız latin harfleri",
+        "submitClinic": "Kliniği gönder",
+        "validations": {
+            "cityRequired": "Şehir girmelisiniz",
+            "cityValidation": "Şehir en az {0} karakter olmalıdır",
+            "clinicRequired": "Klinik adı girmelisiniz",
+            "clinicValidation": "Klinik adı en az {0} karakter olmalıdır",
+            "wardRequired": "Bölge girmelisiniz",
+            "wardValidation": "Bölge en az {0} karakter olmalıdır",
+            "websiteRequired": "Web adresi girmelisiniz",
+            "websiteValidation": "Lütfen geçerli bir web adresi girin"
+        },
+        "voucherRequired": "Kupon gerekiyor mu? ",
+        "ward": "Bölge",
+        "wardResidencyRequired": "Bölge ikameti gerekiyor mu? ",
+        "websiteURL": "Web adresi",
+        "yes": "Evet"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "cancelList": {
+        "header": {
+            "city": "Şehir",
+            "clinicName": "Klinik Adı",
+            "note": "Not",
+            "prefecture": "İl",
+            "report": "İhbar et",
+            "voucherRequired": "Kupon",
+            "wardResidencyRequired": "Bölge İkameti",
+            "ward": "Bölge",
+            "website": "Web adresi"
+        },
+        "moreInfo": "Daha fazla bilgi için tıklayın",
+        "report": {
+            "clinicName": "Klinik Adı:",
+            "note": "Bu klinik hakkında notlar",
+            "reason": "Bu kliniği neden ihbar ediyorsunuz?",
+            "submitReport": "İhbar et",
+            "title": "Bu veriyi ihbar edin"
+        },
+        "voucher": {
+            "required": "Gerekli",
+            "notRequired": "Gerekli değil"
+        },
+        "search": "Ara"
+    },
+    "delete": {
+        "dialog": "Bunu silmek istediğinize emin misiniz? ID: {0}"
+    },
+    "error": {
+        "homePage": "Ana sayfa",
+        "notFound": "404 Bulunamadı",
+        "otherError": "Bir hata oluştu"
+    },
+    "footer": {
+        "donate": "Bağış yap",
+        "github": "GitHub",
+        "kofi": "Bana bir Ko-Fi al",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "Onayla",
+        "cancel": "İptal et",
+        "delete": "Sil"
+    },
+    "index": {
+        "massSite": "18 yaş ve üzeri olup aşı kuponu olan herkes Tokyo veya Osaka illerindeki toplu aşılama merkezlerinde aşı olabilirler.",
+        "register": "Kayıt sayfasına git",
+        "getDocument": "Formu indir",
+        "prevaccinationScreening": "Aşılama öncesi doldurulması gereken inceleme formu artık internetten indirilebiliyor! Sadece Japonca form kabul ediliyor, fakat çevirilerini görmek mümkün.",
+        "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri"
+    },
+    "login": {
+        "adminLogin": "Yönetici girişi",
+        "clear": "Sil",
+        "email": "Email",
+        "login": "Giriş Yap",
+        "password": "Şifre"
+    },
+    "logout": {
+        "message": "Çıkış yapılıyor...",
+        "successMessage": "Çıkış yapıldı. Görüşürüz!"
+    },
+    "message": {
+        "disclaimerAlert" : "Japonya'da sadece Moderna ve Pfizer aşıları onaylanmıştır. SinoVac ve diğer aşıları öneren kliniklerden sakının. Bu sitenin içeriği kullanıcıları tarafından üretilmiştir. Bu içeriği yönetmek için elimizden geleni yapıyoruz, fakat yine de hatalar veya doğrulanmamış bilgiler olabilir. <br /><br /> Topluluk tarafından gönderilmiş olup doğru olmayan bilgilerden ve üçüncü web adreslerinden biz sorumlu değiliz. İçerikleri dikkatle inceleyin ve eğer sahte bir bilgi görürseniz lütfen ihbar edin."
+    },
+    "pending": {
+        "edit": "Gönderiyi Düzenle",
+        "title": "Bekleyen Gönderiler"
+    },
+    "toolbar": {
+        "about": "Hakkında",
+        "addClinic": "klinik ekle",
+        "adminDashboard": "Yönetici Paneli",
+        "github": "GitHub",
+        "home": "Ana sayfa",
+        "languages": "Diller",
+        "login": "Giriş yap",
+        "logout": "Çıkış yap",
+        "title": "Find a Doc, JAPAN"
+    }
+}

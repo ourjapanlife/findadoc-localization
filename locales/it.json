@@ -11,7 +11,7 @@
         "whatIsThisQ": "Che cos'è?"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "Informazioni extra (opzionali)",
         "city": "Città",
         "clinicName": "Nome della clinica",
         "fillForm": "Compila questo modulo per aggiungere al database una nuova clinica che ha una lista d'attesa per le cancellazioni",
@@ -45,17 +45,17 @@
             "flag": "Segnala",
             "note": "Nota",
             "prefecture": "Prefettura",
-            "report": "Report",
+            "report": "Segnala contenuto",
             "ward": "Municipalità",
             "website": "Sito web"
         },
         "moreInfo": "Clicca per maggiori informazioni",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "Nome della clinica:",
+            "note": "Commento su questa clinica",
+            "reason": "Perché vuoi segnalare questa clinica?",
+            "submitReport": "Invia segnalazione",
+            "title": "Segnala problema con questa clinica"
         },
         "search": "Cerca"
     },
@@ -68,20 +68,22 @@
         "otherError": "Si è verificato un errore"
     },
     "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
+        "donate": "Fai una donazione",
+        "github": "Contribuisci al progetto su GitHub",
         "kofi": "Comprami un kofi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
+        "approve": "Approva",
+        "cancel": "Annulla",
+        "delete": "Rimuovi"
     },
     "index": {
         "massSite": "Chiunque abbia 18 anni o più in possesso di un voucher può ora essere vaccinato nei siti di vaccinazione di massa di Tokyo o Osaka.",
         "register": "Vai al sito di registrazione",
+        "getDocument": "Scarica documento",
+        "prevaccinationScreening": "Il modulo da compilare obbligatoriamente prima del vaccino può essere scaricato online! Le cliniche accetteranno solo moduli in Giapponese, ma sul sito troverete la versione tradotta del questionario.",
         "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone"
     },
     "login": {
@@ -91,16 +93,19 @@
         "password": "Password"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Stiamo effettuando il logout...",
+        "successMessage": "Hai effettato il logout con successo. Alla prossima!"
+    },
+    "message": {
+        "disclaimerAlert" : "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o da terze parti. Usa le informazioni di questo sito responsabilmente e, se segnala informazioni errate o fraudolente attraverso l'apposito modulo."
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Modifica dati clinica",
+        "title": "In revisione"
     },
     "toolbar": {
         "about": "Chi siamo",
-        "addClinic": "aggiungi una clinica",
+        "addClinic": "Aggiungi una clinica",
         "adminDashboard": "Admin Dashboard",
         "github": "GitHub",
         "home": "Home",

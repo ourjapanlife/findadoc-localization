@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorQ": "サイトの開発について",
+        "contribtorLeads": "プロジェクトリーダー",
         "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
         "creatorQ": "このウェブサイトを作成したのは誰ですか？",
         "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！",
@@ -15,6 +17,8 @@
         "city": "市町村",
         "clinicName": "クリニック名",
         "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
+        "no": "いいえ",
+        "note": "その他の情報をここに入力してください",
         "prefecture": "都道府県",
         "reviewMessage": "登録したクリニックは審査後に表示されます！",
         "romajiOnly": "ローマ字",
@@ -29,8 +33,11 @@
             "websiteRequired": "ウェブサイトのURLが必要です",
             "websiteValidation": "有効なURLを入力してください"
         },
+        "voucherRequired": "接種券は必要？",
         "ward": "区",
-        "websiteURL": "ウェブサイトのURL"
+        "wardResidencyRequired": "市町村内の在住者のみの制限がありますか？",
+        "websiteURL": "ウェブサイトのURL",
+        "yes": "はい"
     },
     "admin": {
         "pending": {
@@ -46,6 +53,8 @@
             "note": "メモ",
             "prefecture": "都道府県",
             "report": "報告",
+            "voucherRequired": "接種券",
+            "wardResidencyRequired": "市町村内の在住者のみの制限",
             "ward": "区",
             "website": "ウェブサイト"
         },
@@ -82,9 +91,12 @@
     "index": {
         "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
         "register": "登録サイトに移動します",
+        "getDocument": "クリックでダウンロード",
+        "prevaccinationScreening": "接種の予診票がダウンロードできます。日本語の予診票のみ受け付けられていますが、各国語訳が公開されいます。",
         "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
     },
     "login": {
+        "adminLogin": "管理者ログイン",
         "clear": "クリア",
         "email": "Eメール",
         "login": "ログイン",
