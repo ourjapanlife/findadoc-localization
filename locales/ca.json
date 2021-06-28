@@ -1,0 +1,130 @@
+{
+  "about": {
+    "contributorQ": "Qui desenvolupa aquest lloc?",
+    "contributorLeads": "El nostre equip",
+    "creatorA": "Aquest lloc va ser creat i és mantingut per mi, LaShawn Toyoda! Si teniu problemes per utilitzar el lloc o trobeu informació incorrecta o obsoleta, poseu-vos en contacte amb mi a través de Twitter {0}",
+    "creatorQ": "Qui va crear aquest lloc web?",
+    "supportA": "Si vols formar part de la comunitat \"Find a Doc\", <a href='https://github.com/ourjapanlife'>uneix-te a GitHub</a> i trobaràs maneres de col·laborar.",
+    "supportQ": "Com puc ajudar?",
+    "trustA": "Tots els enllaços condueixen a recursos oficials, com ara clíniques i llocs web governamentals. Si us plau, llegeix-los detingudament abans de registrar-hi la teva informació personal. <br /> <br /> Tingues en compte que, com que aquesta base de dades consta de contingut que qualsevol persona pot enviar, no podem garantir que tota la informació sigui completa, exacta o actualitzada. <br /> <br /> Els nostres moderadors fan tot el possible per assegurar-se que la informació fraudulenta no es publiqui, però demanem que investigueu qualsevol servei que trobeu aquí abans de visitar la ubicació o enviar la vostra informació personal a un tercer lloc web. <br /> <br /> Aquest és un projecte de codi obert i no ens fem responsables dels danys i perjudicis que poguessin ocasionar-se per l'ús de \"Find a Doc\". <br /> <br /> <a href = 'https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'>Llegeix més a la nostra llicència.</a>",
+    "trustQ": "Puc confiar en aquesta informació?",
+    "welcome": "Benvingut a \"Find a Doc\", a Japó!",
+    "whatIsThisA": "\"Find a Doc\" és una base de dades basada en la comunitat que va ser creada per LaShawn Toyoda per ajudar a difondre informació sobre serveis sanitaris al Japó. El projecte s'ha convertit en un equip de voluntaris i, actualment, ens centrem a mantenir informada la comunitat d'immigrants sobre les clíniques que ofereixen llistes d'espera per a les vacunes perquè no es perdin. <br /> <br /> en el futur, ens agradaria ampliar \"Find a Doc\" per ajudar els residents del Japó que no parlen japonès a trobar clíniques que ofereixen serveis en la seva llengua materna. <br /> <br /> Si trobes aquest projecte útil d'alguna manera, <a href='https://ko-fi.com/theyokohamalife'> <b>fes una donació</b></a> per ajudar-nos a mantenir el lloc en funcionament i a continuar afegint noves funcions.",
+    "whatIsThisQ": "Què és això?"
+  },
+  "add-clinic": {
+    "additionalInfo": "Informació addicional (opcional)",
+    "city": "Ciutat",
+    "clinicName": "Nom de la clínica",
+    "fillForm": "Emplena aquest formulari per afegir a la base de dades una nova clínica que tingui una llista d’espera de cancel·lació.",
+    "prefecture": "Prefectura",
+    "no": "No",
+    "note": "Comparteix detalls útils o importants",
+    "reviewMessage": "La clínica que has enviat es mostrarà un cop s'hagi revisat!",
+    "romajiOnly": "Només en romaji",
+    "submitClinic": "Envia una clínica",
+    "validations": {
+      "cityRequired": "Si-et-plau introdueix la ciutat",
+      "cityValidation": "El nom de la ciutat ha de tenir, com a mínim, {0} caràcters",
+      "clinicRequired": "Si-et-plau introdueix el nom de la clínica",
+      "clinicValidation": "El nom de la clínica ha de tenir, com a mínim, {0} caràcters",
+      "wardRequired": "Si-et-plau introdueix el nom del districte",
+      "wardValidation": "El nom del districte ha de tenir, com a mínim, {0} caràcters",
+      "websiteRequired": "Si-et-plau introdueix la URL del lloc web",
+      "websiteValidation": "La URL del lloc ha de ser vàlida"
+    },
+    "voucherRequired": "El val és requerit: ",
+    "ward": "Districte",
+    "wardResidencyRequired": "El districte de residencia és requerit: ",
+    "websiteURL": "URL del lloc web",
+    "yes": "Si"
+  },
+  "admin": {
+    "pending": {
+      "one": "",
+      "other": ""
+    }
+  },
+  "cancelList": {
+    "header": {
+      "city": "Ciutat",
+      "clinicName": "Nom de la clínica",
+      "note": "Nota",
+      "prefecture": "Prefectura",
+      "report": "Report",
+      "voucherRequired": "Val",
+      "wardResidencyRequired": "Districte de residència",
+      "ward": "Districte",
+      "website": "Lloc web"
+    },
+    "moreInfo": "Fes click per a més informació",
+    "report": {
+      "clinicName": "Nom de la clínica:",
+      "note": "Nota sobre aquesta clínica",
+      "reason": "Perquè estàs afegint aquesta clínica?",
+      "submitReport": "Afegeix",
+      "title": "Afegeix aquestes dades"
+    },
+    "voucher": {
+      "required": "Requerit",
+      "notRequired": "No requerit"
+    },
+    "search": "Busca"
+  },
+  "delete": {
+    "dialog": "Estàs segur de que vols esborrar ID: {0}"
+  },
+  "error": {
+    "homePage": "Pàgina d'inici",
+    "notFound": "404 No s'ha pogut trobar",
+    "otherError": "Hi ha hagut un error"
+  },
+  "footer": {
+    "donate": "Fes una donació",
+    "github": "GitHub",
+    "kofi": "Compra'm un \"Ko-Fi\"",
+    "netlify": "Funciona amb Netlify",
+    "siteTitle": "Findadoc Japó {0}"
+  },
+  "general": {
+    "approve": "Aprova",
+    "cancel": "Cancel·la",
+    "delete": "Esborra"
+  },
+  "index": {
+    "massSite": "Qualsevol persona que tingui 18 anys o més, i que tingui un val, ja pot vacunar-se als llocs de vacunació massiva de Tòquio o Osaka.",
+    "register": "Ves al lloc de registre",
+    "getDocument": "Aconsegueix el document",
+    "prevaccinationScreening": "Es pot descarregar el formulari de cribratge previ a la vacunació en línia. Només s’accepta el formulari en japonès, però hi ha traduccions disponibles.",
+    "title": "Llistes d’espera de cancel·lació de vacunes COVID-19 al Japó"
+  },
+  "login": {
+    "adminLogin": "Inici de sessió d'administrador",
+    "clear": "Esborra",
+    "email": "Correu electrònic",
+    "login": "Inici de sessió",
+    "password": "Paraula clau"
+  },
+  "logout": {
+    "message": "Tancant la sessió...",
+    "successMessage": "S'ha tancat la sessió. Fins aviat!"
+  },
+  "message": {
+    "disclaimerAlert": "Les úniques vacunes que s’administren al Japó són Moderna i Pfizer. Desconfieu de les clíniques que ofereixen SinoVac o d'altres. El contingut d’aquest lloc és generat per l’usuari i, tot i que fem tot el possible per moderar-lo, pot contenir errors o contingut no verificat. <br /> <br /> No ens fem responsables de la informació inexacta que puguin contenir els enviaments de la comunitat i tampoc no ens fem responsables de llocs de tercers. Utilitzeu el vostre millor criteri i informeu dels enviaments que creieu que poden ser fraudulents."
+  },
+  "pending": {
+    "edit": "Edita l'enviament",
+    "title": "Enviaments pendents"
+  },
+  "toolbar": {
+    "about": "Sobre",
+    "addClinic": "afegeix una clínica",
+    "adminDashboard": "Tauler d'administració",
+    "github": "GitHub",
+    "home": "Pàgina d'inici",
+    "languages": "Idiomes",
+    "login": "Inici de sessió",
+    "logout": "Tanca la sessió",
+    "title": "Find a Doc, JAPÓ"
+  }
+}
