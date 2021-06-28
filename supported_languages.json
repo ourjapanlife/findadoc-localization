@@ -1,95 +1,100 @@
 {
-    "languages": [
-        {
-            "code": "ar",
-            "file": "ar.json",
-            "name": "العربية",
-            "dir": "rtl"
-        },
-        {
-            "code": "de",
-            "file": "de.json",
-            "name": "Deutsch"
-        },
-        {
-            "code": "en",
-            "file": "en.json",
-            "name": "English"
-        },
-        {
-            "code": "es",
-            "file": "es.json",
-            "name": "Español"
-        },
-        {
-            "code": "fil",
-            "file": "fil.json",
-            "name": "Filipino"
-        },
-        {
-            "code": "fr",
-            "file": "fr.json",
-            "name": "Français"
-        },
-        {
-            "code": "id",
-            "file": "id.json",
-            "name": "Bahasa Indonesia"
-        },
-        {
-            "code": "it",
-            "file": "it.json",
-            "name": "Italiano"
-        },
-        {
-            "code": "ja",
-            "file": "ja.json",
-            "name": "日本語"
-        },
-        {
-            "code": "ko",
-            "file": "ko.json",
-            "name": "한국어"
-        },
-        {
-            "code": "ms",
-            "file": "ms.json",
-            "name": "Bahasa Melayu"
-        },
-        {
-            "code": "ne",
-            "file": "ne.json",
-            "name": "नेपाली"
-        },
-        {
-            "code": "nl",
-            "file": "nl.json",
-            "name": "Nederlands"
-        },
-        {
-            "code": "pt",
-            "file": "pt.json",
-            "name": "Português"
-        },
-        {
-            "code": "th",
-            "file": "th.json",
-            "name": "ไทย"
-        },
-        {
-            "code": "tr",
-            "file": "tr.json",
-            "name": "Türkçe"
-        },
-        {
-            "code": "vi",
-            "file": "vi.json",
-            "name": "Tiếng Việt"
-        },
-        {
-            "code": "zh_CN",
-            "file": "zh_CN.json",
-            "name": "中文"
-        }
-    ]
+  "languages": [
+    {
+      "code": "ar",
+      "file": "ar.json",
+      "name": "العربية",
+      "dir": "rtl"
+    },
+    {
+      "code": "ca",
+      "file": "ca.json",
+      "name": "Català"
+    },
+    {
+      "code": "de",
+      "file": "de.json",
+      "name": "Deutsch"
+    },
+    {
+      "code": "en",
+      "file": "en.json",
+      "name": "English"
+    },
+    {
+      "code": "es",
+      "file": "es.json",
+      "name": "Español"
+    },
+    {
+      "code": "fil",
+      "file": "fil.json",
+      "name": "Filipino"
+    },
+    {
+      "code": "fr",
+      "file": "fr.json",
+      "name": "Français"
+    },
+    {
+      "code": "id",
+      "file": "id.json",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "code": "it",
+      "file": "it.json",
+      "name": "Italiano"
+    },
+    {
+      "code": "ja",
+      "file": "ja.json",
+      "name": "日本語"
+    },
+    {
+      "code": "ko",
+      "file": "ko.json",
+      "name": "한국어"
+    },
+    {
+      "code": "ms",
+      "file": "ms.json",
+      "name": "Bahasa Melayu"
+    },
+    {
+      "code": "ne",
+      "file": "ne.json",
+      "name": "नेपाली"
+    },
+    {
+      "code": "nl",
+      "file": "nl.json",
+      "name": "Nederlands"
+    },
+    {
+      "code": "pt",
+      "file": "pt.json",
+      "name": "Português"
+    },
+    {
+      "code": "th",
+      "file": "th.json",
+      "name": "ไทย"
+    },
+    {
+      "code": "tr",
+      "file": "tr.json",
+      "name": "Türkçe"
+    },
+    {
+      "code": "vi",
+      "file": "vi.json",
+      "name": "Tiếng Việt"
+    },
+    {
+      "code": "zh_CN",
+      "file": "zh_CN.json",
+      "name": "中文"
+    }
+  ]
 }
