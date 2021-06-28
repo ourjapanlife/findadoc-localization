@@ -2,11 +2,11 @@
   "name": "findadoc-localization",
   "version": "1.0.0",
   "description": "i18n files for findadoc",
-  "main": "README.md",
+  "main": "locales/en.json",
   "repository": "git@github.com:ourjapanlife/findadoc-localization.git",
-  "author": "@yokohamalife",
-  "license": "TODO",
-  "private": true,
+  "author": "@yokohamalife @ann-kilzer",
+  "license": "BSD-3",
+  "private": false,
   "scripts": {
     "lint": "eslint . --ext .json,.js",
     "postinstall": "husky install"
