@@ -1,9 +1,12 @@
 {
-  "name": "findadoc-localization",
+  "name": "@ourjapanlife/findadoc-localization",
   "version": "1.0.0",
   "description": "i18n files for findadoc",
   "main": "locales/en.json",
-  "repository": "git@github.com:ourjapanlife/findadoc-localization.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ourjapanlife/findadoc-localization.git"
+  },
   "author": "@yokohamalife @ann-kilzer",
   "license": "BSD-3",
   "private": false,
