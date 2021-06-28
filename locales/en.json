@@ -24,14 +24,25 @@
         "romajiOnly": "Romaji only",
         "submitClinic": "Submit Clinic",
         "validations": {
-            "cityRequired": "City is required",
-            "cityValidation": "City name must be at least {0} characters",
-            "clinicRequired": "Clinic name is required",
-            "clinicValidation": "Clinic name must be at least {0} characters",
-            "wardRequired": "Ward is required",
-            "wardValidation": "Ward name must be at least {0} characters",
-            "websiteRequired": "Website URL is required",
-            "websiteValidation": "Please enter a valid URL"
+            "city": {
+                "required": "City is required",
+                "minLength": "City name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
+            },
+            "clinic": {
+                "required": "Clinic name is required",
+                "minLength": "Clinic name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
+            },
+            "ward": {
+                "required": "Ward is required",
+                "minLength": "Ward name must be at least {0} characters",
+                "validChars": "Invalid character(s)"
+            },
+            "website": {
+                "required": "Website URL is required",
+                "url": "Please enter a valid URL"
+            }
         },
         "voucherRequired": "Voucher required: ",
         "ward": "Ward",

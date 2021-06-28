@@ -24,14 +24,22 @@
         "romajiOnly": "Romaji seulement",
         "submitClinic": "Soumettre la clinique",
         "validations": {
-            "cityRequired": "La ville est requise",
-            "cityValidation": "Le nom de la ville doit comporter au moins {0} caractères",
-            "clinicRequired": "Le nom de la clinique est requis",
-            "clinicValidation": "Le nom de la clinique doit comporter au moins {0} caractères",
-            "wardRequired": "Le nom de l'arrondissement (区) est requis",
-            "wardValidation": "Le nom de l'arrondissement (区) doit comporter au moins {0} caractères",
-            "websiteRequired": "L'URL du site Web est requise",
-            "websiteValidation": "Veuillez saisir une URL valide"
+            "city": {
+                "required": "La ville est requise",
+                "minLength": "Le nom de la ville doit comporter au moins {0} caractères"
+            },
+            "clinic": {
+                "required": "Le nom de la clinique est requis",
+                "minLength": "Le nom de la clinique doit comporter au moins {0} caractères"
+            },
+            "ward": {
+                "required": "Le nom de l'arrondissement (区) est requis",
+                "minLength": "Le nom de l'arrondissement (区) doit comporter au moins {0} caractères"
+            },
+            "website": {
+                "required": "L'URL du site Web est requise",
+                "url": "Veuillez saisir une URL valide"
+            }
         },
         "voucherRequired": "Coupon obligatoire : ",
         "ward": "Arrondissement (区)",
@@ -110,7 +118,7 @@
         "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
     "message": {
-        "disclaimerAlert" : "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse."
+        "disclaimerAlert": "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse."
     },
     "pending": {
         "edit": "Éditer l'entrée",

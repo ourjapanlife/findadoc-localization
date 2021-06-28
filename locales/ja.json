@@ -24,14 +24,22 @@
         "romajiOnly": "ローマ字",
         "submitClinic": "クリニックを登録する",
         "validations": {
-            "cityRequired": "市町村が必要です",
-            "cityValidation": "市町村は{0}文字以上で入力してください",
-            "clinicRequired": "クリニック名が必要です",
-            "clinicValidation": "クリニック名は{0}文字以上で入力してください",
-            "wardRequired": "区が必要です",
-            "wardValidation": "区の名は{0}文字以上で入力してください",
-            "websiteRequired": "ウェブサイトのURLが必要です",
-            "websiteValidation": "有効なURLを入力してください"
+            "city": {
+                "required": "市町村が必要です",
+                "minLength": "市町村は{0}文字以上で入力してください"
+            },
+            "clinic": {
+                "required": "クリニック名が必要です",
+                "minLength": "クリニック名は{0}文字以上で入力してください"
+            },
+            "ward": {
+                "required": "区が必要です",
+                "minLength": "区の名は{0}文字以上で入力してください"
+            },
+            "website": {
+                "required": "ウェブサイトのURLが必要です",
+                "url": "有効なURLを入力してください"
+            }
         },
         "voucherRequired": "接種券は必要？",
         "ward": "区",

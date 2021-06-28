@@ -22,14 +22,22 @@
         "romajiOnly": "Use apenas romaji",
         "submitClinic": "Enviar clínica",
         "validations": {
-            "cityRequired": "A cidade é obrigatória",
-            "cityValidation": "O nome da cidade deve ter pelo menos {0} caracteres",
-            "clinicRequired": "O nome da clínica é obrigatório",
-            "clinicValidation": "O nome da clínica deve ter pelo menos {0} caracteres",
-            "wardRequired": "O distrito é obrigatório",
-            "wardValidation": "O nome do distrito deve ter pelo menos {0} caracteres",
-            "websiteRequired": "A URL do site é obrigatória",
-            "websiteValidation": "A URL inserida não é válida"
+            "city": {
+                "required": "A cidade é obrigatória",
+                "minLength": "O nome da cidade deve ter pelo menos {0} caracteres"
+            },
+            "clinic": {
+                "required": "O nome da clínica é obrigatório",
+                "minLength": "O nome da clínica deve ter pelo menos {0} caracteres"
+            },
+            "ward": {
+                "required": "O distrito é obrigatório",
+                "minLength": "O nome do distrito deve ter pelo menos {0} caracteres"
+            },
+            "website": {
+                "required": "A URL do site é obrigatória",
+                "url": "A URL inserida não é válida"
+            }
         },
         "voucherRequired": "Cupom obrigatório: ",
         "ward": "Distrito",
@@ -103,7 +111,7 @@
         "successMessage": "Você foi deslogado. Até mais!"
     },
     "message": {
-        "disclaimerAlert" : "As únicas vacinas aprovadas no Japão são Moderna e Pfizer. Seja cauteloso com clínicas oferecendo SinoVac ou outras. O conteúdo deste site é gerado pelos usuários, e embora façamos o melhor para moderá-lo, pode ser que existam erros ou conteúdo não verificado. <br /><br /> Não nos responsabilizamos por informações imprecisas enviadas pela comunidade, e não nos responsabilizamos por sites de terceiros. Use o seu próprio critério e por favor utilize o recurso de reportar caso suspeite de informação fraudulenta."
+        "disclaimerAlert": "As únicas vacinas aprovadas no Japão são Moderna e Pfizer. Seja cauteloso com clínicas oferecendo SinoVac ou outras. O conteúdo deste site é gerado pelos usuários, e embora façamos o melhor para moderá-lo, pode ser que existam erros ou conteúdo não verificado. <br /><br /> Não nos responsabilizamos por informações imprecisas enviadas pela comunidade, e não nos responsabilizamos por sites de terceiros. Use o seu próprio critério e por favor utilize o recurso de reportar caso suspeite de informação fraudulenta."
     },
     "pending": {
         "edit": "Editar Envio",

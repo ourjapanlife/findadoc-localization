@@ -20,14 +20,22 @@
         "romajiOnly": "Alleen Latijns alfabet",
         "submitClinic": "Verzend kliniek",
         "validations": {
-            "cityRequired": "Stad is vereist",
-            "cityValidation": "De stadsnaam moet minimaal {0} tekens bevatten",
-            "clinicRequired": "Naam kliniek is vereist",
-            "clinicValidation": "De naam van de kliniek moet ten minste {0} tekens bevatten",
-            "wardRequired": "District is vereist",
-            "wardValidation": "De naam van het district moet ten minste {0} tekens bevatten",
-            "websiteRequired": "Website-URL is vereist",
-            "websiteValidation": "Voer een geldige URL in"
+            "city": {
+                "required": "Stad is vereist",
+                "minLength": "De stadsnaam moet minimaal {0} tekens bevatten"
+            },
+            "clinic": {
+                "required": "Naam kliniek is vereist",
+                "minLength": "De naam van de kliniek moet ten minste {0} tekens bevatten"
+            },
+            "ward": {
+                "required": "District is vereist",
+                "minLength": "De naam van het district moet ten minste {0} tekens bevatten"
+            },
+            "website": {
+                "required": "Website-URL is vereist",
+                "url": "Voer een geldige URL in"
+            }
         },
         "ward": "District",
         "websiteURL": "Website URL"

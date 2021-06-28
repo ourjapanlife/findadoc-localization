@@ -20,14 +20,22 @@
         "romajiOnly": "영문(로마지)만 지원",
         "submitClinic": "제출",
         "validations": {
-            "cityRequired": "도시는 필수 항목입니다.",
-            "cityValidation": "{0} 자 이상이어야합니다.",
-            "clinicRequired": "진료소 이름이 필요합니다.",
-            "clinicValidation": "{0} 자 이상이어야합니다.",
-            "wardRequired": "병동이 필요합니다",
-            "wardValidation": "{0} 자 이상이어야합니다.",
-            "websiteRequired": "웹 사이트 URL이 필요합니다.",
-            "websiteValidation": "유효한 URL을 입력 해주세요"
+            "city": {
+                "required": "도시는 필수 항목입니다.",
+                "minLength": "{0} 자 이상이어야합니다."
+            },
+            "clinic": {
+                "required": "진료소 이름이 필요합니다.",
+                "minLength": "{0} 자 이상이어야합니다."
+            },
+            "ward": {
+                "required": "병동이 필요합니다",
+                "minLength": "{0} 자 이상이어야합니다."
+            },
+            "website": {
+                "required": "웹 사이트 URL이 필요합니다.",
+                "url": "유효한 URL을 입력 해주세요"
+            }
         },
         "ward": "구",
         "websiteURL": "웹 사이트 주소"

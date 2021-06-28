@@ -20,14 +20,22 @@
         "romajiOnly": "Chỉ dùng chữ Romaji",
         "submitClinic": "Gửi tới Phòng khám",
         "validations": {
-            "cityRequired": "Tên thành phố là bắt buộc",
-            "cityValidation": "Tên thành phố phải có ít nhất {0} ký tự",
-            "clinicRequired": "Tên phòng khám là bắt buộc",
-            "clinicValidation": "Tên phòng khám phải có ít nhất {0} ký tự",
-            "wardRequired": "Tên phường là bắt buộc",
-            "wardValidation": "Tên phường phải có ít nhất {0} ký tự",
-            "websiteRequired": "URL trang web là bắt buộc",
-            "websiteValidation": "Vui lòng nhập một URL hợp lệ"
+            "city": {
+                "required": "Tên thành phố là bắt buộc",
+                "minLength": "Tên thành phố phải có ít nhất {0} ký tự"
+            },
+            "clinic": {
+                "required": "Tên phòng khám là bắt buộc",
+                "minLength": "Tên phòng khám phải có ít nhất {0} ký tự"
+            },
+            "ward": {
+                "required": "Tên phường là bắt buộc",
+                "minLength": "Tên phường phải có ít nhất {0} ký tự"
+            },
+            "website": {
+                "required": "URL trang web là bắt buộc",
+                "url": "Vui lòng nhập một URL hợp lệ"
+            }
         },
         "ward": "khu vực",
         "websiteURL": "URL trang web"

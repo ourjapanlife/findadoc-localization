@@ -20,14 +20,22 @@
         "romajiOnly": "Tuliskan dengan huruf romaji",
         "submitClinic": "Daftarkan Klinik",
         "validations": {
-            "cityRequired": "Kota",
-            "cityValidation": "Nama kota minimal harus {0} karakter",
-            "clinicRequired": "Nama klinik wajib diisi",
-            "clinicValidation": "Nama klinik minimal harus {0} karakter",
-            "wardRequired": "Area (kecamatan) diperlukan",
-            "wardValidation": "Nama area (kecamatan) minimal harus {0} karakter",
-            "websiteRequired": "URL situs web diperlukan",
-            "websiteValidation": "Harap masukkan URL yang valid"
+            "city": {
+                "required": "Kota",
+                "minLength": "Nama kota minimal harus {0} karakter"
+            },
+            "clinic": {
+                "required": "Nama klinik wajib diisi",
+                "minLength": "Nama klinik minimal harus {0} karakter"
+            },
+            "ward": {
+                "required": "Area (kecamatan) diperlukan",
+                "minLength": "Nama area (kecamatan) minimal harus {0} karakter"
+            },
+            "website": {
+                "required": "URL situs web diperlukan",
+                "url": "Harap masukkan URL yang valid"
+            }
         },
         "ward": "Area (kecamatan)",
         "websiteURL": "URL Situs Web"
