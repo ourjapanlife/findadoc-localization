@@ -69,6 +69,10 @@
             "required": "Required",
             "notRequired": "Not Required"
         },
+        "wardResidency": {
+            "required": "Required",
+            "notRequired": "Not Required"
+        },
         "search": "Search"
     },
     "delete": {
