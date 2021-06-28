@@ -13,13 +13,11 @@ jobs:
       # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v1
         with:
-          always-auth: true
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
           scope: '@ourjapanlife'
-      - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
       - run: yarn
       - run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
