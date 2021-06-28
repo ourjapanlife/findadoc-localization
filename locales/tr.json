@@ -1,13 +1,15 @@
 {
     "about": {
+        "contributorQ": "Bu siteyi kim geliştiriyor?",
+        "contributorLeads": "Takımımız",
         "creatorA": "Bu siteyi ben, LaShawn Toyoda, yaptım! Eğer siteyi kullanırken bir sorunla, yanlış veya eski bir bilgiyle karşılaşırsanız lütfen bana Twitter'dan yazın {0}",
         "creatorQ": "Bu siteyi kim yaptı?",
-        "supportA": "Bulduğunuz iptal bekleme listelerini veritabanına ekleyerek destek olabilirsiniz. Eğer gönlünüz zengin hissediyorsanız bana bir kofi alabilirsiniz!",
-        "supportQ": "Veritabanına nasıl destek olabilirim?",
-        "trustA": "Bağlantı olarak verilmiş bütün web adresleri klinik veya hükümet gibi resmi kaynaklara yönlendirmektedir. Lütfen bu adresler ile kişisel bilgilerinizi paylaşmadan önce bu sitelerde yazılan bilgilerin tamamını okuyun.",
+        "supportA": "Find a Doc topluluğuna katılmak istiyorsanız <a href='https://github.com/ourjapanlife'>GitHub sayfamıza gelin</a> ve hangi konuda yardımcı olabileceğinizi konuşalım!",
+        "supportQ": "Nasıl katkıda bulunabilirim?",
+        "trustA": "Bağlantı olarak verilmiş bütün web adresleri klinik veya hükümet gibi resmi kaynaklara yönlendirmektedir. Lütfen bu adresler ile kişisel bilgilerinizi paylaşmadan önce bu sitelerde yazılan bilgilerin tamamını okuyun.<br /><br /> Bu veritabanına herkesin veri gönderebildiğini, ve buradaki bütün verilerin doğruluğunu veya güncelliğini garanti edemeyeceğimizi anlamanızı isteriz. <br /><br /> Moderatörlerimiz sahte bilgilerin sitede yayınlanmaması için ellerinden geleni yapıyorlar, fakat yine de size bilgilerinizi üçüncü sitelere göndermeden veya bir kliniği ziyaret etmeden önce araştırma yapmanızı öneririz.<br /><br /> Bu bir açık kaynak projesidir, ve Find a Doc sitesinin kullanımından doğabilecek olan hasarlardan sorumlu değiliz.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Detayları lisansımızda okuyabilirsiniz.</a> ",
         "trustQ": "Bu bilgiler güvenilir midir?",
-        "welcome": "Find a Doc'a hoş geldiniz!",
-        "whatIsThisA": "Topluluk tarafından oluşturulan, aşıların çöpe gitmemesi için iptal bekleme listeleri olan kliniklerin bilgilerinin paylaşıldığı bir sitedir.",
+        "welcome": "Find a Doc Japan'a hoş geldiniz!",
+        "whatIsThisA": "Find a Doc, LaShawn Toyoda tarafından Japonya'daki sağlık hizmetleri hakkında bilgileri paylaşmak için oluşturulmuş, topluluk tarafından desteklenen bir veritabanıdır. Proje bir gönüllü ekibine evrildi, ve biz şu anda göçmen topluluklarını aşılar çöpe gitmesin diye oluşturulan iptal bekleme listeleri hakkında bilgilendirmek üzerine çalışıyoruz.<br /><br /> Gelecekte Find a Doc'a Japonca konuşamayan Japonya sakinlerine kendi dillerinde servis verebilen klinikler ile ilgili yardım etme özelliği eklemeyi istiyoruz.<br /><br /> Eğer bu projeyi faydalı bulduysanız, siteyi çalışır durumda tutabilmemiz ve yeni özellikler ekleyebilmemiz için <a href='https://ko-fi.com/theyokohamalife'><b>lütfen bağış yapın/b></a>.",
         "whatIsThisQ": "Bu nedir?"
     },
     "add-clinic": {
@@ -22,14 +24,25 @@
         "romajiOnly": "Yalnız latin harfleri",
         "submitClinic": "Kliniği gönder",
         "validations": {
-            "cityRequired": "Şehir girmelisiniz",
-            "cityValidation": "Şehir en az {0} karakter olmalıdır",
-            "clinicRequired": "Klinik adı girmelisiniz",
-            "clinicValidation": "Klinik adı en az {0} karakter olmalıdır",
-            "wardRequired": "Bölge girmelisiniz",
-            "wardValidation": "Bölge en az {0} karakter olmalıdır",
-            "websiteRequired": "Web adresi girmelisiniz",
-            "websiteValidation": "Lütfen geçerli bir web adresi girin"
+            "city": {
+                "required": "Şehir girmelisiniz",
+                "minLength": "Şehir en az {0} karakter olmalıdır",
+                "validChars": "Geçersiz karakter"
+            },
+            "clinic": {
+                "required": "Klinik adı girmelisiniz",
+                "minLength": "Klinik adı en az {0} karakter olmalıdır",
+                "validChars": "Geçersiz karakter"
+            },
+            "ward": {
+                "required": "Bölge girmelisiniz",
+                "minLength": "Bölge en az {0} karakter olmalıdır",
+                "validChars": "Geçersiz karakter"
+            },
+            "website": {
+                "required": "Web adresi girmelisiniz",
+                "url": "Lütfen geçerli bir web adresi girin"
+            }
         },
         "voucherRequired": "Kupon gerekiyor mu? ",
         "ward": "Bölge",
@@ -67,6 +80,10 @@
             "required": "Gerekli",
             "notRequired": "Gerekli değil"
         },
+        "wardResidency": {
+            "required": "Gerekli",
+            "notRequired": "Gerekli değil"
+        },
         "search": "Ara"
     },
     "delete": {
@@ -80,7 +97,7 @@
     "footer": {
         "donate": "Bağış yap",
         "github": "GitHub",
-        "kofi": "Bana bir Ko-Fi al",
+        "kofi": "Bana bir Ko-Fi ısmarla",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
