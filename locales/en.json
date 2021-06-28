@@ -1,13 +1,15 @@
 {
     "about": {
+        "contributorQ": "Who develops this site?",
+        "contributorLeads": "Our Team",
         "creatorA": "This site was created and maintained by me, LaShawn Toyoda! If you have any trouble using the site or come across incorrect or outdated information, please contact me through Twitter {0}",
         "creatorQ": "Who created this website?",
-        "supportA": "The best way to help is by submitting any cancellation waiting lists you come across to the database. If you're feeling extra generous, please buy me a kofi!",
-        "supportQ": "How can I help support the database?",
-        "trustA": "All of the links lead to official resources such as clinic and government websites. Please read them thoroughly before registering your personal information with them.",
+        "supportA": "If you'd like to be part of the Find a Doc community, <a href='https://github.com/ourjapanlife'>join us over on GitHub</a> to see what we could use your help with!",
+        "supportQ": "How Can I Contribute?",
+        "trustA": "All of the links lead to official resources such as clinic and government websites. Please read them thoroughly before registering your personal information with them.<br /><br /> Please understand that because this database consists of content that can be submitted by anyone, it is not possible for us to guarantee that all of the information entirely accurate or up to date. <br /><br /> Our moderators try their best to make sure fraudulent information doesn't get published, but ask that you research any service that you find on here before visiting the location or submitting your personal information to a third-party website.<br /><br /> This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Read more about it in our license.</a>",
         "trustQ": "Can this information be trusted?",
-        "welcome": "Welcome to Find a Doc!",
-        "whatIsThisA": "This is a community-driven database to help spread information on clinics that are offering waiting lists for vaccinations so they don't go to waste.",
+        "welcome": "Welcome to Find a Doc, Japan!",
+        "whatIsThisA": "Find a Doc is a community-driven database that was created by LaShawn Toyoda to help spread information regarding healthcare services in Japan. The project has since grown into a team of volunteers, and currently we're focusing on keeping the immigrant community informed about clinics that are offering waiting lists for vaccinations so they don't go to waste.<br /><br />In the future, we'd like to expand Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language.<br /><br /> If you find this project helpful in any way, <a href='https://ko-fi.com/theyokohamalife'><b>please donate</b></a> to help us keep the site running and to continue adding new features.",
         "whatIsThisQ": "What is this?"
     },
     "add-clinic": {
@@ -16,6 +18,8 @@
         "clinicName": "Clinic name",
         "fillForm": "Fill out this form to add a new clinic to the database that has a cancellation waiting list.",
         "prefecture": "Prefecture",
+        "no": "No",
+        "note": "Share helpful or important details",
         "reviewMessage": "The clinic you submitted will be displayed after it's been reviewed!",
         "romajiOnly": "Romaji only",
         "submitClinic": "Submit Clinic",
@@ -40,8 +44,11 @@
                 "url": "Please enter a valid URL"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "Ward",
-        "websiteURL": "Website URL"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "Website URL",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -56,6 +63,8 @@
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
+            "voucherRequired": "Voucher",
+            "wardResidencyRequired": "Ward Residency",
             "ward": "Ward",
             "website": "Website"
         },
@@ -66,6 +75,10 @@
             "reason": "Why are you reporting this clinic?",
             "submitReport": "Report",
             "title": "Report this data"
+        },
+        "voucher": {
+            "required": "Required",
+            "notRequired": "Not Required"
         },
         "search": "Search"
     },
@@ -97,6 +110,7 @@
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Clear",
         "email": "Email",
         "login": "Login",
@@ -105,6 +119,9 @@
     "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
+    },
+    "message": {
+        "disclaimerAlert" : "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent."
     },
     "pending": {
         "edit": "Edit Submission",
