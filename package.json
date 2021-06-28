@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git@github.com:ourjapanlife/findadoc-localization.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "author": "@yokohamalife @ann-kilzer",
   "license": "BSD-3",
   "private": false,
