@@ -1,14 +1,16 @@
 {
     "about": {
+        "contributorQ": "Qui développe ce site ?",
+        "contributorLeads": "Notre équipe",
         "creatorA": "Ce site a été créé et maintenu par moi, LaShawn Toyoda ! Si vous rencontrez des difficultés pour utiliser le site ou si vous rencontrez des informations incorrectes ou obsolètes, merci de me contacter via Twitter {0}",
         "creatorQ": "Qui a créé ce site Web ?",
-        "supportA": "La meilleure façon d'aider est de soumettre à la base de données toutes les listes d'attente d'annulation que vous rencontrez. Si vous vous sentez très généreux, achetez-moi un Ko-Fi !",
-        "supportQ": "Comment puis-je aider à soutenir la base de données ?",
+        "supportA": "Si vous aimeriez faire partie de la communauté de Find a Doc, <a href='https://github.com/ourjapanlife'>rejoignez-nous sur GitHub</a> pour savoir comment nous prêter main forte !",
+        "supportQ": "Comment puis-je apporter ma contribution ?",
         "trustA": "Tous les liens mènent à des ressources officielles telles que les sites Web des cliniques et du gouvernement. Veuillez les lire attentivement avant d'enregistrer vos informations personnelles.",
         "trustQ": "Ces informations sont-elles fiables ?",
         "welcome": "Bienvenue sur Find a Doc !",
-        "whatIsThisA": "Il s'agit d'une base de données communautaire pour aider à diffuser des informations sur les cliniques qui proposent des listes d'attente pour les vaccinations afin que les doses de vaccin ne soient pas gaspillées.",
-        "whatIsThisQ": "Qu'est-ce que c'est?"
+        "whatIsThisA": "Find a Doc est une base de données communautaire créée par LaShawn Toyoda qui vise à diffuser des informations sur les services de santé au Japon. Le projet s'est depuis transformé en une équipe de bénévoles et, actuellement, nous concentrons nos efforts sur l'information de la communauté immigrée à propos des cliniques qui proposent des listes d'attente pour les vaccins, afin que ceux-ci ne soient pas gaspillés.<br /><br />À l'avenir, nous aimerions étendre Find a Doc pour aider les résidents étrangers du Japon, qui ne parlent pas japonais, à trouver des cliniques qui offrent des services dans leur langue maternelle.<br /><br />Si vous trouvez ce projet utile de quelque manière que ce soit, <a href='https://ko-fi.com/theyokohamalife'><b>n'hésitez pas à faire un don</b></a> pour nous aider à maintenir le site en activité et à continuer à ajouter de nouvelles fonctionnalités.",
+        "whatIsThisQ": "Qu'est-ce que c'est ?"
     },
     "add-clinic": {
         "additionalInfo": "Informations supplémentaires (facultatif)",
@@ -16,6 +18,8 @@
         "clinicName": "Nom de la clinique",
         "fillForm": "Remplissez ce formulaire pour ajouter à la base de données une nouvelle clinique qui a une liste d'attente d'annulation.",
         "prefecture": "Préfecture",
+        "no": "Non",
+        "note": "Partager des détails utiles ou importants",
         "reviewMessage": "La clinique que vous avez soumise sera affichée après avoir été examinée !",
         "romajiOnly": "Romaji seulement",
         "submitClinic": "Soumettre la clinique",
@@ -29,8 +33,11 @@
             "websiteRequired": "L'URL du site Web est requise",
             "websiteValidation": "Veuillez saisir une URL valide"
         },
+        "voucherRequired": "Coupon obligatoire : ",
         "ward": "Arrondissement (区)",
-        "websiteURL": "URL du site Web"
+        "wardResidencyRequired": "Doit résider dans l'arrondissement : ",
+        "websiteURL": "URL du site Web",
+        "yes": "Oui"
     },
     "admin": {
         "pending": {
@@ -45,25 +52,27 @@
             "note": "Note",
             "prefecture": "Préfecture",
             "report": "Signalement",
+            "voucherRequired": "Coupon",
             "ward": "Arrondissement (区)",
+            "wardResidencyRequired": "Domicilié dans l'arrondissement",
             "website": "Site Web"
         },
         "moreInfo": "Cliquez pour plus d'informations",
         "report": {
             "clinicName": "Nom de la clinique:",
             "note": "Note pour cette clinique",
-            "reason": "Pourquoi signalez-vous cette clinique?",
+            "reason": "Pourquoi souhaitez-vous signaler cette clinique ?",
             "submitReport": "Signaler",
             "title": "Signaler cette entrée"
         },
         "voucher": {
             "required": "Requis",
-            "notRequired": "Non Requis"
+            "notRequired": "Facultatif"
         },
         "search": "Recherche"
     },
     "delete": {
-        "dialog": "Êtes-vous sûr de vouloir supprimer ID: {0}"
+        "dialog": "Êtes-vous sûr de vouloir supprimer l'ID {0}"
     },
     "error": {
         "homePage": "Page d'accueil",
@@ -85,17 +94,23 @@
     "index": {
         "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",
         "register": "Aller sur le site d'inscription",
+        "getDocument": "Obtenir le document",
+        "prevaccinationScreening": "Le formulaire obligatoire de dépistage pré-vaccination est disponible en ligne ! Seul le formulaire japonais est accepté mais des traductions sont disponibles.",
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Effacer",
         "email": "E-mail",
-        "login": "Login",
+        "login": "Connexion",
         "password": "Mot de passe"
     },
     "logout": {
         "message": "Déconnexion...",
         "successMessage": "Vous avez été déconnecté. À bientôt !"
+    },
+    "message": {
+        "disclaimerAlert" : "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse."
     },
     "pending": {
         "edit": "Éditer l'entrée",
