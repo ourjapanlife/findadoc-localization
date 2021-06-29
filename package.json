@@ -15,7 +15,7 @@
   "private": false,
   "scripts": {
     "lint": "eslint . --ext .json,.js",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "eslint": "^7.28.0",
