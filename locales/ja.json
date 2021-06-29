@@ -26,15 +26,18 @@
         "validations": {
             "city": {
                 "required": "市町村が必要です",
-                "minLength": "市町村は{0}文字以上で入力してください"
+                "minLength": "市町村は{0}文字以上で入力してください",
+                "validChars": "不正文字"
             },
             "clinic": {
                 "required": "クリニック名が必要です",
-                "minLength": "クリニック名は{0}文字以上で入力してください"
+                "minLength": "クリニック名は{0}文字以上で入力してください",
+                "validChars": "不正文字"
             },
             "ward": {
                 "required": "区が必要です",
-                "minLength": "区の名は{0}文字以上で入力してください"
+                "minLength": "区の名は{0}文字以上で入力してください",
+                "validChars": "不正文字"
             },
             "website": {
                 "required": "ウェブサイトのURLが必要です",
@@ -73,6 +76,14 @@
             "reason": "クリニックを報告する理由",
             "submitReport": "報告",
             "title": "データについて報告"
+        },
+        "voucher": {
+            "required": "必要",
+            "notRequired": "不要"
+        },
+        "wardResidency": {
+            "required": "あり",
+            "notRequired": "なし"
         },
         "search": "検索"
     },
