@@ -11,7 +11,7 @@
         "whatIsThisQ": "यो भनेको के हो ?"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "थप जानकारी (ऐच्छिक)",
         "city": "शहर",
         "clinicName": "क्लिनिकको नाम",
         "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
@@ -48,47 +48,49 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "note": "Note",
-            "prefecture": "Prefecture",
-            "report": "Report",
-            "ward": "Ward",
-            "website": "Website"
+            "city": "शहर",
+            "clinicName": "क्लिनिकको नाम",
+            "note": "नोट",
+            "prefecture": "प्रेफेक्चर ",
+            "report": "रिपोर्ट",
+            "ward": "वडा",
+            "website": "वेबसाईट"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "थप जानकारिका लागि यहाँ क्लिक गर्नुहोस्",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "क्लिनिकको नाम:",
+            "note": "यस क्लिनिकबारे टिप्पणी",
+            "reason": "यस क्लिनिकलाई रिपोर्ट गर्नुको कारण",
+            "submitReport": "रिपोर्ट",
+            "title": "जानकारी रिपोर्ट गर्नुहोस्"
         },
-        "search": "Search"
+        "search": "खोजी गर्नुहोस्"
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "के तपाईं यस ID लाई हटाउनेमा निश्चित हुनुहुन्छ : {0}"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "गृह पृष्ठ",
+        "notFound": "४०४ नट फाउन्ड",
+        "otherError": "कुनै समस्याका कारण तपाईंको रेक्वेस्ट सफल हुनसकेन"
     },
     "footer": {
-        "donate": "Donate",
+        "donate": "डोनेट गर्नुहोस्",
         "github": "GitHub",
         "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
-        "siteTitle": "Findadoc Japan {0}"
+        "siteTitle": "फाइन्ड अ डक्, जापान {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
+        "approve": "स्वीकृत गर्नुहोस्",
+        "cancel": "रद्द गर्नुहोस्",
+        "delete": "मेटाउनुहोस्"
     },
     "index": {
-        "massSite": "१ 18 बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
+        "massSite": "१८ बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
         "register": "पञ्जीकरण साइटमा जानुहोस्",
+        "getDocument": "कागजात प्राप्त गर्नुहोस्",
+        "prevaccinationScreening": "आवश्यक पूर्व खोप स्क्रिनिंग फाराम अनलाइन मर्फत डाउनलोड गर्न सकिन्छ ! केवल जापानी भाषाका फारम स्वीकार्य हुनेछ तर अनुवादहरू उपलब्ध छन् । ",
         "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
     },
     "login": {
@@ -98,22 +100,25 @@
         "password": "पासवर्ड"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "तपाईंलाई लगआउट गरिदै छ...",
+        "successMessage": "तपाईं लगआउट हुनुभयो !"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent."
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "जानकारी सम्पादन गर्नुहोस्",
+        "title": "जानकारी पूर्ण गरिने पर्खाइमा"
     },
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
+        "about": "हाम्रो बारेमा",
+        "addClinic": "क्लिनिक थप गर्नुहोस्",
+        "adminDashboard": "एड्मिन ड्यासबोर्ड",
         "github": "GitHub",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
-        "logout": "Logout",
-        "title": "Find a Doc, JAPAN"
+        "home": "होम",
+        "languages": "भाषाहरु",
+        "login": "लगइन",
+        "logout": "लगआउट",
+        "title": "फाइन्ड अ डक्, जापान"
     }
 }
