@@ -1,119 +1,124 @@
 {
-    "about": {
-        "creatorA": "यो वेबसाइट LaShawn Toyoda द्वारा बनाईएको हो । यदि तपाइँलाई यस साइटको प्रयोग गर्दा कुनै समस्या आएमा वा गलत/पुराना जानकारी रहेको पाउनुभएमा कृपया मलाई ट्विटरमा ({0}) सम्पर्क गर्नुहोला",
-        "creatorQ": "यो वेबसाइट कसले बनाएको हो?",
-        "supportA": "खोप रद्द भएकाहरुका लागि खोप दिने क्लिनिक अथवा खोपकेन्द्रहरु बारे तपाइँलाई कुनै जानकारी भएमा सो क्लिनिक अथवा खोपकेन्द्रको जानकारी यस डाटाबेसलाई उपलब्ध गराएर सहयोग गर्न सक्नुहुन्छ । तपाईलाइ थप सहयोग गर्ने इच्छाभएमा मलाई एक kofi किनिदिएर पनि सहयोग गर्न सक्नुहुन्छ ।",
-        "supportQ": "म यस डाटाबेसलाई कसरि सहयोग गर्नसक्छु ?",
-        "trustA": "सबै लिंकहरु सम्बन्धित क्लिनिक तथा सरकारी निकायका आधिकारिक वॆभसाइटहरुका हुन्, आफ्नो व्यक्तिगत जानकारीहरु सो वॆभसाइटहरुमा पेश गर्नु भन्दा पहिले त्यहाँ भएका सामाग्रीहरु राम्ररी पढ्नुहोला ।",
-        "trustQ": "के यो जानकारीलाई विश्वास गर्न सकिन्छ?",
-        "welcome": "फाइन्ड अ डक मा यहाहरुलाई स्वागत छ ।",
-        "whatIsThisA": "यो एक समुदायद्वारा संचालित डाटाबेस हो जसले जापानमा खोपको प्रतीक्षा सूचीमा रहेकाहरुलाई खोप प्रदान गरिरहेको क्लिनिक तथा खोपकेन्द्रहरुको सुची प्रदान गर्न सहयोग गर्दछ ।",
-        "whatIsThisQ": "यो भनेको के हो ?"
+  "about": {
+    "creatorA": "यो वेबसाइट LaShawn Toyoda द्वारा बनाईएको हो । यदि तपाइँलाई यस साइटको प्रयोग गर्दा कुनै समस्या आएमा वा गलत/पुराना जानकारी रहेको पाउनुभएमा कृपया मलाई ट्विटरमा ({0}) सम्पर्क गर्नुहोला",
+    "creatorQ": "यो वेबसाइट कसले बनाएको हो?",
+    "supportA": "खोप रद्द भएकाहरुका लागि खोप दिने क्लिनिक अथवा खोपकेन्द्रहरु बारे तपाइँलाई कुनै जानकारी भएमा सो क्लिनिक अथवा खोपकेन्द्रको जानकारी यस डाटाबेसलाई उपलब्ध गराएर सहयोग गर्न सक्नुहुन्छ । तपाईलाइ थप सहयोग गर्ने इच्छाभएमा मलाई एक kofi किनिदिएर पनि सहयोग गर्न सक्नुहुन्छ ।",
+    "supportQ": "म यस डाटाबेसलाई कसरि सहयोग गर्नसक्छु ?",
+    "trustA": "सबै लिंकहरु सम्बन्धित क्लिनिक तथा सरकारी निकायका आधिकारिक वॆभसाइटहरुका हुन्, आफ्नो व्यक्तिगत जानकारीहरु सो वॆभसाइटहरुमा पेश गर्नु भन्दा पहिले त्यहाँ भएका सामाग्रीहरु राम्ररी पढ्नुहोला ।",
+    "trustQ": "के यो जानकारीलाई विश्वास गर्न सकिन्छ?",
+    "welcome": "फाइन्ड अ डक मा यहाहरुलाई स्वागत छ ।",
+    "whatIsThisA": "यो एक समुदायद्वारा संचालित डाटाबेस हो जसले जापानमा खोपको प्रतीक्षा सूचीमा रहेकाहरुलाई खोप प्रदान गरिरहेको क्लिनिक तथा खोपकेन्द्रहरुको सुची प्रदान गर्न सहयोग गर्दछ ।",
+    "whatIsThisQ": "यो भनेको के हो ?"
+  },
+  "add-clinic": {
+    "additionalInfo": "थप जानकारी (ऐच्छिक)",
+    "city": "शहर",
+    "clinicName": "क्लिनिकको नाम",
+    "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
+    "prefecture": "प्रिफेक्चर",
+    "reviewMessage": "तपाईले उपलब्ध गराउनुभएको जानकारी हामी समीक्षा गरेर प्रकाशन गर्नेछौ ।",
+    "romajiOnly": "रोमाजी मात्र",
+    "submitClinic": "क्लिनिक बुझाउनुहोस्",
+    "validations": {
+      "city": {
+        "required": "शहर आवश्यक छ",
+        "minLength": "शहरको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
+      },
+      "clinic": {
+        "required": "क्लिनिकको नाम आवश्यक छ",
+        "minLength": "क्लिनिकको नाम कम्तिमा {0} वर्णहरूको हुनुपर्दछ"
+      },
+      "ward": {
+        "required": "वार्ड आवश्यक छ",
+        "minLength": "वार्डको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
+      },
+      "website": {
+        "required": "वेबसाइटको लिंक आवश्यक छ",
+        "url": "कृपया मान्य वेबसाइटको लिंक राख्नुहोला"
+      }
     },
-    "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
-        "city": "शहर",
-        "clinicName": "क्लिनिकको नाम",
-        "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
-        "prefecture": "प्रिफेक्चर",
-        "reviewMessage": "तपाईले उपलब्ध गराउनुभएको जानकारी हामी समीक्षा गरेर प्रकाशन गर्नेछौ ।",
-        "romajiOnly": "रोमाजी मात्र",
-        "submitClinic": "क्लिनिक बुझाउनुहोस्",
-        "validations": {
-            "city": {
-                "required": "शहर आवश्यक छ",
-                "minLength": "शहरको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
-            },
-            "clinic": {
-                "required": "क्लिनिकको नाम आवश्यक छ",
-                "minLength": "क्लिनिकको नाम कम्तिमा {0} वर्णहरूको हुनुपर्दछ"
-            },
-            "ward": {
-                "required": "वार्ड आवश्यक छ",
-                "minLength": "वार्डको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
-            },
-            "website": {
-                "required": "वेबसाइटको लिंक आवश्यक छ",
-                "url": "कृपया मान्य वेबसाइटको लिंक राख्नुहोला"
-            }
-        },
-        "ward": "वार्ड",
-        "websiteURL": "वेबसाइटको लिंक"
-    },
-    "admin": {
-        "pending": {
-            "one": "",
-            "other": ""
-        }
-    },
-    "cancelList": {
-        "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "note": "Note",
-            "prefecture": "Prefecture",
-            "report": "Report",
-            "ward": "Ward",
-            "website": "Website"
-        },
-        "moreInfo": "Click for more info",
-        "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
-        },
-        "search": "Search"
-    },
-    "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
-    },
-    "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
-    },
-    "footer": {
-        "donate": "Donate",
-        "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
-        "netlify": "Powered by Netlify",
-        "siteTitle": "Findadoc Japan {0}"
-    },
-    "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete"
-    },
-    "index": {
-        "massSite": "१ 18 बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
-        "register": "पञ्जीकरण साइटमा जानुहोस्",
-        "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
-    },
-    "login": {
-        "clear": "खाली गर्नुहोस्",
-        "email": "ईमेल",
-        "login": "लगइन",
-        "password": "पासवर्ड"
-    },
-    "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
-    },
+    "ward": "वार्ड",
+    "websiteURL": "वेबसाइटको लिंक"
+  },
+  "admin": {
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
-    },
-    "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
-        "github": "GitHub",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
-        "logout": "Logout",
-        "title": "Find a Doc, JAPAN"
+      "one": "",
+      "other": ""
     }
+  },
+  "cancelList": {
+    "header": {
+      "city": "शहर",
+      "clinicName": "क्लिनिकको नाम",
+      "note": "नोट",
+      "prefecture": "प्रेफेक्चर ",
+      "report": "रिपोर्ट",
+      "ward": "वडा",
+      "website": "वेबसाईट"
+    },
+    "moreInfo": "थप जानकारिका लागि यहाँ क्लिक गर्नुहोस्",
+    "report": {
+      "clinicName": "क्लिनिकको नाम:",
+      "note": "यस क्लिनिकबारे टिप्पणी",
+      "reason": "यस क्लिनिकलाई रिपोर्ट गर्नुको कारण",
+      "submitReport": "रिपोर्ट",
+      "title": "जानकारी रिपोर्ट गर्नुहोस्"
+    },
+    "search": "खोजी गर्नुहोस्"
+  },
+  "delete": {
+    "dialog": "के तपाईं यस ID लाई हटाउनेमा निश्चित हुनुहुन्छ : {0}"
+  },
+  "error": {
+    "homePage": "गृह पृष्ठ",
+    "notFound": "४०४ नट फाउन्ड",
+    "otherError": "कुनै समस्याका कारण तपाईंको रेक्वेस्ट सफल हुनसकेन"
+  },
+  "footer": {
+    "donate": "डोनेट गर्नुहोस्",
+    "github": "GitHub",
+    "kofi": "Buy me a Ko-Fi",
+    "netlify": "Powered by Netlify",
+    "siteTitle": "फाइन्ड अ डक्, जापान {0}"
+  },
+  "general": {
+    "approve": "स्वीकृत गर्नुहोस्",
+    "cancel": "रद्द गर्नुहोस्",
+    "delete": "मेटाउनुहोस्"
+  },
+  "index": {
+    "massSite": "१ 18 बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
+    "register": "पञ्जीकरण साइटमा जानुहोस्",
+    "getDocument": "कागजात प्राप्त गर्नुहोस्",
+    "prevaccinationScreening": "आवश्यक पूर्व खोप स्क्रिनिंग फाराम अनलाइन मर्फत डाउनलोड गर्न सकिन्छ ! केवल जापानी भाषाका फारम स्वीकार्य हुनेछ तर अनुवादहरू उपलब्ध छन् । ",
+    "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
+  },
+  "login": {
+    "clear": "खाली गर्नुहोस्",
+    "email": "ईमेल",
+    "login": "लगइन",
+    "password": "पासवर्ड"
+  },
+  "logout": {
+    "message": "तपाईंलाई लगआउट गरिदै छ...",
+    "successMessage": "तपाईं लगआउट हुनुभयो !"
+  },
+  "message": {
+    "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent."
+  },
+  "pending": {
+    "edit": "जानकारी सम्पादन गर्नुहोस्",
+    "title": "जानकारी पूर्ण गरिने पर्खाइमा"
+  },
+  "toolbar": {
+    "about": "हाम्रो बारेमा",
+    "addClinic": "क्लिनिक थप गर्नुहोस्",
+    "adminDashboard": "एड्मिन ड्यासबोर्ड",
+    "github": "GitHub",
+    "home": "होम",
+    "languages": "भाषाहरु",
+    "login": "लगइन",
+    "logout": "लगआउट",
+    "title": "फाइन्ड अ डक्, जापान"
+  }
 }
