@@ -1,0 +1,38 @@
+name: Translation request
+description: File an issue about our translations
+title: "[translation]: "
+labels: [translation]
+assignees:
+  - ann-kilzer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit a request!
+  - type: input
+    id: language
+    attributes:
+      label: Contact Details
+      description: Which language needs improvement?
+      placeholder: ex. 日本語
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      description: What kind of issue is happening?
+      options:
+        - New Language Request
+        - Missing translations
+        - Invalid translation
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Request details
+      description: What needs to be improved?
+    validations:
+      required: true
