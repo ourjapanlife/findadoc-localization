@@ -12,7 +12,7 @@ body:
   - type: input
     id: language
     attributes:
-      label: Contact Details
+      label: Language
       description: Which language needs improvement?
       placeholder: ex. 日本語
     validations:
