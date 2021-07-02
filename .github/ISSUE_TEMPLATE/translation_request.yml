@@ -1,7 +1,7 @@
 name: Translation request
 description: File an issue about our translations
 title: "[translation]: "
-labels: [translation]
+labels: ["translation request"]
 assignees:
   - ann-kilzer
 body:
