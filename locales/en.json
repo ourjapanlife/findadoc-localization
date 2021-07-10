@@ -84,7 +84,7 @@
             "required": "Required",
             "notRequired": "Not Required"
         },
-        "search": "Search"
+        "search": "Search by Location or Clinic Name"
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
