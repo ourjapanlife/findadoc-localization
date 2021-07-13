@@ -6,6 +6,10 @@
 
 # Find a Doc - Localization
 
+[Join our Slack!](https://join.slack.com/t/find-a-doc/shared_invite/zt-s4744a6o-MGaGHzLN5wB9aXeha3vdsQ)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/theyokohamalife)  
+
 [Find a Doc](https://findadoc.jp) is a free online resource aimed at helping connect the foreign community in Japan with health services in their native language.
 
 Translations are initially created by machine in a special file format, and then edited by volunteers to be published on the site.
