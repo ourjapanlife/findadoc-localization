@@ -98,7 +98,7 @@
         "password": "Mật khẩu"
     },
     "logout": {
-        "message": "Logging you out...",
+        "message": "Sample edits",
         "successMessage": "You've been logged out. See ya!"
     },
     "pending": {
