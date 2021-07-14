@@ -1,7 +1,8 @@
 {
     "about": {
-        "creatorA": "Questo sito è stato create da me, LaShawn Toyoda! Se riscontri dei problemi mentre usi il sito o trovi informazioni incorrette o obsolete, contattami su Twitter {0} per favore.",
         "contributorLeads": "Il nostro Team",
+        "contributorQ": "Who develops this site?",
+        "creatorA": "Questo sito è stato create da me, LaShawn Toyoda! Se riscontri dei problemi mentre usi il sito o trovi informazioni incorrette o obsolete, contattami su Twitter {0} per favore.",
         "creatorQ": "Chi ha creato questo sito?",
         "supportA": "Se vuoi contribuire a Find a Doc, <a href='https://github.com/ourjapanlife'>visita il nostro profilo GitHub</a>, dove potrai trovare una lista di task per le quali abbiamo bisogno di aiuto.",
         "supportQ": "Come posso supportare il database?",
@@ -16,22 +17,27 @@
         "city": "Città",
         "clinicName": "Nome della clinica",
         "fillForm": "Compila questo modulo per aggiungere al database una nuova clinica che ha una lista d'attesa per le cancellazioni",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "Prefettura",
         "reviewMessage": "La clinica che hai inviato verrà inserita dopo essere stata verificata!",
         "romajiOnly": "Solo Romaji",
         "submitClinic": "Invia Clinica",
         "validations": {
             "city": {
+                "minLength": "Il nome della città deve essere almeno di {0} caratteri",
                 "required": "Devi inserire il nome della città",
-                "minLength": "Il nome della città deve essere almeno di {0} caratteri"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "Il nome della clinica deve essere almeno {0} caratteri",
                 "required": "Devi inserire il nome della clinica",
-                "minLength": "Il nome della clinica deve essere almeno {0} caratteri"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "Il nome della municipalità deve essere almeno {0} caratteri",
                 "required": "Devi inserire il nome della municipalità",
-                "minLength": "Il nome della municipalità deve essere almeno {0} caratteri"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "Devi inserire la URL del sito",
@@ -41,7 +47,8 @@
         "voucherRequired": "Voucher necessario: ",
         "ward": "Municipalità",
         "wardResidencyRequired": "É necessario essere residenti nella municipalità: ",
-        "websiteURL": "URL del sito"
+        "websiteURL": "URL del sito",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -57,7 +64,9 @@
             "note": "Nota",
             "prefecture": "Prefettura",
             "report": "Segnala contenuto",
+            "voucherRequired": "Voucher",
             "ward": "Municipalità",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Sito web"
         },
         "moreInfo": "Clicca per maggiori informazioni",
@@ -68,11 +77,15 @@
             "submitReport": "Invia segnalazione",
             "title": "Segnala problema con questa clinica"
         },
+        "search": "Cerca",
         "voucher": {
-            "required": "Necessario",
-            "notRequired": "Non necessario"
+            "notRequired": "Non necessario",
+            "required": "Necessario"
         },
-        "search": "Cerca"
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -95,13 +108,14 @@
         "delete": "Rimuovi"
     },
     "index": {
-        "massSite": "Chiunque abbia 18 anni o più in possesso di un voucher può ora essere vaccinato nei siti di vaccinazione di massa di Tokyo o Osaka.",
-        "register": "Vai al sito di registrazione",
         "getDocument": "Scarica documento",
+        "massSite": "Chiunque abbia 18 anni o più in possesso di un voucher può ora essere vaccinato nei siti di vaccinazione di massa di Tokyo o Osaka.",
         "prevaccinationScreening": "Il modulo da compilare obbligatoriamente prima del vaccino può essere scaricato online! Le cliniche accetteranno solo moduli in Giapponese, ma sul sito troverete la versione tradotta del questionario.",
+        "register": "Vai al sito di registrazione",
         "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Cancella",
         "email": "Email",
         "login": "Login",
@@ -112,7 +126,9 @@
         "successMessage": "Hai effettato il logout con successo. Alla prossima!"
     },
     "message": {
-        "disclaimerAlert" : "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo alcuna responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o derivanti da terze parti. Usa le informazioni di questo sito responsabilmente e, se trovi informazioni errate o fraudolente, mandaci una segnalazione attraverso l'apposito modulo."
+        "disclaimerAlert": "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo alcuna responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o derivanti da terze parti. Usa le informazioni di questo sito responsabilmente e, se trovi informazioni errate o fraudolente, mandaci una segnalazione attraverso l'apposito modulo.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Modifica dati clinica",

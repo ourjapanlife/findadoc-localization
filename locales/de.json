@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "Diese Seite wurde von mir, LaShawn Toyoda, erstellt und gepflegt! Wenn Sie Probleme bei der Nutzung der Website haben oder auf falsche oder veraltete Informationen stoßen, kontaktieren Sie mich bitte über Twitter",
         "creatorQ": "Wer hat diese Website erstellt?",
         "supportA": "Der beste Weg, um zu helfen, besteht darin, alle Wartelisten für Stornierungen von Impfungen in die Datenbank einzutragen. Wenn Sie sich besonders großzügig fühlen, spendieren Sie mir bitte einen Kofi!",
@@ -15,30 +17,38 @@
         "city": "Stadt",
         "clinicName": "Klinikname",
         "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "Präfektur",
         "reviewMessage": "Die von Ihnen eingereichte Klinik wird angezeigt, nachdem sie überprüft wurde!",
         "romajiOnly": "Nur Romaji",
         "submitClinic": "Klinik einreichen",
         "validations": {
             "city": {
+                "minLength": "Der Stadtname muss mindestens {0} Zeichen lang sein",
                 "required": "Stadt ist erforderlich",
-                "minLength": "Der Stadtname muss mindestens {0} Zeichen lang sein"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "Der Klinikname muss aus mindestens {0} Zeichen bestehen",
                 "required": "Klinikname ist erforderlich",
-                "minLength": "Der Klinikname muss aus mindestens {0} Zeichen bestehen"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "Der Stadtviertel-Name muss mindestens {0} Zeichen lang sein",
                 "required": "Stadtviertel wird benötigt",
-                "minLength": "Der Stadtviertel-Name muss mindestens {0} Zeichen lang sein"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "Website-URL ist erforderlich",
                 "url": "Bitte geben Sie eine gültige URL ein"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "Stadtviertel",
-        "websiteURL": "Website-URL"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "Website-URL",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -54,7 +64,9 @@
             "note": "Hinweis",
             "prefecture": "Präfektur",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "Stadtviertel",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Webseite"
         },
         "moreInfo": "Klicken Sie für weitere Informationen",
@@ -65,7 +77,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Suche"
+        "search": "Suche",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -88,11 +108,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Massenimpfstellen in Tokio oder Osaka impfen lassen.",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "Zur Registrierungsseite gehen",
         "title": "Wartelisten für die Stornierung von COVID-19-Impfungen in Japan"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Löschen",
         "email": "Email",
         "login": "Anmeldung",
@@ -101,6 +124,11 @@
     "logout": {
         "message": "Sie werden ausgeloggt...",
         "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",

@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
         "creatorQ": "Siapa yang membuat situs web ini?",
         "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya kofi!",
@@ -15,30 +17,38 @@
         "city": "Kota",
         "clinicName": "Nama klinik",
         "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database. Pastikan klinik yang anda daftarkan memiliki daftar tunggu pembatalan.",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "Prefektur",
         "reviewMessage": "Klinik yang Anda kirimkan akan ditampilkan setelah ditinjau!",
         "romajiOnly": "Tuliskan dengan huruf romaji",
         "submitClinic": "Daftarkan Klinik",
         "validations": {
             "city": {
+                "minLength": "Nama kota minimal harus {0} karakter",
                 "required": "Kota",
-                "minLength": "Nama kota minimal harus {0} karakter"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "Nama klinik minimal harus {0} karakter",
                 "required": "Nama klinik wajib diisi",
-                "minLength": "Nama klinik minimal harus {0} karakter"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "Nama area (kecamatan) minimal harus {0} karakter",
                 "required": "Area (kecamatan) diperlukan",
-                "minLength": "Nama area (kecamatan) minimal harus {0} karakter"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "URL situs web diperlukan",
                 "url": "Harap masukkan URL yang valid"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "Area (kecamatan)",
-        "websiteURL": "URL Situs Web"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "URL Situs Web",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -53,7 +63,9 @@
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "Ward",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
         "moreInfo": "Click for more info",
@@ -64,7 +76,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Search"
+        "search": "Search",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -87,11 +107,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": "Siapa pun yang berusia 18 tahun ke atas yang memiliki voucher sekarang dapat divaksinasi di situs vaksinasi massal Tokyo atau Osaka.",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "Pergi ke Situs Pendaftaran",
         "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Bersih",
         "email": "Email",
         "login": "Login",
@@ -100,6 +123,11 @@
     "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",

@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, si LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nakahanap ng 'false' o 'outdated' na impormasyon, mangyaring makipag-ugnayan sa akin sa pamamagitan ng Twitter {0}",
         "creatorQ": "Sino ang lumikha ng website na ito?",
         "supportA": "Ang pinakamahusay na paraan upang makatulong ay sa pamamagitan ng pag-submit sa database ng anumang 'cancellation waiting lists' na iyong matatagpuan. Kung sa tingin mo ikaw ay labis na mapagbigay, maaring bilihan mo ako ng isang kofi!",
@@ -15,30 +17,38 @@
         "city": "Lungsod",
         "clinicName": "Pangalan ng clinic",
         "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong clinic sa database na may cancellation waiting list.",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "Prefecture",
         "reviewMessage": "Ang clinic na iyong sinubmit ay ipapakita matapos itong suriin!",
         "romajiOnly": "Romaji lang",
         "submitClinic": "Mag-submit ng Clinic",
         "validations": {
             "city": {
+                "minLength": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character",
                 "required": "Kailangan ng lungsod",
-                "minLength": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character",
                 "required": "Kailangan ang pangalan ng clinic",
-                "minLength": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character",
                 "required": "Kailangan ang ward",
-                "minLength": "Ang pangalan ng ward ay dapat na hindi bababa sa {0} character"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "Kailangan ang URL ng website",
                 "url": "Mangyaring maglagay ng wastong URL"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "Ward",
-        "websiteURL": "Website URL"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "Website URL",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -53,7 +63,9 @@
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "Ward",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
         "moreInfo": "Click for more info",
@@ -64,7 +76,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Search"
+        "search": "Search",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -87,11 +107,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "Go to Registration Site",
         "title": "COVID-19 Vaccination Cancellation Waiting Lists sa Japan"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Ulitin",
         "email": "Email",
         "login": "Mag log in",
@@ -100,6 +123,11 @@
     "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",

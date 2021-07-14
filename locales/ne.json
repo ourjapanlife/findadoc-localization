@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "यो वेबसाइट LaShawn Toyoda द्वारा बनाईएको हो । यदि तपाइँलाई यस साइटको प्रयोग गर्दा कुनै समस्या आएमा वा गलत/पुराना जानकारी रहेको पाउनुभएमा कृपया मलाई ट्विटरमा ({0}) सम्पर्क गर्नुहोला",
         "creatorQ": "यो वेबसाइट कसले बनाएको हो?",
         "supportA": "खोप रद्द भएकाहरुका लागि खोप दिने क्लिनिक अथवा खोपकेन्द्रहरु बारे तपाइँलाई कुनै जानकारी भएमा सो क्लिनिक अथवा खोपकेन्द्रको जानकारी यस डाटाबेसलाई उपलब्ध गराएर सहयोग गर्न सक्नुहुन्छ । तपाईलाइ थप सहयोग गर्ने इच्छाभएमा मलाई एक kofi किनिदिएर पनि सहयोग गर्न सक्नुहुन्छ ।",
@@ -15,30 +17,38 @@
         "city": "शहर",
         "clinicName": "क्लिनिकको नाम",
         "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "प्रिफेक्चर",
         "reviewMessage": "तपाईले उपलब्ध गराउनुभएको जानकारी हामी समीक्षा गरेर प्रकाशन गर्नेछौ ।",
         "romajiOnly": "रोमाजी मात्र",
         "submitClinic": "क्लिनिक बुझाउनुहोस्",
         "validations": {
             "city": {
+                "minLength": "शहरको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ",
                 "required": "शहर आवश्यक छ",
-                "minLength": "शहरको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "क्लिनिकको नाम कम्तिमा {0} वर्णहरूको हुनुपर्दछ",
                 "required": "क्लिनिकको नाम आवश्यक छ",
-                "minLength": "क्लिनिकको नाम कम्तिमा {0} वर्णहरूको हुनुपर्दछ"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "वार्डको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ",
                 "required": "वार्ड आवश्यक छ",
-                "minLength": "वार्डको नाम कम्तिमा {0} क्यारेक्टर हुनुपर्दछ"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "वेबसाइटको लिंक आवश्यक छ",
                 "url": "कृपया मान्य वेबसाइटको लिंक राख्नुहोला"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "वार्ड",
-        "websiteURL": "वेबसाइटको लिंक"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "वेबसाइटको लिंक",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -53,7 +63,9 @@
             "note": "नोट",
             "prefecture": "प्रेफेक्चर ",
             "report": "रिपोर्ट",
+            "voucherRequired": "Voucher",
             "ward": "वडा",
+            "wardResidencyRequired": "Ward Residency",
             "website": "वेबसाईट"
         },
         "moreInfo": "थप जानकारिका लागि यहाँ क्लिक गर्नुहोस्",
@@ -64,7 +76,15 @@
             "submitReport": "रिपोर्ट",
             "title": "जानकारी रिपोर्ट गर्नुहोस्"
         },
-        "search": "खोजी गर्नुहोस्"
+        "search": "खोजी गर्नुहोस्",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "के तपाईं यस ID लाई हटाउनेमा निश्चित हुनुहुन्छ : {0}"
@@ -87,13 +107,14 @@
         "delete": "मेटाउनुहोस्"
     },
     "index": {
-        "massSite": "१८ बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
-        "register": "पञ्जीकरण साइटमा जानुहोस्",
         "getDocument": "कागजात प्राप्त गर्नुहोस्",
+        "massSite": "१८ बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
         "prevaccinationScreening": "आवश्यक पूर्व खोप स्क्रिनिंग फाराम अनलाइन मर्फत डाउनलोड गर्न सकिन्छ ! केवल जापानी भाषाका फारम स्वीकार्य हुनेछ तर अनुवादहरू उपलब्ध छन् । ",
+        "register": "पञ्जीकरण साइटमा जानुहोस्",
         "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "खाली गर्नुहोस्",
         "email": "ईमेल",
         "login": "लगइन",
@@ -104,7 +125,9 @@
         "successMessage": "तपाईं लगआउट हुनुभयो !"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent."
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "जानकारी सम्पादन गर्नुहोस्",
