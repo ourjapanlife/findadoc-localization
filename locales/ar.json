@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": ".{0}Twitter  إذا واجهتك أي مشكلة في استخدام الموقع أو صادفت معلومات غير صحيحة أو قديمة ، فيرجى الاتصال بي من خلال!LaShawn Toyoda {0} تم إنشاء هذا الموقع وصيانته من طرفي أنا",
         "creatorQ": "من أنشأ هذا الموقع؟",
         "supportA": "!ko-fi أفضل طريقة للمساعدة هي إرسال أي قوائم انتظار للإلغاء تجدها إلى قاعدة البيانات. إذا كنت تريد أن تكون كريمًا ، من فضلك اشتري لي ",
@@ -15,30 +17,38 @@
         "city": "المدينة",
         "clinicName": "اسم العيادة",
         "fillForm": ".املأ هذه الإستمارة لإضافة عيادة جديدة إلى قاعدة البيانات التي تحتوي على قائمة انتظار للإلغاء",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "الولاية",
         "reviewMessage": "!سيتم عرض العيادة التي قدمتها بعد مراجعتها",
         "romajiOnly": ".فقط Romaji الرجاء استخدام",
         "submitClinic": "إرسال العيادة",
         "validations": {
             "city": {
+                "minLength": "يجب أن يكون اسم المدينة على الأقل {0} حرف",
                 "required": "اسم المدينة  ضروري",
-                "minLength": "يجب أن يكون اسم المدينة على الأقل {0} حرف"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "يجب أن يكون اسم العيادة على الأقل {0} حرف",
                 "required": "اسم العيادة ضروري",
-                "minLength": "يجب أن يكون اسم العيادة على الأقل {0} حرف"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "يجب أن يكون اسم المنطقة على الأقل {0} حرف",
                 "required": "اسم المنطقة ضروري",
-                "minLength": "يجب أن يكون اسم المنطقة على الأقل {0} حرف"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "ضروري URL موقع",
                 "url": "صحيح URL الرجاء إدخال"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "المنطقة",
-        "websiteURL": "URL موقع "
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "URL موقع ",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -54,7 +64,9 @@
             "note": "ملاحظات",
             "prefecture": "الولاية",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "المنطقة",
+            "wardResidencyRequired": "Ward Residency",
             "website": "الموقع الإلكتروني"
         },
         "moreInfo": "اضغط لمزيد من المعلومات",
@@ -65,7 +77,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "بحث"
+        "search": "بحث",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -88,11 +108,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": ".يمكن لأي شخص لديه وصل إثبات و يبلغ من العمر 18 عامًا أو أكثرأن يحصل على التلقيح في مواقع التلقيح الجماعي في طوكيو أو أوساكا",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "انتقل إلى موقع التسجيل",
         "title": " في اليابان COVID-19 قوائم الانتظار عند إلغاءات التلقيح ضد فيروس "
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "الغاء",
         "email": "البريد الإلكتروني",
         "login": "تسجيل الدخول",
@@ -101,6 +124,11 @@
     "logout": {
         "message": "...تسجيل الخروج",
         "successMessage": "!لقد تم تسجيل خروجك. الى اللقاء"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",

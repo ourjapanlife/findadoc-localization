@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorQ": "サイトの開発について",
         "contributorLeads": "チーム",
+        "contributorQ": "サイトの開発について",
         "creatorA": "このサイトは私、LaShawn Toyodaによって作成され、維持されています。サイトの使用に問題がある場合、または誤った情報や古い情報に遭遇した場合は、Twitter {0}でご連絡ください。",
         "creatorQ": "このウェブサイトを作成したのは誰ですか？",
         "supportA": "助けるための最良の方法は、あなたが知っているキャンセル待ちリストがあるクリニックをデータベースに登録することです。もし良ければ、「Ko-fi」を買ってください！",
@@ -25,18 +25,18 @@
         "submitClinic": "クリニックを登録する",
         "validations": {
             "city": {
-                "required": "市町村が必要です",
                 "minLength": "市町村は{0}文字以上で入力してください",
+                "required": "市町村が必要です",
                 "validChars": "不正文字"
             },
             "clinic": {
-                "required": "クリニック名が必要です",
                 "minLength": "クリニック名は{0}文字以上で入力してください",
+                "required": "クリニック名が必要です",
                 "validChars": "不正文字"
             },
             "ward": {
-                "required": "区が必要です",
                 "minLength": "区の名は{0}文字以上で入力してください",
+                "required": "区が必要です",
                 "validChars": "不正文字"
             },
             "website": {
@@ -65,8 +65,8 @@
             "prefecture": "都道府県",
             "report": "報告",
             "voucherRequired": "接種券",
-            "wardResidencyRequired": "市町村内の在住者のみの制限",
             "ward": "区",
+            "wardResidencyRequired": "市町村内の在住者のみの制限",
             "website": "ウェブサイト"
         },
         "moreInfo": "詳細については、ここをクリックしてください",
@@ -77,15 +77,15 @@
             "submitReport": "報告",
             "title": "データについて報告"
         },
+        "search": "検索",
         "voucher": {
-            "required": "必要",
-            "notRequired": "不要"
+            "notRequired": "不要",
+            "required": "必要"
         },
         "wardResidency": {
-            "required": "あり",
-            "notRequired": "なし"
-        },
-        "search": "検索"
+            "notRequired": "なし",
+            "required": "あり"
+        }
     },
     "delete": {
         "dialog": "本当にID: {0}を削除しますか？"
@@ -108,10 +108,10 @@
         "delete": "削除"
     },
     "index": {
-        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
-        "register": "登録サイトに移動します",
         "getDocument": "クリックでダウンロード",
+        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
         "prevaccinationScreening": "接種の予診票がダウンロードできます。日本語の予診票のみ受け付けられていますが、各国語訳が公開されいます。",
+        "register": "登録サイトに移動します",
         "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
     },
     "login": {
@@ -126,9 +126,9 @@
         "successMessage": "ログアウトしました。"
     },
     "message": {
-        "disclaimerAlert" : "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。",
-        "shinYokohamaAlert" : "<h2>速報</h2><br /><b>新横浜</b>にて、接種券をお持ちの横浜在住者が利用できる予約枠が<b>７月１０日</b>からあります。 横浜以外にお住まいの方は、<a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>こちらをクリックしていただけると予約フォームを印刷できます</a>。その後はワクチンをご予約ください。",
-        "shinYokohamaBookVaccine" : "ワクチンを予約"
+        "disclaimerAlert": "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。",
+        "shinYokohamaAlert": "<h2>速報</h2><br /><b>新横浜</b>にて、接種券をお持ちの横浜在住者が利用できる予約枠が<b>７月１０日</b>からあります。 横浜以外にお住まいの方は、<a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>こちらをクリックしていただけると予約フォームを印刷できます</a>。その後はワクチンをご予約ください。",
+        "shinYokohamaBookVaccine": "ワクチンを予約"
     },
     "pending": {
         "edit": "項目を編集",

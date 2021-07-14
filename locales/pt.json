@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "Este site foi criado e é mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
         "creatorQ": "Quem criou este site?",
         "supportA": "A melhor maneira de ajudar é adicionando ao banco de dados todas as listas de espera de cancelamentos que você encontrar. Se quiser extender a generosidade, você pode me comprar um kofi!",
@@ -15,24 +17,27 @@
         "city": "Cidade",
         "clinicName": "Nome da clínica",
         "fillForm": "Preencha este formulário para adicionar uma nova clínica ao banco de dados que tenha lista de espera para cancelamentos.",
-        "prefecture": "Província",
         "no": "Não",
         "note": "Compartilhe detalhes úteis ou importantes",
+        "prefecture": "Província",
         "reviewMessage": "A clínica que você enviou será exibida após ser revisada!",
         "romajiOnly": "Use apenas romaji",
         "submitClinic": "Enviar clínica",
         "validations": {
             "city": {
+                "minLength": "O nome da cidade deve ter pelo menos {0} caracteres",
                 "required": "A cidade é obrigatória",
-                "minLength": "O nome da cidade deve ter pelo menos {0} caracteres"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "O nome da clínica deve ter pelo menos {0} caracteres",
                 "required": "O nome da clínica é obrigatório",
-                "minLength": "O nome da clínica deve ter pelo menos {0} caracteres"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "O nome do distrito deve ter pelo menos {0} caracteres",
                 "required": "O distrito é obrigatório",
-                "minLength": "O nome do distrito deve ter pelo menos {0} caracteres"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "A URL do site é obrigatória",
@@ -59,8 +64,8 @@
             "prefecture": "Província",
             "report": "Reportar",
             "voucherRequired": "Cupom",
-            "wardResidencyRequired": "Distrito de Residência",
             "ward": "Distrito",
+            "wardResidencyRequired": "Distrito de Residência",
             "website": "Site"
         },
         "moreInfo": "Clique para mais informações",
@@ -71,7 +76,15 @@
             "submitReport": "Reportar",
             "title": "Reporte este registro"
         },
-        "search": "Buscar"
+        "search": "Buscar",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Você tem certeza que quer deletar o ID: {0}"
@@ -94,13 +107,14 @@
         "delete": "Deletar"
     },
     "index": {
-        "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",
-        "register": "Cadastre-se no site oficial",
         "getDocument": "Obtenha o documento",
+        "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",
         "prevaccinationScreening": "O formulário obrigatório de exame médico preliminar para a vacina contra coronavírus pode ser obtido online! Somente o formulário em japonês é aceito, mas existem traduções disponíveis.",
+        "register": "Cadastre-se no site oficial",
         "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Limpar",
         "email": "E-mail",
         "login": "Entrar",
@@ -111,7 +125,9 @@
         "successMessage": "Você foi deslogado. Até mais!"
     },
     "message": {
-        "disclaimerAlert": "As únicas vacinas aprovadas no Japão são Moderna e Pfizer. Seja cauteloso com clínicas oferecendo SinoVac ou outras. O conteúdo deste site é gerado pelos usuários, e embora façamos o melhor para moderá-lo, pode ser que existam erros ou conteúdo não verificado. <br /><br /> Não nos responsabilizamos por informações imprecisas enviadas pela comunidade, e não nos responsabilizamos por sites de terceiros. Use o seu próprio critério e por favor utilize o recurso de reportar caso suspeite de informação fraudulenta."
+        "disclaimerAlert": "As únicas vacinas aprovadas no Japão são Moderna e Pfizer. Seja cauteloso com clínicas oferecendo SinoVac ou outras. O conteúdo deste site é gerado pelos usuários, e embora façamos o melhor para moderá-lo, pode ser que existam erros ou conteúdo não verificado. <br /><br /> Não nos responsabilizamos por informações imprecisas enviadas pela comunidade, e não nos responsabilizamos por sites de terceiros. Use o seu próprio critério e por favor utilize o recurso de reportar caso suspeite de informação fraudulenta.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Editar Envio",

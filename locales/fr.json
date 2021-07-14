@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorQ": "Qui développe ce site ?",
         "contributorLeads": "Notre équipe",
+        "contributorQ": "Qui développe ce site ?",
         "creatorA": "Ce site a été créé et maintenu par moi, LaShawn Toyoda ! Si vous rencontrez des difficultés pour utiliser le site ou si vous rencontrez des informations incorrectes ou obsolètes, merci de me contacter via Twitter {0}",
         "creatorQ": "Qui a créé ce site Web ?",
         "supportA": "Si vous aimeriez faire partie de la communauté de Find a Doc, <a href='https://github.com/ourjapanlife'>rejoignez-nous sur GitHub</a> pour savoir comment nous prêter main forte !",
@@ -17,24 +17,27 @@
         "city": "Ville",
         "clinicName": "Nom de la clinique",
         "fillForm": "Remplissez ce formulaire pour ajouter à la base de données une nouvelle clinique qui a une liste d'attente d'annulation.",
-        "prefecture": "Préfecture",
         "no": "Non",
         "note": "Partager des détails utiles ou importants",
+        "prefecture": "Préfecture",
         "reviewMessage": "La clinique que vous avez soumise sera affichée après avoir été examinée !",
         "romajiOnly": "Romaji seulement",
         "submitClinic": "Soumettre la clinique",
         "validations": {
             "city": {
+                "minLength": "Le nom de la ville doit comporter au moins {0} caractères",
                 "required": "La ville est requise",
-                "minLength": "Le nom de la ville doit comporter au moins {0} caractères"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "Le nom de la clinique doit comporter au moins {0} caractères",
                 "required": "Le nom de la clinique est requis",
-                "minLength": "Le nom de la clinique doit comporter au moins {0} caractères"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "Le nom de l'arrondissement (区) doit comporter au moins {0} caractères",
                 "required": "Le nom de l'arrondissement (区) est requis",
-                "minLength": "Le nom de l'arrondissement (区) doit comporter au moins {0} caractères"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "L'URL du site Web est requise",
@@ -73,11 +76,15 @@
             "submitReport": "Signaler",
             "title": "Signaler cette entrée"
         },
+        "search": "Recherche",
         "voucher": {
-            "required": "Requis",
-            "notRequired": "Facultatif"
+            "notRequired": "Facultatif",
+            "required": "Requis"
         },
-        "search": "Recherche"
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Êtes-vous sûr de vouloir supprimer l'ID {0}"
@@ -100,10 +107,10 @@
         "delete": "Supprimer"
     },
     "index": {
-        "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",
-        "register": "Aller sur le site d'inscription",
         "getDocument": "Obtenir le document",
+        "massSite": "Toute personne de 18 ans ou plus disposant d'un bon peut désormais se faire vacciner sur les sites de vaccination de masse de Tokyo ou d'Osaka.",
         "prevaccinationScreening": "Le formulaire obligatoire de dépistage pré-vaccination est disponible en ligne ! Seul le formulaire japonais est accepté mais des traductions sont disponibles.",
+        "register": "Aller sur le site d'inscription",
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon"
     },
     "login": {
@@ -118,7 +125,9 @@
         "successMessage": "Vous avez été déconnecté. À bientôt !"
     },
     "message": {
-        "disclaimerAlert": "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse."
+        "disclaimerAlert": "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Éditer l'entrée",

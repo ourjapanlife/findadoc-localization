@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorQ": "Bu siteyi kim geliştiriyor?",
         "contributorLeads": "Takımımız",
+        "contributorQ": "Bu siteyi kim geliştiriyor?",
         "creatorA": "Bu siteyi ben, LaShawn Toyoda, yaptım! Eğer siteyi kullanırken bir sorunla, yanlış veya eski bir bilgiyle karşılaşırsanız lütfen bana Twitter'dan yazın {0}",
         "creatorQ": "Bu siteyi kim yaptı?",
         "supportA": "Find a Doc topluluğuna katılmak istiyorsanız <a href='https://github.com/ourjapanlife'>GitHub sayfamıza gelin</a> ve hangi konuda yardımcı olabileceğinizi konuşalım!",
@@ -17,26 +17,26 @@
         "city": "Şehir",
         "clinicName": "Klinik adı",
         "fillForm": "İptal bekleme listesi olan klinikleri bu formu doldurarak veritabanına ekleyebilirsiniz.",
-        "prefecture": "İl",
         "no": "Hayır",
         "note": "Önemli veya yardımcı olabilecek detayları paylaşın",
+        "prefecture": "İl",
         "reviewMessage": "Gönderdiğiniz klinikler onaylandıktan sonra görüntülenecektir!",
         "romajiOnly": "Yalnız latin harfleri",
         "submitClinic": "Kliniği gönder",
         "validations": {
             "city": {
-                "required": "Şehir girmelisiniz",
                 "minLength": "Şehir en az {0} karakter olmalıdır",
+                "required": "Şehir girmelisiniz",
                 "validChars": "Geçersiz karakter"
             },
             "clinic": {
-                "required": "Klinik adı girmelisiniz",
                 "minLength": "Klinik adı en az {0} karakter olmalıdır",
+                "required": "Klinik adı girmelisiniz",
                 "validChars": "Geçersiz karakter"
             },
             "ward": {
-                "required": "Bölge girmelisiniz",
                 "minLength": "Bölge en az {0} karakter olmalıdır",
+                "required": "Bölge girmelisiniz",
                 "validChars": "Geçersiz karakter"
             },
             "website": {
@@ -64,8 +64,8 @@
             "prefecture": "İl",
             "report": "İhbar et",
             "voucherRequired": "Kupon",
-            "wardResidencyRequired": "Bölge İkameti",
             "ward": "Bölge",
+            "wardResidencyRequired": "Bölge İkameti",
             "website": "Web adresi"
         },
         "moreInfo": "Daha fazla bilgi için tıklayın",
@@ -76,15 +76,15 @@
             "submitReport": "İhbar et",
             "title": "Bu veriyi ihbar edin"
         },
+        "search": "Ara",
         "voucher": {
-            "required": "Gerekli",
-            "notRequired": "Gerekli değil"
+            "notRequired": "Gerekli değil",
+            "required": "Gerekli"
         },
         "wardResidency": {
-            "required": "Gerekli",
-            "notRequired": "Gerekli değil"
-        },
-        "search": "Ara"
+            "notRequired": "Gerekli değil",
+            "required": "Gerekli"
+        }
     },
     "delete": {
         "dialog": "Bunu silmek istediğinize emin misiniz? ID: {0}"
@@ -107,10 +107,10 @@
         "delete": "Sil"
     },
     "index": {
-        "massSite": "18 yaş ve üzeri olup aşı kuponu olan herkes Tokyo veya Osaka illerindeki toplu aşılama merkezlerinde aşı olabilirler.",
-        "register": "Kayıt sayfasına git",
         "getDocument": "Formu indir",
+        "massSite": "18 yaş ve üzeri olup aşı kuponu olan herkes Tokyo veya Osaka illerindeki toplu aşılama merkezlerinde aşı olabilirler.",
         "prevaccinationScreening": "Aşılama öncesi doldurulması gereken inceleme formu artık internetten indirilebiliyor! Sadece Japonca form kabul ediliyor, fakat çevirilerini görmek mümkün.",
+        "register": "Kayıt sayfasına git",
         "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri"
     },
     "login": {
@@ -125,7 +125,9 @@
         "successMessage": "Çıkış yapıldı. Görüşürüz!"
     },
     "message": {
-        "disclaimerAlert" : "Japonya'da sadece Moderna ve Pfizer aşıları onaylanmıştır. SinoVac ve diğer aşıları öneren kliniklerden sakının. Bu sitenin içeriği kullanıcıları tarafından üretilmiştir. Bu içeriği yönetmek için elimizden geleni yapıyoruz, fakat yine de hatalar veya doğrulanmamış bilgiler olabilir. <br /><br /> Topluluk tarafından gönderilmiş olup doğru olmayan bilgilerden ve üçüncü web adreslerinden biz sorumlu değiliz. İçerikleri dikkatle inceleyin ve eğer sahte bir bilgi görürseniz lütfen ihbar edin."
+        "disclaimerAlert": "Japonya'da sadece Moderna ve Pfizer aşıları onaylanmıştır. SinoVac ve diğer aşıları öneren kliniklerden sakının. Bu sitenin içeriği kullanıcıları tarafından üretilmiştir. Bu içeriği yönetmek için elimizden geleni yapıyoruz, fakat yine de hatalar veya doğrulanmamış bilgiler olabilir. <br /><br /> Topluluk tarafından gönderilmiş olup doğru olmayan bilgilerden ve üçüncü web adreslerinden biz sorumlu değiliz. İçerikleri dikkatle inceleyin ve eğer sahte bir bilgi görürseniz lütfen ihbar edin.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Gönderiyi Düzenle",

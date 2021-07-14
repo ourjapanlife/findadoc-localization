@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "Deze site is gemaakt en wordt onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
         "creatorQ": "Wie heeft deze website gemaakt?",
         "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die je tegenkomt bij de database in te voeren. Als je je extra genereus voelt, koop dan alsjeblieft een Ko-fi voor me!",
@@ -15,30 +17,38 @@
         "city": "Stad",
         "clinicName": "Naam kliniek",
         "fillForm": "Vul dit formulier in om een nieuwe kliniek met een wachtlijst voor annuleringen aan de database toe te voegen.",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "Prefectuur",
         "reviewMessage": "De kliniek die je hebt ingevoord zal nadat deze is beoordeeld in de database worden opgenomen!",
         "romajiOnly": "Alleen Latijns alfabet",
         "submitClinic": "Verzend kliniek",
         "validations": {
             "city": {
+                "minLength": "De stadsnaam moet minimaal {0} tekens bevatten",
                 "required": "Stad is vereist",
-                "minLength": "De stadsnaam moet minimaal {0} tekens bevatten"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "De naam van de kliniek moet ten minste {0} tekens bevatten",
                 "required": "Naam kliniek is vereist",
-                "minLength": "De naam van de kliniek moet ten minste {0} tekens bevatten"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "De naam van het district moet ten minste {0} tekens bevatten",
                 "required": "District is vereist",
-                "minLength": "De naam van het district moet ten minste {0} tekens bevatten"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "Website-URL is vereist",
                 "url": "Voer een geldige URL in"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "District",
-        "websiteURL": "Website URL"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "Website URL",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -54,7 +64,9 @@
             "note": "Opmerking",
             "prefecture": "Prefectuur",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "District",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
         "moreInfo": "Klik voor meer info",
@@ -65,7 +77,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "Zoeken"
+        "search": "Zoeken",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -88,11 +108,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft kan zich nu laten vaccineren bij de grootschalige vaccinatiecentra in Tokio of Osaka.",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "Ga naar de registratiesite",
         "title": "Wachtlijsten voor annuleringen van COVID-19 vaccinaties in Japan"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "Wis alle velden",
         "email": "E-mail",
         "login": "Log in",
@@ -101,6 +124,11 @@
     "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",

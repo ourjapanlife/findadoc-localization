@@ -1,5 +1,7 @@
 {
     "about": {
+        "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "ไซต์นี้สร้างและดูแลโดยฉัน LaShawn Toyoda! หากคุณมีปัญหาในการใช้ไซต์หรือพบข้อมูลที่ไม่ถูกต้องหรือล้าสมัย โปรดติดต่อฉันผ่านทาง Twitter {0}",
         "creatorQ": "ใครเป็นคนสร้างเว็บไซต์นี้?",
         "supportA": "วิธีที่ดีที่สุดที่จะช่วยได้คือการส่งรายการรอการยกเลิกที่คุณเจอไปยังฐานข้อมูล หากคุณรู้สึกใจกว้าง โปรดซื้อโคฟีให้ฉัน!",
@@ -15,30 +17,38 @@
         "city": "เมือง",
         "clinicName": "ชื่อคลินิก",
         "fillForm": "กรอกแบบฟอร์มนี้เพื่อเพิ่มคลินิกใหม่ในฐานข้อมูลที่มีรายการรอการยกเลิก",
+        "no": "No",
+        "note": "Share helpful or important details",
         "prefecture": "จังหวัด",
         "reviewMessage": "คลินิกที่คุณส่งมาจะแสดงหลังจากตรวจทานแล้ว!",
         "romajiOnly": "โรมาจิเท่านั้น",
         "submitClinic": "ส่งคลินิก",
         "validations": {
             "city": {
+                "minLength": "ชื่อเมืองต้องมีอักขระ {0}",
                 "required": "ต้องระบุเมือง",
-                "minLength": "ชื่อเมืองต้องมีอักขระ {0}"
+                "validChars": "Invalid character(s)"
             },
             "clinic": {
+                "minLength": "ชื่อคลินิกต้องมีอย่างน้อย {0} ตัวอักษร",
                 "required": "ต้องระบุชื่อคลินิก",
-                "minLength": "ชื่อคลินิกต้องมีอย่างน้อย {0} ตัวอักษร"
+                "validChars": "Invalid character(s)"
             },
             "ward": {
+                "minLength": "ชื่อวอร์ดต้องมีอักขระ {0}",
                 "required": "จำเป็นต้องมีวอร์ด",
-                "minLength": "ชื่อวอร์ดต้องมีอักขระ {0}"
+                "validChars": "Invalid character(s)"
             },
             "website": {
                 "required": "ต้องระบุ URL ของเว็บไซต์",
                 "url": "โปรดป้อน URL ที่ถูกต้อง"
             }
         },
+        "voucherRequired": "Voucher required: ",
         "ward": "วอร์ด",
-        "websiteURL": "URL ของเว็บไซต์"
+        "wardResidencyRequired": "Ward residency required: ",
+        "websiteURL": "URL ของเว็บไซต์",
+        "yes": "Yes"
     },
     "admin": {
         "pending": {
@@ -54,7 +64,9 @@
             "note": "Note",
             "prefecture": "จังหวัด",
             "report": "Report",
+            "voucherRequired": "Voucher",
             "ward": "วอร์ด",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
         "moreInfo": "คลิกเพื่อดูข้อมูลเพิ่มเติม",
@@ -65,7 +77,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
-        "search": "ค้นหา"
+        "search": "ค้นหา",
+        "voucher": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        },
+        "wardResidency": {
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
@@ -88,11 +108,14 @@
         "delete": "Delete"
     },
     "index": {
+        "getDocument": "Get the Document",
         "massSite": "ผู้ใดก็ตามที่มีอายุ 18 ปีขึ้นไปที่มีบัตรกำนัลสามารถฉีดวัคซีนได้ที่ไซต์ฉีดวัคซีนในโตเกียวหรือโอซาก้า",
+        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "ไปที่เว็บไซต์ลงทะเบียน",
         "title": "รายการรอยกเลิกการฉีดวัคซีน COVID-19 ในญี่ปุ่น"
     },
     "login": {
+        "adminLogin": "Admin Login",
         "clear": "ชัดเจน",
         "email": "อีเมล",
         "login": "เข้าสู่ระบบ",
@@ -101,6 +124,11 @@
     "logout": {
         "message": "Logging you out...",
         "successMessage": "You've been logged out. See ya!"
+    },
+    "message": {
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "pending": {
         "edit": "Edit Submission",
