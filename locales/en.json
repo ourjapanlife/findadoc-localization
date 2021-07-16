@@ -126,7 +126,7 @@
     },
     "message": {
         "disclaimerAlert" : "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert" : "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 16th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaAlert" : "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 16th</b> for voucher holders. Ward residency not required!",
         "shinYokohamaBookVaccine" : "Book Vaccine"
     },
     "pending": {
