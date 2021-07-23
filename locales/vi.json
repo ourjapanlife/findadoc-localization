@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
+        "contributorLeads": "Đội ngũ phát triển",
+        "contributorQ": "Ai phát triển trang web này?",
         "creatorA": "Trang web này được tạo và duy trì bởi tôi, LaShawn Toyoda! Nếu bạn gặp sự cố khi sử dụng trang web hoặc tìm thấy thông tin không chính xác hay đã lỗi thời, vui lòng liên hệ với tôi qua Twitter {0}",
         "creatorQ": "Ai đã tạo ra trang web này?",
         "supportA": "Cách tốt nhất để giúp đỡ dự án này là việc bạn đăng ký bất kỳ danh-sách-đăng-ký-chích-vắc-xin-chờ-hủy-bỏ nào mà bạn bắt gặp vào cơ sở dữ liệu. Nếu bạn muốn hào phóng hơn, hãy mua cho tôi một ly cafe!",
@@ -10,15 +10,15 @@
         "trustQ": "Thông tin này có thể tin cậy được không?",
         "welcome": "Chào mừng bạn đến với trang thông tin Find a Doc!",
         "whatIsThisA": "Đây là cơ sở dữ liệu hướng tới cộng đồng để giúp truyền bá thông tin về các phòng khám đang cung cấp danh sách chờ tiêm chủng để chúng không bị lãng phí.",
-        "whatIsThisQ": "Cái này là cái gì?"
+        "whatIsThisQ": "Trang web này là gì?"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
-        "city": "thành phố",
+        "additionalInfo": "Thông tin thêm (Tuỳ chọn)",
+        "city": "Thành phố",
         "clinicName": "Tên phòng khám",
         "fillForm": "Điền vào biểu mẫu này để thêm một phòng khám mới vào cơ sở dữ liệu có danh sách chờ hủy bỏ.",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "Không",
+        "note": "Chia sẻ thông tin hữu ích hoặc quan trọng",
         "prefecture": "Tỉnh",
         "reviewMessage": "Phòng khám bạn đã gửi sẽ được hiển thị sau khi nội dung đã được duyệt!",
         "romajiOnly": "Chỉ dùng chữ Romaji",
@@ -27,28 +27,28 @@
             "city": {
                 "minLength": "Tên thành phố phải có ít nhất {0} ký tự",
                 "required": "Tên thành phố là bắt buộc",
-                "validChars": "Invalid character(s)"
+                "validChars": "Kí tự không hợp lệ"
             },
             "clinic": {
                 "minLength": "Tên phòng khám phải có ít nhất {0} ký tự",
                 "required": "Tên phòng khám là bắt buộc",
-                "validChars": "Invalid character(s)"
+                "validChars": "Kí tự không hợp lệ"
             },
             "ward": {
                 "minLength": "Tên phường phải có ít nhất {0} ký tự",
                 "required": "Tên phường là bắt buộc",
-                "validChars": "Invalid character(s)"
+                "validChars": "Kí tự không hợp lệ"
             },
             "website": {
                 "required": "URL trang web là bắt buộc",
                 "url": "Vui lòng nhập một URL hợp lệ"
             }
         },
-        "voucherRequired": "Voucher required: ",
-        "ward": "khu vực",
-        "wardResidencyRequired": "Ward residency required: ",
-        "websiteURL": "URL trang web",
-        "yes": "Yes"
+        "voucherRequired": "Cần có phiếu đăng ký: ",
+        "ward": "Khu vực",
+        "wardResidencyRequired": "Cần cư trú lại khu vực: ",
+        "websiteURL": "Địa chỉ trang web",
+        "yes": "Có"
     },
     "admin": {
         "pending": {
@@ -58,32 +58,32 @@
     },
     "cancelList": {
         "header": {
-            "city": "thành phố",
+            "city": "Thành phố",
             "clinicName": "Tên phòng khám",
-            "note": "Note",
+            "note": "Ghi chú",
             "prefecture": "Tỉnh",
-            "report": "Report",
-            "voucherRequired": "Voucher",
-            "ward": "khu vực",
-            "wardResidencyRequired": "Ward Residency",
+            "report": "Báo cáo",
+            "voucherRequired": "Phiếu đăng ký",
+            "ward": "Khu vực",
+            "wardResidencyRequired": "Yêu cầu cư trú",
             "website": "Website"
         },
         "moreInfo": "Bấm để biết thêm thông tin",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "Tên phòng khám:",
+            "note": "Ghi chú về phòng khám",
+            "reason": "Tại sao bạn báo cáo phòng khám này?",
+            "submitReport": "Báo cáo",
+            "title": "Báo cáo phòng khám này"
         },
         "search": "Tìm kiếm",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Không yêu cầu",
+            "required": "Yêu cầu"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Không yêu cầu",
+            "required": "Yêu cầu"
         }
     },
     "delete": {
@@ -107,35 +107,35 @@
         "delete": "Delete"
     },
     "index": {
-        "getDocument": "Get the Document",
+        "getDocument": "Tải bảng câu hỏi sàng lọc",
         "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "prevaccinationScreening": "Bạn phải hoàn thành bảng sàng lọc trước khi tiêm chủng! Chỉ mẫu tiếng Nhật được chấp nhận nhưng có sẵn bản dịch tiếng Việt cho bạn tham khảo. Nếu chưa có bạn có thể tải về tại đây. ",
         "register": "Đi đến trang web đăng ký",
         "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản"
     },
     "login": {
         "adminLogin": "Admin Login",
-        "clear": "trong",
+        "clear": "Huỷ đăng nhập",
         "email": "Email",
         "login": "Đăng nhập",
         "password": "Mật khẩu"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Đang đăng xuất...",
+        "successMessage": "Bạn đã đăng xuất. See ya!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "Các loại vắc-xin đang được sử dụng tại Nhật là Moderna và Pfizer. Hãy cảnh giác với các phòng khám cung cấp SinoVac hoặc những loại khác. Nội dung trên trang web này là do người dùng tạo ra và mặc dù chúng tôi cố gắng hết sức để kiểm duyệt, nhưng nó có thể chứa thông tin hoặc nội dung chưa được xác minh. <br /><br /> Chúng tôi không chịu trách nhiệm về những thông tin không chính xác có thể có trong các bài gửi của cộng đồng và chúng tôi không chịu trách nhiệm đối với các trang web của bên thứ ba. Hãy cân nhắc kĩ và phán đoán, vui lòng báo cáo bất kỳ nội dung nào mà bạn cho rằng có thể không chính xác.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> Có thể đăng ký tiêm vắc-xin từ <b>July 12th</b> cho người có phiếu đăng ký. Nếu bạn không ở tại Yokohama và muốn đăng ký, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'> bấm vào đây để điền đơn yêu cầu và in ra.</a>THEN bấm nút để đặt lịch tiêm!",
+        "shinYokohamaBookVaccine": "Đặt lịch tiêm"
     },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
     },
     "toolbar": {
-        "about": "Trong khoảng",
-        "addClinic": "thêm một phòng khám",
+        "about": "Về chúng tôi",
+        "addClinic": "Thêm một phòng khám",
         "adminDashboard": "Admin Dashboard",
         "github": "GitHub",
         "home": "Home",
