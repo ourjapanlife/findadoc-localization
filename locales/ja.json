@@ -12,6 +12,10 @@
         "whatIsThisA": "これはコミュニティ主導のデータベースであり、予防接種のキャンセル待ちシステムがあるクリニックの情報を広め、ワクチンが無駄にならないようにする目的です。",
         "whatIsThisQ": "このウェブサイトについて"
     },
+    "activeClinic": {
+        "data": "アクティブクリニックのデータ",
+        "editClinic": "クリニックを編集"
+    },
     "add-clinic": {
         "additionalInfo": "備考 (任意)",
         "city": "市町村",
@@ -90,11 +94,15 @@
     "delete": {
         "dialog": "本当にID: {0}を削除しますか？"
     },
+    "donate": {
+        "supportMe": "寄付する"
+    },
     "error": {
         "homePage": "ホームページ",
         "notFound": "404お探しのページが見つかりませんでした",
         "otherError": "エラーが発生しました"
     },
+    "findADoc": "クリニックを探す",
     "footer": {
         "donate": "寄付する",
         "github": "GitHubでコントリブ",
@@ -105,14 +113,20 @@
     "general": {
         "approve": "承認",
         "cancel": "キャンセル",
-        "delete": "削除"
+        "delete": "削除",
+        "readMore": "続きを読む"
+    },
+    "hero": {
+        "getVaccinated": "接種券の有無にかかわらず、予防接種ができます！",
+        "helpingResidents": "FindADoc.jpは日本住民へ必要不可欠なヘルスケアの情報を提供しています。"
     },
     "index": {
         "getDocument": "クリックでダウンロード",
         "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
         "prevaccinationScreening": "接種の予診票がダウンロードできます。日本語の予診票のみ受け付けられていますが、各国語訳が公開されいます。",
         "register": "登録サイトに移動します",
-        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト"
+        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト",
+        "viewAllNews": "全てのニュース"
     },
     "login": {
         "adminLogin": "管理者ログイン",
@@ -127,13 +141,21 @@
     },
     "message": {
         "disclaimerAlert": "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。",
-        "shinYokohamaAlert": "<h2>速報</h2><br /><b>新横浜</b>にて、接種券をお持ちの横浜在住者が利用できる予約枠が<b>７月１０日</b>からあります。 横浜以外にお住まいの方は、<a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>こちらをクリックしていただけると予約フォームを印刷できます</a>。その後はワクチンをご予約ください。",
+        "shinYokohamaAlert": "<h2>速報</h2><br /><b>新横浜</b>にて、接種券をお持ちの横浜在住者が利用できる予約枠が<b>７月２１日</b>からあります。 横浜以外にお住まいの方は、<a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>こちらをクリックしていただけると予約フォームを印刷できます</a>。その後はワクチンをご予約ください。",
         "shinYokohamaBookVaccine": "ワクチンを予約"
+    },
+    "news": {
+        "author": "執筆者",
+        "by": "執筆者: {0}",
+        "featured": "注目のニュース",
+        "important": "重要なニュースと情報",
+        "updated": "最終更新日: {0}"
     },
     "pending": {
         "edit": "項目を編集",
         "title": "保留中項目"
     },
+    "reportedSubmissions": "報告されたクリニック",
     "toolbar": {
         "about": "Find a Docについて",
         "addClinic": "クリニックを登録する",
