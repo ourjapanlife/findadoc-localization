@@ -12,6 +12,10 @@
         "whatIsThisA": ".هذه قاعدة بيانات مجتمعية للمساعدة في نشر المعلومات حول العيادات التي تقدم قوائم انتظار للتلقيح حتى لا تذهب هباءً",
         "whatIsThisQ": "ما هذا؟"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Additional information (Optional)",
         "city": "المدينة",
@@ -90,11 +94,15 @@
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "الصفحة الرئيسية",
         "notFound": "الصفحة غير موجودة 404",
         "otherError": "حدث خطأ"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Donate",
         "github": "Contribute on GitHub",
@@ -105,14 +113,20 @@
     "general": {
         "approve": "Approve",
         "cancel": "Cancel",
-        "delete": "Delete"
+        "delete": "Delete",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Get the Document",
         "massSite": ".يمكن لأي شخص لديه وصل إثبات و يبلغ من العمر 18 عامًا أو أكثرأن يحصل على التلقيح في مواقع التلقيح الجماعي في طوكيو أو أوساكا",
         "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "انتقل إلى موقع التسجيل",
-        "title": " في اليابان COVID-19 قوائم الانتظار عند إلغاءات التلقيح ضد فيروس "
+        "title": " في اليابان COVID-19 قوائم الانتظار عند إلغاءات التلقيح ضد فيروس ",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -130,10 +144,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "معلومات",
         "addClinic": "أضف عيادة",

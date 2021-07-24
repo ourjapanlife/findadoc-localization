@@ -12,6 +12,10 @@
         "whatIsThisA": "यो एक समुदायद्वारा संचालित डाटाबेस हो जसले जापानमा खोपको प्रतीक्षा सूचीमा रहेकाहरुलाई खोप प्रदान गरिरहेको क्लिनिक तथा खोपकेन्द्रहरुको सुची प्रदान गर्न सहयोग गर्दछ ।",
         "whatIsThisQ": "यो भनेको के हो ?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "थप जानकारी (ऐच्छिक)",
         "city": "शहर",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "के तपाईं यस ID लाई हटाउनेमा निश्चित हुनुहुन्छ : {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "गृह पृष्ठ",
         "notFound": "४०४ नट फाउन्ड",
         "otherError": "कुनै समस्याका कारण तपाईंको रेक्वेस्ट सफल हुनसकेन"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "डोनेट गर्नुहोस्",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "स्वीकृत गर्नुहोस्",
         "cancel": "रद्द गर्नुहोस्",
-        "delete": "मेटाउनुहोस्"
+        "delete": "मेटाउनुहोस्",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "कागजात प्राप्त गर्नुहोस्",
         "massSite": "१८ बर्ष वा माथिका जोसँग भाउचर छ अब टोकियो वा ओसाका मास खोप साइटहरूमा खोप लिन सकिन्छ।",
         "prevaccinationScreening": "आवश्यक पूर्व खोप स्क्रिनिंग फाराम अनलाइन मर्फत डाउनलोड गर्न सकिन्छ ! केवल जापानी भाषाका फारम स्वीकार्य हुनेछ तर अनुवादहरू उपलब्ध छन् । ",
         "register": "पञ्जीकरण साइटमा जानुहोस्",
-        "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू"
+        "title": "COVID-19 जापानमा खोप रद्द प्रतीक्षा सूचीहरू",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "जानकारी सम्पादन गर्नुहोस्",
         "title": "जानकारी पूर्ण गरिने पर्खाइमा"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "हाम्रो बारेमा",
         "addClinic": "क्लिनिक थप गर्नुहोस्",

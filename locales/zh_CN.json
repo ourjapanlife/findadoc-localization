@@ -12,6 +12,10 @@
         "whatIsThisA": "这是一个社区驱动的数据库，用于帮助传播有关提供疫苗接种等候名单的诊所的信息，以免浪费。",
         "whatIsThisQ": "这是什么？"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "其他信息 （选填）",
         "city": "市",
@@ -90,11 +94,15 @@
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "主页",
         "notFound": "404 未找到",
         "otherError": "发生错误"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "捐助",
         "github": "Contribute on GitHub",
@@ -105,14 +113,20 @@
     "general": {
         "approve": "Approve",
         "cancel": "Cancel",
-        "delete": "Delete"
+        "delete": "Delete",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Get the Document",
         "massSite": "任何 18 岁或以上持有代金券的人现在都可以在东京或大阪的大规模疫苗接种点接种疫苗。",
         "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "前往注册网站",
-        "title": "日本 COVID-19 疫苗接种取消等候名单"
+        "title": "日本 COVID-19 疫苗接种取消等候名单",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -130,10 +144,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "关于",
         "addClinic": "添加诊所",

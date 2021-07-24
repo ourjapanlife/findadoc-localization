@@ -12,6 +12,10 @@
         "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas quando há algum cancelamento, para evitar que as vacinas sejam desperdiçadas.",
         "whatIsThisQ": "O que é isso?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Informações adicionais (opcional)",
         "city": "Cidade",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "Você tem certeza que quer deletar o ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Home Page",
         "notFound": "404 Não Encontrada",
         "otherError": "Ocorreu um erro"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Fazer doação",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "Aprovar",
         "cancel": "Cancelar",
-        "delete": "Deletar"
+        "delete": "Deletar",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Obtenha o documento",
         "massSite": "Qualquer pessoa acime de 18 anos que tenha um voucher agora pode ser vacinada nos locais de vacinação em massa em Tóquio ou Osaka.",
         "prevaccinationScreening": "O formulário obrigatório de exame médico preliminar para a vacina contra coronavírus pode ser obtido online! Somente o formulário em japonês é aceito, mas existem traduções disponíveis.",
         "register": "Cadastre-se no site oficial",
-        "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão"
+        "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Editar Envio",
         "title": "Envios Pendentes"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Sobre",
         "addClinic": "Adicionar clínica",

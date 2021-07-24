@@ -12,6 +12,10 @@
         "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
         "whatIsThisQ": "Apakah ini?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Additional information (Optional)",
         "city": "Bandar",
@@ -90,11 +94,15 @@
     "delete": {
         "dialog": "Adakah anda pasti mahu memadamkan ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Laman rumah",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Derma",
         "github": "Sumbang di GitHub",
@@ -105,14 +113,20 @@
     "general": {
         "approve": "Lulus",
         "cancel": "Batal",
-        "delete": "Padam"
+        "delete": "Padam",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Dapatkan dokumen ini",
         "massSite": "Sesiapa yang berumur 18 tahun ke atas yang mempunyai baucar kini boleh mendapat vaksin di laman vaksinasi massal Tokyo atau Osaka.",
         "prevaccinationScreening": "Borang saringan pre-vaksinasi yang diperlukan boleh dimuat turun online! Hanya borang dalam Bahasa Jepun akan diterima tetapi terjemahan telah disediakan.",
         "register": "Pergi ke Laman Pendaftaran",
-        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun"
+        "title": "Senarai Menunggu Pembatalan Vaksinasi COVID-19 di Jepun",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -130,10 +144,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Ubah sumbangan",
         "title": "Sumbangan yang sedang diselesaikan"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Mengenai laman web ini",
         "addClinic": "mendaftar klinik",

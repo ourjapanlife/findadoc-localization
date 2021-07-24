@@ -12,6 +12,10 @@
         "whatIsThisA": "\"Find a Doc\" és una base de dades basada en la comunitat que va ser creada per LaShawn Toyoda per ajudar a difondre informació sobre serveis sanitaris al Japó. El projecte s'ha convertit en un equip de voluntaris i, actualment, ens centrem a mantenir informada la comunitat d'immigrants sobre les clíniques que ofereixen llistes d'espera per a les vacunes perquè no es perdin. <br /> <br /> en el futur, ens agradaria ampliar \"Find a Doc\" per ajudar els residents del Japó que no parlen japonès a trobar clíniques que ofereixen serveis en la seva llengua materna. <br /> <br /> Si trobes aquest projecte útil d'alguna manera, <a href='https://ko-fi.com/theyokohamalife'> <b>fes una donació</b></a> per ajudar-nos a mantenir el lloc en funcionament i a continuar afegint noves funcions.",
         "whatIsThisQ": "Què és això?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Informació addicional (opcional)",
         "city": "Ciutat",
@@ -97,11 +101,15 @@
     "delete": {
         "dialog": "Estàs segur de que vols esborrar ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Pàgina d'inici",
         "notFound": "404 No s'ha pogut trobar",
         "otherError": "Hi ha hagut un error"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Fes una donació",
         "github": "GitHub",
@@ -112,14 +120,20 @@
     "general": {
         "approve": "Aprova",
         "cancel": "Cancel·la",
-        "delete": "Esborra"
+        "delete": "Esborra",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Aconsegueix el document",
         "massSite": "Qualsevol persona que tingui 18 anys o més, i que tingui un val, ja pot vacunar-se als llocs de vacunació massiva de Tòquio o Osaka.",
         "prevaccinationScreening": "Es pot descarregar el formulari de cribratge previ a la vacunació en línia. Només s’accepta el formulari en japonès, però hi ha traduccions disponibles.",
         "register": "Ves al lloc de registre",
-        "title": "Llistes d’espera de cancel·lació de vacunes COVID-19 al Japó"
+        "title": "Llistes d’espera de cancel·lació de vacunes COVID-19 al Japó",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Inici de sessió d'administrador",
@@ -137,10 +151,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Edita l'enviament",
         "title": "Enviaments pendents"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Sobre",
         "addClinic": "afegeix una clínica",

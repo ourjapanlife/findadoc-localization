@@ -12,6 +12,10 @@
         "whatIsThisA": "Find a Doc, LaShawn Toyoda tarafından Japonya'daki sağlık hizmetleri hakkında bilgileri paylaşmak için oluşturulmuş, topluluk tarafından desteklenen bir veritabanıdır. Proje bir gönüllü ekibine evrildi, ve biz şu anda göçmen topluluklarını aşılar çöpe gitmesin diye oluşturulan iptal bekleme listeleri hakkında bilgilendirmek üzerine çalışıyoruz.<br /><br /> Gelecekte Find a Doc'a Japonca konuşamayan Japonya sakinlerine kendi dillerinde servis verebilen klinikler ile ilgili yardım etme özelliği eklemeyi istiyoruz.<br /><br /> Eğer bu projeyi faydalı bulduysanız, siteyi çalışır durumda tutabilmemiz ve yeni özellikler ekleyebilmemiz için <a href='https://ko-fi.com/theyokohamalife'><b>lütfen bağış yapın/b></a>.",
         "whatIsThisQ": "Bu nedir?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Ek bilgi (Zorunlu değil)",
         "city": "Şehir",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "Bunu silmek istediğinize emin misiniz? ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Ana sayfa",
         "notFound": "404 Bulunamadı",
         "otherError": "Bir hata oluştu"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Bağış yap",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "Onayla",
         "cancel": "İptal et",
-        "delete": "Sil"
+        "delete": "Sil",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Formu indir",
         "massSite": "18 yaş ve üzeri olup aşı kuponu olan herkes Tokyo veya Osaka illerindeki toplu aşılama merkezlerinde aşı olabilirler.",
         "prevaccinationScreening": "Aşılama öncesi doldurulması gereken inceleme formu artık internetten indirilebiliyor! Sadece Japonca form kabul ediliyor, fakat çevirilerini görmek mümkün.",
         "register": "Kayıt sayfasına git",
-        "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri"
+        "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Yönetici girişi",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Gönderiyi Düzenle",
         "title": "Bekleyen Gönderiler"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Hakkında",
         "addClinic": "klinik ekle",
