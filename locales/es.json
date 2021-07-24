@@ -1,147 +1,147 @@
 {
-    "about": {
-        "contributorLeads": "Nuestro equipo",
-        "contributorQ": "¿Quién desarrolla este sitio?",
-        "creatorA": "¡Este sitio fue creado y es mantenido por mí, LaShawn Toyoda! Si tienes algún problema al usarlo o encuentras información incorrecta o desactualizada, contáctame por Twitter: {0}",
-        "creatorQ": "¿Quién creó este sitio web?",
-        "supportA": "Si quieres ser parte de la comunidad de Find a Doc, <a href='https://github.com/ourjapanlife'>únete a nosotros en GitHub</a> para ver en qué nos puedes ayudar.",
-        "supportQ": "¿Cómo puedo contribuir?",
-        "trustA": "Todos los enlaces conducen a recursos oficiales, como sitios web de clínicas y gobiernos. Léelos detenidamente antes de registrar tu información personal en ellos.<br /><br /> Ten en cuenta que esta base de datos contiene información que cualquier persona puede enviar, por lo que no podemos garantizar completamente que sea correcta o esté actualizada. <br /><br /> Nuestros moderadores hacen lo posible para asegurarse de que no se publique información fraudulenta, pero recomiendan que investigues por tu cuenta cualquier servicio que encuentres aquí antes de dirigirte al establecimiento o de enviar tus datos personales a un sitio web externo.<br /><br /> Este es un proyecto de código abierto, y no nos hacemos responsables de los daños que puedan derivarse del uso de Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Obtén más información en nuestra licencia.</a>",
-        "trustQ": "¿Se puede confiar en esta información?",
-        "welcome": "¡Te damos la bienvenida a Find a Doc, Japan!",
-        "whatIsThisA": "Find a Doc es una base de datos comunitaria que fue creada por LaShawn Toyoda para ayudar a difundir información sobre servicios de atención médica en Japón. Desde entonces, el proyecto se ha transformado en un grupo de personas voluntarias cuyo principal objetivo es mantener a la comunidad de inmigrantes informada acerca de las clínicas que ofrecen listas de espera de vacunación para que las vacunas no se desperdicien.<br /><br />En el futuro, nos gustaría expandir Find a Doc para ayudar a que las personas que residen en Japón y no hablan japonés encuentren clínicas que ofrezcan servicios en su idioma nativo.<br /><br /> Si este proyecto te parece útil, <a href='https://ko-fi.com/theyokohamalife'><b>haznos una donación</b></a> para que podamos mantenerlo activo y seguir agregando nuevas funciones.",
-        "whatIsThisQ": "¿Qué es esto?"
+  "about": {
+    "contributorQ": "¿Quién desarrolla este sitio?",
+    "contributorLeads": "Nuestro equipo",
+    "creatorA": "¡Este sitio fue creado y es mantenido por mí, LaShawn Toyoda! Si tienes algún problema al usarlo o encuentras información incorrecta o desactualizada, contáctame por Twitter: {0}",
+    "creatorQ": "¿Quién creó este sitio web?",
+    "supportA": "Si quieres ser parte de la comunidad de Find a Doc, <a href='https://github.com/ourjapanlife'>únete a nosotros en GitHub</a> para ver en qué nos puedes ayudar.",
+    "supportQ": "¿Cómo puedo contribuir?",
+    "trustA": "Todos los enlaces conducen a recursos oficiales, como sitios web de clínicas y gobiernos. Léelos detenidamente antes de registrar tu información personal en ellos.<br /><br /> Ten en cuenta que esta base de datos contiene información que cualquier persona puede enviar, por lo que no podemos garantizar completamente que sea correcta o esté actualizada. <br /><br /> Nuestros moderadores hacen lo posible para asegurarse de que no se publique información fraudulenta, pero recomiendan que investigues por tu cuenta cualquier servicio que encuentres aquí antes de dirigirte al establecimiento o de enviar tus datos personales a un sitio web externo.<br /><br /> Este es un proyecto de código abierto, y no nos hacemos responsables de los daños que puedan derivarse del uso de Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Obtén más información en nuestra licencia.</a>",
+    "trustQ": "¿Se puede confiar en esta información?",
+    "welcome": "¡Te damos la bienvenida a Find a Doc, Japan!",
+    "whatIsThisA": "Find a Doc es una base de datos comunitaria que fue creada por LaShawn Toyoda para ayudar a difundir información sobre servicios de atención médica en Japón. Desde entonces, el proyecto se ha transformado en un grupo de personas voluntarias cuyo principal objetivo es mantener a la comunidad de inmigrantes informada acerca de las clínicas que ofrecen listas de espera de vacunación para que las vacunas no se desperdicien.<br /><br />En el futuro, nos gustaría expandir Find a Doc para ayudar a que las personas que residen en Japón y no hablan japonés encuentren clínicas que ofrezcan servicios en su idioma nativo.<br /><br /> Si este proyecto te parece útil, <a href='https://ko-fi.com/theyokohamalife'><b>haznos una donación</b></a> para que podamos mantenerlo activo y seguir agregando nuevas funciones.",
+    "whatIsThisQ": "¿Qué es esto?"
+  },
+  "add-clinic": {
+    "additionalInfo": "Información adicional (opcional)",
+    "city": "Ciudad",
+    "clinicName": "Nombre de la clínica",
+    "fillForm": "Completa este formulario para agregar una nueva clínica a la base de datos que tenga una lista de espera de cancelación.",
+    "prefecture": "Prefectura",
+    "no": "No",
+    "note": "Agrega información útil o importante",
+    "reviewMessage": "La clínica que enviaste se mostrará después de que la revisemos.",
+    "romajiOnly": "Solo romaji",
+    "submitClinic": "Enviar clínica",
+    "validations": {
+      "city": {
+        "required": "Se requiere una ciudad",
+        "minLength": "El nombre de la ciudad debe tener, al menos, {0} caracteres",
+        "validChars": "Caracteres no válidos"
+      },
+      "clinic": {
+        "required": "Se requiere el nombre de la clínica",
+        "minLength": "El nombre de la clínica debe tener, al menos, {0} caracteres",
+        "validChars": "Caracteres no válidos"
+      },
+      "ward": {
+        "required": "Se requiere un distrito",
+        "minLength": "El nombre del distrito debe tener, al menos, {0} caracteres",
+        "validChars": "Caracteres no válidos"
+      },
+      "website": {
+        "required": "Se requiere la URL del sitio web",
+        "url": "Introduce una URL válida"
+      }
     },
-    "add-clinic": {
-        "additionalInfo": "Información adicional (opcional)",
-        "city": "Ciudad",
-        "clinicName": "Nombre de la clínica",
-        "fillForm": "Completa este formulario para agregar una nueva clínica a la base de datos que tenga una lista de espera de cancelación.",
-        "no": "No",
-        "note": "Agrega información útil o importante",
-        "prefecture": "Prefectura",
-        "reviewMessage": "La clínica que enviaste se mostrará después de que la revisemos.",
-        "romajiOnly": "Solo romaji",
-        "submitClinic": "Enviar clínica",
-        "validations": {
-            "city": {
-                "minLength": "El nombre de la ciudad debe tener, al menos, {0} caracteres",
-                "required": "Se requiere una ciudad",
-                "validChars": "Caracteres no válidos"
-            },
-            "clinic": {
-                "minLength": "El nombre de la clínica debe tener, al menos, {0} caracteres",
-                "required": "Se requiere el nombre de la clínica",
-                "validChars": "Caracteres no válidos"
-            },
-            "ward": {
-                "minLength": "El nombre del distrito debe tener, al menos, {0} caracteres",
-                "required": "Se requiere un distrito",
-                "validChars": "Caracteres no válidos"
-            },
-            "website": {
-                "required": "Se requiere la URL del sitio web",
-                "url": "Introduce una URL válida"
-            }
-        },
-        "voucherRequired": "Se require un cupón: ",
-        "ward": "Distrito",
-        "wardResidencyRequired": "Se requiere residencia en el distrito: ",
-        "websiteURL": "URL del sitio web",
-        "yes": "Sí"
-    },
-    "admin": {
-        "pending": {
-            "one": "",
-            "other": ""
-        }
-    },
-    "cancelList": {
-        "header": {
-            "city": "Ciudad",
-            "clinicName": "Nombre de la clínica",
-            "note": "Nota",
-            "prefecture": "Prefectura",
-            "report": "Enviar informe",
-            "voucherRequired": "Cupón",
-            "ward": "Distrito",
-            "wardResidencyRequired": "Residencia  en el distrito",
-            "website": "Sitio web"
-        },
-        "moreInfo": "Haz clic para obtener más información",
-        "report": {
-            "clinicName": "Nombre de la clínica:",
-            "note": "Nota sobre esta clínica",
-            "reason": "¿Por qué quieres enviar un informe sobre esta clínica?",
-            "submitReport": "Enviar informe",
-            "title": "Enviar un informe sobre estos datos"
-        },
-        "search": "Buscar por ubicación o por el nombre de la clínica",
-        "voucher": {
-            "notRequired": "No se requiere",
-            "required": "Se requiere"
-        },
-        "wardResidency": {
-            "notRequired": "No se requiere",
-            "required": "Se requiere"
-        }
-    },
-    "delete": {
-        "dialog": "¿De verdad quieres eliminar el id. {0}?"
-    },
-    "error": {
-        "homePage": "Página principal",
-        "notFound": "Error 404: página no encontrada",
-        "otherError": "Ocurrió un error"
-    },
-    "footer": {
-        "donate": "Donar",
-        "github": "GitHub",
-        "kofi": "Cómprame un café en Ko-Fi",
-        "netlify": "Powered by Netlify",
-        "siteTitle": "Findadoc Japan {0}"
-    },
-    "general": {
-        "approve": "Aprobar",
-        "cancel": "Cancelar",
-        "delete": "Eliminar"
-    },
-    "index": {
-        "getDocument": "Obtener el documento",
-        "massSite": "Cualquier persona mayor de 18 años que tenga un cupón ahora puede vacunarse en los centros de vacunación masiva de Tokio u Osaka.",
-        "prevaccinationScreening": "El formulario de evaluación previa a la vacunación requerido se puede descargar en línea. Solo se acepta el formulario en japonés, pero hay traducciones disponibles.",
-        "register": "Ir al sitio de registro",
-        "title": "Listas de espera de cancelaciones de vacunas contra la COVID-19 en Japón"
-    },
-    "login": {
-        "adminLogin": "Inicio de sesión de administrador",
-        "clear": "Borrar",
-        "email": "Correo electrónico",
-        "login": "Iniciar sesión",
-        "password": "Contraseña"
-    },
-    "logout": {
-        "message": "Cerrando sesión…",
-        "successMessage": "Cerraste sesión. ¡Hasta luego!"
-    },
-    "message": {
-        "disclaimerAlert": "Las únicas vacunas que se administran en Japón son Moderna y Pfizer. Ten cuidado con las clínicas que ofrecen SinoVac u otras. El contenido de este sitio es generado por los usuarios. Aunque hacemos todo lo posible para moderarlo, puede contener errores o información no verificada. <br /> <br /> No nos hacemos responsables de la información inexacta que puedan enviar los usuarios de la comunidad, ni del contenido de los sitios web externos. Toma las precauciones necesarias y envíanos un informe sobre cualquier información que parezca fraudulenta.",
-        "shinYokohamaAlert": "<h2>NOVEDADES</h2><br />Hay vacunas disponibles en <b>Shin-Yokohama</b> a partir del <b>16 de julio</b> para personas que tengan un cupón. ¡No se requiere residencia en el distrito!",
-        "shinYokohamaBookVaccine": "Reservar vacuna"
-    },
+    "voucherRequired": "Se require un cupón: ",
+    "ward": "Distrito",
+    "wardResidencyRequired": "Se requiere residencia en el distrito: ",
+    "websiteURL": "URL del sitio web",
+    "yes": "Sí"
+  },
+  "admin": {
     "pending": {
-        "edit": "Editar contribución",
-        "title": "Contribuciones pendientes"
-    },
-    "toolbar": {
-        "about": "¿Quiénes somos?",
-        "addClinic": "agregar una clínica",
-        "adminDashboard": "Panel de administración",
-        "github": "GitHub",
-        "home": "Inicio",
-        "languages": "Idiomas",
-        "login": "Iniciar sesión",
-        "logout": "Cerrar sesión",
-        "title": "Find a Doc, JAPAN"
+      "one": "",
+      "other": ""
     }
+  },
+  "cancelList": {
+    "header": {
+      "city": "Ciudad",
+      "clinicName": "Nombre de la clínica",
+      "note": "Nota",
+      "prefecture": "Prefectura",
+      "report": "Enviar informe",
+      "voucherRequired": "Cupón",
+      "wardResidencyRequired": "Residencia  en el distrito",
+      "ward": "Distrito",
+      "website": "Sitio web"
+    },
+    "moreInfo": "Haz clic para obtener más información",
+    "report": {
+      "clinicName": "Nombre de la clínica:",
+      "note": "Nota sobre esta clínica",
+      "reason": "¿Por qué quieres enviar un informe sobre esta clínica?",
+      "submitReport": "Enviar informe",
+      "title": "Enviar un informe sobre estos datos"
+    },
+    "voucher": {
+      "required": "Se requiere",
+      "notRequired": "No se requiere"
+    },
+    "wardResidency": {
+      "required": "Se requiere",
+      "notRequired": "No se requiere"
+    },
+    "search": "Buscar por ubicación o por el nombre de la clínica"
+  },
+  "delete": {
+    "dialog": "¿De verdad quieres eliminar el id. {0}?"
+  },
+  "error": {
+    "homePage": "Página principal",
+    "notFound": "Error 404: página no encontrada",
+    "otherError": "Ocurrió un error"
+  },
+  "footer": {
+    "donate": "Donar",
+    "github": "GitHub",
+    "kofi": "Cómprame un café en Ko-Fi",
+    "netlify": "Powered by Netlify",
+    "siteTitle": "Findadoc Japan {0}"
+  },
+  "general": {
+    "approve": "Aprobar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+  "index": {
+    "massSite": "Cualquier persona mayor de 18 años que tenga un cupón ahora puede vacunarse en los centros de vacunación masiva de Tokio u Osaka.",
+    "register": "Ir al sitio de registro",
+    "getDocument": "Obtener el documento",
+    "prevaccinationScreening": "El formulario de evaluación previa a la vacunación requerido se puede descargar en línea. Solo se acepta el formulario en japonés, pero hay traducciones disponibles.",
+    "title": "Listas de espera de cancelaciones de vacunas contra la COVID-19 en Japón"
+  },
+  "login": {
+    "adminLogin": "Inicio de sesión de administrador",
+    "clear": "Borrar",
+    "email": "Correo electrónico",
+    "login": "Iniciar sesión",
+    "password": "Contraseña"
+  },
+  "logout": {
+    "message": "Cerrando sesión…",
+    "successMessage": "Cerraste sesión. ¡Hasta luego!"
+  },
+  "message": {
+    "disclaimerAlert": "Las únicas vacunas que se administran en Japón son Moderna y Pfizer. Ten cuidado con las clínicas que ofrecen SinoVac u otras. El contenido de este sitio es generado por los usuarios. Aunque hacemos todo lo posible para moderarlo, puede contener errores o información no verificada. <br /> <br /> No nos hacemos responsables de la información inexacta que puedan enviar los usuarios de la comunidad, ni del contenido de los sitios web externos. Toma las precauciones necesarias y envíanos un informe sobre cualquier información que parezca fraudulenta.",
+    "shinYokohamaAlert": "<h2>NOVEDADES</h2><br />Hay vacunas disponibles en <b>Shin-Yokohama</b> a partir del <b>21 de julio</b> para personas que tengan un cupón. ¡No se requiere residencia en el distrito!",
+    "shinYokohamaBookVaccine": "Reservar vacuna"
+  },
+  "pending": {
+    "edit": "Editar contribución",
+    "title": "Contribuciones pendientes"
+  },
+  "toolbar": {
+    "about": "¿Quiénes somos?",
+    "addClinic": "agregar una clínica",
+    "adminDashboard": "Panel de administración",
+    "github": "GitHub",
+    "home": "Inicio",
+    "languages": "Idiomas",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "title": "Find a Doc, JAPAN"
+  }
 }
