@@ -27,17 +27,17 @@
             "city": {
                 "minLength": "Le nom de la ville doit comporter au moins {0} caractères",
                 "required": "La ville est requise",
-                "validChars": "Invalid character(s)"
+                "validChars": "Caractère(s) invalide(s)"
             },
             "clinic": {
                 "minLength": "Le nom de la clinique doit comporter au moins {0} caractères",
                 "required": "Le nom de la clinique est requis",
-                "validChars": "Invalid character(s)"
+                "validChars": "Caractère(s) invalide(s)"
             },
             "ward": {
                 "minLength": "Le nom de l'arrondissement (区) doit comporter au moins {0} caractères",
                 "required": "Le nom de l'arrondissement (区) est requis",
-                "validChars": "Invalid character(s)"
+                "validChars": "Caractère(s) invalide(s)"
             },
             "website": {
                 "required": "L'URL du site Web est requise",
@@ -82,8 +82,8 @@
             "required": "Requis"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Facultatif",
+            "required": "Requis"
         }
     },
     "delete": {
@@ -126,8 +126,8 @@
     },
     "message": {
         "disclaimerAlert": "Les seuls vaccins administrés au Japon sont Moderna et Pfizer. Méfiez-vous des cliniques qui proposent SinoVac ou autres. Le contenu de ce site est généré par les utilisateurs et, bien que nous fassions de notre mieux pour le modérer, il peut contenir des erreurs ou du contenu non vérifié. <br /><br /> Nous ne sommes pas responsables des informations inexactes qui peuvent être contenues dans les soumissions de la communauté, et nous ne sommes pas responsables des sites tiers. Faites appler à votre meilleur jugement et veuillez signaler toute soumission que vous pensez être frauduleuse.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "shinYokohamaAlert": "<h2>NOUVELLES</h2><br />Des créneaux de vaccination pour <b>Shin-Yokohama</b> sont disponibles à partir du <b>12 juillet</b> pour les détenteurs de coupons. Si vous habitez en dehors de Yokohama et souhaitez vous inscrire, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>cliquez ici pour remplir et imprimer le formulaire de demande. </a>PUIS cliquez sur le bouton pour réserver le vaccin!",
+        "shinYokohamaBookVaccine": "Réserver le vaccin"
     },
     "pending": {
         "edit": "Éditer l'entrée",
