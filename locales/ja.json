@@ -102,7 +102,7 @@
         "notFound": "404お探しのページが見つかりませんでした",
         "otherError": "エラーが発生しました"
     },
-    "findADoc": "クリニックを探す",
+    "findADoc": "Find A Doc",
     "footer": {
         "donate": "寄付する",
         "github": "GitHubでコントリブ",
@@ -118,7 +118,7 @@
     },
     "hero": {
         "getVaccinated": "接種券の有無にかかわらず、予防接種ができます！",
-        "helpingResidents": "FindADoc.jpは日本住民へ必要不可欠なヘルスケアの情報を提供しています。"
+        "helpingResidents": "Find A Docは日本住民へ必要不可欠なヘルスケアの情報を提供しています。"
     },
     "index": {
         "getDocument": "クリックでダウンロード",
