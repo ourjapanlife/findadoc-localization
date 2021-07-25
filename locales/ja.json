@@ -13,7 +13,7 @@
         "whatIsThisQ": "このウェブサイトについて"
     },
     "activeClinic": {
-        "data": "アクティブクリニックのデータ",
+        "data": "表示中のクリニック",
         "editClinic": "クリニックを編集"
     },
     "add-clinic": {
@@ -149,7 +149,7 @@
         "by": "執筆者: {0}",
         "featured": "注目のニュース",
         "important": "重要なニュースと情報",
-        "latest": "The Latest from Find a Doc",
+        "latest": "Find a Docからの最新ニュース",
         "updated": "最終更新日: {0}"
     },
     "pending": {
