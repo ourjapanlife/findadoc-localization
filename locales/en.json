@@ -1,18 +1,33 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "This site was created and maintained by me, LaShawn Toyoda! If you have any trouble using the site or come across incorrect or outdated information, please contact me through Twitter {0}",
-        "creatorQ": "Who created this website?",
-        "supportA": "If you'd like to be part of the Find a Doc community, <a href='https://github.com/ourjapanlife'>join us over on GitHub</a> to see what we could use your help with!",
-        "supportQ": "How Can I Contribute?",
-        "trustA": "All of the links lead to official resources such as clinic and government websites. Please read them thoroughly before registering your personal information with them.<br /><br /> Please understand that because this database consists of content that can be submitted by anyone, it is not possible for us to guarantee that all of the information entirely accurate or up to date. <br /><br /> Our moderators try their best to make sure fraudulent information doesn't get published, but ask that you research any service that you find on here before visiting the location or submitting your personal information to a third-party website.<br /><br /> This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Read more about it in our license.</a>",
-        "trustQ": "Can this information be trusted?",
-        "welcome": "Welcome to Find a Doc, Japan!",
-        "whatIsThisA": "Find a Doc is a community-driven database that was created by LaShawn Toyoda to help spread information regarding healthcare services in Japan. The project has since grown into a team of volunteers, and currently we're focusing on keeping the immigrant community informed about clinics that are offering waiting lists for vaccinations so they don't go to waste.<br /><br />In the future, we'd like to expand Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language.<br /><br /> If you find this project helpful in any way, <a href='https://ko-fi.com/theyokohamalife'><b>please donate</b></a> to help us keep the site running and to continue adding new features.",
-        "whatIsThisQ": "What is this?",
         "header": {
             "headline": "About Find A Doc, the database reducing vaccine waste."
+        },
+        "kofi": {
+            "headline": "Buy us coffee",
+            "text": {
+                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
+                "1": "Consider supporting us if you find this project helped you or someone in your network."
+            },
+            "action": "Donate a cuppa"
+        },
+        "team": {
+            "header": {
+                "headline": "Meet the Team"
+            },
+            "moreContributors": {
+                "headline": "Plus many more members who have lent us a helping hand!",
+                "action": {
+                    "text": "Find them on our {frontend} and {localization} Github contributors pages",
+                    "frontend": "front end",
+                    "localization": "localization"
+                }
+            },
+            "join": {
+                "headline": "Does Find a Doc’s mission spark your interests?",
+                "subheadline": "Join us over on GitHub to see how you can contribute!",
+                "action": "I want to join!"
+            }
         },
         "timeline": {
             "items": {
@@ -36,14 +51,6 @@
                     "action": "Check out &/or join the team"
                 }
             }
-        },
-        "kofi": {
-            "headline": "Buy us coffee",
-            "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if you find this project helped you or someone in your network."
-            },
-            "action": "Donate a cuppa"
         },
         "trust": {
             "cards": {
@@ -73,24 +80,6 @@
             "header": {
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence"
-            }
-        },
-        "team": {
-            "header": {
-                "headline": "Meet the Team"
-            },
-            "moreContributors": {
-                "headline": "Plus many more members who have lent us a helping hand!",
-                "action": {
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages",
-                    "frontend": "front end",
-                    "localization": "localization"
-                }
-            },
-            "join": {
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!",
-                "action": "I want to join!"
             }
         }
     },
