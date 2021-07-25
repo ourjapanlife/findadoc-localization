@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorQ": "Who develops this site?",
         "contributorLeads": "Our Team",
+        "contributorQ": "Who develops this site?",
         "creatorA": "This site was created and maintained by me, LaShawn Toyoda! If you have any trouble using the site or come across incorrect or outdated information, please contact me through Twitter {0}",
         "creatorQ": "Who created this website?",
         "supportA": "If you'd like to be part of the Find a Doc community, <a href='https://github.com/ourjapanlife'>join us over on GitHub</a> to see what we could use your help with!",
@@ -21,26 +21,26 @@
         "city": "City",
         "clinicName": "Clinic name",
         "fillForm": "Fill out this form to add a new clinic to the database that has a cancellation waiting list.",
-        "prefecture": "Prefecture",
         "no": "No",
         "note": "Share helpful or important details",
+        "prefecture": "Prefecture",
         "reviewMessage": "The clinic you submitted will be displayed after it's been reviewed!",
         "romajiOnly": "Romaji only",
         "submitClinic": "Submit Clinic",
         "validations": {
             "city": {
-                "required": "City is required",
                 "minLength": "City name must be at least {0} characters",
+                "required": "City is required",
                 "validChars": "Invalid character(s)"
             },
             "clinic": {
-                "required": "Clinic name is required",
                 "minLength": "Clinic name must be at least {0} characters",
+                "required": "Clinic name is required",
                 "validChars": "Invalid character(s)"
             },
             "ward": {
-                "required": "Ward is required",
                 "minLength": "Ward name must be at least {0} characters",
+                "required": "Ward is required",
                 "validChars": "Invalid character(s)"
             },
             "website": {
@@ -68,8 +68,8 @@
             "prefecture": "Prefecture",
             "report": "Report",
             "voucherRequired": "Voucher",
-            "wardResidencyRequired": "Ward Residency",
             "ward": "Ward",
+            "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
         "moreInfo": "Click for more info",
@@ -80,15 +80,15 @@
             "submitReport": "Report",
             "title": "Report this data"
         },
+        "search": "Search by Location or Clinic Name",
         "voucher": {
-            "required": "Required",
-            "notRequired": "Not Required"
+            "notRequired": "Not Required",
+            "required": "Required"
         },
         "wardResidency": {
-            "required": "Required",
-            "notRequired": "Not Required"
-        },
-        "search": "Search by Location or Clinic Name"
+            "notRequired": "Not Required",
+            "required": "Required"
+        }
     },
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}?"
@@ -120,10 +120,10 @@
         "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "register": "Go to Registration Site",
         "getDocument": "Get the Document",
+        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
         "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "register": "Go to Registration Site",
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan",
         "viewAllNews": "View all news"
     },
@@ -139,16 +139,16 @@
         "successMessage": "You've been logged out. See ya!"
     },
     "message": {
-        "disclaimerAlert" : "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert" : "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 21st</b> for voucher holders. Ward residency not required!",
-        "shinYokohamaBookVaccine" : "Book Vaccine"
+        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 21st</b> for voucher holders. Ward residency not required!",
+        "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "news": {
         "author": "Author",
         "by": "by {0}",
         "featured": "Featured News",
-        "latest": "The Latest from Find a Doc",
         "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
         "updated": "Updated: {0}"
     },
     "pending": {

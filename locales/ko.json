@@ -12,6 +12,10 @@
         "whatIsThisA": "이것은 백신 접종 대기자 명단 등록이 가능한 진료소의 정보를 공유하는 커뮤니티 기반 데이터베이스입니다.",
         "whatIsThisQ": "이건 어떤 사이트인가요?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Additional information (Optional)",
         "city": "도시",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Home page",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Donate",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "Approve",
         "cancel": "Cancel",
-        "delete": "Delete"
+        "delete": "Delete",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Get the Document",
         "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
         "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "등록 사이트로 이동",
-        "title": "일본 COVID-19 잔여/취소 백신 대기자 명단"
+        "title": "일본 COVID-19 잔여/취소 백신 대기자 명단",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "About",
         "addClinic": "add a clinic",

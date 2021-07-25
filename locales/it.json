@@ -12,6 +12,10 @@
         "whatIsThisA": "Find a Doc è un database, supportato dalla comunità, creato da LaShawn Toyoda per diffondere informazioni relative al sistema sanitario giapponese. Il progetto è cresciuto fino ad includere un team di volontari, e al momento ha il principale obiettivo di diffondere informazioni sulle che cliniche che offrono liste di attesa per le vaccinazioni, in modo che le dosi non vadano sprecate.<br /><br />In futuro, vorremmo far diventare Find a Doc una risorsa che aiuti i residenti stranieri in Giappone a trovare cliniche che parlino la propria lingua. <br /><br /> Se vuoi aiutare Find a Doc a crescere, <a href='https://ko-fi.com/theyokohamalife'><b>puoi effettuare una donazione</b></a>. Useremo le donazioni per mantenere il sito attivo e per aggiungerne nuove funzionalità.",
         "whatIsThisQ": "Che cos'è?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Informazioni extra (opzionali)",
         "city": "Città",
@@ -90,11 +94,15 @@
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Pagina iniziale",
         "notFound": "404 pagina non trovata",
         "otherError": "Si è verificato un errore"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Fai una donazione",
         "github": "Contribuisci al progetto su GitHub",
@@ -105,14 +113,20 @@
     "general": {
         "approve": "Approva",
         "cancel": "Annulla",
-        "delete": "Rimuovi"
+        "delete": "Rimuovi",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Scarica documento",
         "massSite": "Chiunque abbia 18 anni o più in possesso di un voucher può ora essere vaccinato nei siti di vaccinazione di massa di Tokyo o Osaka.",
         "prevaccinationScreening": "Il modulo da compilare obbligatoriamente prima del vaccino può essere scaricato online! Le cliniche accetteranno solo moduli in Giapponese, ma sul sito troverete la versione tradotta del questionario.",
         "register": "Vai al sito di registrazione",
-        "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone"
+        "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -130,10 +144,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Modifica dati clinica",
         "title": "In revisione"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Chi siamo",
         "addClinic": "Aggiungi una clinica",

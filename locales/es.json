@@ -12,6 +12,10 @@
         "whatIsThisA": "Find a Doc es una base de datos comunitaria que fue creada por LaShawn Toyoda para ayudar a difundir información sobre servicios de atención médica en Japón. Desde entonces, el proyecto se ha transformado en un grupo de personas voluntarias cuyo principal objetivo es mantener a la comunidad de inmigrantes informada acerca de las clínicas que ofrecen listas de espera de vacunación para que las vacunas no se desperdicien.<br /><br />En el futuro, nos gustaría expandir Find a Doc para ayudar a que las personas que residen en Japón y no hablan japonés encuentren clínicas que ofrezcan servicios en su idioma nativo.<br /><br /> Si este proyecto te parece útil, <a href='https://ko-fi.com/theyokohamalife'><b>haznos una donación</b></a> para que podamos mantenerlo activo y seguir agregando nuevas funciones.",
         "whatIsThisQ": "¿Qué es esto?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Información adicional (opcional)",
         "city": "Ciudad",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "¿De verdad quieres eliminar el id. {0}?"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Página principal",
         "notFound": "Error 404: página no encontrada",
         "otherError": "Ocurrió un error"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Donar",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "Aprobar",
         "cancel": "Cancelar",
-        "delete": "Eliminar"
+        "delete": "Eliminar",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Obtener el documento",
         "massSite": "Cualquier persona mayor de 18 años que tenga un cupón ahora puede vacunarse en los centros de vacunación masiva de Tokio u Osaka.",
         "prevaccinationScreening": "El formulario de evaluación previa a la vacunación requerido se puede descargar en línea. Solo se acepta el formulario en japonés, pero hay traducciones disponibles.",
         "register": "Ir al sitio de registro",
-        "title": "Listas de espera de cancelaciones de vacunas contra la COVID-19 en Japón"
+        "title": "Listas de espera de cancelaciones de vacunas contra la COVID-19 en Japón",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Inicio de sesión de administrador",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NOVEDADES</h2><br />Hay vacunas disponibles en <b>Shin-Yokohama</b> a partir del <b>16 de julio</b> para personas que tengan un cupón. ¡No se requiere residencia en el distrito!",
         "shinYokohamaBookVaccine": "Reservar vacuna"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Editar contribución",
         "title": "Contribuciones pendientes"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "¿Quiénes somos?",
         "addClinic": "agregar una clínica",

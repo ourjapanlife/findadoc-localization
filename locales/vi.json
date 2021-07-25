@@ -12,6 +12,10 @@
         "whatIsThisA": "Đây là cơ sở dữ liệu hướng tới cộng đồng để giúp truyền bá thông tin về các phòng khám đang cung cấp danh sách chờ tiêm chủng để chúng không bị lãng phí.",
         "whatIsThisQ": "Trang web này là gì?"
     },
+    "activeClinic": {
+        "data": "Active Clinic Data",
+        "editClinic": "Edit Clinic"
+    },
     "add-clinic": {
         "additionalInfo": "Thông tin thêm (Tuỳ chọn)",
         "city": "Thành phố",
@@ -89,11 +93,15 @@
     "delete": {
         "dialog": "Are you sure you want to delete ID: {0}"
     },
+    "donate": {
+        "supportMe": "Support me"
+    },
     "error": {
         "homePage": "Home page",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
+    "findADoc": "Find a Doc",
     "footer": {
         "donate": "Donate",
         "github": "GitHub",
@@ -104,14 +112,20 @@
     "general": {
         "approve": "Approve",
         "cancel": "Cancel",
-        "delete": "Delete"
+        "delete": "Delete",
+        "readMore": "Read More"
+    },
+    "hero": {
+        "getVaccinated": "Get vaccinated with or without a voucher",
+        "helpingResidents": "Helping residents of Japan find essential healthcare"
     },
     "index": {
         "getDocument": "Tải bảng câu hỏi sàng lọc",
         "massSite": "Bất kỳ ai từ 18 tuổi trở lên có phiếu này hiện có thể tiêm chủng tại các điểm tiêm chủng đại trà ở Tokyo hoặc Osaka.",
         "prevaccinationScreening": "Bạn phải hoàn thành bảng sàng lọc trước khi tiêm chủng! Chỉ mẫu tiếng Nhật được chấp nhận nhưng có sẵn bản dịch tiếng Việt cho bạn tham khảo. Nếu chưa có bạn có thể tải về tại đây. ",
         "register": "Đi đến trang web đăng ký",
-        "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản"
+        "title": "Danh sách chờ hủy vắc xin COVID-19 ở Nhật Bản",
+        "viewAllNews": "View all news"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -129,10 +143,19 @@
         "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> Có thể đăng ký tiêm vắc-xin từ <b>July 12th</b> cho người có phiếu đăng ký. Nếu bạn không ở tại Yokohama và muốn đăng ký, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'> bấm vào đây để điền đơn yêu cầu và in ra.</a>THEN bấm nút để đặt lịch tiêm!",
         "shinYokohamaBookVaccine": "Đặt lịch tiêm"
     },
+    "news": {
+        "author": "Author",
+        "by": "by {0}",
+        "featured": "Featured News",
+        "important": "Important News and Information",
+        "latest": "The Latest from Find a Doc",
+        "updated": "Updated: {0}"
+    },
     "pending": {
         "edit": "Edit Submission",
         "title": "Pending Submissions"
     },
+    "reportedSubmissions": "Reported Submissions",
     "toolbar": {
         "about": "Về chúng tôi",
         "addClinic": "Thêm một phòng khám",
