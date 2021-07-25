@@ -10,7 +10,89 @@
         "trustQ": "Can this information be trusted?",
         "welcome": "Welcome to Find a Doc, Japan!",
         "whatIsThisA": "Find a Doc is a community-driven database that was created by LaShawn Toyoda to help spread information regarding healthcare services in Japan. The project has since grown into a team of volunteers, and currently we're focusing on keeping the immigrant community informed about clinics that are offering waiting lists for vaccinations so they don't go to waste.<br /><br />In the future, we'd like to expand Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language.<br /><br /> If you find this project helpful in any way, <a href='https://ko-fi.com/theyokohamalife'><b>please donate</b></a> to help us keep the site running and to continue adding new features.",
-        "whatIsThisQ": "What is this?"
+        "whatIsThisQ": "What is this?",
+        "header": {
+            "headline": "About Find A Doc, the database reducing vaccine waste."
+        },
+        "timeline": {
+            "items": {
+                "0": {
+                    "date": "2021.06.17",
+                    "dateHeadline": "From idea to health database",
+                    "text": {
+                        "0": "On that day, LaShawn Toyoda had enough of the lack of direction from officials. A few hours later, Find a Doc is born.",
+                        "1": "This database aims to better circulate the latest information on healthcare services in Japan."
+                    },
+                    "textHeadline": "Watch our daughter, I gotta make something."
+                },
+                "1": {
+                    "date": "Presently",
+                    "dateHeadline": "A team of volunteers",
+                    "text": {
+                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the immigrant community informed about clinics offering waiting lists for vaccinations to reduce waste.",
+                        "1":  "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                    },
+                    "textHeadline": "You can fill the void by citizen action.",
+                    "action": "Check out &/or join the team"
+                }
+            }
+        },
+        "kofi": {
+            "headline": "Buy us coffee",
+            "text": {
+                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
+                "1": "Consider supporting us if you find this project helped you or someone in your network."
+            },
+            "action": "Donate a cuppa"
+        },
+        "trust": {
+            "cards": {
+                "0": {
+                    "text": {
+                        "0": "All links lead to official resources such as clinic and government websites.",
+                        "1": "Read them thoroughly before registering your personal information with them."
+                    }
+                },
+                "1": {
+                    "text": {
+                        "0": "Anyone in the community can submit content to the database.",
+                        "1": "As a result, is not possible for us to guarantee that accuracy. If you notice any errors, please report the issue to moderators."
+                    }
+                },
+                "2": {
+                    "text": {
+                        "0": "Our moderators try their best to detect fraudulent information.",
+                        "1": "Even so, research any service that you find on here before visiting the location or submitting your personal information to a third-party website."
+                    }
+                }
+            },
+            "footer": {
+                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
+                "license": "Read more about it in our license."
+            },
+            "header": {
+                "headline": "Can this information be trusted?",
+                "subheadline": "In short, yes, but do your due diligence"
+            }
+        },
+        "team": {
+            "header": {
+                "headline": "Meet the Team"
+            },
+            "moreContributors": {
+                "headline": "Plus many more members who have lent us a helping hand!",
+                "action": {
+                    "text": "Find them on our {frontend} and {localization} Github contributors pages",
+                    "frontend": "front end",
+                    "localization": "localization"
+                }
+            },
+            "join": {
+                "headline": "Does Find a Doc’s mission spark your interests?",
+                "subheadline": "Join us over on GitHub to see how you can contribute!",
+                "action": "I want to join!"
+            }
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
