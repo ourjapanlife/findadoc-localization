@@ -1,15 +1,15 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the database reducing vaccine waste."
+            "headline": "About Find A Doc, the health database for Japan's international community"
         },
         "kofi": {
             "headline": "Buy us coffee",
             "text": {
                 "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if you find this project helped you or someone in your network."
+                "1": "Consider supporting us if this project has helped you or someone you know."
             },
-            "action": "Donate a cuppa"
+            "action": "Donate"
         },
         "team": {
             "header": {
@@ -32,11 +32,11 @@
         "timeline": {
             "items": {
                 "0": {
-                    "date": "2021.06.17",
+                    "date": "2021.06.13",
                     "dateHeadline": "From idea to health database",
                     "text": {
-                        "0": "On that day, LaShawn Toyoda had enough of the lack of direction from officials. A few hours later, Find a Doc is born.",
-                        "1": "This database aims to better circulate the latest information on healthcare services in Japan."
+                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
+                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
                     },
                     "textHeadline": "Watch our daughter, I gotta make something."
                 },
@@ -44,11 +44,11 @@
                     "date": "Presently",
                     "dateHeadline": "A team of volunteers",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the immigrant community informed about clinics offering waiting lists for vaccinations to reduce waste.",
+                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
                         "1":  "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
                     },
                     "textHeadline": "You can fill the void by citizen action.",
-                    "action": "Check out &/or join the team"
+                    "action": "Join our team"
                 }
             }
         },
@@ -56,20 +56,20 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "All links lead to official resources such as clinic and government websites.",
+                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
                         "1": "Read them thoroughly before registering your personal information with them."
                     }
                 },
                 "1": {
                     "text": {
                         "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee that accuracy. If you notice any errors, please report the issue to moderators."
+                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
                     }
                 },
                 "2": {
                     "text": {
                         "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "Even so, research any service that you find on here before visiting the location or submitting your personal information to a third-party website."
+                        "1": "However, we strongly encourage you to do additional research for any services that you find through Find a Doc. Use your best judgment before visiting any of the locations that are listed in the database, or before submitting your personal information to their websites."
                     }
                 }
             },
@@ -79,7 +79,7 @@
             },
             "header": {
                 "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence"
+                "subheadline": "Yes, to some degree, but do your due diligence."
             }
         }
     },
