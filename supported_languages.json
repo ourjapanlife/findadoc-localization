@@ -62,6 +62,11 @@
       "name": "Bahasa Melayu"
     },
     {
+      "code": "my",
+      "file": "my.json",
+      "name": "မြန်မာ"
+    },
+    {
       "code": "ne",
       "file": "ne.json",
       "name": "नेपाली"
