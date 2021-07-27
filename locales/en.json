@@ -9,7 +9,7 @@
                 "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
                 "1": "Consider supporting us if this project has helped you or someone you know."
             },
-            "action": "Donate"
+            "action": "Donate a cup"
         },
         "team": {
             "header": {
@@ -69,7 +69,7 @@
                 "2": {
                     "text": {
                         "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to do additional research for any services that you find through Find a Doc. Use your best judgment before visiting any of the locations that are listed in the database, or before submitting your personal information to their websites."
+                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
                     }
                 }
             },
@@ -79,7 +79,7 @@
             },
             "header": {
                 "headline": "Can this information be trusted?",
-                "subheadline": "Yes, to some degree, but do your due diligence."
+                "subheadline": "In short, yes, but do your due diligence."
             }
         }
     },
