@@ -1,58 +1,58 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "This site was created and maintained by me, LaShawn Toyoda! If you have any trouble using the site or come across incorrect or outdated information, please contact me through Twitter {0}",
-        "creatorQ": "Who created this website?",
-        "supportA": "If you'd like to be part of the Find a Doc community, <a href='https://github.com/ourjapanlife'>join us over on GitHub</a> to see what we could use your help with!",
-        "supportQ": "How Can I Contribute?",
-        "trustA": "All of the links lead to official resources such as clinic and government websites. Please read them thoroughly before registering your personal information with them.<br /><br /> Please understand that because this database consists of content that can be submitted by anyone, it is not possible for us to guarantee that all of the information entirely accurate or up to date. <br /><br /> Our moderators try their best to make sure fraudulent information doesn't get published, but ask that you research any service that you find on here before visiting the location or submitting your personal information to a third-party website.<br /><br /> This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Read more about it in our license.</a>",
-        "trustQ": "Can this information be trusted?",
-        "welcome": "Welcome to Find a Doc, Japan!",
-        "whatIsThisA": "Find a Doc is a community-driven database that was created by LaShawn Toyoda to help spread information regarding healthcare services in Japan. The project has since grown into a team of volunteers, and currently we're focusing on keeping the immigrant community informed about clinics that are offering waiting lists for vaccinations so they don't go to waste.<br /><br />In the future, we'd like to expand Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language.<br /><br /> If you find this project helpful in any way, <a href='https://ko-fi.com/theyokohamalife'><b>please donate</b></a> to help us keep the site running and to continue adding new features.",
-        "whatIsThisQ": "What is this?"
+        "contributorLeads": "ကျွန်တော်တို့အဖွဲ့",
+        "contributorQ": "ဒီ၀က်ဘ်ဆိုက်ကို ဘယ်သူတည် ထောင်တာလဲ?",
+        "creatorA": "ဒီ၀က်ဘ်ဆိုက်{0}ကို ကျွန်တော် လရွှန် တိုယိုဒါက စတင်တည်ေထာင်ပြီး ပြုပြင်ထိန်းသိမ်းသူလည်း ကျွန်တော်ပဲ ဖြစ်ပါတယ်။ အကယ်၍ ဒီ၀က်ဘ်ဆိုက်ကို အသုံးပြုနေစဉ် ပြဿနာ တစုံတရာတွေ့ခဲ့ရင်, သတင်းအမှားနဲ့ ရက်လွန်နေတဲ့ သတင်းတွေ့ ခဲ့ရင် တွီတာကနေတဆင့် ဆက်သွယ်အေကြာင်းကြားနိုင်ပါတယ်.",
+        "creatorQ": "ဒီ၀က်ဘ်ဆိုက်ကို ဘယ်သူတည် ထောင်တာလဲ?",
+        "supportA": "အကယ်၍ Find a Doc အဖွဲ့တွင် ပါ၀င်လိုပါက, <a href='https://github.com/ourjapanlife'>ကျွန်ပ်တို့ သင့်ရဲ့ အကူအညီကို အသုံးပြုနိုင်ဖို့ အတွက် GitHub</a> မှာပါ၀င်ဆက်သွယ်ပါ!",
+        "supportQ": "ကျွန်တော် ဘယ်လိုပါ၀င်ကူညီနိုင်မလဲ??",
+        "trustA": "ဖော်ပြပါ လင့်ခ်တွေအကုန်လုံးသည် ဆေးရုံ၊ အစိုးရ အစရှိတဲ့ တရား၀င် အဖွဲ့အစည်းတွေနဲ့ တိုက်ရိုက်ချိတ်ဆက်ထားတာဖြစ်ပါတယ်။ ၎င်းတို့ကို သေချာဖတ်ပြီးမှ သင့်ရဲ့ ကိုယ်ပိုင်သတင်းအချက်အလက်များ မှတ်ပုံတင်ပါ။.<br /><br /> အဘယ့်ကြောင့်ဆိုသော် ဤဒေတာဘေ့စ် တွင် မည်သူမဆို သတင်းအချက်အလက်များ တင်သွင်းနိုင်သောကြောင့် ကျွန်ပ်တို့ အနေဖြင့် ၀က်ဆိုက်ဒ်ရှိ သတင်းအချက်အလက် အကုန်လုံးသည် မှန်ကန်ကြောင်းနှင့် အချိန်နှင့် တပြေးညီဖြစ်ကြောင်း အာမမခံနိုင်သည်ကို သင့်အနေဖြင့် နားလည်စေလိုပါသည်။ . <br /><br /> ကျွန်ပ်တို့၏ စိစစ်သူများသည် ထိုကဲ့သို့ သတင်းအမှားများ မတင်မိစေရန် အကောင်းဆုံး ကြိုးစားလျက်ရှိပါသည်။ သို့သော် သင့်အနေဖြင့် တတိယပါတီက ၀န်ဆောင်မှုပေးသော ၀က်ဆိုက်ဒ်များသို့ မ၀င်ရောက်မီ၊ သို့  သင်၏ ကိုယ်ရေးအချက်အလက်များကို မဖြည့်သွင်းမီ အရင်ဆုံး၎င်းနှင့်ဆိုင်သောအချက်အလက်များကို လေ့လာစေလိုပါသည်။.<br /><br /> Find a Doc သည် open-source ပရောဂျက် ဖြစ်သောကြောင့် သင့်တွင်ထိခိုက်နစ်နာမှုတစုံတရာရှိပါက တာ၀န်ယူနိုင်မည် မဟုတ်ပါ။.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> ၎င်းနှင့်ပတ်သက်ပြီး ကျွန်ပ်တို့၏ လိုင်စင်တွင် ဖတ်ရှုနိုင်ပါသည်။.</a>",
+        "trustQ": "ဤသတင်းအချက်အလက်သည် ယုံကြည်၍ရနိုင်ပါသလား?",
+        "welcome": "Find a Doc ဂျပန်မှ ကြိုဆိုပါတယ်!",
+        "whatIsThisA": "Find a Doc သည် ဂျပန်နိုင်ငံရှိကျန်းမာရေးဆိုင်ရာ ၀န်ဆောင်မှုများနှင့်သက်ဆိုင်သော သတင်းအချက်အလက်များကို ကူညီမျှ၀ေနိုင်ရန် လရွှန် တိုယိုဒါမှ တည်ထောင်ထားသော လူထုအခြေပြု ဒေတာဘေ့စ်တစ်ခုဖြစ်ပါတယ်. အဘယ့်ကြောင့်ဆိုသော် ဤဒေတာဘေ့စ် တွင် မည်သူမဆို သတင်းအချက်အလက်များ တင်သွင်းနိုင်သောကြောင့် ကျွန်ပ်တို့ အနေဖြင့် ၀က်ဆိုက်ဒ်ရှိ သတင်းအချက်အလက် အကုန်လုံးသည် မှန်ကန်ကြောင်းနှင့် အချိန်နှင့် တပြေးညီဖြစ်ကြောင်း အာမမခံနိုင်သည်ကို သင့်အနေဖြင့် နားလည်စေလိုပါသည်။.<br /><br /> အကယ်၍ သင့်အနေဖြင့် ယခုပရောဂျက်သည် အထောက်အကူပြုသည်ဟုယူဆပါက , <a href='https://ko-fi.com/theyokohamalife'><b>eလှုဒါန်းခြင်းဖြင့်</b></a> ယခု၀က်ဆိုက်ဒ်ကို ဆက်လက်ဆောင်ရွက်နိုင်ရန် နှင့် အချက်အလက်အသစ်များထည့်သွင်းနိုင်ရန် အကူအညီပေးနိုင်ပါသည်။.",
+        "whatIsThisQ": "ဒါကဘာပါလဲ?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "လက်ရှိအသုံးပြုနိုင်သော ဆေးခန်းဒေတာ",
+        "editClinic": "ဆေးခန်းအချက်အလက်ကို တည်းဖြတ်မည်"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "ထပ်ဆောင်းသတင်းအချက်အလက်များ (ရွေးချယ်နိုင်)",
         "city": "မြို့",
         "clinicName": "ဆေးခန်းအမည်",
-        "fillForm": "Fill out this form to add a new clinic to the database that has a cancellation waiting list.",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "fillForm": "စောင့်ဆိုင်းစာရင်းတွင်ပယ်ဖျက်ခြင်းရှိသော ဆေးခန်းအား ဒေတာဘေ့စ်တွင်ထည့်သွင်းရန် ဤဖောင်ကိုဖြည့်ပါ။.",
+        "no": "မဟုတ်ပါ",
+        "note": "detailsအကူအညီသို့ အရေးကြီးသောအသေးစိတ် အချက်အလက်များမျှ၀ေပါ။",
         "prefecture": "ခရိုင်",
-        "reviewMessage": "The clinic you submitted will be displayed after it's been reviewed!",
-        "romajiOnly": "Romaji only",
-        "submitClinic": "Submit Clinic",
+        "reviewMessage": "သင်ထည့်သွင်းထားသော ဆေးခန်းအား စိစစ်ပြီးလျှင် ပြသမည်ဖြစ်သည်။!",
+        "romajiOnly": "Romaji ဖြင့်သာ",
+        "submitClinic": "ဆေးခန်းအားထည့်သွင်းမည်",
         "validations": {
             "city": {
-                "minLength": "City name must be at least {0} characters",
-                "required": "City is required",
-                "validChars": "Invalid character(s)"
+                "minLength": "မြို့အမည်၏ စာလုံးရေသည်အနည်းဆုံး{0}လုံးဖြစ်ရမည်။",
+                "required": "မြို့အမည်သည် မထည့်မဖြစ်ဖြစ်သည်။",
+                "validChars": "ဘောင်မ၀င်သော စာလုံး(များs)"
             },
             "clinic": {
-                "minLength": "Clinic name must be at least {0} characters",
-                "required": "Clinic name is required",
-                "validChars": "Invalid character(s)"
+                "minLength": "ဆေးခန်းအမည်၏ စာလုံးရေသည်အနည်းဆုံး{0}လုံးဖြစ်ရမည်။",
+                "required": "ဆေးခန်းအမည်သည် မထည့်မဖြစ်ဖြစ်သည်။",
+                "validChars": "ဘောင်မ၀င်သော စာလုံး(များ)"
             },
             "ward": {
-                "minLength": "Ward name must be at least {0} characters",
-                "required": "Ward is required",
-                "validChars": "Invalid character(s)"
+                "minLength": "ရပ်ကွက်အမည်၏ စာလုံးရေသည်အနည်းဆုံး{0}လုံးဖြစ်ရမည်။",
+                "required": "ရပ်ကွက်အမည်သည် မထည့်မဖြစ်ဖြစ်သည်။",
+                "validChars": "ဘောင်မ၀င်သော စာလုံး(များ)"
             },
             "website": {
-                "required": "Website URL is required",
-                "url": "Please enter a valid URL"
+                "required": "၀က်ဆိုက်ဒ် URL သည်မထည့်မဖြစ်ဖြစ်သည်",
+                "url": "ကျေးဇူးပြု၍ မှန်ကန်သော URL ကိုထည့်ပါ "
             }
         },
-        "voucherRequired": "Voucher required: ",
+        "voucherRequired": "လိုအပ်သောကူပွန်: ",
         "ward": "ရပ်ကွက်",
-        "wardResidencyRequired": "Ward residency required: ",
-        "websiteURL": "Website URL",
-        "yes": "Yes"
+        "wardResidencyRequired": "လိုအပ်သော ရပ်ကွက်တွင်နေထိုင်ကြောင်း: ",
+        "websiteURL": "၀က်ဆိုက်ဒ် URL",
+        "yes": "ဟုတ်"
     },
     "admin": {
         "pending": {
@@ -75,12 +75,12 @@
         "moreInfo": "Click for more info",
         "report": {
             "clinicName": "ဆေးခန်းအမည်:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "note": "ဤဆေးခန်းနှင့် ပတ်သက်၍",
+            "reason": "သင်သည် အဘယ်ကြောင့်ယခုဆေးခန်းအကြောင်းအကြောင်းကြားရသနည်း?",
+            "submitReport": "အကြောင်းကြား",
+            "title": "ယခုဒေတာကိုအကြောင်းကြားမည်"
         },
-        "search": "Search by Location or Clinic Name",
+        "search": "ဆေးခန်းတည်နေရာ သို့ အမည်ဖြင့်ရှာဖေမည်",
         "voucher": {
             "notRequired": "မလိုအပ်ပါ",
             "required": "လိုအပ်သည်"
@@ -91,77 +91,77 @@
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}?"
+        "dialog": "ID: {0} ကိုဖျက်သိမ်းလိုကြောင်းသေချာပါသလား?"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "ကျွန်ပ်ကိုထောက်ပံ့မည်"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "ပင်မစာမျက်နှာ",
+        "notFound": "404 ရှာမတွေ့ပါ",
+        "otherError": "အမှားအယွင်းဖြစ်နေသည်"
     },
     "findADoc": "Find a Doc",
     "footer": {
-        "donate": "Donate",
+        "donate": "လှုဒါန်းမည်",
         "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
-        "netlify": "Powered by Netlify",
+        "kofi": "၀ယ်ပေးမည် Ko-Fi",
+        "netlify": "Netlify မှပံ့ပိုးသည်",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "အတည်ပြု",
+        "cancel": "ဖျက်သိမ်းမည်",
+        "delete": "ပယ်ဖျက်",
+        "readMore": "ဆက်လက်ဖတ်မည်"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "ကူပွန်ဖြင့် သို့ ကူပွန်မပါဘဲ ကာကွယ်ဆေးထိုးမည်",
+        "helpingResidents": "ဂျပန်နိုင်ငံတွင်နေထိုင်သူများအတွက် အခြေခံလိုအပ်သော ဆေးကုသမှုများရှာဖွေရာတွင် ကူညီခြင်း"
     },
     "index": {
-        "getDocument": "Get the Document",
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
-        "register": "Go to Registration Site",
-        "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan",
-        "viewAllNews": "View all news"
+        "getDocument": "စာရွက်စာတမ်းကို ရယူမည်",
+        "massSite": "အသက် ၁၈နှစ်နှင့် အထက် ကူပွန်ရှိသူများသည် တိုကျို သို့ အိုဆာကာရှိ ကာကွယ်ဆေးထိုးသည့် စင်တာများတွင် ကာကွယ်ဆေးထိုးခြင်းပြုလုပ်နိုင်ပါပြီ။.",
+        "prevaccinationScreening": "ကာကွယ်ဆေးမထိုးမီ စိစစ်ရန် လိုအပ်သော ဖောင်များကို အင်တာနက်မှတဆင့် ဒေါင်းလုတ် ရယူနိုင်ပါပြီ! ဖောင်တင်ရာတွင် ဂျပန်ဘာသာစကားဖြင့်သာလက်ခံသော်လည်း ဘာသာပြန်ပြီး ဖတ်ရှုနိုင်ပါပြီ.",
+        "register": "စာရင်းသွင်းရမည့် ၀က်ဘ်ဆိုက်ကိုသွားမည်",
+        "title": "ဂျပန်နိုင်ငံရှိ ကိုရိုနာဗိုင်းရပ်စ် ကာကွယ်ဆေးထိုးခြင်း ပယ်ဖျက် စောင့်ဆိုင်းစာရင်း",
+        "viewAllNews": "သတင်းအားလုံးကြည့်မည်"
     },
     "login": {
         "adminLogin": "Admin Login",
-        "clear": "Clear",
-        "email": "Email",
+        "clear": "ရှင်းလင်းမည်",
+        "email": "အီးမေးလ်",
         "login": "Login",
-        "password": "Password"
+        "password": "လျှို့၀ှက်စကားလုံး"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "ထွက်ခွာနေသည်...",
+        "successMessage": "သင်၏ အကောင့်မှထွက်ခွာသွားပါပြီ။. နောက်မှထပ်တွေ့ပါမည်။!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 21st</b> for voucher holders. Ward residency not required!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "ဂျပန်နိုင်ငံတွင်တရား၀င်တင်သွင်းထားသော ကာကွယ်ဆေးမှာ မောဒါန်နာ နှင့် ဖိုင်ဇာ တို့သာဖြစ်ပါသည်။. ဆိုင်နိုဗက် သို့ အခြားကာကွယ်ဆေးများထိုးပေးနေသော ဆေးခန်းများနှင့်ပတ်သက်၍ အထူးသတိပြုပါ။. ဤ၀က်ဘ်ဆိုက်ရှိ အကြောင်းအရာများသည် အသုံးပြုသူများက တင်သွင်းထားသောအကြောင်းအရာများဖြစ်ပြီး၊ စိစစ်သူများက အကောင်းဆုံးစိစစ်ထားသော်လည်း သတင်းအမှား သို့ မှန်ကန်ကြောင်းအတည်ပြု၍မရနိုင်သော အကြောင်းအရာများလည်းရှိနိုင်ပါသည်။. <br /><br /> ကျွန်ပ်တို့အနေဖြင့် လူထုကတင်သွင်းသော သတင်းအချက်အလက်များနှင့်ပတ်သက်၍ လွဲချော်မှုများပါရှိခြင်းနှင့် တတိယပါတီ ၀က်ဘ်ဆိုက်များနှင့် စပ်လျဉ်း၍ တာ၀န်မယူပါ။. သင်၏ကိုယ်ပိုင်သုံးသပ်ချက်အရ သတင်းအမှားဟုယူဆ၍ရသောတင်သွင်းချက်များကို ကျေးဇူးပြု၍ အကြောင်းကြားပါ။.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>ရှင်းယိုကိုဟားမား</b> fromကာကွယ်ဆေးထိုးရန် အချိန်ကွက်လပ်များအား <b>ဂျူလိုင် ၂၁ ရက်မှစ၍</b> ကူပွန်ကိုင်ဆောင်ထားသူများအတွက် ရရှိနိုင်ပါပြီ။ ရပ်ကွက်တွင်နေထိုင်ကြောင်းပြရန် မလိုအပ်ပါ!",
+        "shinYokohamaBookVaccine": "ကာကွယ်ဆေးထိုးရန် ဘွက်ကင်တင်မည်"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "စာရေးသူ",
+        "by": "မှ {0}",
+        "featured": "ခေါင်းကြီးသတင်းများ",
+        "important": "အရေးကြီးသော သတင်းနှင့် အချက်အလက်များ",
+        "latest": "Find a Doc မှနောက်ဆုံးရ အချက်အလက်များ",
+        "updated": "အပ်ပ်ဒိတ်လုပ်ပြီး: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "တင်သွင်းချက်ကို တည်းဖြတ်မည်",
+        "title": "တင်သွင်းဆဲ"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "အကြောင်းကြားထားသော တင်သွင်းချက်များ",
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
+        "about": "အကြောင်းအရာ",
+        "addClinic": "ဆေးခန်းတစ်ခုထပ်ထည့်မည်",
+        "adminDashboard": "Admin ဒိုင်ခွက်",
         "github": "GitHub",
-        "home": "Home",
+        "home": "ပင်မစာမျက်နှာ",
         "languages": "ဘာသာစကားများ",
         "login": "Login",
         "logout": "Logout",
