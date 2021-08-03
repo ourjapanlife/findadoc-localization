@@ -1,7 +1,7 @@
 {
     "about": {
         "contributorLeads": "Il nostro Team",
-        "contributorQ": "Who develops this site?",
+        "contributorQ": "Chi siamo",
         "creatorA": "Questo sito è stato create da me, LaShawn Toyoda! Se riscontri dei problemi mentre usi il sito o trovi informazioni incorrette o obsolete, contattami su Twitter {0} per favore.",
         "creatorQ": "Chi ha creato questo sito?",
         "supportA": "Se vuoi contribuire a Find a Doc, <a href='https://github.com/ourjapanlife'>visita il nostro profilo GitHub</a>, dove potrai trovare una lista di task per le quali abbiamo bisogno di aiuto.",
@@ -13,16 +13,16 @@
         "whatIsThisQ": "Che cos'è?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Dati Clinica",
+        "editClinic": "Modifica Clinica"
     },
     "add-clinic": {
         "additionalInfo": "Informazioni extra (opzionali)",
         "city": "Città",
         "clinicName": "Nome della clinica",
-        "fillForm": "Compila questo modulo per aggiungere al database una nuova clinica che ha una lista d'attesa per le cancellazioni",
+        "fillForm": "Compila questo modulo per aggiungere al database una nuova clinica (con una lista d'attesa per le cancellazioni)",
         "no": "No",
-        "note": "Share helpful or important details",
+        "note": "Condividi dettagli utili o importanti",
         "prefecture": "Prefettura",
         "reviewMessage": "La clinica che hai inviato verrà inserita dopo essere stata verificata!",
         "romajiOnly": "Solo Romaji",
@@ -31,28 +31,28 @@
             "city": {
                 "minLength": "Il nome della città deve essere almeno di {0} caratteri",
                 "required": "Devi inserire il nome della città",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carattere/i non valido/i"
             },
             "clinic": {
                 "minLength": "Il nome della clinica deve essere almeno {0} caratteri",
                 "required": "Devi inserire il nome della clinica",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carattere/i non valido/i"
             },
             "ward": {
                 "minLength": "Il nome della municipalità deve essere almeno {0} caratteri",
                 "required": "Devi inserire il nome della municipalità",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carattere/i non valido/i"
             },
             "website": {
-                "required": "Devi inserire la URL del sito",
-                "url": "Inserire una URL valida"
+                "required": "Devi inserire l'indirizzo URL del sito",
+                "url": "Inserire un URL valido"
             }
         },
         "voucherRequired": "Voucher necessario: ",
         "ward": "Municipalità",
-        "wardResidencyRequired": "É necessario essere residenti nella municipalità: ",
+        "wardResidencyRequired": "É necessario essere residenti della municipalità: ",
         "websiteURL": "URL del sito",
-        "yes": "Yes"
+        "yes": "Sì"
     },
     "admin": {
         "pending": {
@@ -65,12 +65,12 @@
             "city": "Città",
             "clinicName": "Nome della clinica",
             "flag": "Segnala",
-            "note": "Nota",
+            "note": "Note",
             "prefecture": "Prefettura",
             "report": "Segnala contenuto",
             "voucherRequired": "Voucher",
             "ward": "Municipalità",
-            "wardResidencyRequired": "Ward Residency",
+            "wardResidencyRequired": "Municipio di residenza",
             "website": "Sito web"
         },
         "moreInfo": "Clicca per maggiori informazioni",
@@ -79,7 +79,7 @@
             "note": "Commento su questa clinica",
             "reason": "Perché vuoi segnalare questa clinica?",
             "submitReport": "Invia segnalazione",
-            "title": "Segnala problema con questa clinica"
+            "title": "Segnala un problema riguardante questa clinica"
         },
         "search": "Cerca",
         "voucher": {
@@ -87,15 +87,15 @@
             "required": "Necessario"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Non necessario",
+            "required": "Necessario"
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Sei sicuro di voler cancellare l'ID: {0}"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "Sostieni questo progetto"
     },
     "error": {
         "homePage": "Pagina iniziale",
@@ -106,7 +106,7 @@
     "footer": {
         "donate": "Fai una donazione",
         "github": "Contribuisci al progetto su GitHub",
-        "kofi": "Comprami un kofi",
+        "kofi": "Offrimi un caffè",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
@@ -114,11 +114,11 @@
         "approve": "Approva",
         "cancel": "Annulla",
         "delete": "Rimuovi",
-        "readMore": "Read More"
+        "readMore": "Di più"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Puoi vaccinarti, con o senza vaccino",
+        "helpingResidents": "Aiutiamo i cittadini residenti del Giappone nella ricerca della necessaria assistenza medica"
     },
     "index": {
         "getDocument": "Scarica documento",
@@ -126,10 +126,10 @@
         "prevaccinationScreening": "Il modulo da compilare obbligatoriamente prima del vaccino può essere scaricato online! Le cliniche accetteranno solo moduli in Giapponese, ma sul sito troverete la versione tradotta del questionario.",
         "register": "Vai al sito di registrazione",
         "title": "Liste di attesa per le vaccinazioni contro il COVID-19 in Giappone",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Vedi tutte le notizie"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "Login Amministratore",
         "clear": "Cancella",
         "email": "Email",
         "login": "Login",
@@ -140,27 +140,27 @@
         "successMessage": "Hai effettato il logout con successo. Alla prossima!"
     },
     "message": {
-        "disclaimerAlert": "Gli unici vaccini approvati in Giappone sono Moderna e Pfizer. Fai attenzione a cliniche che offrono di vaccinare con SinoVac o altri vaccini non approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o informazioni non verificate.<br /><br /> Non ci assumiamo alcuna responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o derivanti da terze parti. Usa le informazioni di questo sito responsabilmente e, se trovi informazioni errate o fraudolente, mandaci una segnalazione attraverso l'apposito modulo.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "Gli unici vaccini approvati in Giappone sono il Moderna e il Pfizer. Fai attenzione a cliniche che offrono di vaccinare con il SinoVac o altri vaccini non ufficialmente approvati. Il contenuto presente su questo sito è creato dagli utenti. Nonostante i nostri sforzi per moderarlo, potrebbe contenere degli errori o delle informazioni non verificate.<br /><br /> Non ci assumiamo alcuna responsabilità per informazioni non corrette derivanti dalle fonti di cui sopra, o derivanti da terze parti. Usa le informazioni di questo sito responsabilmente e, se trovi informazioni errate o fraudolente, mandaci una segnalazione attraverso l'apposito modulo.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> Posti vaccinazioni disponibili dal <b>12 Luglio</b> per chi possiede un voucher. Se non vivi a Yokohama e vuoi registrarti, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>clicca qui per compilare il form.</a>e completa la prenotazione.",
+        "shinYokohamaBookVaccine": "Prenota il vaccino"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "Autore",
+        "by": "da {0}",
+        "featured": "Notizie in evidenza",
+        "important": "Informazioni e notizie importanti",
+        "latest": "Ultime notizie da Find a Doc",
+        "updated": "Aggiornato: {0}"
     },
     "pending": {
         "edit": "Modifica dati clinica",
         "title": "In revisione"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Dati segnalati",
     "toolbar": {
         "about": "Chi siamo",
         "addClinic": "Aggiungi una clinica",
-        "adminDashboard": "Admin Dashboard",
+        "adminDashboard": "Dashboard Amministratore",
         "github": "GitHub",
         "home": "Home",
         "languages": "Cambia lingua",
