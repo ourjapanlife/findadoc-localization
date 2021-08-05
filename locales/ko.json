@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
+        "contributorLeads": "팀원",
+        "contributorQ": "누가 이 웹 사이트를 개발합니까?",
         "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리합니다! 사이트 이용에 문제가 있거나, 부정확 혹은 오래된 정보를 발견하면 Twitter {0}로 연락주세요.",
         "creatorQ": "누가 이 웹 사이트를 만들었나요?",
         "supportA": "도움을 줄 수 있는 가장 좋은 방법은 새로 찾으신 취소 대기자 명단을 데이터베이스에 추가해 주시는 것입니다. 더 기부하고 싶으시다면 kofi로 부탁드려요.",
@@ -17,12 +17,12 @@
         "editClinic": "Edit Clinic"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "추가 정보 (선택)",
         "city": "도시",
         "clinicName": "진료소 이름",
         "fillForm": "잔여 백신 대기 목록이 있는 데이터베이스에 새 클리닉을 추가하려면 이 양식을 작성해 주세요.",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "아니오",
+        "note": "유용한 또는 중요한 정보 공유",
         "prefecture": "현",
         "reviewMessage": "제출하신 진료소는 심사 후 표시됩니다!",
         "romajiOnly": "영문(로마지)만 지원",
@@ -31,26 +31,26 @@
             "city": {
                 "minLength": "{0} 자 이상이어야합니다.",
                 "required": "도시는 필수 항목입니다.",
-                "validChars": "Invalid character(s)"
+                "validChars": "문자 오류입니다"
             },
             "clinic": {
                 "minLength": "{0} 자 이상이어야합니다.",
                 "required": "진료소 이름이 필요합니다.",
-                "validChars": "Invalid character(s)"
+                "validChars": "문자 오류입니다"
             },
             "ward": {
                 "minLength": "{0} 자 이상이어야합니다.",
                 "required": "병동이 필요합니다",
-                "validChars": "Invalid character(s)"
+                "validChars": "문자 오류입니다"
             },
             "website": {
                 "required": "웹 사이트 URL이 필요합니다.",
                 "url": "유효한 URL을 입력 해주세요"
             }
         },
-        "voucherRequired": "Voucher required: ",
+        "voucherRequired": "바우처가 필요합니다:  ",
         "ward": "구",
-        "wardResidencyRequired": "Ward residency required: ",
+        "wardResidencyRequired": "구 거주지가 필요합니다: ",
         "websiteURL": "웹 사이트 주소",
         "yes": "Yes"
     },
@@ -62,86 +62,86 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "note": "Note",
-            "prefecture": "Prefecture",
-            "report": "Report",
-            "voucherRequired": "Voucher",
-            "ward": "Ward",
-            "wardResidencyRequired": "Ward Residency",
-            "website": "Website"
+            "city": "도시",
+            "clinicName": "진료소 이름",
+            "note": "노트",
+            "prefecture": "현",
+            "report": "보고",
+            "voucherRequired": "바우처",
+            "ward": "구",
+            "wardResidencyRequired": "구 거주지가 필요합니다",
+            "website": "웹사이트"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "자세한 정보를 보려면 클릭하세요",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "진료소 이름:",
+            "note": "이 진료소에 대한 참고 사항",
+            "reason": "왜 이,진료소를 신고하십니까? ",
+            "submitReport": "신고",
+            "title": "데이터 신고"
         },
         "search": "검색",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "선택",
+            "required": "필수"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "선택",
+            "required": "필수"
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "아이디를 삭제하시겠습니까: {0}"
     },
     "donate": {
         "supportMe": "Support me"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "홈페이지",
+        "notFound": "오류 404, 페이지를 찾을 수 없습니다",
+        "otherError": "오류가 발생하였습니다"
     },
     "findADoc": "Find a Doc",
     "footer": {
-        "donate": "Donate",
+        "donate": "기부",
         "github": "GitHub",
         "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
+        "approve": "확인",
+        "cancel": "취소",
+        "delete": "삭제",
         "readMore": "Read More"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "바우처 유무에 관계없이 예방 접종을 받기",
+        "helpingResidents": "일본 거주자가 필수 의료 서비스를 찾을 수 있도록 지원"
     },
     "index": {
-        "getDocument": "Get the Document",
+        "getDocument": "문서 가져오기",
         "massSite": "바우처가있는 18 세 이상이면 누구나 도쿄 또는 오사카 대량 예방 접종 장소에서 예방 접종을받을 수 있습니다.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "prevaccinationScreening": "필요한 예방 접종 전 심사 양식은 온라인으로 다운로드 할 수 있습니다! 일본어 양식만 허용되지만 번역은 가능합니다.",
         "register": "등록 사이트로 이동",
         "title": "일본 COVID-19 잔여/취소 백신 대기자 명단",
-        "viewAllNews": "View all news"
+        "viewAllNews": "모든 뉴스 보기"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "관리자 로그인",
         "clear": "지우기",
         "email": "이메일",
         "login": "로그인",
         "password": "암호"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "로그아웃 중입니다...",
+        "successMessage": "로그아웃 되었습니다. 감사합니다!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "일본에서 접종 할 수 있는 백신은 화이자와 모더나 백신입니다. 시노백 또는 기타 백신을 제공하는 의료기관은 주의하십시오. 이 사이트의 컨텐츠는 사용자가 생성한 것이며, 이를 조정하기 위해 최선을 다하지만 오류나 확인되지 않은 컨텐츠가 포함될 수 있습니다. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>신요코하마</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
+        "shinYokohamaBookVaccine": "백신 예약하기"
     },
     "news": {
         "author": "Author",
@@ -152,19 +152,19 @@
         "updated": "Updated: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "수정하기",
+        "title": "제출 미결"
     },
     "reportedSubmissions": "Reported Submissions",
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
+        "about": "소개",
+        "addClinic": "클리닉 추가",
+        "adminDashboard": "관리자 대시보드",
         "github": "GitHub",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
-        "logout": "Logout",
+        "home": "홈",
+        "languages": "언어",
+        "login": "로그인",
+        "logout": "로그아웃",
         "title": "Find a Doc, JAPAN"
     }
 }
