@@ -4,29 +4,29 @@
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
         "kofi": {
+            "action": "Donate a cup",
             "headline": "Buy us coffee",
             "text": {
                 "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
                 "1": "Consider supporting us if this project has helped you or someone you know."
-            },
-            "action": "Donate a cup"
+            }
         },
         "team": {
             "header": {
                 "headline": "Meet the Team"
             },
-            "moreContributors": {
-                "headline": "Plus many more members who have lent us a helping hand!",
-                "action": {
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages",
-                    "frontend": "front end",
-                    "localization": "localization"
-                }
-            },
             "join": {
+                "action": "I want to join!",
                 "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!",
-                "action": "I want to join!"
+                "subheadline": "Join us over on GitHub to see how you can contribute!"
+            },
+            "moreContributors": {
+                "action": {
+                    "frontend": "front end",
+                    "localization": "localization",
+                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                },
+                "headline": "Plus many more members who have lent us a helping hand!"
             }
         },
         "timeline": {
@@ -41,14 +41,14 @@
                     "textHeadline": "Watch our daughter, I gotta make something."
                 },
                 "1": {
+                    "action": "Join our team",
                     "date": "Presently",
                     "dateHeadline": "A team of volunteers",
                     "text": {
                         "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1":  "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
                     },
-                    "textHeadline": "You can fill the void by citizen action.",
-                    "action": "Join our team"
+                    "textHeadline": "You can fill the void by citizen action."
                 }
             }
         },
