@@ -4,8 +4,90 @@
         "contributorQ": "Chi siamo",
         "creatorA": "Questo sito è stato create da me, LaShawn Toyoda! Se riscontri dei problemi mentre usi il sito o trovi informazioni incorrette o obsolete, contattami su Twitter {0} per favore.",
         "creatorQ": "Chi ha creato questo sito?",
+        "header": {
+            "headline": "About Find A Doc, the health database for Japan's international community"
+        },
+        "kofi": {
+            "action": "Donate a cup",
+            "headline": "Buy us coffee",
+            "text": {
+                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
+                "1": "Consider supporting us if this project has helped you or someone you know."
+            }
+        },
         "supportA": "Se vuoi contribuire a Find a Doc, <a href='https://github.com/ourjapanlife'>visita il nostro profilo GitHub</a>, dove potrai trovare una lista di task per le quali abbiamo bisogno di aiuto.",
         "supportQ": "Come posso supportare il database?",
+        "team": {
+            "header": {
+                "headline": "Meet the Team"
+            },
+            "join": {
+                "action": "I want to join!",
+                "headline": "Does Find a Doc’s mission spark your interests?",
+                "subheadline": "Join us over on GitHub to see how you can contribute!"
+            },
+            "moreContributors": {
+                "action": {
+                    "frontend": "front end",
+                    "localization": "localization",
+                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                },
+                "headline": "Plus many more members who have lent us a helping hand!"
+            }
+        },
+        "timeline": {
+            "items": {
+                "0": {
+                    "date": "2021.06.13",
+                    "dateHeadline": "From idea to health database",
+                    "text": {
+                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
+                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                    },
+                    "textHeadline": "Watch our daughter, I gotta make something."
+                },
+                "1": {
+                    "action": "Join our team",
+                    "date": "Presently",
+                    "dateHeadline": "A team of volunteers",
+                    "text": {
+                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
+                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                    },
+                    "textHeadline": "You can fill the void by citizen action."
+                }
+            }
+        },
+        "trust": {
+            "cards": {
+                "0": {
+                    "text": {
+                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
+                        "1": "Read them thoroughly before registering your personal information with them."
+                    }
+                },
+                "1": {
+                    "text": {
+                        "0": "Anyone in the community can submit content to the database.",
+                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                    }
+                },
+                "2": {
+                    "text": {
+                        "0": "Our moderators try their best to detect fraudulent information.",
+                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                    }
+                }
+            },
+            "footer": {
+                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
+                "license": "Read more about it in our license."
+            },
+            "header": {
+                "headline": "Can this information be trusted?",
+                "subheadline": "In short, yes, but do your due diligence."
+            }
+        },
         "trustA": "Tutti i link sul sito portano a risorse ufficiali, quali cliniche e siti governativi. Leggili attentamente prima di registrare le tue informazioni personali. <br /><br /> Poiché questo database contiene informazioni che sono state inserite dalla comunità di utenti, non possiamo garantire che siano tutte attendibili o aggiornate. <br /><br /> I nostri moderatori fanno del loro meglio per controllare che informazioni fraudolente non vengano pubblicate, ma ti chiediamo di ricercare la clinica selezionata prima di visitarla di persona o di registrare le tue informazioni personali su siti esterni. <br /><br /> Find a Doc è un progetto open-source. Il team che si occupa di questo sito non è responsabile per danni causati da informazioni reperite su Find a Doc.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Qui potrai trovare più informazioni sulla nostra licenza.</a>",
         "trustQ": "Posso fidarmi di queste informazioni?",
         "welcome": "Benvenuto su Find a Doc!",
