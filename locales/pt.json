@@ -1,60 +1,60 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
+        "contributorLeads": "A nossa Equipa",
+        "contributorQ": "Sobre nós",
         "creatorA": "Este site foi criado e é mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
         "creatorQ": "Quem criou este site?",
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Sobre a Find a Doc, a base de dados sanitária para a comunidade internacional no Japão"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Doar um café",
+            "headline": "Compre-nos um café",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "Dedicamo-nos a esta base de dados após o nosso horário de trabalho. Ajude-nos a não adormecer!",
+                "1": "Considere apoiar-nos se este projecto o tiver ajudado ou a alguém que conhece."
             }
         },
         "supportA": "A melhor maneira de ajudar é adicionando ao banco de dados todas as listas de espera de cancelamentos que você encontrar. Se quiser extender a generosidade, você pode me comprar um kofi!",
         "supportQ": "Como posso ajudar no suporte do banco de dados?",
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Conheça a Equipa"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Eu quero participar!",
+                "headline": "Acha o projecto Find a Doc interessante e partilha os seus objectivos?",
+                "subheadline": "Junte-se a nós no GitHub para descobrir como pode contribuir!"
             },
             "moreContributors": {
                 "action": {
                     "frontend": "front end",
                     "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "text": "Você pode encontrá-los em nossas páginas de contribuição {frontend} e {localization} no Github"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Mais muitos outros membros que nos ajudaram!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Da ideia à base de dados de saúde",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda estava farto da falta de informação clara sobre o lançamento da vacina no Japão por parte dos funcionários governamentais. Algumas horas depois, nasceu o Find a Doc.",
+                        "1": "Esta base de dados tem como objectivo ajudar a manter a comunidade internacional informada sobre os serviços de saúde essenciais no Japão."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Cuida da nossa filha, tenho de fazer alguma coisa."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Junte-se agora",
+                    "date": "Actualmente",
+                    "dateHeadline": "Uma equipa de voluntários",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Encontrar um Doc é dirigido pela comunidade com o apoio de uma equipe de voluntários. A equipe está atualmente se concentrando em manter a comunidade internacional no Japão informada sobre clínicas que oferecem listas de espera para vacinas, a fim de reduzir o desperdício.",
+                        "1": "No futuro, queremos encontrar um médico que ajude os residentes do Japão que não falam japonês a encontrar clínicas que ofereçam serviços na sua língua materna."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Pode preencher o vazio com uma acção"
                 }
             }
         },
@@ -62,30 +62,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Tentamos assegurar que todas as ligações conduzam a recursos oficiais, tais como sites de clínicas e do governo.",
+                        "1": "Leia sempre com atenção antes de registar as suas informações pessoais."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Qualquer pessoa da comunidade pode introduzir novas informações na base de dados",
+                        "1": "Consequentemente, não pode ser garantida uma precisão completa. Se notar algum erro, pode comunicá-lo aos nossos moderadores."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Os nossos moderadores fazem o seu melhor para detectar informações fraudulentas.",
+                        "1": "Contudo, encorajamo-lo vivamente a usar o seu melhor julgamento e a fazer mais investigação para quaisquer serviços que descubra através de Find a Doc."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Este é um projecto open source, e não somos responsáveis por quaisquer danos que possam ser provocados pela utilização de Find a Doc.",
+                "license": "Leia mais sobre o assunto na nossa licença."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Pode esta informação ser confiável?",
+                "subheadline": "Pode confiar, mas lembre-se, a confiança é boa, a dupla verificação é melhor."
             }
         },
         "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
@@ -113,17 +113,17 @@
             "city": {
                 "minLength": "O nome da cidade deve ter pelo menos {0} caracteres",
                 "required": "A cidade é obrigatória",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carácter/es inválido/s"
             },
             "clinic": {
                 "minLength": "O nome da clínica deve ter pelo menos {0} caracteres",
                 "required": "O nome da clínica é obrigatório",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carácter/es inválido/s"
             },
             "ward": {
                 "minLength": "O nome do distrito deve ter pelo menos {0} caracteres",
                 "required": "O distrito é obrigatório",
-                "validChars": "Invalid character(s)"
+                "validChars": "Carácter/es inválido/s"
             },
             "website": {
                 "required": "A URL do site é obrigatória",
