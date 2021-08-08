@@ -55,6 +55,11 @@
       "code": "ko",
       "file": "ko.json",
       "name": "한국어"
+     },
+    {
+      "code": "mn",
+      "file": "mn.json",
+      "name": "монгол хэл"
     },
     {
       "code": "ms",
