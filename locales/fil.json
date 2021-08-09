@@ -1,7 +1,7 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
+        "contributorLeads": "Ang Aming Koponan",
+        "contributorQ": "Sino ang bumubuo sa site na ito?",
         "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, si LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nakahanap ng 'false' o 'outdated' na impormasyon, mangyaring makipag-ugnayan sa akin sa pamamagitan ng Twitter {0}",
         "creatorQ": "Sino ang lumikha ng website na ito?",
         "header": {
@@ -95,20 +95,20 @@
         "whatIsThisQ": "Ano ito?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Aktibong Clinic Data",
+        "editClinic": "I-edit ang Klinika"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "Karagdagang impormasyon (opsiyonal)",
         "city": "Lungsod",
-        "clinicName": "Pangalan ng clinic",
-        "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong clinic sa database na may cancellation waiting list.",
+        "clinicName": "Pangalan ng klinika",
+        "fillForm": "Punan ang form na ito upang magdagdag ng isang bagong klinika sa database na may cancellation waiting list.",
         "no": "No",
-        "note": "Share helpful or important details",
+        "note": "Ibahagi ang nga detalyeng makakatulong at importante",
         "prefecture": "Prefecture",
-        "reviewMessage": "Ang clinic na iyong sinubmit ay ipapakita matapos itong suriin!",
+        "reviewMessage": "Ang klinika na iyong sinubmit ay ipapakita matapos itong suriin!",
         "romajiOnly": "Romaji lang",
-        "submitClinic": "Mag-submit ng Clinic",
+        "submitClinic": "Mag-submit ng Klinika",
         "validations": {
             "city": {
                 "minLength": "Ang pangalan ng lungsod ay dapat na hindi bababa sa {0} character",
@@ -116,8 +116,8 @@
                 "validChars": "Invalid character(s)"
             },
             "clinic": {
-                "minLength": "Ang pangalan ng clinic ay dapat na hindi bababa sa {0} character",
-                "required": "Kailangan ang pangalan ng clinic",
+                "minLength": "Ang pangalan ng klinika ay dapat na hindi bababa sa {0} character",
+                "required": "Kailangan ang pangalan ng klinika",
                 "validChars": "Invalid character(s)"
             },
             "ward": {
@@ -130,11 +130,11 @@
                 "url": "Mangyaring maglagay ng wastong URL"
             }
         },
-        "voucherRequired": "Voucher required: ",
+        "voucherRequired": "Kailangang ng voucher: ",
         "ward": "Ward",
-        "wardResidencyRequired": "Ward residency required: ",
+        "wardResidencyRequired": "Kailangan ng Ward residency: ",
         "websiteURL": "Website URL",
-        "yes": "Yes"
+        "yes": "Oo"
     },
     "admin": {
         "pending": {
@@ -144,8 +144,8 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
+            "city": "Lungsod",
+            "clinicName": "Pangalan ng klinika",
             "note": "Note",
             "prefecture": "Prefecture",
             "report": "Report",
@@ -154,60 +154,60 @@
             "wardResidencyRequired": "Ward Residency",
             "website": "Website"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "I-click para sa karagdagang impormasyon",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
+            "clinicName": "Pangalan ng klinika:",
+            "note": "tungkol sa klinika",
+            "reason": "Bakit mo nirereport ang klinika na ito?",
             "submitReport": "Report",
-            "title": "Report this data"
+            "title": "I-report and detalye"
         },
-        "search": "Search",
+        "search": "Hanapin",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Hindi kailangan",
+            "required": "Kailangan"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Hindi kailangan",
+            "required": "Kailangan"
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Sigurado ka bang gusto mong i-delete ang ID: {0}"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "Suportahan mo ako"
     },
     "error": {
         "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "notFound": "404 Hindi Makita",
+        "otherError": "May maling nangyari"
     },
     "findADoc": "Find a Doc",
     "footer": {
-        "donate": "Donate",
+        "donate": "Donasyon",
         "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
+        "kofi": "Bilhan mo ako ng Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "prubado",
+        "cancel": "Kansel",
+        "delete": "Burahin",
+        "readMore": "Magbasa nang higit pa"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Magbakuna nang meron o walang voucher",
+        "helpingResidents": "Tumutulong sa mga residente ng Japan na makahanap ng esensyal na pangangalaga sa kalusugan"
     },
     "index": {
-        "getDocument": "Get the Document",
-        "massSite": "Anyone 18 years or older that has a voucher can now get vaccinated at the Tokyo or Osaka mass vaccination sites.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
-        "register": "Go to Registration Site",
+        "getDocument": "Kumuha ng dokumento",
+        "massSite": "Kahit sino na 18-taon gulang pataas na mayroong voucher ay maaaring mabakunahan sa mga mass vaccination sites na matatagpuan sa Tokyo o Osaka.",
+        "prevaccinationScreening": "Ang kailangang prevaccination screening form ay maaaring ma-download online! Tanging ang Japanese form lamang ang tinatanggap ngunit may kalakip na translation dito..",
+        "register": "Pumunta sa Registration site",
         "title": "COVID-19 Vaccination Cancellation Waiting Lists sa Japan",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Tingnan ang mga balita"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -217,34 +217,34 @@
         "password": "Password"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "nag lalag-out...",
+        "successMessage": "Ikaw ay naka-logged out na. Kita-kits!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "Ang tanging bakuna na binibigay sa Japan ay Moderna at Pfizer. Mag-ingat sa mga klinika na nagbibigay ng Sinovac o iba pa. Ang nilalaman ng site na ito ay user-generated. Habang ginagawa namin ang aming buong makakaya para mamoderate ito, maaaring maglaman ang site ng pagkakamali o hindi maverify na nilalaman. <br /><br /> Hindi kami mananagot sa mga hindi tumpak na impormasyon na maaaring napapaloob sa community submissions, ganun din sa mga third-party sites. Gamitin mo ang iyong pinakamahusay na paghatol at mangyaring i-report ang anumang pag-sumite na sa tingin mo ay mapanlinlang.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> available ang vaccine slots mula <b>July 12th</b> para sa mga may voucher. Kung nakatira ka sa labas ng Yokohama at nais mo magparehistro, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>I-click ito para makapagfill-out at ma-print ang request form.</a>Pagkatapos, i-click ang button para maka-book ng bakuna!",
+        "shinYokohamaBookVaccine": "Mag-book ng bakuna"
     },
     "news": {
         "author": "Author",
         "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "featured": "Tampok na balita",
+        "important": "Importanteng balita at impormasyon",
+        "latest": "Ang pinabago mula sa Find a Doc",
+        "updated": "In-update: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "I-edit ang submission",
+        "title": "Naka-pending na submissions"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Na-report na submissions",
     "toolbar": {
         "about": "About",
-        "addClinic": "add a clinic",
-        "adminDashboard": "Admin Dashboard",
+        "addClinic": "Magdagdag ng klinika",
+        "adminDashboard": "Dashboard ng Admin",
         "github": "GitHub",
         "home": "Home",
-        "languages": "Languages",
+        "languages": "Mga wikas",
         "login": "Login",
         "logout": "Logout",
         "title": "Find a Doc, JAPAN"
