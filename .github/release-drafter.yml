@@ -1,14 +1,14 @@
 name-template: 'v$RESOLVED_VERSION 🌐'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
-  - title: '🚀 Updates'
+  - title: '🛠️ Updates'
     labels:
       - 'update'
       - 'translation'
-  - title: '🐛 Translation Fixes'
+  - title: '🌐 Translation Fixes'
     labels:
       - 'fix'
-  - title: '🧰 New Language'
+  - title: '✨ New Language'
     label: 'new language'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
