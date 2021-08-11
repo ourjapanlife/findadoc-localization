@@ -1,60 +1,60 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
+        "contributorLeads": "Tim Kami",
+        "contributorQ": "Siapa yang mengembangkan situs ini?",
         "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
         "creatorQ": "Siapa yang membuat situs web ini?",
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Tentang Find A Doc, Database Kesehatan untuk komunitas internasional di Jepang"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Donasi gelas cup",
+            "headline": "Belikan kami Ko-fi",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "jobsKami menjalankan database ini setelah seharian bekerja di pekerjaan utama kami. Tolong kami agar tetap terjaga!",
+                "1": "Pertimbangkan untuk mendukung kami jika proyek ini membantu Anda atau seseorang yang Anda kenal."
             }
         },
-        "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya kofi!",
-        "supportQ": "Bagaimana saya bisa membantu mendukung database?",
+        "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya !",
+        "supportQ": "Bagaimana saya bisa membantu dalam mendukung database ini?",
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Kenali tim"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Saya ingin bergabung!",
+                "headline": "Apakah misi Find a Doc membangkitkan ketertarikanmu?",
+                "subheadline": "Bergabung dengan kami melalui GitHub untuk melihat bagaimana Anda dapat berkontribusi!"
             },
             "moreContributors": {
                 "action": {
-                    "frontend": "front end",
-                    "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "frontend": "paling depan",
+                    "localization": "lokalisasi",
+                    "text": "Temukan mereka dalam {frontend} kami dan {localization} laman kontibutor Github"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Dengan banyak anggota lain yang bersedia meminjamkan tangannya untuk membantu kami!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Dari ide ke database kesehatan",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda menemukan banyak kekurangan dari informasi mengenai peluncuran program vaksinasi di Jepang dari pemerintah. Beberapa jam kemudian, lahirlah Find a Doc.",
+                        "1": "Database ini bertujuan untuk membantu komunitas internasional di Jepang agar tetap terinformasi mengenai pelayanan kesehatan yang utama di Jepang."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Lihatlah anak perempuan kami, Saya ingin membuat sesuatu."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Bergabunglah dengan tim kami",
+                    "date": "Sekarang",
+                    "dateHeadline": "Tim sukarelawan",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc is adalah komunitas yang dijalankan dengan dukungan dari tim sukarelawan. Saat ini, tim fokus dalam membuat komunitas internasional di Jepang agar tetap terinformasi mengenai klinik yang menawarkan daftar tunggu untuk vaksinasi agar berkurangnya daftar tunggu yang tidak terpakai.",
+                        "1": "Ke depannya, Kami ingin Find a Doc membantu penduduk Jepang yang tidak bisa berbahasa Jepang menemukan klinik yang menawarkan layanan dalam bahasa ibu mereka."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Anda dapat mengisi kekosongan dengan aksi dari warga."
                 }
             }
         },
@@ -62,30 +62,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Kami mencoba untuk memastikan bahwa semua tautan tersambung ke sumber resmi seperti situs web klinik dan pemerintah.",
+                        "1": "Baca informasi yang tersedia dalam situs web tersebut sebelum mendaftarkan informasi personal Anda di situ web tersebut."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Siapapun dapat memasukkan konten ke dalam database.",
+                        "1": "Sebagai hasilnya, tidak mungkin bagi kami untuk menjamin akurasi secara keseluruhan. Jika Anda menemukan kesalahan/error, mohon laporkan hal tersebut kepada moderator."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Moderator kami mencoba yang terbaik untuk mendeteksi informasi penipuan.",
+                        "1": "Namun, kami sangat meminta Anda untuk menggunakan penilaian terbaik Anda dan melakukan pencarian tambahan dari semua layanan yang tercakup melalui Find a Doc."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Ini adalah proyek open source, dan kami tidak bertanggungjawab atas kerusakan apapun yang mungkin terjadi dalam penggunaan Find a Doc.",
+                "license": "Baca lebih lanjut tentang hal tersebut dalam lisensi kami."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Apakah informasi ini dapat dipercaya?",
+                "subheadline": "Secara singkat, iya, tetapi lakukan investigasimu."
             }
         },
         "trustA": "Semua tautan mengarah ke sumber resmi seperti klinik dan situs web pemerintah. Harap baca dengan seksama sebelum mendaftarkan informasi pribadi Anda kepada mereka.",
@@ -95,16 +95,16 @@
         "whatIsThisQ": "Apa ini?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Data Klinik Aktif",
+        "editClinic": "Ubah Klinik"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "Tambahan informasi (Opsional",
         "city": "Kota",
         "clinicName": "Nama klinik",
         "fillForm": "Isi formulir ini untuk menambahkan klinik baru ke database. Pastikan klinik yang anda daftarkan memiliki daftar tunggu pembatalan.",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "Tidak",
+        "note": "Bagian detail yang penting atau yang membantu",
         "prefecture": "Prefektur",
         "reviewMessage": "Klinik yang Anda kirimkan akan ditampilkan setelah ditinjau!",
         "romajiOnly": "Tuliskan dengan huruf romaji",
@@ -121,8 +121,8 @@
                 "validChars": "Invalid character(s)"
             },
             "ward": {
-                "minLength": "Nama area (kecamatan) minimal harus {0} karakter",
-                "required": "Area (kecamatan) diperlukan",
+                "minLength": "Nama area (kecamatan/ward) minimal harus {0} karakter",
+                "required": "Area (kecamatan/ward) diperlukan",
                 "validChars": "Invalid character(s)"
             },
             "website": {
@@ -131,10 +131,10 @@
             }
         },
         "voucherRequired": "Voucher required: ",
-        "ward": "Area (kecamatan)",
+        "ward": "Area (kecamatan/ward)",
         "wardResidencyRequired": "Ward residency required: ",
         "websiteURL": "URL Situs Web",
-        "yes": "Yes"
+        "yes": "Ya"
     },
     "admin": {
         "pending": {
@@ -144,109 +144,109 @@
     },
     "cancelList": {
         "header": {
-            "city": "City",
-            "clinicName": "Clinic Name",
-            "note": "Note",
-            "prefecture": "Prefecture",
-            "report": "Report",
+            "city": "Kota",
+            "clinicName": "Nama Klinik",
+            "note": "Catatan",
+            "prefecture": "Prefektur",
+            "report": "Lapor",
             "voucherRequired": "Voucher",
-            "ward": "Ward",
-            "wardResidencyRequired": "Ward Residency",
-            "website": "Website"
+            "ward": "Kecamatan/Ward",
+            "wardResidencyRequired": "Kecamatan/Ward tempat tinggal",
+            "website": "Situs web"
         },
-        "moreInfo": "Click for more info",
+        "moreInfo": "Klik untuk informasi lebih lanjut",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "Nama Klinik:",
+            "note": "Catatan untuk klinik ini",
+            "reason": "Mengapa Anda melaporkan klinik ini?",
+            "submitReport": "Lapor",
+            "title": "Laporkan data ini"
         },
-        "search": "Search",
+        "search": "Cari",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Tidak dibutuhkan",
+            "required": "Dibutuhkan"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Tidak dibutuhkan",
+            "required": "Dibutuhkan"
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Apakah Anda yakin akan menghapus ID: {0}"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "Dukung saya"
     },
     "error": {
-        "homePage": "Home page",
-        "notFound": "404 Not Found",
-        "otherError": "An error occurred"
+        "homePage": "Laman utama",
+        "notFound": "404 Tidak Ditemukan",
+        "otherError": "Terjadi kesalahan/error"
     },
     "findADoc": "Find a Doc",
     "footer": {
-        "donate": "Donate",
+        "donate": "Donasi",
         "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
-        "netlify": "Powered by Netlify",
+        "kofi": "Belikan Ko-Fi",
+        "netlify": "Didukung oleh Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "Terima",
+        "cancel": "Batal",
+        "delete": "Hapus",
+        "readMore": "Baca Lebih lanjut"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Mendapatkan vaksin dengan atau tanpa vouche",
+        "helpingResidents": "Membantu penduduk Jepang menemukan pelayanan Kesehatan yang esensial"
     },
     "index": {
-        "getDocument": "Get the Document",
+        "getDocument": "Dapatkan dokumen",
         "massSite": "Siapa pun yang berusia 18 tahun ke atas yang memiliki voucher sekarang dapat divaksinasi di situs vaksinasi massal Tokyo atau Osaka.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "prevaccinationScreening": "Formulir prevaccination screening dapat diunduh secara online! Hanya formular berbahasa Jepang yang diterima tetapi tersedia terjemahannya.",
         "register": "Pergi ke Situs Pendaftaran",
         "title": "Daftar Tunggu Pembatalan Vaksinasi COVID-19 di Jepang",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Lihat semua berita"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "Masuk sebagai Admin",
         "clear": "Bersih",
         "email": "Email",
-        "login": "Login",
+        "login": "Masuk",
         "password": "Kata sandi"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Proses logout...",
+        "successMessage": "Anda sudah berhasil logout. Sampai jumpa!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "Vaksin yang diberikan di Jepang adalah hanya Moderna dan Pfizer. Berhati-hati dari klinik yang menawarkan vaksin SinoVac atau lainnya. Konten dalam situs ini adalah dihasilkan dari user dan kami berusaha yang terbaik untuk memoderasinya. <br /><br /> Kami tidak bertanggungjawab untuk informasi yang tidak akurat yang mungkin terkandung dalam submission dari komunitas, dan kami tidak bertanggungjawab atas situs pihak ketiga/third-party sites. Gunakan penilaian terbaik Anda dan mohon untuk melaporkan submission yang menurut Anda menipu/menyesatkan.",
+        "shinYokohamaAlert": "<h2>BERITA</h2><br /><b>Shin-Yokohama</b> slot untuk vaksin tersedia dari <b>tanggal 12 Juli</b> untuk pemegang voucher. Jika Anda tinggal di luar Yokohama dan ingin mendaftar, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>klik ini untuk mengisi form dan cetak formnya.</a>LALU klik tombol untuk melakukan reservasi vaksin!",
+        "shinYokohamaBookVaccine": "Reservasi Vaksin"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "Penulis",
+        "by": "oleh {0}",
+        "featured": "Berita Utama",
+        "important": "Berita dan Informasi Penting",
+        "latest": "Terkini dari Find a Doc",
+        "updated": "Terbaharui: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Ubah Submission",
+        "title": "Tunda Submissions"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Submissions yang dilaporkan",
     "toolbar": {
-        "about": "About",
-        "addClinic": "add a clinic",
+        "about": "Tentang",
+        "addClinic": "Tambah klinik",
         "adminDashboard": "Admin Dashboard",
         "github": "GitHub",
-        "home": "Home",
-        "languages": "Languages",
-        "login": "Login",
-        "logout": "Logout",
+        "home": "Laman utama",
+        "languages": "Bahasa",
+        "login": "Masuk",
+        "logout": "Keluar",
         "title": "Find a Doc, JAPAN"
     }
 }
