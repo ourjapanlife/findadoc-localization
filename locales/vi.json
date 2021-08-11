@@ -5,7 +5,7 @@
         "creatorA": "Trang web này được tạo và duy trì bởi tôi, LaShawn Toyoda! Nếu bạn gặp sự cố khi sử dụng trang web hoặc tìm thấy thông tin không chính xác hay đã lỗi thời, vui lòng liên hệ với tôi qua Twitter {0}",
         "creatorQ": "Ai đã tạo ra trang web này?",
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Giới thiệu về Find A Doc, cơ sở dữ liệu sức khỏe cho cộng đồng quốc tế tại Nhật Bản"
         },
         "kofi": {
             "action": "Donate a cup",
@@ -19,12 +19,12 @@
         "supportQ": "Tôi có thể hỗ trợ về cơ sở dữ liệu bằng cách nào?",
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Gặp gỡ đội ngũ phát triển"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Tôi muốn tham gia!",
+                "headline": "Sứ mệnh của Find a Doc có khơi dậy sự quan tâm của bạn không?",
+                "subheadline": "Hãy cùng tham gia cộng tác với chúng tôi tại GitHub!"
             },
             "moreContributors": {
                 "action": {
@@ -32,27 +32,27 @@
                     "localization": "localization",
                     "text": "Find them on our {frontend} and {localization} Github contributors pages"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Cộng với nhiều thành viên khác đã giúp đỡ chúng tôi!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Từ ý tưởng đến cơ sở dữ liệu sức khoẻ",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda cảm thấy không chịu nổi về việc thiếu thông tin rõ ràng, liên quan đến việc triển khai vắc-xin ở Nhật Bản từ các quan chức quản lý. Vài giờ sau, Find a Doc ra đời.",
+                        "1": "Cơ sở dữ liệu này nhằm mục đích giúp cộng đồng quốc tế của Nhật Bản được thông báo về các dịch vụ chăm sóc sức khỏe quan trọng ở Nhật Bản."
                     },
                     "textHeadline": "Watch our daughter, I gotta make something."
                 },
                 "1": {
-                    "action": "Join our team",
+                    "action": "Tham gia cùng chúng tôi",
                     "date": "Presently",
                     "dateHeadline": "A team of volunteers",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc là hoạt động vì cộng đồng với sự hỗ trợ của một nhóm tình nguyện viên. Hiện tại, nhóm nghiên cứu đang tập trung vào việc thông báo cho cộng đồng quốc tế của Nhật Bản về việc các phòng khám cung cấp danh sách chờ tiêm chủng để giảm lãng phí.",
+                        "1": "Trong tương lai, chúng tôi muốn Find a Doc giúp những người không nói tiếng Nhật ở Nhật Bản tìm thấy các phòng khám cung cấp dịch vụ bằng ngôn ngữ mẹ đẻ của họ."
                     },
                     "textHeadline": "You can fill the void by citizen action."
                 }
@@ -62,30 +62,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Chúng tôi cố gắng đảm bảo rằng tất cả các liên kết đều dẫn đến các nguồn tin chính thức như các trang web của phòng khám và chính phủ.",
+                        "1": "Vui lòng đọc kỹ trước khi đăng ký sử dụng thông tin cá nhân của bạn với họ."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Bất kỳ ai trong cộng đồng đều có thể gửi nội dung lên cơ sở dữ liệu.",
+                        "1": "Do đó, chúng tôi không thể đảm bảo mọi thông tin là chính xác hoàn toàn. Nếu bạn nhận thấy bất kỳ điểm không đúng nào, vui lòng báo cáo cho người kiểm duyệt."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Người kiểm duyệt của chúng tôi cố gắng hết sức để phát hiện thông tin sai sự thật.",
+                        "1": "Tuy nhiên, chúng tôi đặc biệt khuyến khích bạn sử dụng phán đoán tốt nhất của mình và nghiên cứu thêm thông tin cho bất kỳ phòng khám nào bạn tìm được thông qua Find a Doc."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
+                "headline": "Đây là một dự án mã nguồn mở và chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào có thể phát sinh từ việc sử dụng Find a Doc",
                 "license": "Read more about it in our license."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Thông tin này có thể tin cậy được không?",
+                "subheadline": "Nói ngắn gọn là có, nhưng bạn nên tự thẩm định lại thông tin một lần nữa."
             }
         },
         "trustA": "Tất cả các liên kết đều dẫn đến các nguồn chính thức như trang web của phòng khám và chính phủ. Vui lòng đọc kỹ trước khi đăng ký thông tin cá nhân của bạn với họ (phòng khám, chính phủ).",
@@ -95,8 +95,8 @@
         "whatIsThisQ": "Trang web này là gì?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Dữ liệu phòng khám đang hoạt động",
+        "editClinic": "Chỉnh sửa Phòng khám"
     },
     "add-clinic": {
         "additionalInfo": "Thông tin thêm (Tuỳ chọn)",
@@ -173,13 +173,13 @@
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Bạn có chắc mình muốn xoá ID: {0}"
     },
     "donate": {
         "supportMe": "Support me"
     },
     "error": {
-        "homePage": "Home page",
+        "homePage": "Trang chủ",
         "notFound": "404 Not Found",
         "otherError": "An error occurred"
     },
@@ -192,10 +192,10 @@
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "Đồng ý",
+        "cancel": "Huỷ",
+        "delete": "Xoá",
+        "readMore": "Đọc thêm"
     },
     "hero": {
         "getVaccinated": "Để được tiêm vắc-xin, với có hoặc không cần có phiếu đăng ký tiêm chủng",
@@ -226,18 +226,18 @@
         "shinYokohamaBookVaccine": "Đặt lịch tiêm"
     },
     "news": {
-        "author": "Author",
+        "author": "Tác giả",
         "by": "by {0}",
         "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "important": "Thông tin và tin tức quan trọng",
+        "latest": "Mới nhất từ Find a Doc",
+        "updated": "Cập nhật: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Chỉnh sửa bài đăng",
+        "title": "Bài đăng đang chờ xử lý"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Báo cáo bài đăng",
     "toolbar": {
         "about": "Về chúng tôi",
         "addClinic": "Thêm một phòng khám",
