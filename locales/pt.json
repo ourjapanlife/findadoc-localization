@@ -95,8 +95,8 @@
         "whatIsThisQ": "O que é isso?"
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Ativar informações da clínica",
+        "editClinic": "Editar clínica"
     },
     "add-clinic": {
         "additionalInfo": "Informações adicionais (opcional)",
@@ -164,19 +164,19 @@
         },
         "search": "Buscar",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Não Obrigatório",
+            "required": "Obrigatório"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Não Obrigatório",
+            "required": "Obrigatório"
         }
     },
     "delete": {
         "dialog": "Você tem certeza que quer deletar o ID: {0}"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "Faça uma doação"
     },
     "error": {
         "homePage": "Home Page",
@@ -195,11 +195,11 @@
         "approve": "Aprovar",
         "cancel": "Cancelar",
         "delete": "Deletar",
-        "readMore": "Read More"
+        "readMore": "Ler mais"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Seja vacinado com ou sem um voucher",
+        "helpingResidents": "Ajudando moradores do Japão a encontrar cuidados com a saúde essenciais"
     },
     "index": {
         "getDocument": "Obtenha o documento",
@@ -207,7 +207,7 @@
         "prevaccinationScreening": "O formulário obrigatório de exame médico preliminar para a vacina contra coronavírus pode ser obtido online! Somente o formulário em japonês é aceito, mas existem traduções disponíveis.",
         "register": "Cadastre-se no site oficial",
         "title": "Listas de Espera de Cancelamentos para Vacinação Contra COVID-19 no Japão",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Ver todas as notícias"
     },
     "login": {
         "adminLogin": "Admin Login",
@@ -222,22 +222,22 @@
     },
     "message": {
         "disclaimerAlert": "As únicas vacinas aprovadas no Japão são Moderna e Pfizer. Seja cauteloso com clínicas oferecendo SinoVac ou outras. O conteúdo deste site é gerado pelos usuários, e embora façamos o melhor para moderá-lo, pode ser que existam erros ou conteúdo não verificado. <br /><br /> Não nos responsabilizamos por informações imprecisas enviadas pela comunidade, e não nos responsabilizamos por sites de terceiros. Use o seu próprio critério e por favor utilize o recurso de reportar caso suspeite de informação fraudulenta.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> agendamentos para vacinação disponíveis a partir de <b>12 de Julho</b> para quem possui voucher. Se você mora fora de Yokohama e quer se registrar, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>clique aqui para preencher e imprimir o formulário.</a>DEPOIS, clique no botão para agendar a vacinação!",
+        "shinYokohamaBookVaccine": "Agendar vacinação"
     },
     "news": {
-        "author": "Author",
+        "author": "Autor",
         "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "featured": "Notícias em destaque",
+        "important": "Notícias e informações importantes",
+        "latest": "As últimas de Find a Doc",
+        "updated": "Atualizadas: {0}"
     },
     "pending": {
         "edit": "Editar Envio",
         "title": "Envios Pendentes"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Envios reportados",
     "toolbar": {
         "about": "Sobre",
         "addClinic": "Adicionar clínica",
