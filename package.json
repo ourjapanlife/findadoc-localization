@@ -1,6 +1,6 @@
 {
   "name": "@ourjapanlife/findadoc-localization",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "i18n files for findadoc",
   "main": "locales/en.json",
   "repository": {
