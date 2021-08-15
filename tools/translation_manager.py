@@ -49,6 +49,22 @@ def copy_new_keys_to_locale(source_dict, dest_dict):
                 else:
                     dict2[k] = copy.deepcopy(v)
 
+                    
+def delete_key_from_dict(key, dest_dict):
+    """Removes a key from a dict. Key must be of the form 'a.b.c' using '.' separators to denote key hierarchy """
+    parts = key.split('.')
+    cur = dest_dict
+    
+    while len(parts) > 0:
+        k = parts.pop(0)
+        if not k in cur:
+            return
+        if len(parts) == 0:
+            del cur[k]
+        else:
+            cur = cur[k]
+    
+                    
 def get_locale_files(path=LOCALE_DIR):
     """Returns a string array of all locale files"""
     return glob.glob(f'{path}/*.json')
@@ -80,5 +96,14 @@ class TranslationManager(object):
         print("Done!🙌🏻")
 
 
+    def remove_key(self, key):
+        """Deletes a key and child values from all locale files"""
+        for fname in get_locale_files():
+            print(f"Removing {key} from {fname}...")
+            dest_dict = open_locale_file(fname)
+            delete_key_from_dict(key, dest_dict)
+            export(dest_dict, fname)
+        print("Done!🙌")
+        
 if __name__ == '__main__':
     fire.Fire(TranslationManager)
