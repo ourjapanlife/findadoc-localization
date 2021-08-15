@@ -188,7 +188,6 @@
     "footer": {
         "donate": "寄付する",
         "github": "GitHubでコントリブ",
-        "kofi": "もし良ければ、「Ko-fi」を買ってくれませんか？",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
