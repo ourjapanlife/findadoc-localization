@@ -1,54 +1,54 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "À propos de Find A Doc, la base de données santé pour la communauté internationale du Japon"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Donnez une tasse",
+            "headline": "Offrez-nous un café",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "Nous gérons cette base de données après notre boulot principal. Aidez-nous à rester éveillés !",
+                "1": "Pensez à nous soutenir si ce projet vous a aidé ou a aidé quelqu'un que vous connaissez."
             }
         },
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Rencontrez l'équipe"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Je veux joindre l'équipe !",
+                "headline": "La mission de Find a Doc suscite-t-elle votre intérêt ?",
+                "subheadline": "Rejoignez-nous sur GitHub pour voir comment vous pouvez contribuer !"
             },
             "moreContributors": {
                 "action": {
                     "frontend": "front end",
-                    "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "localization": "traduction",
+                    "text": "Retrouvez-les sur nos pages de contributeurs Github {frontend} et de {localization}."
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Et de nombreux autres membres qui nous ont donné un coup de main !"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "De l'idée à la base de données santé",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda en a eu assez du manque d'informations claires sur le déploiement des vaccins au Japon de la part des autorités. Quelques heures plus tard, Find a Doc était né.",
+                        "1": "Cette base de données a pour but d'aider à tenir la communauté internationale du Japon informée des services de santé critiques au Japon."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Surveille notre fille, je dois faire quelque chose."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Rejoignez notre équipe",
+                    "date": "Actuellement",
+                    "dateHeadline": "Une équipe de volontaires",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc est géré par la communauté avec le soutien d'une équipe de bénévoles. Actuellement, l'équipe s'efforce de tenir la communauté internationale du Japon informée des cliniques proposant des listes d'attente pour les vaccinations afin de réduire les pertes.",
+                        "1": "À l'avenir, nous souhaitons que Find a Doc aide les résidents non japonais du Japon à trouver des cliniques qui proposent des services dans leur langue maternelle."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Vous pouvez combler ce vide par une action citoyenne."
                 }
             }
         },
@@ -56,36 +56,36 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Nous nous efforçons de faire en sorte que tous les liens mènent à des ressources officielles telles que les sites des cliniques et du gouvernement.",
+                        "1": "Lisez-les attentivement avant d'enregistrer vos informations personnelles auprès d'eux."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Toute personne de la communauté peut soumettre du contenu à la base de données.",
+                        "1": "Par conséquent, il ne nous est pas possible de garantir une exactitude totale. Si vous remarquez des erreurs, veuillez les signaler aux modérateurs."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Nos modérateurs font de leur mieux pour détecter les informations frauduleuses.",
+                        "1": "Cependant, nous vous encourageons vivement à faire preuve de discernement et à effectuer des recherches supplémentaires sur les services que vous découvrez par le biais de Find a Doc."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Il s'agit d'un projet open-source, et nous ne sommes pas responsables des dommages qui pourraient résulter de l'utilisation de Find a Doc.",
+                "license": "Pour en savoir plus, consultez notre licence."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Peut-on faire confiance à ces informations ?",
+                "subheadline": "En bref, oui, mais faites preuve de diligence raisonnable."
             }
         }
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Données de la clinique active",
+        "editClinic": "Modifier la clinique"
     },
     "add-clinic": {
         "additionalInfo": "Informations supplémentaires (facultatif)",
@@ -186,8 +186,8 @@
         "readMore": "Read More"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Faites-vous vacciner avec ou sans coupon",
+        "helpingResidents": "Aider les résidents du Japon à trouver des soins de santé essentiels"
     },
     "index": {
         "getDocument": "Obtenir le document",
@@ -195,10 +195,10 @@
         "prevaccinationScreening": "Le formulaire obligatoire de dépistage pré-vaccination est disponible en ligne ! Seul le formulaire japonais est accepté mais des traductions sont disponibles.",
         "register": "Aller sur le site d'inscription",
         "title": "Listes d'attente pour l'annulation de la vaccination COVID-19 au Japon",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Voir toutes les nouvelles"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "Connexion Admin",
         "clear": "Effacer",
         "email": "E-mail",
         "login": "Connexion",
@@ -214,18 +214,18 @@
         "shinYokohamaBookVaccine": "Réserver le vaccin"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "Auteur",
+        "by": "par {0}",
+        "featured": "Nouvelles en vedette",
+        "important": "Nouvelles et informations importantes",
+        "latest": "Les dernières nouvelles de Find a Doc",
+        "updated": "Mise à jour: {0}"
     },
     "pending": {
         "edit": "Éditer l'entrée",
         "title": "Entrée en cours de soumission"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Soumissions signalées",
     "toolbar": {
         "about": "À propos",
         "addClinic": "Ajouter une clinique",
