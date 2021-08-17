@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Notre équipe",
-        "contributorQ": "Qui développe ce site ?",
-        "creatorA": "Ce site a été créé et maintenu par moi, LaShawn Toyoda ! Si vous rencontrez des difficultés pour utiliser le site ou si vous rencontrez des informations incorrectes ou obsolètes, merci de me contacter via Twitter {0}",
-        "creatorQ": "Qui a créé ce site Web ?",
         "header": {
             "headline": "À propos de Find A Doc, la base de données santé pour la communauté internationale du Japon"
         },
@@ -15,8 +11,6 @@
                 "1": "Pensez à nous soutenir si ce projet vous a aidé ou a aidé quelqu'un que vous connaissez."
             }
         },
-        "supportA": "Si vous aimeriez faire partie de la communauté de Find a Doc, <a href='https://github.com/ourjapanlife'>rejoignez-nous sur GitHub</a> pour savoir comment nous prêter main forte !",
-        "supportQ": "Comment puis-je apporter ma contribution ?",
         "team": {
             "header": {
                 "headline": "Rencontrez l'équipe"
@@ -87,12 +81,7 @@
                 "headline": "Peut-on faire confiance à ces informations ?",
                 "subheadline": "En bref, oui, mais faites preuve de diligence raisonnable."
             }
-        },
-        "trustA": "Tous les liens mènent à des ressources officielles telles que les sites Web des cliniques et du gouvernement. Veuillez les lire attentivement avant d'enregistrer vos informations personnelles.",
-        "trustQ": "Ces informations sont-elles fiables ?",
-        "welcome": "Bienvenue sur Find a Doc !",
-        "whatIsThisA": "Find a Doc est une base de données communautaire créée par LaShawn Toyoda qui vise à diffuser des informations sur les services de santé au Japon. Le projet s'est depuis transformé en une équipe de bénévoles et, actuellement, nous concentrons nos efforts sur l'information de la communauté immigrée à propos des cliniques qui proposent des listes d'attente pour les vaccins, afin que ceux-ci ne soient pas gaspillés.<br /><br />À l'avenir, nous aimerions étendre Find a Doc pour aider les résidents étrangers du Japon, qui ne parlent pas japonais, à trouver des cliniques qui offrent des services dans leur langue maternelle.<br /><br />Si vous trouvez ce projet utile de quelque manière que ce soit, <a href='https://ko-fi.com/theyokohamalife'><b>n'hésitez pas à faire un don</b></a> pour nous aider à maintenir le site en activité et à continuer à ajouter de nouvelles fonctionnalités.",
-        "whatIsThisQ": "Qu'est-ce que c'est ?"
+        }
     },
     "activeClinic": {
         "data": "Données de la clinique active",
@@ -187,7 +176,6 @@
     "footer": {
         "donate": "Faire un don",
         "github": "Contribuer sur GitHub",
-        "kofi": "Achetez-moi un kofi",
         "netlify": "Réalisé avec Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },

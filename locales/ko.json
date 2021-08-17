@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "팀원",
-        "contributorQ": "누가 이 웹 사이트를 개발합니까?",
-        "creatorA": "이 사이트는 저, LaShawn Toyoda가 만들고 관리합니다! 사이트 이용에 문제가 있거나, 부정확 혹은 오래된 정보를 발견하면 Twitter {0}로 연락주세요.",
-        "creatorQ": "누가 이 웹 사이트를 만들었나요?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "도움을 줄 수 있는 가장 좋은 방법은 새로 찾으신 취소 대기자 명단을 데이터베이스에 추가해 주시는 것입니다. 더 기부하고 싶으시다면 kofi로 부탁드려요.",
-        "supportQ": "데이터베이스 유지를 돕고 싶은데, 어떻게 하면 되나요?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "모든 링크는 클리닉 및 정부 웹 사이트와 같은 공식 리소스로 연결됩니다. 각 사이트에서 개인 정보를 등록하기 전에 공지를 잘 읽어 주시기 바랍니다.",
-        "trustQ": "이 정보는 신뢰할 수 있습니까?",
-        "welcome": "Find a Doc에 오신 것을 환영합니다!",
-        "whatIsThisA": "이것은 백신 접종 대기자 명단 등록이 가능한 진료소의 정보를 공유하는 커뮤니티 기반 데이터베이스입니다.",
-        "whatIsThisQ": "이건 어떤 사이트인가요?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
@@ -187,7 +176,6 @@
     "footer": {
         "donate": "기부",
         "github": "GitHub",
-        "kofi": "Buy me a Ko-Fi",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },

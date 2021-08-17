@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "Deze site is gemaakt en wordt onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
-        "creatorQ": "Wie heeft deze website gemaakt?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die je tegenkomt bij de database in te voeren. Als je je extra genereus voelt, koop dan alsjeblieft een Ko-fi voor me!",
-        "supportQ": "Hoe kan ik de database helpen ondersteunen?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "Alle links leiden naar officiële bronnen zoals websites van klinieken en overheidswebsites. Lees ze aandachtig door voordat je je persoonlijke gegevens bij ze registreert.",
-        "trustQ": "Is deze informatie te vertrouwen?",
-        "welcome": "Welkom bij Find a Doc!",
-        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties bijhouden, zodat geen vaccins verloren zullen gaan.",
-        "whatIsThisQ": "Wat is dit?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
@@ -146,7 +135,6 @@
         "header": {
             "city": "Stad",
             "clinicName": "Naam kliniek",
-            "flag": "Vlag",
             "note": "Opmerking",
             "prefecture": "Prefectuur",
             "report": "Report",
@@ -188,7 +176,6 @@
     "footer": {
         "donate": "Donate",
         "github": "Contribute on GitHub",
-        "kofi": "Koop een Ko-fi voor me.",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
