@@ -2,7 +2,7 @@
 
 import unittest
 
-from translation_manager import copy_new_keys_to_locale, write_json
+from translation_manager import copy_new_keys_to_locale, write_json, delete_key_from_dict
 
 class TestTranslationManager(unittest.TestCase):
     """Unit tests for translation manager"""
@@ -115,5 +115,25 @@ class TestTranslationManager(unittest.TestCase):
         }
         self.assertEqual(write_json(expected_dict), write_json(secondary_dict))
 
+
+    def test_delete_key(self):
+        """Tests removing a key"""
+        original = {
+            "one": {"hoge": "ほげ",
+                    "naruhodo": "なるほど"},
+            "two": {"one": "一"}
+        }
+
+        delete_key_from_dict("one.naruhodo", original)
+        
+        expected = {
+            "one": {"hoge": "ほげ"},
+            "two": {"one": "一"}
+        }
+        self.assertEqual(write_json(expected), write_json(original))
+        
+
+        
+    
 if __name__ == '__main__':
     unittest.main()
