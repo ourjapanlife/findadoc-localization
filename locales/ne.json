@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "यो वेबसाइट LaShawn Toyoda द्वारा बनाईएको हो । यदि तपाइँलाई यस साइटको प्रयोग गर्दा कुनै समस्या आएमा वा गलत/पुराना जानकारी रहेको पाउनुभएमा कृपया मलाई ट्विटरमा ({0}) सम्पर्क गर्नुहोला",
-        "creatorQ": "यो वेबसाइट कसले बनाएको हो?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "खोप रद्द भएकाहरुका लागि खोप दिने क्लिनिक अथवा खोपकेन्द्रहरु बारे तपाइँलाई कुनै जानकारी भएमा सो क्लिनिक अथवा खोपकेन्द्रको जानकारी यस डाटाबेसलाई उपलब्ध गराएर सहयोग गर्न सक्नुहुन्छ । तपाईलाइ थप सहयोग गर्ने इच्छाभएमा मलाई एक kofi किनिदिएर पनि सहयोग गर्न सक्नुहुन्छ ।",
-        "supportQ": "म यस डाटाबेसलाई कसरि सहयोग गर्नसक्छु ?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "सबै लिंकहरु सम्बन्धित क्लिनिक तथा सरकारी निकायका आधिकारिक वॆभसाइटहरुका हुन्, आफ्नो व्यक्तिगत जानकारीहरु सो वॆभसाइटहरुमा पेश गर्नु भन्दा पहिले त्यहाँ भएका सामाग्रीहरु राम्ररी पढ्नुहोला ।",
-        "trustQ": "के यो जानकारीलाई विश्वास गर्न सकिन्छ?",
-        "welcome": "फाइन्ड अ डक मा यहाहरुलाई स्वागत छ ।",
-        "whatIsThisA": "यो एक समुदायद्वारा संचालित डाटाबेस हो जसले जापानमा खोपको प्रतीक्षा सूचीमा रहेकाहरुलाई खोप प्रदान गरिरहेको क्लिनिक तथा खोपकेन्द्रहरुको सुची प्रदान गर्न सहयोग गर्दछ ।",
-        "whatIsThisQ": "यो भनेको के हो ?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",

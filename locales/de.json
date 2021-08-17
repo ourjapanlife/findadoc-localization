@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "Diese Seite wurde von mir, LaShawn Toyoda, erstellt und gepflegt! Wenn Sie Probleme bei der Nutzung der Website haben oder auf falsche oder veraltete Informationen stoßen, kontaktieren Sie mich bitte über Twitter",
-        "creatorQ": "Wer hat diese Website erstellt?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "Der beste Weg, um zu helfen, besteht darin, alle Wartelisten für Stornierungen von Impfungen in die Datenbank einzutragen. Wenn Sie sich besonders großzügig fühlen, spendieren Sie mir bitte einen Kofi!",
-        "supportQ": "Wie kann ich helfen, die Datenbank zu unterstützen?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "Alle Links führen zu offiziellen Ressourcen wie Klinik- und Regierungswebsites. Bitte lesen Sie diese sorgfältig durch, bevor Sie Ihre persönlichen Daten registrieren.",
-        "trustQ": "Kann man diesen Informationen vertrauen?",
-        "welcome": "Willkommen bei „Find a Doc!“",
-        "whatIsThisA": "Dies ist eine von der Community betriebene Datenbank zur Verbreitung von Informationen über Kliniken, die Wartelisten für stornierte Impfungen anbieten, sodass diese nicht verschwendet werden.",
-        "whatIsThisQ": "Was ist das?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
@@ -146,7 +135,6 @@
         "header": {
             "city": "Stadt",
             "clinicName": "Klinikname",
-            "flag": "Flagge",
             "note": "Hinweis",
             "prefecture": "Präfektur",
             "report": "Report",

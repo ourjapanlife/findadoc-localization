@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Ang Aming Koponan",
-        "contributorQ": "Sino ang bumubuo sa site na ito?",
-        "creatorA": "Ang site na ito ay nilikha at pinapanatili ko, si LaShawn Toyoda! Kung nagkakaproblema ka sa paggamit ng site o nakahanap ng 'false' o 'outdated' na impormasyon, mangyaring makipag-ugnayan sa akin sa pamamagitan ng Twitter {0}",
-        "creatorQ": "Sino ang lumikha ng website na ito?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "Ang pinakamahusay na paraan upang makatulong ay sa pamamagitan ng pag-submit sa database ng anumang 'cancellation waiting lists' na iyong matatagpuan. Kung sa tingin mo ikaw ay labis na mapagbigay, maaring bilihan mo ako ng isang kofi!",
-        "supportQ": "Paano ako makakatulong suportahan ang database?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "Ang lahat ng mga links ay pumupunta sa mga official resources tulad ng mga websites ng clinics at gobyerno. Basahin muna ang mga ito bago iparehistro ang iyong personal na impormasyon sa kanila.",
-        "trustQ": "Maaari bang pagkatiwalaan ang impormasyong ito?",
-        "welcome": "Maligayang pagdating sa Find a Doc!",
-        "whatIsThisA": "Ito ay isang community-driven database upang matulungan ang pagkalat ng impormasyon ng mga clinics na may waiting lists para sa pagbabakuna upang hindi sila masayang.",
-        "whatIsThisQ": "Ano ito?"
+        }
     },
     "activeClinic": {
         "data": "Aktibong Clinic Data",

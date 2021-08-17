@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "这个网站是由我 LaShawn Toyoda 创建和维护的！如果您在使用本网站时遇到任何问题或遇到不正确或过时的信息，请通过 Twitter 与我联系{0}",
-        "creatorQ": "谁创建了这个网站？",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "最好的帮助方法是将您遇到的任何取消等待列表提交到数据库。如果你觉得特别慷慨，请给我买一杯咖啡！",
-        "supportQ": "我如何帮助支持数据库？",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "所有链接都指向官方资源，例如诊所和政府网站。在向他们注册您的个人信息之前，请仔细阅读它们。",
-        "trustQ": "这些信息可信吗？",
-        "welcome": "欢迎查找文档！",
-        "whatIsThisA": "这是一个社区驱动的数据库，用于帮助传播有关提供疫苗接种等候名单的诊所的信息，以免浪费。",
-        "whatIsThisQ": "这是什么？"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
@@ -146,7 +135,6 @@
         "header": {
             "city": "市",
             "clinicName": "诊所名称",
-            "flag": "旗帜",
             "note": "备注",
             "prefecture": "都道府县",
             "report": "报告",

@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Tim Kami",
-        "contributorQ": "Siapa yang mengembangkan situs ini?",
-        "creatorA": "Situs ini dibuat dan dikelola oleh saya, LaShawn Toyoda! Jika Anda mengalami masalah dalam menggunakan situs atau menemukan informasi yang salah atau ketinggalan zaman, harap hubungi saya melalui Twitter {0}",
-        "creatorQ": "Siapa yang membuat situs web ini?",
         "header": {
             "headline": "Tentang Find A Doc, Database Kesehatan untuk komunitas internasional di Jepang"
         },
@@ -15,8 +11,6 @@
                 "1": "Pertimbangkan untuk mendukung kami jika proyek ini membantu Anda atau seseorang yang Anda kenal."
             }
         },
-        "supportA": "Anda dapat ikut membantu dengan mengirimkan daftar tunggu pembatalan yang Anda temukan ke database. Jika Anda tidak keberatan, tolong belikan saya !",
-        "supportQ": "Bagaimana saya bisa membantu dalam mendukung database ini?",
         "team": {
             "header": {
                 "headline": "Kenali tim"
@@ -87,12 +81,7 @@
                 "headline": "Apakah informasi ini dapat dipercaya?",
                 "subheadline": "Secara singkat, iya, tetapi lakukan investigasimu."
             }
-        },
-        "trustA": "Semua tautan mengarah ke sumber resmi seperti klinik dan situs web pemerintah. Harap baca dengan seksama sebelum mendaftarkan informasi pribadi Anda kepada mereka.",
-        "trustQ": "Apakah informasi ini dapat dipercaya?",
-        "welcome": "Selamat datang di Find a Doc!",
-        "whatIsThisA": "Ini adalah web berbasis komunitas untuk membantu menyebarkan informasi tentang klinik yang menawarkan daftar tunggu untuk vaksinasi.",
-        "whatIsThisQ": "Apa ini?"
+        }
     },
     "activeClinic": {
         "data": "Data Klinik Aktif",

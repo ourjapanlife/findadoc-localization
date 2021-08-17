@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Takımımız",
-        "contributorQ": "Bu siteyi kim geliştiriyor?",
-        "creatorA": "Bu siteyi ben, LaShawn Toyoda, yaptım! Eğer siteyi kullanırken bir sorunla, yanlış veya eski bir bilgiyle karşılaşırsanız lütfen bana Twitter'dan yazın {0}",
-        "creatorQ": "Bu siteyi kim yaptı?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "Find a Doc topluluğuna katılmak istiyorsanız <a href='https://github.com/ourjapanlife'>GitHub sayfamıza gelin</a> ve hangi konuda yardımcı olabileceğinizi konuşalım!",
-        "supportQ": "Nasıl katkıda bulunabilirim?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "Bağlantı olarak verilmiş bütün web adresleri klinik veya hükümet gibi resmi kaynaklara yönlendirmektedir. Lütfen bu adresler ile kişisel bilgilerinizi paylaşmadan önce bu sitelerde yazılan bilgilerin tamamını okuyun.<br /><br /> Bu veritabanına herkesin veri gönderebildiğini, ve buradaki bütün verilerin doğruluğunu veya güncelliğini garanti edemeyeceğimizi anlamanızı isteriz. <br /><br /> Moderatörlerimiz sahte bilgilerin sitede yayınlanmaması için ellerinden geleni yapıyorlar, fakat yine de size bilgilerinizi üçüncü sitelere göndermeden veya bir kliniği ziyaret etmeden önce araştırma yapmanızı öneririz.<br /><br /> Bu bir açık kaynak projesidir, ve Find a Doc sitesinin kullanımından doğabilecek olan hasarlardan sorumlu değiliz.<br /><br /><a href='https://github.com/ourjapanlife/findadoc-frontend/blob/f9c8af1dbc5f70f9196442f1170a86581f776400/LICENSE'> Detayları lisansımızda okuyabilirsiniz.</a> ",
-        "trustQ": "Bu bilgiler güvenilir midir?",
-        "welcome": "Find a Doc Japan'a hoş geldiniz!",
-        "whatIsThisA": "Find a Doc, LaShawn Toyoda tarafından Japonya'daki sağlık hizmetleri hakkında bilgileri paylaşmak için oluşturulmuş, topluluk tarafından desteklenen bir veritabanıdır. Proje bir gönüllü ekibine evrildi, ve biz şu anda göçmen topluluklarını aşılar çöpe gitmesin diye oluşturulan iptal bekleme listeleri hakkında bilgilendirmek üzerine çalışıyoruz.<br /><br /> Gelecekte Find a Doc'a Japonca konuşamayan Japonya sakinlerine kendi dillerinde servis verebilen klinikler ile ilgili yardım etme özelliği eklemeyi istiyoruz.<br /><br /> Eğer bu projeyi faydalı bulduysanız, siteyi çalışır durumda tutabilmemiz ve yeni özellikler ekleyebilmemiz için <a href='https://ko-fi.com/theyokohamalife'><b>lütfen bağış yapın/b></a>.",
-        "whatIsThisQ": "Bu nedir?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",

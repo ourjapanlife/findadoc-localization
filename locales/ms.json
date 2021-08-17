@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "Laman web ini dibuat dan dikekalkan oleh saya, LaShawn Toyoda! Sekiranya anda menghadapi masalah menggunakan laman web ini atau menemui maklumat yang salah atau ketinggalan zaman, sila hubungi saya melalui Twitter {0}",
-        "creatorQ": "Siapa yang membina laman web ini?",
         "header": {
             "headline": "About Find A Doc, the health database for Japan's international community"
         },
@@ -15,8 +11,6 @@
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
-        "supportA": "Cara terbaik untuk membantu adalah dengan menyerahkan senarai menunggu pembatalan yang anda temui ke pangkalan data. Jikalau anda mampu, tolong menyumbang kepada kofi saya!",
-        "supportQ": "Bagaimana saya boleh membantu menyokong pangkalan data?",
         "team": {
             "header": {
                 "headline": "Meet the Team"
@@ -87,12 +81,7 @@
                 "headline": "Can this information be trusted?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
-        },
-        "trustA": "Semua pautan laman web akan membawa anda kepada sumber rasmi seperti laman web klinik dan laman web kerajaan. Sila baca dengan teliti sebelum mendaftarkan maklumat peribadi anda dengan mereka.",
-        "trustQ": "Bolehkah maklumat ini dipercayai?",
-        "welcome": "Selamat datang ke Find a Doc!",
-        "whatIsThisA": "Ini adalah pangkalan data yang didorong oleh masyarakat untuk membantu menyebarkan informasi tentang klinik yang menawarkan senarai menunggu vaksinasi.",
-        "whatIsThisQ": "Apakah ini?"
+        }
     },
     "activeClinic": {
         "data": "Active Clinic Data",
@@ -146,7 +135,6 @@
         "header": {
             "city": "Bandar",
             "clinicName": "Nama Klinik",
-            "flag": "Flag",
             "note": "Note",
             "prefecture": "Wilayah",
             "report": "Report",

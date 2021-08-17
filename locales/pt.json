@@ -1,9 +1,5 @@
 {
     "about": {
-        "contributorLeads": "A nossa Equipa",
-        "contributorQ": "Sobre nós",
-        "creatorA": "Este site foi criado e é mantido por mim, LaShawn Toyoda! Se você tiver problemas para usar o site ou encontrar informações incorretas ou desatualizadas, entre em contato comigo pelo Twitter {0}",
-        "creatorQ": "Quem criou este site?",
         "header": {
             "headline": "Sobre a Find a Doc, a base de dados sanitária para a comunidade internacional no Japão"
         },
@@ -15,8 +11,6 @@
                 "1": "Considere apoiar-nos se este projecto o tiver ajudado ou a alguém que conhece."
             }
         },
-        "supportA": "A melhor maneira de ajudar é adicionando ao banco de dados todas as listas de espera de cancelamentos que você encontrar. Se quiser extender a generosidade, você pode me comprar um kofi!",
-        "supportQ": "Como posso ajudar no suporte do banco de dados?",
         "team": {
             "header": {
                 "headline": "Conheça a Equipa"
@@ -87,12 +81,7 @@
                 "headline": "Pode esta informação ser confiável?",
                 "subheadline": "Pode confiar, mas lembre-se, a confiança é boa, a dupla verificação é melhor."
             }
-        },
-        "trustA": "Todos os links levam a recursos oficiais, como clínicas e sites do governo. Por favor, leia com atenção antes de registrar suas informações pessoais com eles.",
-        "trustQ": "Essas informações são confiáveis?",
-        "welcome": "Bem-vindo ao Find a Doc!",
-        "whatIsThisA": "Este é um banco de dados dirigido pela comunidade para ajudar a divulgar informações sobre clínicas que estão oferecendo listas de espera para vacinas quando há algum cancelamento, para evitar que as vacinas sejam desperdiçadas.",
-        "whatIsThisQ": "O que é isso?"
+        }
     },
     "activeClinic": {
         "data": "Ativar informações da clínica",
