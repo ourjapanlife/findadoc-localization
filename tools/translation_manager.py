@@ -84,7 +84,7 @@ def trim_dead_keys(primary_dict, dest_dict):
                     
 def get_locale_files(path=LOCALE_DIR):
     """Returns a string array of all locale files"""
-    return glob.glob(f"{path}/*.json")
+    return glob.glob(f'{path}/*.json')
 
 
 class TranslationManager(object):
