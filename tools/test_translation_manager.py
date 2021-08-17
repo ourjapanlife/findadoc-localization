@@ -2,7 +2,8 @@
 
 import unittest
 
-from translation_manager import copy_new_keys_to_locale, write_json, delete_key_from_dict
+from translation_manager import copy_new_keys_to_locale, write_json, delete_key_from_dict, trim_dead_keys
+
 
 class TestTranslationManager(unittest.TestCase):
     """Unit tests for translation manager"""
@@ -133,7 +134,27 @@ class TestTranslationManager(unittest.TestCase):
         self.assertEqual(write_json(expected), write_json(original))
         
 
-        
+    def test_trim_dead_keys(self):
+        """Tests bulk key cleanup"""
+        primary = {
+            "one": {"hoge": "hoge"},
+            "two": {"one": "one"},
+            "three": {"cool": "cool"}
+        }
+        secondary = {
+            "one": {"hoge": "ほげ",
+                    "naruhodo": "なるほど"},
+            "two": {"one": "一"},
+            "four": "四"
+        }
+
+        trim_dead_keys(primary, secondary)
+
+        expected = {
+            "one": {"hoge": "ほげ"},
+            "two": {"one": "一"},
+        }
+        self.assertEqual(write_json(expected), write_json(secondary))
     
 if __name__ == '__main__':
     unittest.main()
