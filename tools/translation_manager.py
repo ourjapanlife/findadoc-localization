@@ -49,6 +49,39 @@ def copy_new_keys_to_locale(source_dict, dest_dict):
                 else:
                     dict2[k] = copy.deepcopy(v)
 
+                    
+def delete_key_from_dict(key, dest_dict):
+    """Removes a key from a dict. Key must be of the form 'a.b.c' using '.' separators to denote key hierarchy """
+    parts = key.split('.')
+    cur = dest_dict
+    
+    while len(parts) > 0:
+        k = parts.pop(0)
+        if not k in cur:
+            return
+        if len(parts) == 0:
+            del cur[k]
+        else:
+            cur = cur[k]
+
+def trim_dead_keys(primary_dict, dest_dict):
+    """Remove all keys not in primary_dict from dest_dict"""
+    queue = [(primary_dict, dest_dict)]
+    trim_list = []
+    while len(queue) > 0:
+        (dict1, dict2) = queue.pop(0)
+        for k, v in dict2.items():
+            if k in dict1:
+                if isinstance(v, dict):
+                    queue.append((dict1[k], v))
+            else:
+                trim_list.append((dict2, k))
+
+    while len(trim_list) > 0:
+        (d, k) = trim_list.pop(0)
+        del d[k]
+                
+                    
 def get_locale_files(path=LOCALE_DIR):
     """Returns a string array of all locale files"""
     return glob.glob(f'{path}/*.json')
@@ -80,5 +113,29 @@ class TranslationManager(object):
         print("Done!🙌🏻")
 
 
+    def remove_key(self, key):
+        """Deletes a key and child values from all locale files"""
+        for fname in get_locale_files():
+            print(f"Removing {key} from {fname}...")
+            dest_dict = open_locale_file(fname)
+            delete_key_from_dict(key, dest_dict)
+            export(dest_dict, fname)
+        print("Done!🙌")
+
+        
+    def trim_dead_keys(self, locale="en"):
+        """Removes keys not in the primary locale file from 
+        all other files"""
+        primary_fname = f"{LOCALE_DIR}/{locale}.json"
+        primary_dict = open_locale_file(primary_fname)
+
+        for fname in get_locale_files():
+            if fname != primary_fname:
+                print(f"Trimming {fname}...")
+                dest_dict = open_locale_file(fname)
+                trim_dead_keys(primary_dict, dest_dict)
+                export(dest_dict, fname)
+
+                
 if __name__ == '__main__':
     fire.Fire(TranslationManager)

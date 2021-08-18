@@ -1,7 +1,7 @@
 name: Node.js Package for GitHub
 on:
   release:
-    types: [created]
+    types: [created, published]
 jobs:
   build:
     runs-on: ubuntu-latest
