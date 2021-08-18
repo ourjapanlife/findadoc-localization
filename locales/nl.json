@@ -1,60 +1,54 @@
 {
     "about": {
-        "contributorLeads": "Our Team",
-        "contributorQ": "Who develops this site?",
-        "creatorA": "Deze site is gemaakt en wordt onderhouden door mij, LaShawn Toyoda! Als je problemen hebt met het gebruik van de site of als je onjuiste of verouderde informatie tegenkomt, neem dan contact met me op via Twitter {0}",
-        "creatorQ": "Wie heeft deze website gemaakt?",
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Over Find A Doc, de zorg database voor de internationale community van Japan"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Doneer koffie",
+            "headline": "Geef ons een kop koffie",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "Wij verzorgen deze site naast onze reguliere werkzaamheden. Help ons om wakker te blijven!",
+                "1": "Overweeg om ons te helpen als dit project jou of iemand in jouw omgeving geholpen heeft."
             }
         },
-        "supportA": "De beste manier om te helpen is door eventuele wachtlijsten voor annuleringen die je tegenkomt bij de database in te voeren. Als je je extra genereus voelt, koop dan alsjeblieft een Ko-fi voor me!",
-        "supportQ": "Hoe kan ik de database helpen ondersteunen?",
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Ontmoet het team"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Ik wil meedoen!",
+                "headline": "Vind je de missie van Find a Doc interessant?",
+                "subheadline": "Kijk op GitHub hoe je aan ons werk bij kunt dragen!"
             },
             "moreContributors": {
                 "action": {
                     "frontend": "front end",
-                    "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "localization": "lokalisatie",
+                    "text": "Vind ze in onze {frontend} en {localization} Github contributors pagina's"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "En nog veel meer mensen die een helpende hand hebben geboden!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Van idee naar gezondheids database",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda had genoeg van het gebrek aan duidelijke informatie over de verspreiding van vaccinaties door de Japanse overheid. Een paar uur later was Find a Doc geboren.",
+                        "1": "Deze database heeft als doel om de Japanse internationale gemeenschap te informeren over essentiële medische zorg in Japan."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Let op onze dochter, ik moet even iets maken."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Kom bij ons team",
+                    "date": "Meest recent",
+                    "dateHeadline": "Een team van vrijwilligers",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc is een door de gemeenschap gedreven initiatief gemaakt door een team van vrijwilligers. Momenteel is het team gefocused op het informeren van de Japanse internationale gemeenschap over klinieken die wachtlijsten beschikbaar maken voor vaccinatie, om verspilling te voorkomen.",
+                        "1": "We willen in de toekomst met Find a Doc de niet-Japans sprekende inwoners van Japan helpen om klinieken te vinden die diensten aanbieden in hun moedertaal."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Je kunt het gat opvullen met burgeractie."
                 }
             }
         },
@@ -62,49 +56,44 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "We doen ons best om ervoor te zorgen dat alle links naar officiële  informatie leiden zoals websites van klinieken en de overheid.",
+                        "1": "Lees ze goed door voordat je er registreert met persoonlijke informatie."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Iedereen in de gemeenschap kan informatie inzenden voor de database.",
+                        "1": "Het is daarom niet mogelijk voor ons om te garanderen dat de informatie helemaal kloppend is. Als je fouten opmerkt geef ze dan door aan de moderatoren."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Onze moderatoren doen hun best om frauduleuze informatie op te sporen.",
+                        "1": "We raden je echter sterk aan om te vertrouwen op je eigen oordeel en gezond verstand door zelf onderzoek te doen naar de diensten die je via Find a Doc gevonden hebt."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Dit is een open-source project, en wij zijn niet aansprakelijk voor schade die onstaan is door het gebruik van Find a Doc.",
+                "license": "Lees meer hierover in onze overeenkomst."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Kan op deze informatie vertrouwd worden?",
+                "subheadline": "In het kort, ja, maar doe je eigen onderzoek."
             }
-        },
-        "trustA": "Alle links leiden naar officiële bronnen zoals websites van klinieken en overheidswebsites. Lees ze aandachtig door voordat je je persoonlijke gegevens bij ze registreert.",
-        "trustQ": "Is deze informatie te vertrouwen?",
-        "welcome": "Welkom bij Find a Doc!",
-        "whatIsThisA": "Dit is een door de gemeenschap aangestuurde database om informatie te verspreiden over klinieken die wachtlijsten voor vaccinaties bijhouden, zodat geen vaccins verloren zullen gaan.",
-        "whatIsThisQ": "Wat is dit?"
+        }
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Actieve kliniekgegevens",
+        "editClinic": "Bewerk Kliniek"
     },
     "add-clinic": {
-        "additionalInfo": "Additional information (Optional)",
+        "additionalInfo": "Additionele informatie (optioneel)",
         "city": "Stad",
         "clinicName": "Naam kliniek",
         "fillForm": "Vul dit formulier in om een nieuwe kliniek met een wachtlijst voor annuleringen aan de database toe te voegen.",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "Nee",
+        "note": "Deel behulpzame of belangrijke details",
         "prefecture": "Prefectuur",
         "reviewMessage": "De kliniek die je hebt ingevoord zal nadat deze is beoordeeld in de database worden opgenomen!",
         "romajiOnly": "Alleen Latijns alfabet",
@@ -113,28 +102,28 @@
             "city": {
                 "minLength": "De stadsnaam moet minimaal {0} tekens bevatten",
                 "required": "Stad is vereist",
-                "validChars": "Invalid character(s)"
+                "validChars": "Ongeldig(e) teken(s)"
             },
             "clinic": {
                 "minLength": "De naam van de kliniek moet ten minste {0} tekens bevatten",
                 "required": "Naam kliniek is vereist",
-                "validChars": "Invalid character(s)"
+                "validChars": "Ongeldig(e) teken(s)"
             },
             "ward": {
                 "minLength": "De naam van het district moet ten minste {0} tekens bevatten",
                 "required": "District is vereist",
-                "validChars": "Invalid character(s)"
+                "validChars": "Ongeldig(e) teken(s)"
             },
             "website": {
                 "required": "Website-URL is vereist",
                 "url": "Voer een geldige URL in"
             }
         },
-        "voucherRequired": "Voucher required: ",
+        "voucherRequired": "Voucher vereist: ",
         "ward": "District",
-        "wardResidencyRequired": "Ward residency required: ",
+        "wardResidencyRequired": "Woonachtig in district vereist: ",
         "websiteURL": "Website URL",
-        "yes": "Yes"
+        "yes": "Ja"
     },
     "admin": {
         "pending": {
@@ -149,32 +138,32 @@
             "flag": "Vlag",
             "note": "Opmerking",
             "prefecture": "Prefectuur",
-            "report": "Report",
+            "report": "Melden",
             "voucherRequired": "Voucher",
             "ward": "District",
-            "wardResidencyRequired": "Ward Residency",
+            "wardResidencyRequired": "Woonachtig in district",
             "website": "Website"
         },
         "moreInfo": "Klik voor meer info",
         "report": {
-            "clinicName": "Clinic Name:",
-            "note": "Note about this clinic",
-            "reason": "Why are you reporting this clinic?",
-            "submitReport": "Report",
-            "title": "Report this data"
+            "clinicName": "Naam Kliniek:",
+            "note": "Opmerking over deze kliniek",
+            "reason": "Waarom meld je deze kliniek??",
+            "submitReport": "Melden",
+            "title": "Meld deze informatie"
         },
         "search": "Zoeken",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Niet verplicht",
+            "required": "Verplicht"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "Niet verplicht",
+            "required": "Verplicht"
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "Weet je zeker dat je ID: {0} wilt verwijderen?"
     },
     "donate": {
         "supportMe": "Support me"
@@ -186,59 +175,59 @@
     },
     "findADoc": "Find a Doc",
     "footer": {
-        "donate": "Donate",
-        "github": "Contribute on GitHub",
+        "donate": "Doneer",
+        "github": "GitHub",
         "kofi": "Koop een Ko-fi voor me.",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "Goedkeuren",
+        "cancel": "Afbreken",
+        "delete": "Verwijderen",
+        "readMore": "Lees meer"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Word gevaccineerd met of zonder voucher",
+        "helpingResidents": "Helpt inwoners van Japan met het vinden van essentiële zorg"
     },
     "index": {
-        "getDocument": "Get the Document",
+        "getDocument": "Krijg het document",
         "massSite": "Iedereen van 18 jaar of ouder die een voucher heeft kan zich nu laten vaccineren bij de grootschalige vaccinatiecentra in Tokio of Osaka.",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "prevaccinationScreening": "Het verplichte pre-vaccinatie formulier kan online verkregen worden! Alleen het Japanse formulier wordt geaccepteerd maar vertalingen zijn beschikbaar.",
         "register": "Ga naar de registratiesite",
         "title": "Wachtlijsten voor annuleringen van COVID-19 vaccinaties in Japan",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Bekijk al het nieuws"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "Admin Log in",
         "clear": "Wis alle velden",
         "email": "E-mail",
         "login": "Log in",
         "password": "Wachtwoord"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "Bezig met uitloggen...",
+        "successMessage": "Je bent uitgelogd. Tot ziens!"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "De enige vaccins die in Japan toegediend worden zijn Moderna en Pfizer. Pas op voor klinieken die SinoVac of andere vaccins aanbieden. De content op deze site is door gebruikers aangeleverd. Alhoewel we ons best doen om die te modereren, kunnen er fouten of niet-geverifieerde content optreden.<br /><br /> Wij zijn niet aansprakelijk voor onjuiste informatie die kan zijn opgenomen in door de gemeenschap aangeleverde inzendingen, en we zijn niet aansprakelijk voor sites van derden. Gebruik je eigen oordeel en breng ons op de hoogte als er inzendingen zijn die frauduleus lijken.",
+        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccinatie plekken zijn beschiknaar vanaf <b>21 juli</b> voor mensen met een voucher. District woonplicht niet vereist!",
+        "shinYokohamaBookVaccine": "Boek vaccinatie"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "Auteur",
+        "by": "door {0}",
+        "featured": "Top nieuws",
+        "important": "Belangrijk Nieuws en Informatie",
+        "latest": "Het Laatste van Find a Doc",
+        "updated": "Geupdate: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "Inzending aanpassen",
+        "title": "Inzendingen in behandeling"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "Gerapporteerde Inzendingen",
     "toolbar": {
         "about": "Over",
         "addClinic": "Voeg een kliniek toe",
