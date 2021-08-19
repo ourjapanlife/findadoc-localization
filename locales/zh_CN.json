@@ -1,54 +1,54 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Find a Doc、 日本居民的国际医疗资料库"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "捐赠一杯",
+            "headline": "捐赠一杯咖啡",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "这个医疗资料库是我们的志愿人员团队利用业余时间建立的，您的援助可以帮助我们更加完善。",
+                "1": "如果您觉得这个医疗资料库对您或您所认识的人有帮助，希望您可以给我们一点援助。"
             }
         },
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "团队介绍"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "加入团队",
+                "headline": "对Find a Doc感兴趣吗？",
+                "subheadline": "请通过GitHub看看您有什么可以帮忙。"
             },
             "moreContributors": {
                 "action": {
                     "frontend": "front end",
                     "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "text": "在我们的 {frontend} 和 {localization} 的 GitHub 里面查看详细名单"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "加上另外还有很多热心团队人员的帮助！"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "从初期构思发展到医疗资料库",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda在寻找日本官方疫苗接种资料信息几经挫折，几小时之后，「Find a Doc」就诞生了。",
+                        "1": "这个医疗资料库是希望向居住日本的海外人士提供日本医疗服务相关的重要的信息。"
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "为了我们的女儿，我不可坐以待毙。"
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "有兴趣加入团队？",
+                    "date": "现在",
+                    "dateHeadline": "志愿团队",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc团队是由热心的志愿者的支持帮助而成功运营的。 为了减少由取消预约而造成的疫苗报废，目前很多疫苗接种诊所为预约以外的人士开设轮候名单，我们的团队目前专注于为大家分享此类诊所的情报。",
+                        "1": "希望在不久的将来，通过Find a Doc可以为居住日本而日语非母语的人士提供简单方便寻找母语诊疗的机构和服务。"
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "齐心合力，众志成城"
                 }
             }
         },
@@ -56,44 +56,44 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "我们尽最大努力保障所有链接都为政府以及诊所公式认可的链接。",
+                        "1": "可是在您登录您的个人资料之前，请熟读所有细节。"
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "任何人都可以在这个医疗资料库中投稿，",
+                        "1": "所以我们很难保障全部的信息是正确的。如果您发现任何情报有误，请马上向管理团队举报。"
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "我们的管理团队尽最大努力，排除任何错误信息。",
+                        "1": "但是，我们仍然强力推荐大家对于从Find a Doc找到诊所情报做出进一步的调查，请始终依靠自身的判断使用。"
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "此服务是Open Source,如在使用Find a Doc过程中产生的损害、损失，请恕我们团队概不负责。",
+                "license": "详细请参照执照"
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "这里的情报可信吗？",
+                "subheadline": "可信！但是请在做出应有的注意下使用。"
             }
         }
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "表示的诊所",
+        "editClinic": "编辑诊所"
     },
     "add-clinic": {
         "additionalInfo": "其他信息 （选填）",
         "city": "市",
         "clinicName": "诊所名称",
         "fillForm": "填写此表格以将新诊所添加到具有取消等待名单的数据库中。",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "不需要",
+        "note": "其他信息",
         "prefecture": "都道府县",
         "reviewMessage": "您提交的诊所经过审核后会显示出来！",
         "romajiOnly": "请用英文填写",
@@ -102,28 +102,28 @@
             "city": {
                 "minLength": "市名必须至少为 {0} 个字符",
                 "required": "市为必填项",
-                "validChars": "Invalid character(s)"
+                "validChars": "文字错误"
             },
             "clinic": {
                 "minLength": "诊所名称必须至少为 {0} 个字符",
                 "required": "诊所名称为必填项",
-                "validChars": "Invalid character(s)"
+                "validChars": "文字错误"
             },
             "ward": {
                 "minLength": "区名必须至少为 {0} 个字符",
                 "required": "区为必填项",
-                "validChars": "Invalid character(s)"
+                "validChars": "文字错误"
             },
             "website": {
                 "required": "需要提供网站URL",
                 "url": "请输入有效网址"
             }
         },
-        "voucherRequired": "Voucher required: ",
+        "voucherRequired": "需要接种券(优惠券)？ ",
         "ward": "区",
-        "wardResidencyRequired": "Ward residency required: ",
+        "wardResidencyRequired": "有本区居住限制吗？ ",
         "websiteURL": "网站URL",
-        "yes": "Yes"
+        "yes": "需要"
     },
     "admin": {
         "pending": {
@@ -162,10 +162,10 @@
         }
     },
     "delete": {
-        "dialog": "Are you sure you want to delete ID: {0}"
+        "dialog": "确认删除ID: {0}吗？"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "我要捐赠"
     },
     "error": {
         "homePage": "主页",
@@ -175,61 +175,61 @@
     "findADoc": "Find a Doc",
     "footer": {
         "donate": "捐助",
-        "github": "Contribute on GitHub",
+        "github": "在GitHub上提供帮助",
         "netlify": "Powered by Netlify",
         "siteTitle": "Findadoc Japan {0}"
     },
     "general": {
-        "approve": "Approve",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "readMore": "Read More"
+        "approve": "同意",
+        "cancel": "取消",
+        "delete": "删除",
+        "readMore": "继续阅读"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "无论有没有接种券(优惠券)，您都可以接受疫苗接种",
+        "helpingResidents": "Find A Doc向居住日本的海外人士提供日本医疗服务相关的重要的信息。"
     },
     "index": {
-        "getDocument": "Get the Document",
+        "getDocument": "点击下载",
         "massSite": "任何 18 岁或以上持有代金券的人现在都可以在东京或大阪的大规模疫苗接种点接种疫苗。",
-        "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
+        "prevaccinationScreening": "请在此处下载初步医检表。虽然接种机构只接受日文的初步医检表，但可参照政府网站的多种语言翻译版本填写。",
         "register": "前往注册网站",
         "title": "日本 COVID-19 疫苗接种取消等候名单",
-        "viewAllNews": "View all news"
+        "viewAllNews": "全部新闻"
     },
     "login": {
-        "adminLogin": "Admin Login",
+        "adminLogin": "管理人登陆",
         "clear": "清除",
         "email": "电子邮件",
         "login": "登录",
         "password": "密码"
     },
     "logout": {
-        "message": "Logging you out...",
-        "successMessage": "You've been logged out. See ya!"
+        "message": "正在退出…",
+        "successMessage": "成功退出"
     },
     "message": {
-        "disclaimerAlert": "The only vaccines being administered in Japan are Moderna and Pfizer. Be wary of clinics offering SinoVac or others. The content on this site is user generated and while we do our best to moderate it, it may contain errors or unverified content. <br /><br /> We are not liable for inaccurate information that may be contained in the community submissions, and we are not liable for third-party sites. Use your best judgment and please report any submissions you think may be fraudulent.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "disclaimerAlert": "目前，日本唯一获得认证的疫苗是由 Moderna 和辉瑞公司生产的疫苗。请注意使用任何未经日本认证的疫苗（例如SinoVac）的诊所。本网站上的内容由社区发布，可能包含不正确或未经证实的信息。<br /><br /> 对于社区发布的任何错误信息或第三方网站的问题，我们概不负责。当您认为可能存在信息错误或恶作剧时，请始终依靠自身的判断并使用本网站的举报功能。",
+        "shinYokohamaAlert": "<h2>速报/h2><br /><b>新横滨</b>持有接种券(优惠券)的横滨居民将于<b>7月21日</b>可以接受预约。居住在横滨以外的人士，请点击此处<a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>下载可打印的预约表格</a>进行预约。",
+        "shinYokohamaBookVaccine": "预约接种疫苗"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "作者",
+        "by": "作者: {0}",
+        "featured": "精选新闻",
+        "important": "重要新闻与资讯",
+        "latest": "Find a Doc的最新情报",
+        "updated": "最近更新: {0}"
     },
     "pending": {
-        "edit": "Edit Submission",
-        "title": "Pending Submissions"
+        "edit": "编辑项目",
+        "title": "保留中项目"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "收到举报的诊所",
     "toolbar": {
         "about": "关于",
         "addClinic": "添加诊所",
-        "adminDashboard": "Admin Dashboard",
+        "adminDashboard": "Admin版面",
         "github": "GitHub",
         "home": "首页",
         "languages": "语言",
