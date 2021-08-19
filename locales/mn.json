@@ -1,54 +1,54 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Японы олон улсын хамтын нийгэмлэгийн эрүүл мэндийн мэдээллийн сан болох Find A Doc -ийн тухай"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Хандивлаарай",
+            "headline": "Бидэнд кофе худалданж аваарай",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "Бид өөрсдийн 9-5 ажлынхаа дараа энэхүү мэдээллийн санг бүрдүүлдэг. Бидэнд туслаарай!",
+                "1": "Хэрэв энэ төсөл танд эсвэл таны таньдаг хэн нэгэнд тусалсан бол биднийг дэмжээрэй."
             }
         },
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Манай багтай танилцана уу"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Би нэгдье!",
+                "headline": "Find Doc-н зорилго таны сонирхолтой нийцэж байна үү?",
+                "subheadline": "Та GitHub дээр бидэнтэй нэгдэж, хэрхэн хувь нэмэр оруулахаа чадахаа үзээрэй!"
             },
             "moreContributors": {
                 "action": {
                     "frontend": "front end",
                     "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "text": "Дараах {frontend} болон {localization} Github хуудсуудаас үзээрэй"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Бидэнд тусламжийн гараа сунгасан олон олон гишүүд!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Ердийн санаанаас эрүүл мэндийн мэдээллийн сан хүртэл",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda Японы албаны эх сурвалжуудаас вакциныг иргэдэд хэрхэн түгээх тухай тодорхой мэдээлэл хомс байгаа тухай хангалттай мэдээлэл цуглуулснаас хэдхэн цагийн дараа Find Doc-г үүсгэсэн юм.",
+                        "1": "Энэхүү мэдээллийн сан нь Япон дахь гадаад иргэдийг Япон улсын эрүүл мэндийн тусламж үйлчилгээний тухай мэдээллээр хангахад чиглэгдсэн юм."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Манай охиныг харж байгаач, би нэг юм хийх хэрэгтэй болчихлоо."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Манай багт нэгдээрэй",
+                    "date": "Одоогоор",
+                    "dateHeadline": "Сайн дурынхны баг",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find Doc нь олон нийтэд чиглэгдсэн сайн дурынхны багийнхан болно. Одоогийн байдлаар уг баг вакцин хийлгэх захиалгын жагсаалт гаргаж буй эмнэлгүүдийн талаар Япон дахь гадаад иргэдэд мэдээлэл өгөхөд анхаарч байна.",
+                        "1": "Бид цаашид Find Doc-г Япон улсад амьдарч буй Япон хэлгүй гадаад иргэдэд төрөлх хэлээр нь эрүүл мэндийн үйлчилгээ үзүүлдэг эмнэлэг олоход нь тусалдаг болгохоор зорьж байна."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Та өөрийн үйлдлээр энэхүү зайг нөхөх боломжтой."
                 }
             }
         },
@@ -56,30 +56,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Бид бүх холбоосуудаа албан ёсны эмнэлэг, засгийн газрын вэбсайт гэх мэт эх сурвалж руу хөтөлдөг байхаар зохицуулахыг хичээж байна.",
+                        "1": "Хувийн мэдээллээ бүртгүүлэхийн өмнө тэдгээрийг сайтар уншаарай."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Манай багийн хэн ч гэсэн мэдээллийн санд мэдээлэл оруулах боломжтой.",
+                        "1": "Иймээс бүх мэдээллийн үнэн баттайд бүрнээ баталгаа өгөх боломжгүй юм. Хэрэв та ямар нэгэн алдаа анзаарсан бол манай зохицуулагчдад мэдэгдэхийг хүсье."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Манай зохицуулагчид хуурамч мэдээллийг илрүүлэхийн тулд чадах бүхнээ хийдэг.",
+                        "1": "Гэсэн хэдий ч, Find Doc -оос олж мэдсэн аливаа мэдээлэлд дүгнэлт хийн, нэмэлт судалгаа хийхийг танд зөвлөж байна."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Энэ бол нээлттэй эх сурвалж бүхий төсөл тул Find Doc-ийг ашигласнаар учирсан хохирлыг бид хариуцахгүй.",
+                "license": "Энэ тухай дэлгэрэнгүй мэдээллийг манай лицензээс хэсгээс танилцана уу."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Энэ мэдээлэлд итгэж болох уу?",
+                "subheadline": "Товчхондоо, тийм, гэхдээ та зохих баталгаажуулалт хийгээрэй."
             }
         }
     },
