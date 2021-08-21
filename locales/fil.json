@@ -1,7 +1,7 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "About Find A Doc, ang database ng kalusugan para sa internasyonal na komunidad ng Japan"
         },
         "kofi": {
             "action": "Donate a cup",
@@ -56,8 +56,8 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Ang lahat ng mga links ay pumupunta sa mga official resources tulad ng mga websites ng clinics at gobyerno.",
+                        "1": "Basahin muna ang mga ito bago iparehistro ang iyong personal na impormasyon sa kanila."
                     }
                 },
                 "1": {
@@ -78,7 +78,7 @@
                 "license": "Read more about it in our license."
             },
             "header": {
-                "headline": "Can this information be trusted?",
+                "headline": "Maaari bang pagkatiwalaan ang impormasyong ito?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
         }
