@@ -1,7 +1,7 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "About Find A Doc, ဂျပန်နိုင်ငံရဲ့ အပြည်ပြည်ဆိုင်ရာ အသိုင်းအဝိုင်းအတွက် ကျန်းမာရေး ဒေတာဘေ့စ်"
         },
         "kofi": {
             "action": "Donate a cup",
@@ -18,7 +18,7 @@
             "join": {
                 "action": "I want to join!",
                 "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "subheadline": "အကယ်၍ Find a Doc အဖွဲ့တွင် ပါ၀င်လိုပါက, ကျွန်ပ်တို့ သင့်ရဲ့ အကူအညီကို အသုံးပြုနိုင်ဖို့ အတွက် GitHub မှာပါ၀င်ဆက်သွယ်ပါ!"
             },
             "moreContributors": {
                 "action": {
@@ -46,7 +46,7 @@
                     "dateHeadline": "A team of volunteers",
                     "text": {
                         "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "1": "နောင်တွင်လည်း ဂျပန်ိနုင်ငံရှိ နိုင်ငံခြားဘာသာစကားသာတတ်ကျွမ်းသူများအနေဖြင့် ၎င်းတို့၏ မိခင်ဘာသာစကားဖြင့် ဆေးကုသ၀န်ဆောင်မှုရယူနိုင်သော ဆေးခန်းများရှာဖွေရာတွင် ကူညီနိုင်ရန် အတွက် Find a Doc ကိုတိုးချဲ့ လိုပါသည်။."
                     },
                     "textHeadline": "You can fill the void by citizen action."
                 }
@@ -74,11 +74,11 @@
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
+                "headline": "Find a Doc သည် open-source ပရောဂျက် ဖြစ်သောကြောင့် သင့်တွင်ထိခိုက်နစ်နာမှုတစုံတရာရှိပါက တာ၀န်ယူနိုင်မည် မဟုတ်ပါ။.",
                 "license": "Read more about it in our license."
             },
             "header": {
-                "headline": "Can this information be trusted?",
+                "headline": "ဤသတင်းအချက်အလက်သည် ယုံကြည်၍ရနိုင်ပါသလား?",
                 "subheadline": "In short, yes, but do your due diligence."
             }
         }
