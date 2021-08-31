@@ -1,13 +1,13 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Find A Doc: 在日外国人的医疗健康数据库"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "捐助",
+            "headline": "捐助",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
+                "0": "这个数据库由志愿者工作之余开发。 ",
                 "1": "Consider supporting us if this project has helped you or someone you know."
             }
         },
