@@ -1,24 +1,24 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "जापान मा बस्ने बिदेशी समुदाय को स्वास्थ्य डाटाबेस, Find A Doc को बारेमा"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "एउटा कप दान गर्नुहोस्",
+            "headline": "हामीलाई कफी किन्दिनुहोस्",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "हामीले यो डाटाबेस हाम्रो ९-५ को काम पछि संचालन गरिरहेका छौं। हामीलाई जागै रहन सहयोग गर्नुहोस्!",
+                "1": "यदि यो प्रोजेक्ट ले तपाइलाई वा तपाइले चिनेको कसैलाई मद्दत पुगेको छ भने हामीलाई सहयोग गर्न विचार गर्नुहोस्।"
             }
         },
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "टिमलाई भेट्नुहोस्"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "म जोडिन चाहन्छु!",
+                "headline": "के Find A Doc को मिसनले तपाईमा उत्सुकता जगाउँछ?",
+                "subheadline": "तपाईले कसरी सहयोग गर्न सक्नुहुन्छ भनेर जान्न हामीसँग GitHub मा जोडिनुहोस्!"
             },
             "moreContributors": {
                 "action": {
@@ -26,29 +26,29 @@
                     "localization": "localization",
                     "text": "Find them on our {frontend} and {localization} Github contributors pages"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "थप अझै धेरै सदस्यहरु जसले हामी प्रति  सहयोगी हातहरु फैलाउनु भएको छ!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
-                    "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "date": "२०२१/०६/१३",
+                    "dateHeadline": "विचार देखि स्वास्थ्य डाटाबेस सम्म",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda ले सरकारी निकायबाट खोप विस्तार बारे स्पष्ट सूचनाको अभाव राम्रै सँग झेलेका थिए। केहि घण्टा पछि, Find a Doc को जन्म भयो।",
+                        "1": "यो डाटाबेसले जापानमा बस्ने बिदेशी समुदायलाई जापानमा महत्वपुर्ण स्वास्थ्य सेवा बारे जानकारी दिने उदेश्य लिएको छ।"
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "हाम्रो छोरी लाई हेर्नुहोस्, मैले केहि बनाउनु छ।."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "हाम्रो टिमसँग जोडिनुहोस्",
+                    "date": "अहिल्यै",
+                    "dateHeadline": "स्वयंसेवकहरुको टिम",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc स्वयंसेवकहरुको टिमको सहयोगमा समुदायबाट संचालितबाट छ। हालको लागि टिमले खोप खेर जनाबाट रोक्न जापानमा बस्ने बिदेशी समुदायलाई खोपको प्रतीक्षा सूची प्रदान गरेका क्लिनिकहरुको बारेमा जानकारी दिनमा आफ्नो ध्यान केन्द्रित गरेको छ।.",
+                        "1": "भविष्यमा, Find a Doc ले जापानमा बस्ने जापानी भाषा बोल्न नसक्नेहरुलाई उनीहरुको आफ्नो मातृभाषामा सेवा दिने क्लिनिकहरु पत्ता लगाउन सहयोग गरोस् भन्ने हामी चाहन्छौं।."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "हामीले सामुहिक सहभागीता बाट हाम्रा समस्याहरुको समाधान गर्न सक्छौं।."
                 }
             }
         },
@@ -56,30 +56,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "सबै लिंकहरुले आधिकारिक श्रोतहरु जस्तै क्लिनिक र सरकारी वेवसाइटहरुमा लाने कुराको सुनिस्चित गर्न हामीले प्रयास गर्नेछौं।.",
+                        "1": "उनीहरुसँग आफ्नो व्यक्तिगत सुचनाहरु दर्ता गर्नुभन्दा अगाडी राम्रो सँग पढ्नुहोस्।"
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "समुदायको जो कसैले पनि डाटाबेसमा सामाग्रीहरु पेश गर्न सक्छन्।.",
+                        "1": "त्यसैले, हामीले सूचनाको पूर्ण सत्यताको ग्यारन्टी गर्न सम्भब छैन। यदि तपाइले कुनै गल्तिहरु भेट्टाउनु भयो भने मोडरेटरहरुलाई जानकारी गराउनुहोस्।."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "हाम्रो मोडरेटरहरुले गलत सूचनाहरु पत्ता लगाउन सक्दो प्रयास गर्छन्।",
+                        "1": "तर पनि,  Find a Doc बाट प्राप्त गरेको कुनै पनि सेवाको लागि आफ्नो उत्तम विवेक प्रयोग गर्न र थप अनुसन्धान गर्न कडा प्रोत्साहन गर्छौं।"
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "यो एउटा खुला-स्रोत परियोजना हो, र Find a Doc को प्रयोग बाट हुने कुनै क्षतिको लागि हामी जिम्मेवार हुनेछैनौं।",
+                "license": "यसको बारेमा थप हाम्रो लाइसेन्स् मा पढ्नुहोस्।"
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "के यो सूचनामा विश्वास गर्न सकिन् ?",
+                "subheadline": "छोटकरीमा, विश्वास गर्न सकिन्छ, तर आफ्नो विवेक प्रयोग गर्नुहोस्।"
             }
         }
     },
@@ -92,8 +92,8 @@
         "city": "शहर",
         "clinicName": "क्लिनिकको नाम",
         "fillForm": "डाटाबेसमा नयाँ क्लिनिक थप्न यो फारम भर्नुहोस् जुन एक रद्द प्रतीक्षा सूची छ।",
-        "no": "No",
-        "note": "Share helpful or important details",
+        "no": "छैन",
+        "note": "सहयोगी वा महत्वपुर्ण विवरणहरु शेयर गर्नुहोस्",
         "prefecture": "प्रिफेक्चर",
         "reviewMessage": "तपाईले उपलब्ध गराउनुभएको जानकारी हामी समीक्षा गरेर प्रकाशन गर्नेछौ ।",
         "romajiOnly": "रोमाजी मात्र",
@@ -153,12 +153,12 @@
         },
         "search": "खोजी गर्नुहोस्",
         "voucher": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "आवश्यक छैन",
+            "required": "आवश्यक"
         },
         "wardResidency": {
-            "notRequired": "Not Required",
-            "required": "Required"
+            "notRequired": "आवश्यक छैन",
+            "required": "आवश्यक"
         }
     },
     "delete": {
@@ -186,8 +186,8 @@
         "readMore": "Read More"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "कुपन सहित वा बिनाकुपन खोप लगाउनुहोस्",
+        "helpingResidents": "जापानका बासिन्दाहरुलाई अत्यावश्यक स्वास्थ्य सेवा बारे पत्ता लगाउन सहयोग गर्दै"
     },
     "index": {
         "getDocument": "कागजात प्राप्त गर्नुहोस्",
@@ -214,12 +214,12 @@
         "shinYokohamaBookVaccine": "Book Vaccine"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "लेखक",
+        "by": "द्वारा {0}",
+        "featured": "फिचर्ड समाचार",
+        "important": "महत्वपुर्ण समाचार र सूचना",
+        "latest": "Find a Doc बाट ताजा",
+        "updated": "अप्डेटेड: {0}"
     },
     "pending": {
         "edit": "जानकारी सम्पादन गर्नुहोस्",
