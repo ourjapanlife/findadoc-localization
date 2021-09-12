@@ -1,54 +1,54 @@
 {
     "about": {
         "header": {
-            "headline": "About Find A Doc, the health database for Japan's international community"
+            "headline": "Find A Doc hakkında, Japonya'nın uluslararası topluluğunun sağlık veritabanı"
         },
         "kofi": {
-            "action": "Donate a cup",
-            "headline": "Buy us coffee",
+            "action": "Bir bardak bağışla",
+            "headline": "Bize kahve alın",
             "text": {
-                "0": "We are running this database after our 9-5 jobs. Help us stay awake!",
-                "1": "Consider supporting us if this project has helped you or someone you know."
+                "0": "Bu veritabanını sabah 9 akşam 5 çalıştığımız işlerimizden arta kalan zamanlarda geliştiriyoruz. Uyanık kalmamıza yardım edin!",
+                "1": "Eğer bu proje sizin veya bir tanıdığınızın işine yaradıysa bize destekte bulunmayı düşünün."
             }
         },
         "team": {
             "header": {
-                "headline": "Meet the Team"
+                "headline": "Takım ile tanışın"
             },
             "join": {
-                "action": "I want to join!",
-                "headline": "Does Find a Doc’s mission spark your interests?",
-                "subheadline": "Join us over on GitHub to see how you can contribute!"
+                "action": "Katılmak istiyorum!",
+                "headline": "Find a Doc'un misyonu ilginizi mi çekti?",
+                "subheadline": "Nasıl katkı sağlayabileceğinizi görmek için bize GitHub'da katılın!"
             },
             "moreContributors": {
                 "action": {
-                    "frontend": "front end",
-                    "localization": "localization",
-                    "text": "Find them on our {frontend} and {localization} Github contributors pages"
+                    "frontend": "önyüz",
+                    "localization": "yerelleştirme",
+                    "text": "Onları {frontend} ve {localization} Github katkıcılar sayfasından görebilirsiniz"
                 },
-                "headline": "Plus many more members who have lent us a helping hand!"
+                "headline": "Ayrıca bize her konuda yardımcı olan çok sayıda üyemiz var!"
             }
         },
         "timeline": {
             "items": {
                 "0": {
                     "date": "2021.06.13",
-                    "dateHeadline": "From idea to health database",
+                    "dateHeadline": "Fikirden sağlık veritabanına",
                     "text": {
-                        "0": "LaShawn Toyoda had enough about the lack of clear information regarding the vaccine rollout in Japan from governing officials. A few hours later, Find a Doc was born.",
-                        "1": "This database aims to help keep the international community of Japan informed about critical healthcare services in Japan."
+                        "0": "LaShawn Toyoda Japonya'daki yönetimlerin aşı dağıtımıyla ilgili açık bilgi eksikliğine yeter dedi. Birkaç saat sonra Find a Doc ortaya çıktı.",
+                        "1": "Bu veritabanı Japonya'nın uluslararası topluluğunun kritik sağlık hizmetleri hakkında bilgi sahibi olmasını amaçlıyor."
                     },
-                    "textHeadline": "Watch our daughter, I gotta make something."
+                    "textHeadline": "Kızıma gözkulak olun, benim bir şey yapmam lazım."
                 },
                 "1": {
-                    "action": "Join our team",
-                    "date": "Presently",
-                    "dateHeadline": "A team of volunteers",
+                    "action": "Takımımıza katılın",
+                    "date": "Şimdi",
+                    "dateHeadline": "Bir grup gönüllü",
                     "text": {
-                        "0": "Find a Doc is community-driven with the support of a team of volunteers. Currently, the team is focused on keeping the international community of Japan informed about clinics offering waiting lists for vaccinations to reduce waste.",
-                        "1": "In the future, we want Find a Doc to help non-Japanese speaking residents of Japan find clinics that offer services in their native language."
+                        "0": "Find a Doc bir grup gönüllünün desteklediği bir topluluk projesidir. Şu anda bu takım Japonya'nın uluslararası topluluğunu atıkları azaltmak amacıyla aşı bekleme listesi oluşturan klinikler hakkında bilgi sahibi yapmayı amaçlamaktadır.",
+                        "1": "Gelecekte Find a Doc'un Japonca konuşamayan Japonya sakinlerine kendi ana dillerinde hizmet veren klinikler bulmasına yardım etmesini istiyoruz."
                     },
-                    "textHeadline": "You can fill the void by citizen action."
+                    "textHeadline": "Boşluğu vatandaş hareketiyle doldurabilirsiniz."
                 }
             }
         },
@@ -56,36 +56,36 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "We try to make sure that all links lead to official resources such as clinic and government websites.",
-                        "1": "Read them thoroughly before registering your personal information with them."
+                        "0": "Bütün linklerin klinik sitelerine veya hükümet sayfalarına gitmesi için elimizden geleni yapıyoruz.",
+                        "1": "Bilgilerinizi bu siteler ile paylaşmadan önce orada yazılanların tamamını dikkatle okuyun."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Anyone in the community can submit content to the database.",
-                        "1": "As a result, is not possible for us to guarantee complete accuracy. If you notice any errors, please report them to moderators."
+                        "0": "Topluluktaki herhangi bir kişi veritabanına içerik gönderebilir.",
+                        "1": "Dolayısıyla sitenin tamamının doğru olmasını garanti etmemiz mümkün değil. Eğer herhangi bir hatayla karşılaşırsanız, moderatörlerimize bildirin."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Our moderators try their best to detect fraudulent information.",
-                        "1": "However, we strongly encourage you to use your best judgment and do additional research for any services you discover through Find a Doc."
+                        "0": "Moderatörlerimiz sahte bilgileri tespit etmek için ellerinden geleni yapıyor.",
+                        "1": "Fakat yine de Find a Doc üzerinden bulduğunuz servisler hakkında araştırma yapmanızı ve dikkatli olmanızı şiddetle öneriyoruz."
                     }
                 }
             },
             "footer": {
-                "headline": "This is an open-source project, and we are not liable for any damages that may be incurred from the use of Find a Doc.",
-                "license": "Read more about it in our license."
+                "headline": "Bu bir açık-kaynak projesidir, Find a Doc kullanımından kaynaklanabilecek hasarlar için sorumluluk kabul etmiyoruz.",
+                "license": "Detayları lisansımızda okuyabilirsiniz."
             },
             "header": {
-                "headline": "Can this information be trusted?",
-                "subheadline": "In short, yes, but do your due diligence."
+                "headline": "Buradaki bilgiler güvenilir mi?",
+                "subheadline": "Kısaca evet, fakat siz yine de dikkatli olun."
             }
         }
     },
     "activeClinic": {
-        "data": "Active Clinic Data",
-        "editClinic": "Edit Clinic"
+        "data": "Aktif Klinik Verisi",
+        "editClinic": "Kliniği Düzenle"
     },
     "add-clinic": {
         "additionalInfo": "Ek bilgi (Zorunlu değil)",
@@ -165,7 +165,7 @@
         "dialog": "Bunu silmek istediğinize emin misiniz? ID: {0}"
     },
     "donate": {
-        "supportMe": "Support me"
+        "supportMe": "Destek ver"
     },
     "error": {
         "homePage": "Ana sayfa",
@@ -183,11 +183,11 @@
         "approve": "Onayla",
         "cancel": "İptal et",
         "delete": "Sil",
-        "readMore": "Read More"
+        "readMore": "Devamını Oku"
     },
     "hero": {
-        "getVaccinated": "Get vaccinated with or without a voucher",
-        "helpingResidents": "Helping residents of Japan find essential healthcare"
+        "getVaccinated": "Kuponlu veya kuponsuz aşı olun",
+        "helpingResidents": "Japonya sakinlerinin temel sağlık hizmetleri bulmasına yardım ediyoruz"
     },
     "index": {
         "getDocument": "Formu indir",
@@ -195,7 +195,7 @@
         "prevaccinationScreening": "Aşılama öncesi doldurulması gereken inceleme formu artık internetten indirilebiliyor! Sadece Japonca form kabul ediliyor, fakat çevirilerini görmek mümkün.",
         "register": "Kayıt sayfasına git",
         "title": "Japonya'daki COVID-19 Aşı Randevularının İptalleri için Bekleme Listeleri",
-        "viewAllNews": "View all news"
+        "viewAllNews": "Bütün haberleri gör"
     },
     "login": {
         "adminLogin": "Yönetici girişi",
@@ -210,22 +210,22 @@
     },
     "message": {
         "disclaimerAlert": "Japonya'da sadece Moderna ve Pfizer aşıları onaylanmıştır. SinoVac ve diğer aşıları öneren kliniklerden sakının. Bu sitenin içeriği kullanıcıları tarafından üretilmiştir. Bu içeriği yönetmek için elimizden geleni yapıyoruz, fakat yine de hatalar veya doğrulanmamış bilgiler olabilir. <br /><br /> Topluluk tarafından gönderilmiş olup doğru olmayan bilgilerden ve üçüncü web adreslerinden biz sorumlu değiliz. İçerikleri dikkatle inceleyin ve eğer sahte bir bilgi görürseniz lütfen ihbar edin.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> vaccine slots available from <b>July 12th</b> for voucher holders. If you live outside Yokohama and wish to register, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>click here to fill out and print the request form.</a>THEN click the button to book the vaccine!",
-        "shinYokohamaBookVaccine": "Book Vaccine"
+        "shinYokohamaAlert": "<h2>HABERLER</h2><br />Kuponunuz varsa <b>Shin-Yokohama</b> ve <b>Tsuchihashi</b> kliniklerinde <b>19 Eylül</b>'den itibaren aşı olabilirsiniz. Bölge oturumu GEREKMİYOR!",
+        "shinYokohamaBookVaccine": "Aşı Randevusu Al"
     },
     "news": {
-        "author": "Author",
-        "by": "by {0}",
-        "featured": "Featured News",
-        "important": "Important News and Information",
-        "latest": "The Latest from Find a Doc",
-        "updated": "Updated: {0}"
+        "author": "Yazar",
+        "by": "Yazan: {0}",
+        "featured": "Öne Çıkan Haberler",
+        "important": "Önemli Haberler ve Bilgiler",
+        "latest": "Find a Doc'dan Güncel Haberler",
+        "updated": "Güncellendi: {0}"
     },
     "pending": {
         "edit": "Gönderiyi Düzenle",
         "title": "Bekleyen Gönderiler"
     },
-    "reportedSubmissions": "Reported Submissions",
+    "reportedSubmissions": "İhbar Edilen Gönderiler",
     "toolbar": {
         "about": "Hakkında",
         "addClinic": "klinik ekle",
