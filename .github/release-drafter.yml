@@ -1,5 +1,5 @@
-name-template: 'Localization Release v$NEXT_PATCH_VERSION 🌐'
-tag-template: 'v$NEXT_PATCH_VERSION'
+name-template: 'Localization Release v$RESOLVED_VERSION 🌐'
+tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🛠️ Updates'
     labels:
