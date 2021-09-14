@@ -20,6 +20,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          repo-token: ${{secrets.GITHUB_TOKEN}}
+          source-root: web
 
       - name: Increment Patch version
         run: |
@@ -28,5 +31,5 @@ jobs:
           git commit package.json -m "bump version"
           git push
           
-      
+
 
