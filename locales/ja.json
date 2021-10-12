@@ -1,240 +1,240 @@
 {
-  "about": {
-    "header": {
-      "headline": "Find a Doc、 日本インターナショナルコミュニティーの医療データベースについて"
-    },
-    "kofi": {
-      "action": "一杯を寄付する",
-      "headline": "コーヒーを寄付する",
-      "text": {
-        "0": "このデーターベースは通常勤務と別にボランティアによって開発されたものです。支援していただけませんか？",
-        "1": "このプロジェクトがご自身やお知り合いの方のお役に立っていれば、ご支援をご検討ください。"
-      }
-    },
-    "team": {
-      "header": {
-        "headline": "チームメンバー紹介"
-      },
-      "join": {
-        "action": "私も手伝いたい",
-        "headline": "Find a Docのミッションに興味を持ちましたか？",
-        "subheadline": "どのように貢献できるか、GitHubで確認してみてください。"
-      },
-      "moreContributors": {
-        "action": {
-          "frontend": "front end",
-          "localization": "localization",
-          "text": "私たちの {frontend} と {localization} の Github コントリビューターページで会いましょう"
+    "about": {
+        "header": {
+            "headline": "Find a Doc、 日本インターナショナルコミュニティーの医療データベースについて"
         },
-        "headline": "他にもたくさんのメンバーが協力をしてくれています！"
-      }
-    },
-    "timeline": {
-      "items": {
-        "0": {
-          "date": "2021.06.13",
-          "dateHeadline": "アイディアから医療データベースへ",
-          "text": {
-            "0": "ラショーン・トヨダは、日本でのワクチン接種に関する明確な情報が政府関係者から得られないことにうんざりしていました。その数時間後、「Find a Doc」が誕生しました。",
-            "1": "このデータベースの意図は、日本における重要な医療サービスについて、日本のインターナショナルコミュニティーに情報を提供することです。"
-          },
-          "textHeadline": "娘を見ていて、何か作らないと。"
+        "kofi": {
+            "action": "一杯を寄付する",
+            "headline": "コーヒーを寄付する",
+            "text": {
+                "0": "このデーターベースは通常勤務と別にボランティアによって開発されたものです。支援していただけませんか？",
+                "1": "このプロジェクトがご自身やお知り合いの方のお役に立っていれば、ご支援をご検討ください。"
+            }
         },
-        "1": {
-          "action": "チームに参加しませんか？",
-          "date": "現在",
-          "dateHeadline": "ボランティアのチーム",
-          "text": {
-            "0": "Find a Docは、ボランティアチームのサポートによって運営されています。現在、ワクチンの無駄を省くために、予防接種のキャンセル待ちをしているクリニックについて、日本のインターナショナルコミュニティーに情報を提供することに注力しています。",
-            "1": "将来的には、Find a Docを使って、日本に住む外国人が自分の母国語で診療を受けられるクリニックを見つけられるように貢献したいと考えています。"
-          },
-          "textHeadline": "一人一人の行動によって埋め合わせます"
+        "team": {
+            "header": {
+                "headline": "チームメンバー紹介"
+            },
+            "join": {
+                "action": "私も手伝いたい",
+                "headline": "Find a Docのミッションに興味を持ちましたか？",
+                "subheadline": "どのように貢献できるか、GitHubで確認してみてください。"
+            },
+            "moreContributors": {
+                "action": {
+                    "frontend": "front end",
+                    "localization": "localization",
+                    "text": "私たちの {frontend} と {localization} の Github コントリビューターページで会いましょう"
+                },
+                "headline": "他にもたくさんのメンバーが協力をしてくれています！"
+            }
+        },
+        "timeline": {
+            "items": {
+                "0": {
+                    "date": "2021.06.13",
+                    "dateHeadline": "アイディアから医療データベースへ",
+                    "text": {
+                        "0": "ラショーン・トヨダは、日本でのワクチン接種に関する明確な情報が政府関係者から得られないことにうんざりしていました。その数時間後、「Find a Doc」が誕生しました。",
+                        "1": "このデータベースの意図は、日本における重要な医療サービスについて、日本のインターナショナルコミュニティーに情報を提供することです。"
+                    },
+                    "textHeadline": "娘を見ていて、何か作らないと。"
+                },
+                "1": {
+                    "action": "チームに参加しませんか？",
+                    "date": "現在",
+                    "dateHeadline": "ボランティアのチーム",
+                    "text": {
+                        "0": "Find a Docは、ボランティアチームのサポートによって運営されています。現在、ワクチンの無駄を省くために、予防接種のキャンセル待ちをしているクリニックについて、日本のインターナショナルコミュニティーに情報を提供することに注力しています。",
+                        "1": "将来的には、Find a Docを使って、日本に住む外国人が自分の母国語で診療を受けられるクリニックを見つけられるように貢献したいと考えています。"
+                    },
+                    "textHeadline": "一人一人の行動によって埋め合わせます"
+                }
+            }
+        },
+        "trust": {
+            "cards": {
+                "0": {
+                    "text": {
+                        "0": "すべてのリンクは、クリニックや政府のウェブサイトなどの公式なリソースにつながるように確認しています。",
+                        "1": "個人情報を登録するにあたって、熟読してから登録を行ってください。"
+                    }
+                },
+                "1": {
+                    "text": {
+                        "0": "誰でもデータベースにコンテンツを投稿することができます。",
+                        "1": "そのため、完全に正確であることを保証することはできません。誤りを発見された場合は、管理者にご報告ください。"
+                    }
+                },
+                "2": {
+                    "text": {
+                        "0": "管理者は、不正な情報を発見するために最善を尽くしています。",
+                        "1": "しかしながら、Find a Docを通じて見つけたサービスについては、ご自身が最善の判断を行い、追加の調査を行うことを強くお勧めします。"
+                    }
+                }
+            },
+            "footer": {
+                "headline": "これはオープンソースのプロジェクトであり、Find a Docを使用したことにより発生したいかなる損害に対しても一切責任を負いません。",
+                "license": "詳しくはライセンスをご覧ください。"
+            },
+            "header": {
+                "headline": "この情報は信頼できるのか？",
+                "subheadline": "信頼はできますが、情報を再度お確かめの上ご利用ください。"
+            }
         }
-      }
     },
-    "trust": {
-      "cards": {
-        "0": {
-          "text": {
-            "0": "すべてのリンクは、クリニックや政府のウェブサイトなどの公式なリソースにつながるように確認しています。",
-            "1": "個人情報を登録するにあたって、熟読してから登録を行ってください。"
-          }
+    "activeClinic": {
+        "data": "表示中のクリニック",
+        "editClinic": "クリニックを編集"
+    },
+    "add-clinic": {
+        "additionalInfo": "備考 (任意)",
+        "city": "市町村",
+        "clinicName": "クリニック名",
+        "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
+        "no": "いいえ",
+        "note": "その他の情報をここに入力してください",
+        "prefecture": "都道府県",
+        "reviewMessage": "登録したクリニックは審査後に表示されます！",
+        "romajiOnly": "ローマ字",
+        "submitClinic": "クリニックを登録する",
+        "validations": {
+            "city": {
+                "minLength": "市町村は{0}文字以上で入力してください",
+                "required": "市町村が必要です",
+                "validChars": "不正文字"
+            },
+            "clinic": {
+                "minLength": "クリニック名は{0}文字以上で入力してください",
+                "required": "クリニック名が必要です",
+                "validChars": "不正文字"
+            },
+            "ward": {
+                "minLength": "区の名は{0}文字以上で入力してください",
+                "required": "区が必要です",
+                "validChars": "不正文字"
+            },
+            "website": {
+                "required": "ウェブサイトのURLが必要です",
+                "url": "有効なURLを入力してください"
+            }
         },
-        "1": {
-          "text": {
-            "0": "誰でもデータベースにコンテンツを投稿することができます。",
-            "1": "そのため、完全に正確であることを保証することはできません。誤りを発見された場合は、管理者にご報告ください。"
-          }
-        },
-        "2": {
-          "text": {
-            "0": "管理者は、不正な情報を発見するために最善を尽くしています。",
-            "1": "しかしながら、Find a Docを通じて見つけたサービスについては、ご自身が最善の判断を行い、追加の調査を行うことを強くお勧めします。"
-          }
+        "voucherRequired": "接種券は必要？",
+        "ward": "区",
+        "wardResidencyRequired": "市町村内の在住者のみの制限がありますか？",
+        "websiteURL": "ウェブサイトのURL",
+        "yes": "はい"
+    },
+    "admin": {
+        "pending": {
+            "one": "",
+            "other": ""
         }
-      },
-      "footer": {
-        "headline": "これはオープンソースのプロジェクトであり、Find a Docを使用したことにより発生したいかなる損害に対しても一切責任を負いません。",
-        "license": "詳しくはライセンスをご覧ください。"
-      },
-      "header": {
-        "headline": "この情報は信頼できるのか？",
-        "subheadline": "信頼はできますが、情報を再度お確かめの上ご利用ください。"
-      }
-    }
-  },
-  "activeClinic": {
-    "data": "表示中のクリニック",
-    "editClinic": "クリニックを編集"
-  },
-  "add-clinic": {
-    "additionalInfo": "備考 (任意)",
-    "city": "市町村",
-    "clinicName": "クリニック名",
-    "fillForm": "このフォームを記入し、キャンセル待ちリストのあるクリニックをデータベースに登録できます。",
-    "no": "いいえ",
-    "note": "その他の情報をここに入力してください",
-    "prefecture": "都道府県",
-    "reviewMessage": "登録したクリニックは審査後に表示されます！",
-    "romajiOnly": "ローマ字",
-    "submitClinic": "クリニックを登録する",
-    "validations": {
-      "city": {
-        "minLength": "市町村は{0}文字以上で入力してください",
-        "required": "市町村が必要です",
-        "validChars": "不正文字"
-      },
-      "clinic": {
-        "minLength": "クリニック名は{0}文字以上で入力してください",
-        "required": "クリニック名が必要です",
-        "validChars": "不正文字"
-      },
-      "ward": {
-        "minLength": "区の名は{0}文字以上で入力してください",
-        "required": "区が必要です",
-        "validChars": "不正文字"
-      },
-      "website": {
-        "required": "ウェブサイトのURLが必要です",
-        "url": "有効なURLを入力してください"
-      }
     },
-    "voucherRequired": "接種券は必要？",
-    "ward": "区",
-    "wardResidencyRequired": "市町村内の在住者のみの制限がありますか？",
-    "websiteURL": "ウェブサイトのURL",
-    "yes": "はい"
-  },
-  "admin": {
+    "cancelList": {
+        "header": {
+            "city": "市町村",
+            "clinicName": "クリニック名",
+            "note": "メモ",
+            "prefecture": "都道府県",
+            "report": "報告",
+            "voucherRequired": "接種券",
+            "ward": "区",
+            "wardResidencyRequired": "市町村内の在住者のみの制限",
+            "website": "ウェブサイト"
+        },
+        "moreInfo": "詳細については、ここをクリックしてください",
+        "report": {
+            "clinicName": "クリニック名:",
+            "note": "このクリニックについてのメモ",
+            "reason": "クリニックを報告する理由",
+            "submitReport": "報告",
+            "title": "データについて報告"
+        },
+        "search": "検索",
+        "voucher": {
+            "notRequired": "不要",
+            "required": "必要"
+        },
+        "wardResidency": {
+            "notRequired": "なし",
+            "required": "あり"
+        }
+    },
+    "delete": {
+        "dialog": "本当にID: {0}を削除しますか？"
+    },
+    "donate": {
+        "supportMe": "寄付する"
+    },
+    "error": {
+        "homePage": "ホームページ",
+        "notFound": "404お探しのページが見つかりませんでした",
+        "otherError": "エラーが発生しました"
+    },
+    "findADoc": "Find A Doc",
+    "footer": {
+        "donate": "寄付する",
+        "github": "GitHubでコントリブ",
+        "netlify": "Powered by Netlify",
+        "siteTitle": "Findadoc Japan {0}"
+    },
+    "general": {
+        "approve": "承認",
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "readMore": "続きを読む"
+    },
+    "hero": {
+        "getVaccinated": "接種券の有無にかかわらず、予防接種ができます！",
+        "helpingResidents": "Find A Docは日本住民へ必要不可欠なヘルスケアの情報を提供しています。"
+    },
+    "index": {
+        "getDocument": "クリックでダウンロード",
+        "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
+        "prevaccinationScreening": "接種の予診票がダウンロードできます。日本語の予診票のみ受け付けられていますが、各国語訳が公開されいます。",
+        "register": "登録サイトに移動します",
+        "title": "COVID-19日本のワクチン接種キャンセル待ちリスト",
+        "viewAllNews": "全てのニュース"
+    },
+    "login": {
+        "adminLogin": "管理者ログイン",
+        "clear": "クリア",
+        "email": "Eメール",
+        "login": "ログイン",
+        "password": "パスワード"
+    },
+    "logout": {
+        "message": "ログアウト中...",
+        "successMessage": "ログアウトしました。"
+    },
+    "message": {
+        "disclaimerAlert": "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。",
+        "shinYokohamaAlert": "<h2>速報</h2><br /><b>新横浜</b>と<b>川崎</b>にて、接種券をお持ちの方ならワクチン予約枠が９月１９日からあります。 横浜市や川崎市にお住みでない方でも、利用できます（複数のユーザーにより確認済み）。",
+        "shinYokohamaBookVaccine": "ワクチンを予約"
+    },
+    "news": {
+        "author": "執筆者",
+        "by": "執筆者: {0}",
+        "featured": "注目のニュース",
+        "important": "重要なニュースと情報",
+        "latest": "Find a Docからの最新ニュース",
+        "updated": "最終更新日: {0}"
+    },
     "pending": {
-      "one": "",
-      "other": ""
+        "edit": "項目を編集",
+        "title": "保留中項目"
+    },
+    "reportedSubmissions": "報告されたクリニック",
+    "toolbar": {
+        "about": "Find a Docについて",
+        "addClinic": "クリニックを登録する",
+        "adminDashboard": "Adminダッシュボード",
+        "github": "GitHub",
+        "home": "ホーム",
+        "languages": "言語",
+        "login": "ログイン",
+        "logout": "ログアウト",
+        "title": "Find a Doc, Japan"
     }
-  },
-  "cancelList": {
-    "header": {
-      "city": "市町村",
-      "clinicName": "クリニック名",
-      "note": "メモ",
-      "prefecture": "都道府県",
-      "report": "報告",
-      "voucherRequired": "接種券",
-      "ward": "区",
-      "wardResidencyRequired": "市町村内の在住者のみの制限",
-      "website": "ウェブサイト"
-    },
-    "moreInfo": "詳細については、ここをクリックしてください",
-    "report": {
-      "clinicName": "クリニック名:",
-      "note": "このクリニックについてのメモ",
-      "reason": "クリニックを報告する理由",
-      "submitReport": "報告",
-      "title": "データについて報告"
-    },
-    "search": "検索",
-    "voucher": {
-      "notRequired": "不要",
-      "required": "必要"
-    },
-    "wardResidency": {
-      "notRequired": "なし",
-      "required": "あり"
-    }
-  },
-  "delete": {
-    "dialog": "本当にID: {0}を削除しますか？"
-  },
-  "donate": {
-    "supportMe": "寄付する"
-  },
-  "error": {
-    "homePage": "ホームページ",
-    "notFound": "404お探しのページが見つかりませんでした",
-    "otherError": "エラーが発生しました"
-  },
-  "findADoc": "Find A Doc",
-  "footer": {
-    "donate": "寄付する",
-    "github": "GitHubでコントリブ",
-    "netlify": "Powered by Netlify",
-    "siteTitle": "Findadoc Japan {0}"
-  },
-  "general": {
-    "approve": "承認",
-    "cancel": "キャンセル",
-    "delete": "削除",
-    "readMore": "続きを読む"
-  },
-  "hero": {
-    "getVaccinated": "接種券の有無にかかわらず、予防接種ができます！",
-    "helpingResidents": "Find A Docは日本住民へ必要不可欠なヘルスケアの情報を提供しています。"
-  },
-  "index": {
-    "getDocument": "クリックでダウンロード",
-    "massSite": "接種券をお持ちの18歳以上の方は、東京または大阪の大規模接種センターで予防接種を受けることができます。",
-    "prevaccinationScreening": "接種の予診票がダウンロードできます。日本語の予診票のみ受け付けられていますが、各国語訳が公開されいます。",
-    "register": "登録サイトに移動します",
-    "title": "COVID-19日本のワクチン接種キャンセル待ちリスト",
-    "viewAllNews": "全てのニュース"
-  },
-  "login": {
-    "adminLogin": "管理者ログイン",
-    "clear": "クリア",
-    "email": "Eメール",
-    "login": "ログイン",
-    "password": "パスワード"
-  },
-  "logout": {
-    "message": "ログアウト中...",
-    "successMessage": "ログアウトしました。"
-  },
-  "message": {
-    "disclaimerAlert": "日本で公認を受けているワクチンは現在モデルナとファイザー社製のもののみです。SinoVacなど日本で認定が下りていないワクチンを使用するクリニックにご注意下さい。このサイトのコンテンツはコミュニティーから投稿されており、誤りや未確認の情報が含まれている可能性もあります。<br /><br /> コミュニティーからの投稿に誤りがあった場合や、第三者サイトに問題があった場合は責任を一切負いません。常にご自身の判断に頼り、誤りやデマがあるかもと思った時には本サイトの報告機能をご利用ください。",
-    "shinYokohamaAlert": "<h2>速報</h2><br /><b>新横浜</b>と<b>川崎</b>にて、接種券をお持ちの方ならワクチン予約枠が９月１９日からあります。 横浜市や川崎市にお住みでない方でも、利用できます（複数のユーザーにより確認済み）。",
-    "shinYokohamaBookVaccine": "ワクチンを予約"
-  },
-  "news": {
-    "author": "執筆者",
-    "by": "執筆者: {0}",
-    "featured": "注目のニュース",
-    "important": "重要なニュースと情報",
-    "latest": "Find a Docからの最新ニュース",
-    "updated": "最終更新日: {0}"
-  },
-  "pending": {
-    "edit": "項目を編集",
-    "title": "保留中項目"
-  },
-  "reportedSubmissions": "報告されたクリニック",
-  "toolbar": {
-    "about": "Find a Docについて",
-    "addClinic": "クリニックを登録する",
-    "adminDashboard": "Adminダッシュボード",
-    "github": "GitHub",
-    "home": "ホーム",
-    "languages": "言語",
-    "login": "ログイン",
-    "logout": "ログアウト",
-    "title": "Find a Doc, Japan"
-  }
 }
