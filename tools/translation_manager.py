@@ -248,7 +248,7 @@ class TranslationManager(object):
         print("-"*cols)
         for i, compound_key in enumerate(queue):
             # Prompt user to input new translation
-            counter = f"## {i} out of {n_keys} keys to translate ##"
+            counter = f"## {i+1} out of {n_keys} keys to translate ##"
             key_trail = "## Key: " + '->'.join(compound_key) + " ##"
             string_source = f"en: {nested_get(source_dict, *compound_key)}"
             string_dest = f"{dest}: {nested_get(dest_dict, *compound_key) if nested_exists(dest_dict, *compound_key) else '???'}"
