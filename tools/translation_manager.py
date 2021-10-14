@@ -135,14 +135,29 @@ def recurse_dict(d: dict, keys=()):
     else:
         yield (keys, d)
 
+def nested_exists(d: dict, *keys):
+    """Checks if nested key exists."""
+    try:
+        nested_get(d, *keys)
+    except KeyError:
+        return False
+    return True
+
 def nested_get(d: dict, *keys):
     """Returns value of nested dict for given compound_keys."""
     return reduce(operator.getitem, keys, d)
 
 def nested_set(d: dict, value, *keys):
     """Sets value in nested dictionary for given keys path."""
-    nested_get(d, *keys[:-1])[keys[-1]] = value
-
+    #nested_get(d, *keys[:-1])[keys[-1]] = value
+    if len(keys) == 1:
+        d[keys[0]] = value
+    else:
+        try:
+            nested_set(d[keys[0]], value, *keys[1:])
+        except KeyError:
+            d[keys[0]] = {}
+            nested_set(d[keys[0]], value, *keys[1:])
 
 class TranslationManager(object):
     """Command line tool for managing i18n files"""
@@ -193,65 +208,74 @@ class TranslationManager(object):
                 trim_dead_keys(primary_dict, dest_dict)
                 export(dest_dict, fname)
 
-    def translate_interactive(self, dest:str):
+    def translate_interactive(self, dest: str, recreate=False):
         """Spawns interactive translating session.
 
-        User is asked to submit (missing) key-translations for a given language.
+        User is asked to submit missing key-translations for a given language.
         
         Parameters
         ----------
         `dest` : str
             The destination language flag [ISO 639-1].
+        `recreate` : bool
+            If true, all keys will be re-translated (not only missing keys!).
         """
         # Load locale
         source_fname = f"{LOCALE_DIR}/en.json"
-        dest_fname   = f"{LOCALE_DIR}/{dest}.json"
-        source_dict  = open_locale_file(source_fname)
-        dest_dict    = open_locale_file(dest_fname)
+        dest_fname = f"{LOCALE_DIR}/{dest}.json"
+        source_dict = open_locale_file(source_fname)
+        dest_dict = open_locale_file(dest_fname)
+        print("Selected translation language:", dest)
+        if recreate:
+            print("WARNING: Entered mode for re-translating all keys!")
 
-        # Make sure target json has the same keys as the source one
-        copy_new_keys_to_locale(source_dict, dest_dict)
+        # Check which keys do not exist in target dict
+        queue = []
+        for compound_key, _ in recurse_dict(source_dict):
+            if not nested_exists(dest_dict, *compound_key) or recreate:
+                queue.append(compound_key)
 
-        # Dict comparison generator
-        dict_comparator = list(zip(recurse_dict(source_dict), recurse_dict(dest_dict)))
-        n_keys = len(dict_comparator)
-
+        # Return if nothing to translate
+        n_keys = len(queue)
+        if n_keys == 0:
+            print(">>>> All keys are set, nothing to translate! 🥳")
+            return
+        
         # Start interactive translation session
-        print("Selected Language:", dest)
         print("Enter a translation for the given key.")
-        print("Leave the prompt empty if the current translation is good enough.")
+        print("Leave it empty if the current translation is good enough, or you are unsure.")
         cols, _ = os.get_terminal_size()
         print("-"*cols)
-        for i, [[_, source_value], [compound_key, dest_value]] in enumerate(dict_comparator):
+        for i, compound_key in enumerate(queue):
             # Prompt user to input new translation
-            counter = f"## {i} out of {n_keys} ##"
+            counter = f"## {i} out of {n_keys} keys to translate ##"
             key_trail = "## Key: " + '->'.join(compound_key) + " ##"
-            string_source = f"en: {source_value}"
-            string_dest   = f"{dest}: {dest_value}"
+            string_source = f"en: {nested_get(source_dict, *compound_key)}"
+            string_dest = f"{dest}: {nested_get(dest_dict, *compound_key) if nested_exists(dest_dict, *compound_key) else '???'}"
             prompt = ">>  "
             print(counter)
             print(key_trail)
             print(string_source)
             print(string_dest)
             string_translated = input(prompt)
-
+        
             # Clear terminal
             cols, _ = os.get_terminal_size()
             for i in range(int(len(counter)/cols)
-                            +int(len(key_trail)/cols)
-                            +int(len(string_source)/cols)
-                            +int(len(string_dest)/cols)
-                            +int((len(prompt)+len(string_translated))/cols)
-                            +5):
+                           + int(len(key_trail)/cols)
+                           + int(len(string_source)/cols)
+                           + int(len(string_dest)/cols)
+                           + int((len(prompt)+len(string_translated))/cols)
+                           + 5):
                 sys.stdout.write("\033[F")  # back to previous line
                 sys.stdout.write("\033[K")  # clear line
-            
+
             # Save user input to dict
             if string_translated:
                 nested_set(dest_dict, string_translated, *compound_key)
-
+        
         # export modified dict and save
-        export(dest_dict,dest_fname)
+        export(dest_dict, dest_fname)
         print("Done! 🎉")
 
                 
