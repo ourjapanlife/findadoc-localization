@@ -29,9 +29,9 @@ class InvalidLanguageError(Exception):
 
     def __str__(self):
         if self.language:
-            return f"Invalid language: {self.language}\nPlease check if it is an ISO 639-1 language flag!"
+            return f"Invalid language {self.language}, or the {self.language}.json was not found!\nPlease check if it is an ISO 639-1 language flag! "
         else:
-            return f"Invalid language!\nPlease check if it is an ISO 639-1 language flag!"
+            return f"Invalid language, or the JSON was not found!\nPlease check if it is an ISO 639-1 language flag!"
 
 
 def open_locale_file(fname) -> dict:
@@ -193,7 +193,7 @@ class TranslationManager(object):
                 trim_dead_keys(primary_dict, dest_dict)
                 export(dest_dict, fname)
 
-    def translate_interactive(self, dest:str, source:str="en"):
+    def translate_interactive(self, dest:str):
         """Spawns interactive translating session.
 
         User is asked to submit (missing) key-translations for a given language.
@@ -202,11 +202,9 @@ class TranslationManager(object):
         ----------
         `dest` : str
             The destination language flag [ISO 639-1].
-        `source` : str, optional
-            The source language flag [ISO 639-1]. Defaults to english language.
         """
         # Load locale
-        source_fname = f"{LOCALE_DIR}/{source}.json"
+        source_fname = f"{LOCALE_DIR}/en.json"
         dest_fname   = f"{LOCALE_DIR}/{dest}.json"
         source_dict  = open_locale_file(source_fname)
         dest_dict    = open_locale_file(dest_fname)
@@ -219,7 +217,7 @@ class TranslationManager(object):
         n_keys = len(dict_comparator)
 
         # Start interactive translation session
-        print(f"Translating from {source} -> {dest}")
+        print("Selected Language:", dest)
         print("Enter a translation for the given key.")
         print("Leave the prompt empty if the current translation is good enough.")
         cols, _ = os.get_terminal_size()
@@ -228,7 +226,7 @@ class TranslationManager(object):
             # Prompt user to input new translation
             counter = f"## {i} out of {n_keys} ##"
             key_trail = "## Key: " + '->'.join(compound_key) + " ##"
-            string_source = f"{source}: {source_value}"
+            string_source = f"en: {source_value}"
             string_dest   = f"{dest}: {dest_value}"
             prompt = ">>  "
             print(counter)
