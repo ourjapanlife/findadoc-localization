@@ -22,9 +22,9 @@
             },
             "moreContributors": {
                 "action": {
-                    "frontend": "Seite",
+                    "frontend": "Haupt",
                     "localization": "Lokalisierung",
-                    "text": "Finden Sie diese auf unserer {frontend}- und {localization}s-Seite für Mitwirkende auf GitHub."
+                    "text": "Finden Sie diese auf unseren {frontend}- und {localization}s-Repository für Mitwirkende auf GitHub."
                 },
                 "headline": "Und viele weitere Helfer, die uns geholfen haben!"
             }
