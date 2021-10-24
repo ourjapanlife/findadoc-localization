@@ -7,8 +7,13 @@ import copy
 import glob
 import os
 import sys
-
 import fire
+
+# For better keyboard support, try importing 'readline' package (not required)
+try:
+    import readline
+except ImportError:
+    pass
 
 
 LOCALE_DIR = "../locales"
