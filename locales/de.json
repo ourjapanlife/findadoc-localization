@@ -5,7 +5,7 @@
         },
         "kofi": {
             "action": "Spenden Sie eine Tasse",
-            "headline": "Kaufen Sie uns einen Kaffee",
+            "headline": "Unterstützen Sie uns mit einem Kaffee",
             "text": {
                 "0": "Wir betreiben diese Datenbank neben unserer regulären Arbeit. Helfen Sie uns wach zu bleiben!",
                 "1": "Unterstützen Sie uns, wenn dieses Projekt Ihnen oder jemandem, den Sie kennen, geholfen hat."
@@ -22,9 +22,9 @@
             },
             "moreContributors": {
                 "action": {
-                    "frontend": "Seite",
+                    "frontend": "Haupt",
                     "localization": "Lokalisierung",
-                    "text": "Finden Sie diese auf unserer {frontend} und der {localization} Github Contributors Seite"
+                    "text": "Finden Sie diese auf unseren {frontend}- und {localization}s-Repository für Mitwirkende auf GitHub."
                 },
                 "headline": "Und viele weitere Helfer, die uns geholfen haben!"
             }
@@ -56,30 +56,30 @@
             "cards": {
                 "0": {
                     "text": {
-                        "0": "Wir versuchen sicherzustellen, dass alle Links zu offiziellen Quellen wie Klinik- und Regierungswebsites führen.",
+                        "0": "Wir versuchen sicherzustellen, dass alle Links zu offiziellen Quellen wie Klinik- und Regierungswebseiten führen.",
                         "1": "Lesen Sie diese sorgfältig durch, bevor Sie Ihre persönlichen Daten dort eintragen."
                     }
                 },
                 "1": {
                     "text": {
-                        "0": "Jeder aus der Gemeinschaft kann Inhalte in die Datenbank eingeben.",
-                        "1": "Daher ist es uns nicht möglich, die vollständige Richtigkeit zu garantieren. Wenn Sie Fehler bemerken, melden Sie diese bitte den Moderatoren."
+                        "0": "Jeder aus der Gemeinschaft kann Inhalte in die Datenbank einreichen.",
+                        "1": "Daher ist es uns nicht möglich, die vollständige Richtigkeit zu garantieren. Wenn Sie Fehler entdecken, melden Sie diese bitte unverzüglich unseren Moderatoren."
                     }
                 },
                 "2": {
                     "text": {
-                        "0": "Unsere Moderatoren tun ihr Bestes, um betrügerische Informationen zu erkennen.",
-                        "1": "Wir raten Ihnen jedoch dringend, nach bestem Wissen und Gewissen zu handeln und zusätzliche Nachforschungen für alle Dienstleistungen anzustellen, die Sie über Find a Doc finden."
+                        "0": "Unsere Moderatoren geben ihr Bestes, um betrügerische Informationen zu erkennen.",
+                        "1": "Wir empfehlen Ihnen jedoch dringend, Ihr bestes Urteilsvermögen zu verwenden und zusätzliche Recherchen für alle Dienstleistungen durchzuführen, die Sie über Find a Doc entdecken."
                     }
                 }
             },
             "footer": {
-                "headline": "Dies ist ein Open-Source-Projekt, und wir haften nicht für Schäden, die durch die Verwendung von Find a Doc entstehen können.",
+                "headline": "Dies ist ein Open-Source-Projekt. Wir haften nicht für Schäden, die durch die Verwendung von Find a Doc entstehen können.",
                 "license": "Lesen Sie mehr darüber in unserer Lizenz."
             },
             "header": {
                 "headline": "Können Sie diesen Informationen trauen?",
-                "subheadline": "Kurz gesagt, ja, aber gehen Sie mit der gebotenen Sorgfalt vor."
+                "subheadline": "Kurz gesagt: Ja, aber gehen Sie mit der gebotenen Sorgfalt vor."
             }
         }
     },
@@ -93,10 +93,10 @@
         "clinicName": "Klinikname",
         "fillForm": "Füllen Sie dieses Formular aus, um eine neue Klinik mit einer Warteliste für Stornierungen zur Datenbank hinzuzufügen.",
         "no": "Nein",
-        "note": "Teile hilfreiche und wichtige Details",
+        "note": "Teilen Sie hilfreiche und wichtige Details",
         "prefecture": "Präfektur",
         "reviewMessage": "Die von Ihnen eingereichte Klinik wird angezeigt, nachdem sie überprüft wurde!",
-        "romajiOnly": "Nur Romaji",
+        "romajiOnly": "Bitte nur in Romaji ausfüllen!",
         "submitClinic": "Klinik einreichen",
         "validations": {
             "city": {
@@ -137,21 +137,21 @@
             "clinicName": "Klinikname",
             "note": "Hinweis",
             "prefecture": "Präfektur",
-            "report": "Report",
+            "report": "Melden",
             "voucherRequired": "Voucher",
             "ward": "Bezirk",
             "wardResidencyRequired": "Wohnung im Bezirk",
             "website": "Webseite"
         },
-        "moreInfo": "Klicken Sie für weitere Informationen",
+        "moreInfo": "Klicken Sie hier für weitere Informationen",
         "report": {
             "clinicName": "Klinikname:",
             "note": "Hinweis über diese Klinik",
-            "reason": "Warum melden Sies diese Klinik?",
+            "reason": "Warum melden Sie diese Klinik?",
             "submitReport": "Melden",
-            "title": "Melde diese Daten"
+            "title": "Diese Daten melden"
         },
-        "search": "Suche",
+        "search": "Suche anhand Ort oder Kliniknamen",
         "voucher": {
             "notRequired": "nicht nötig",
             "required": "nötig"
@@ -165,7 +165,7 @@
         "dialog": "Sind Sie sicher, dass Sie die ID: {0} löschen möchten?"
     },
     "donate": {
-        "supportMe": "Unterstütze uns"
+        "supportMe": "Unterstützen Sie uns"
     },
     "error": {
         "homePage": "Startseite",
@@ -175,9 +175,9 @@
     "findADoc": "Find a Doc",
     "footer": {
         "donate": "Spende",
-        "github": "Auf GitHub helfen",
+        "github": "Auf GitHub mitwirken",
         "netlify": "Unterstützt von Netlify",
-        "siteTitle": "Findadoc Japan {0}"
+        "siteTitle": "Find a Doc Japan {0}"
     },
     "general": {
         "approve": "Zustimmen",
@@ -190,35 +190,35 @@
         "helpingResidents": "Hilfe für Einwohner Japans bei der Suche nach medizinischer Grundversorgung"
     },
     "index": {
-        "getDocument": "Get the Document",
-        "massSite": "Jeder, der über 18 Jahre ist und einen Gutschein besitzt, kann sich jetzt in den Impfzentren in Tokio oder Osaka impfen lassen.",
-        "prevaccinationScreening": "Das erforderliche Formular für das Screening vor der Impfung kann online heruntergeladen werden! Es wird nur das japanische Formular akzeptiert, aber Übersetzungen sind verfügbar.",
+        "getDocument": "Holen Sie sich das Formular",
+        "massSite": "Jeder, der 18 Jahre oder älter ist und einen Voucher besitzt, kann sich jetzt in den Impfzentren in Tokio oder Osaka impfen lassen.",
+        "prevaccinationScreening": "Das erforderliche Formular für das Screening zur Vorsorge vor der Impfung kann online heruntergeladen werden! Es wird nur das japanische Formular akzeptiert, aber Übersetzungen sind verfügbar.",
         "register": "Zur Registrierungsseite gehen",
-        "title": "Wartelisten für die Stornierung von COVID-19-Impfungen in Japan",
-        "viewAllNews": "Alle News ansehen"
+        "title": "Wartelisten für Stornierungen von COVID-19-Impfungen in Japan",
+        "viewAllNews": "Alle Nachrichten ansehen"
     },
     "login": {
         "adminLogin": "Admin Login",
         "clear": "Löschen",
         "email": "E-Mail",
-        "login": "Anmeldung",
+        "login": "Anmelden",
         "password": "Passwort"
     },
     "logout": {
-        "message": "Sie werden ausgeloggt...",
-        "successMessage": "Sie wurden ausgeloggt. Auf Wiedersehen!"
+        "message": "Sie werden abgemeldet...",
+        "successMessage": "Sie wurden abgemeldet. Auf Wiedersehen!"
     },
     "message": {
-        "disclaimerAlert": "Die einzigen in Japan zugelassenen Impfstoffe sind von Moderna und Pfizer. Seien Sie wachsam bei Kliniken, die SinoVac oder andere Impfstoffe anbieten. Der Inhalt dieser Seite wird von der Gemeinschaft eingestellt, und auch wenn wir unser Bestes bei der Moderation tun, können Fehler oder ungeprüfte Inhalte enthalten sein. <br /><br /> Wir haften nicht für ungenaue Informationen, die in den Beiträgen der Gemeinschaft enthalten sein könnten, und wir haften nicht für Websites Dritter. Gehen Sie nach bestem Wissen und Gewissen vor und melden Sie bitte alle Beiträge, die Sie für betrügerisch halten.",
-        "shinYokohamaAlert": "<h2>NEWS</h2><br /><b>Shin-Yokohama</b> Impftermine mit Voucher sind ab<b>July 12th</b> verfügbar. Wenn Sie außerhalb von Yokohama wohnen und sich registrieren möchten, <a href='https://v-sys.mhlw.go.jp/application/change-region.html' target='_blank'>klicken Sie hier und füllen und drucken Sie das Formular aus.</a>Erst DANACH klicken Sie die Schaltfläche 'Impfung buchen!'",
+        "disclaimerAlert": "Die einzigen in Japan zugelassenen Impfstoffe sind von Moderna und Pfizer. Seien Sie vorsichtig bei Kliniken, die Sinovac oder andere Impfstoffe anbieten. Der Inhalt dieser Seite wird von der Gemeinschaft beigetragen. Auch wenn wir unser Bestes bei der Moderation geben, können Fehler oder ungeprüfte Inhalte enthalten sein. <br /><br /> Wir haften nicht für ungenaue Informationen, die in den Beiträgen der Gemeinschaft enthalten sein können, und wir haften nicht für Webseiten Dritter. Gehen Sie nach bestem Wissen und Gewissen vor und melden Sie bitte alle Beiträge, die Sie für betrügerisch erachten.",
+        "shinYokohamaAlert": "<h2>Neueste Nachrichten</h2><br />Kliniken in <b>Shin-Yokohama</b> und <b>Tsuchihashi</b> bieten ab dem <b>19. September</b> Impfplätze für Personen mit Vouchern an. Ein Bezirkswohnsitz ist NICHT erforderlich!",
         "shinYokohamaBookVaccine": "Impfung buchen"
     },
     "news": {
         "author": "Autor",
         "by": "von {0}",
-        "featured": "Top News",
-        "important": "Wichtige News and Informationen",
-        "latest": "Das Neuste von Find a Doc",
+        "featured": "Wichtige Neuigkeiten",
+        "important": "Wichtige Neuigkeiten und Information",
+        "latest": "Das Neueste von Find a Doc",
         "updated": "Aktualisiert: {0}"
     },
     "pending": {
@@ -227,14 +227,14 @@
     },
     "reportedSubmissions": "Gemeldete Einreichungen",
     "toolbar": {
-        "about": "Über",
+        "about": "Über Find a Doc",
         "addClinic": "Klinik hinzufügen",
         "adminDashboard": "Admin Dashboard",
         "github": "GitHub",
         "home": "Startseite",
         "languages": "Sprachen",
-        "login": "Anmeldung",
-        "logout": "Logout",
+        "login": "Zur Anmeldung",
+        "logout": "Abmelden",
         "title": "Find a Doc, JAPAN"
     }
 }
