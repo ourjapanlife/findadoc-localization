@@ -195,7 +195,8 @@
         "prevaccinationScreening": "The required prevaccination screening form can be downloaded online! Only the Japanese form is accepted but translations are available.",
         "register": "Go to Registration Site",
         "title": "COVID-19 Vaccination Cancellation Waiting Lists in Japan",
-        "viewAllNews": "View all news"
+        "viewAllNews": "View all news", 
+        "welcome": "Welcome to Find a Doc, Japan!"
     },
     "login": {
         "adminLogin": "Admin Login",
